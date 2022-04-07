@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5555814.svg)](https://doi.org/10.5281/zenodo.5555814)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.478932519.svg)](https://doi.org/10.5281/zenodo.478932519)
 
 # Pravastatin model
 This repository provides the pravastatin physiological based pharmacokinetics model (PBPK).
@@ -15,17 +15,17 @@ The kidney submodel is available from [`pravastatin_kidney.xml`](./models/pravas
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_kidney.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_kidney.xml)
 
 The stomach submodel is available from [`pravastatin_intestine.xml`](./models/pravastatin_intestine.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_kidney.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_intestine.xml)
 
 The whole-body submodel is available from [`pravastatin_body.xml`](./models/pravastatin_body.xml) with corresponding SBML4humans report at
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/pravastatin-model/main/models/pravastatin_body.xml)
 
 ## How to cite
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5555814.svg)](https://doi.org/10.5281/zenodo.5555814)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.478932519.svg)](https://doi.org/10.5281/zenodo.478932519)
 
 > König, Matthias, & Leal Pujol, Helen. (2022).  
 > *Pravastatin physiological based pharmacokinetics model (PBPK) (0.7.0).*   
-> Zenodo. [https://doi.org/10.5281/zenodo.5575750](https://doi.org/10.5281/zenodo.5575750)
+> Zenodo. [https://doi.org/10.5281/zenodo.478932519](https://doi.org/10.5281/zenodo.478932519)
 
 ## License
 
