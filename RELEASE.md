@@ -3,4 +3,4 @@
 * update release notes in `release-notes`
 * commit changes
 * make github release
-* check zenodo information
+* check/update zenodo information
