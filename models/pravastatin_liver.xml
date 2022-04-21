@@ -317,26 +317,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_f_hepatic_function" sboTerm="SBO:0000002" id="f_hepatic_function" name="parameter for liver function" value="1" units="dimensionless" constant="true">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>parameter controls the health/state of liver function.
-[0,1] 0 no hepatic function, 1 for perfect hepatic function.</p>
-          </body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_f_hepatic_function">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_PRAIM_Vmax" sboTerm="SBO:0000186" id="PRAIM_Vmax" name="Vmax for pravastatin import via OATP1B1" value="1" units="mmole_per_min_l" constant="true">
+      <parameter metaid="meta_PRAIM_Vmax" sboTerm="SBO:0000186" id="PRAIM_Vmax" name="Vmax for pravastatin import via OATP1B1" value="0.607672322378544" units="mmole_per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_PRAIM_Vmax">
@@ -381,7 +362,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_PRAEX_Vmax" sboTerm="SBO:0000186" id="PRAEX_Vmax" name="Vmax for pravastatin export via MRP2" value="1" units="mmole_per_min_l" constant="true">
+      <parameter metaid="meta_PRAEX_Vmax" sboTerm="SBO:0000186" id="PRAEX_Vmax" name="Vmax for pravastatin export via MRP2" value="0.0413614748236419" units="mmole_per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_PRAEX_Vmax">
@@ -426,7 +407,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_PRAEHC_Vmax" sboTerm="SBO:0000186" id="PRAEHC_Vmax" name="Vmax for pravastatin enterohepatic circulation" value="100" units="per_min_l" constant="true">
+      <parameter metaid="meta_PRAEHC_Vmax" sboTerm="SBO:0000186" id="PRAEHC_Vmax" name="Vmax for pravastatin enterohepatic circulation" value="0.288357651629959" units="per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_PRAEHC_Vmax">
@@ -473,7 +454,6 @@ Here the genetic variants of SLCO1B1 have their effects.</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> f_hepatic_function </ci>
                 <ci> f_OATP1B1 </ci>
                 <ci> PRAIM_Vmax </ci>
                 <ci> Vli </ci>
@@ -519,7 +499,6 @@ Here the genetic variants of MRP2 have their effects.</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> f_hepatic_function </ci>
                 <ci> f_MRP2 </ci>
                 <ci> PRAEX_Vmax </ci>
                 <ci> Vli </ci>
@@ -563,7 +542,6 @@ enterohepatic circulation of pravastatin.</p>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> f_hepatic_function </ci>
               <ci> f_MRP2 </ci>
               <ci> PRAEHC_Vmax </ci>
               <ci> Vli </ci>

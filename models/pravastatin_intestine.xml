@@ -331,11 +331,11 @@ versa. (added: 16.03.2022)</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_PRAABS_Vmax" sboTerm="SBO:0000186" id="PRAABS_Vmax" name="Vmax for pravastatin absorption via OATP2B1" value="1" units="mmole_per_min_l" constant="true">
+      <parameter metaid="meta_PRAABS_Vmax" sboTerm="SBO:0000186" id="PRAABS_Vmax" name="Vmax for pravastatin absorption via OATP2B1" value="0.0252950412212293" units="mmole_per_min_l" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>OATP2B1 dependency; This parameter is used to model the
-genetic variants.</p>
+            <p>OATP2B1 dependency; This parameter is altered via <code>f_OATP1B1</code> to model the
+effect of genetic variants and activity changes.</p>
           </body>
         </notes>
         <annotation>

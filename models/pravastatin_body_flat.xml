@@ -678,6 +678,23 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </compartment>
+      <compartment metaid="meta_Vstomach" sboTerm="SBO:0000290" id="Vstomach" name="stomach" spatialDimensions="3" size="1" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vstomach">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7148"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit/C12391"/>
+                  <rdf:li rdf:resource="https://identifiers.org/UBERON:0000945"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001307"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
       <compartment metaid="meta_Vpo" sboTerm="SBO:0000290" id="Vpo" name="portal plasma" spatialDimensions="3" size="1" units="litre" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1233,6 +1250,23 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </species>
+      <species metaid="meta_Astomach_pra" sboTerm="SBO:0000247" id="Astomach_pra" name="pravastatin (stomach)" compartment="Vstomach" initialConcentration="1" substanceUnits="mmole" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Astomach_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit/C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="meta_Afeces_pra" sboTerm="SBO:0000247" id="Afeces_pra" name="pravastatin (feces)" compartment="Vfeces" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1637,6 +1671,48 @@ with FQgu=0.146, FQsp=0.017, FQpa=0.017</p>
           </rdf:RDF>
         </annotation>
       </parameter>
+      <parameter metaid="meta_f_cirrhosis" sboTerm="SBO:0000002" id="f_cirrhosis" name="severity of cirrhosis [0, 0.95]" value="0" units="dimensionless" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_f_cirrhosis">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit/C2951"/>
+                  <rdf:li rdf:resource="https://identifiers.org/efo/0001422"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_f_shunts" sboTerm="SBO:0000002" id="f_shunts" name="fraction of portal venous blood shunted by the liver" value="0" units="dimensionless" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_f_shunts">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/HP:0002629"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_f_tissue_loss" sboTerm="SBO:0000002" id="f_tissue_loss" name="fraction of lost parenchymal liver volume" value="0" units="dimensionless" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_f_tissue_loss">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
       <parameter metaid="meta_Mr_pra" sboTerm="SBO:0000647" id="Mr_pra" name="Molecular weight pra [g/mole]" value="424.53" units="g_per_mole" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -1728,7 +1804,7 @@ with FQgu=0.146, FQsp=0.017, FQpa=0.017</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_Ka_dis_pra" sboTerm="SBO:0000002" id="Ka_dis_pra" name="Ka_dis [1/hr] dissolution pra" value="2" units="per_hr" constant="true">
+      <parameter metaid="meta_Ka_dis_pra" sboTerm="SBO:0000002" id="Ka_dis_pra" name="Ka_dis [1/hr] dissolution pra" value="0.604214265653241" units="per_hr" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Ka_dis_pra">
@@ -1819,7 +1895,7 @@ in the stomach.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="KI__meta_PRAEX_k" sboTerm="SBO:0000009" id="KI__PRAEX_k" name="rate urinary excretion pravastatin metabolites" value="1" units="KI__per_min" constant="true">
+      <parameter metaid="KI__meta_PRAEX_k" sboTerm="SBO:0000009" id="KI__PRAEX_k" name="rate urinary excretion pravastatin metabolites" value="1.40368423941635" units="KI__per_min" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#KI__meta_PRAEX_k">
@@ -1832,26 +1908,7 @@ in the stomach.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_f_hepatic_function" sboTerm="SBO:0000002" id="LI__f_hepatic_function" name="parameter for liver function" value="1" units="dimensionless" constant="true">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>parameter controls the health/state of liver function.
-[0,1] 0 no hepatic function, 1 for perfect hepatic function.</p>
-          </body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_f_hepatic_function">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="LI__meta_PRAIM_Vmax" sboTerm="SBO:0000186" id="LI__PRAIM_Vmax" name="Vmax for pravastatin import via OATP1B1" value="1" units="LI__mmole_per_min_l" constant="true">
+      <parameter metaid="LI__meta_PRAIM_Vmax" sboTerm="SBO:0000186" id="LI__PRAIM_Vmax" name="Vmax for pravastatin import via OATP1B1" value="0.607672322378544" units="LI__mmole_per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#LI__meta_PRAIM_Vmax">
@@ -1896,7 +1953,7 @@ in the stomach.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_PRAEX_Vmax" sboTerm="SBO:0000186" id="LI__PRAEX_Vmax" name="Vmax for pravastatin export via MRP2" value="1" units="LI__mmole_per_min_l" constant="true">
+      <parameter metaid="LI__meta_PRAEX_Vmax" sboTerm="SBO:0000186" id="LI__PRAEX_Vmax" name="Vmax for pravastatin export via MRP2" value="0.0413614748236419" units="LI__mmole_per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#LI__meta_PRAEX_Vmax">
@@ -1941,7 +1998,7 @@ in the stomach.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_PRAEHC_Vmax" sboTerm="SBO:0000186" id="LI__PRAEHC_Vmax" name="Vmax for pravastatin enterohepatic circulation" value="100" units="LI__per_min_l" constant="true">
+      <parameter metaid="LI__meta_PRAEHC_Vmax" sboTerm="SBO:0000186" id="LI__PRAEHC_Vmax" name="Vmax for pravastatin enterohepatic circulation" value="0.288357651629959" units="LI__per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#LI__meta_PRAEHC_Vmax">
@@ -1980,11 +2037,11 @@ versa. (added: 16.03.2022)</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="GU__meta_PRAABS_Vmax" sboTerm="SBO:0000186" id="GU__PRAABS_Vmax" name="Vmax for pravastatin absorption via OATP2B1" value="1" units="GU__mmole_per_min_l" constant="true">
+      <parameter metaid="GU__meta_PRAABS_Vmax" sboTerm="SBO:0000186" id="GU__PRAABS_Vmax" name="Vmax for pravastatin absorption via OATP2B1" value="0.0252950412212293" units="GU__mmole_per_min_l" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>OATP2B1 dependency; This parameter is used to model the
-genetic variants.</p>
+            <p>OATP2B1 dependency; This parameter is altered via <code>f_OATP1B1</code> to model the
+effect of genetic variants and activity changes.</p>
           </body>
         </notes>
         <annotation>
@@ -2041,6 +2098,16 @@ genetic variants.</p>
             <ci> f_lumen </ci>
             <ci> Vgu </ci>
           </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="f_shunts">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> f_cirrhosis </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="f_tissue_loss">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> f_cirrhosis </ci>
         </math>
       </assignmentRule>
       <assignmentRule variable="FVre">
@@ -2405,20 +2472,7 @@ genetic variants.</p>
           <ci> Qgu </ci>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vki_tissue">
-        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
-          <apply>
-            <times/>
-            <ci> Vki </ci>
-            <apply>
-              <minus/>
-              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
-              <ci> Fblood </ci>
-            </apply>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="Vki_plasma">
+      <assignmentRule name="plasma volume of kidney" variable="Vki_plasma">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
@@ -2432,11 +2486,11 @@ genetic variants.</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vli_tissue">
+      <assignmentRule name="tissue volume of kidney" variable="Vki_tissue">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
-            <ci> Vli </ci>
+            <ci> Vki </ci>
             <apply>
               <minus/>
               <cn sbml:units="dimensionless" type="integer"> 1 </cn>
@@ -2445,7 +2499,7 @@ genetic variants.</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vli_plasma">
+      <assignmentRule name="plasma volume of liver" variable="Vli_plasma">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
@@ -2459,7 +2513,39 @@ genetic variants.</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vlu_tissue">
+      <assignmentRule name="tissue volume of liver" variable="Vli_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vli </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> f_tissue_loss </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="plasma volume of lung" variable="Vlu_plasma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vlu </ci>
+            <ci> Fblood </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of lung" variable="Vlu_tissue">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
@@ -2472,34 +2558,7 @@ genetic variants.</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vlu_plasma">
-        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
-          <apply>
-            <times/>
-            <ci> Vlu </ci>
-            <ci> Fblood </ci>
-            <apply>
-              <minus/>
-              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
-              <ci> HCT </ci>
-            </apply>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="Vgu_tissue">
-        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
-          <apply>
-            <times/>
-            <ci> Vgu </ci>
-            <apply>
-              <minus/>
-              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
-              <ci> Fblood </ci>
-            </apply>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="Vgu_plasma">
+      <assignmentRule name="plasma volume of gut" variable="Vgu_plasma">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
@@ -2513,11 +2572,11 @@ genetic variants.</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vre_tissue">
+      <assignmentRule name="tissue volume of gut" variable="Vgu_tissue">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
-            <ci> Vre </ci>
+            <ci> Vgu </ci>
             <apply>
               <minus/>
               <cn sbml:units="dimensionless" type="integer"> 1 </cn>
@@ -2526,7 +2585,7 @@ genetic variants.</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="Vre_plasma">
+      <assignmentRule name="plasma volume of rest" variable="Vre_plasma">
         <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
           <apply>
             <times/>
@@ -2536,6 +2595,19 @@ genetic variants.</p>
               <minus/>
               <cn sbml:units="dimensionless" type="integer"> 1 </cn>
               <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of rest" variable="Vre_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vre </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
             </apply>
           </apply>
         </math>
@@ -2999,10 +3071,10 @@ injection rate.</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_Flow_ar_li_pra" sboTerm="SBO:0000655" id="Flow_ar_li_pra" name="inflow liver pravastatin" reversible="false">
+      <reaction metaid="meta_Flow_arli_li_pra" sboTerm="SBO:0000655" id="Flow_arli_li_pra" name="arterial inflow liver pravastatin" reversible="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_Flow_ar_li_pra">
+            <rdf:Description rdf:about="#meta_Flow_arli_li_pra">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
@@ -3018,9 +3090,43 @@ injection rate.</p>
           <speciesReference species="Cli_plasma_pra" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> f_shunts </ci>
+              </apply>
+              <ci> Qha </ci>
+              <ci> Car_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="meta_Flow_arli_hv_pra" sboTerm="SBO:0000655" id="Flow_arli_hv_pra" name="flow arterial shunts" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Flow_arli_hv_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
+              <ci> f_shunts </ci>
               <ci> Qha </ci>
               <ci> Car_pra </ci>
             </apply>
@@ -3046,9 +3152,43 @@ injection rate.</p>
           <speciesReference species="Cli_plasma_pra" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> f_shunts </ci>
+              </apply>
+              <ci> Qpo </ci>
+              <ci> Cpo_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="meta_Flow_po_hv_pra" sboTerm="SBO:0000655" id="Flow_po_hv_pra" name="flow portal shunts" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Flow_po_hv_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="Cpo_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
+              <ci> f_shunts </ci>
               <ci> Qpo </ci>
               <ci> Cpo_pra </ci>
             </apply>
@@ -3074,10 +3214,19 @@ injection rate.</p>
           <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
               <times/>
-              <ci> Qh </ci>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> f_shunts </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Qpo </ci>
+                <ci> Qha </ci>
+              </apply>
               <ci> Cli_plasma_pra </ci>
             </apply>
           </math>
@@ -3280,6 +3429,9 @@ injection rate.</p>
         </kineticLaw>
       </reaction>
       <reaction id="dissolution_pra" name="dissolution pravastatin" reversible="false" compartment="Vgu">
+        <listOfReactants>
+          <speciesReference species="Astomach_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
         <listOfProducts>
           <speciesReference species="Cgulumen_pra" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -3310,6 +3462,9 @@ injection rate.</p>
         </kineticLaw>
       </reaction>
       <reaction id="isomerization_pra" name="isomerization pravastatin" reversible="false" compartment="Vgu">
+        <listOfReactants>
+          <speciesReference species="Astomach_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
@@ -3395,7 +3550,6 @@ Here the genetic variants of SLCO1B1 have their effects.</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> LI__f_hepatic_function </ci>
                 <ci> LI__f_OATP1B1 </ci>
                 <ci> LI__PRAIM_Vmax </ci>
                 <ci> Vli_tissue </ci>
@@ -3441,7 +3595,6 @@ Here the genetic variants of MRP2 have their effects.</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> LI__f_hepatic_function </ci>
                 <ci> LI__f_MRP2 </ci>
                 <ci> LI__PRAEX_Vmax </ci>
                 <ci> Vli_tissue </ci>
@@ -3485,7 +3638,6 @@ enterohepatic circulation of pravastatin.</p>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> LI__f_hepatic_function </ci>
               <ci> LI__f_MRP2 </ci>
               <ci> LI__PRAEHC_Vmax </ci>
               <ci> Vli_tissue </ci>
