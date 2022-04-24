@@ -52,18 +52,18 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
                 <vCard4:hasName rdf:parseType="Resource">
-                  <vCard4:family-name>König</vCard4:family-name>
-                  <vCard4:given-name>Matthias</vCard4:given-name>
-                </vCard4:hasName>
-                <vCard4:hasEmail>koenigmx@hu-berlin.de</vCard4:hasEmail>
-                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard4:hasName rdf:parseType="Resource">
                   <vCard4:family-name>Leal Pujol</vCard4:family-name>
                   <vCard4:given-name>Helen</vCard4:given-name>
                 </vCard4:hasName>
                 <vCard4:hasEmail>lepujolh@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>König</vCard4:family-name>
+                  <vCard4:given-name>Matthias</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>koenigmx@hu-berlin.de</vCard4:hasEmail>
                 <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
               </rdf:li>
             </rdf:Bag>
@@ -407,10 +407,10 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_PRAEHC_Vmax" sboTerm="SBO:0000186" id="PRAEHC_Vmax" name="Vmax for pravastatin enterohepatic circulation" value="0.288357651629959" units="per_min_l" constant="true">
+      <parameter metaid="meta_PRAEHC_k" sboTerm="SBO:0000186" id="PRAEHC_k" name="rate of pravastatin enterohepatic circulation" value="0.288357651629959" units="per_min_l" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_PRAEHC_Vmax">
+            <rdf:Description rdf:about="#meta_PRAEHC_k">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="https://identifiers.org/SBO:0000186"/>
@@ -542,7 +542,7 @@ enterohepatic circulation of pravastatin.</p>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> PRAEHC_Vmax </ci>
+              <ci> PRAEHC_k </ci>
               <ci> Vli </ci>
               <ci> pra_bi </ci>
             </apply>
