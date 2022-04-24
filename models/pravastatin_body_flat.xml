@@ -3638,7 +3638,6 @@ enterohepatic circulation of pravastatin.</p>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> LI__f_MRP2 </ci>
               <ci> LI__PRAEHC_Vmax </ci>
               <ci> Vli_tissue </ci>
               <ci> LI__pra_bi </ci>
