@@ -1,0 +1,27 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	sd	change	change_unit	change_sd	baseline	baseline_sd	baseline_unit	comments
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	0	week	1.20449170128	mmol/l	NA	0.37430844	percent	NA	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	12	week	1.391869296	mmol/l	0.33404863104	15.989108	percent	24.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	24	week	1.441992732	mmol/l	0.34607825568	20.166061	percent	24.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	36	week	1.334624484	mmol/l	0.41373359004	11.218707	percent	31.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	48	week	1.342752084	mmol/l	0.36254306268	11.896007	percent	27.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	60	week	1.378623444	mmol/l	0.344655861	14.885287	percent	25.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	72	week	1.304240664	mmol/l	0.31301775936	8.686722	percent	24.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	84	week	1.259880708	mmol/l	0.27717375576	4.990059	percent	22.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	96	week	1.257499998	mmol/l	0.1886249997	4.7916665	percent	15.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	108	week	1.198879668	mmol/l	0.1798319502	-0.093361	percent	15.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	120	week	1.1860010376	mmol/l	0.17790015564	-1.1665802	percent	15.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	132	week	1.2691244832	mmol/l	0.329972365632	5.7603736	percent	26.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	pra_long_hdlc	144	week	1.20225829872	mmol/l	0.2524742427312	0.18819156	percent	21.0	1.2	0.37	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	0	week	1.09999619640383	mmol/l	NA	-0.00034578147	percent	NA	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	12	week	1.169997576	mmol/l	0.22229953944	6.363416	percent	19.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	24	week	1.1210823822	mmol/l	0.179373181152	1.9165802	percent	16.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	36	week	1.1546500713	mmol/l	0.150104509269	4.9681883	percent	13.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	48	week	1.32022726	mmol/l	0.4224727232	20.02066	percent	32.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	60	week	1.126921851	mmol/l	0.12396140361	2.447441	percent	11.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	72	week	1.201750957	mmol/l	0.28842022968	9.250087	percent	24.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	84	week	1.1617808587	mmol/l	0.197502745979	5.6164417	percent	17.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	96	week	1.0530208315	mmol/l	0.179013541355	-4.2708335	percent	17.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	108	week	1.077643413	mmol/l	0.18319938021	-2.032417	percent	17.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	120	week	1.10023011758	mmol/l	0.1760368188128	0.02091978	percent	16.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	132	week	1.09735840258	mmol/l	0.1755773444128	-0.24014522	percent	16.0	1.1	0.17	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	chol_long_hldc	144	week	1.0470663027	mmol/l	0.20941326054	-4.8121543	percent	20.0	1.1	0.17	mmol/l	change_sd also reported in table 3

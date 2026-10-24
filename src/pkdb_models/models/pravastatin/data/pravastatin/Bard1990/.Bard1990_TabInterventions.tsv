@@ -1,0 +1,3 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Bard1990	PRA20_twice	S0T12R168	hr	oral	multiple dose	dosing	capsule	pravastatin	40	mg	20x2 mg a day, repeats = 12 * 7 * 2 = 168
+Bard1990	CHOLESTYR	S2016T12R168	week	oral	multiple dose	dosing	capsule	cholestyramine	16	mg	8x2 mg a day; offset: 24 * 12 * 7

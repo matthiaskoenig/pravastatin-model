@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	min	median	max	unit	comments
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	24	hr	NA	NA	7.8557434	11.86	17.46	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	24	hr	NA	NA	4.292758	8.64	13.67	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	24	hr	NA	NA	2.8537843	10.05	14.8	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	auc_end	valsartan	plasma	24	hr	NA	NA	3.9848495	4.84	12.78	ng*hr/ml	NA

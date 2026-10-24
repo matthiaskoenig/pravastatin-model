@@ -1,0 +1,22 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	pm	se	sd	unit	comments
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	0	week	128.98114	123.289536	5.344825	18.5150169151286	mg/dl	4 patients left study 
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	1	week	126.76712	121.422295	6.03546	20.9074467340993	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	2	week	126.09944	120.06398	5.86256	20.308503564842	mg/dl	PRA20 -> 2 patients left
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	3	week	126.29335	120.43079	5.34434000000002	18.5133368258454	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	4	week	128.55573	123.21139	6.20249999999999	21.4860902678919	mg/dl	plus 2 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	6	week	132.73714	138.93964	5.17240999999999	17.9177538351546	mg/dl	plus 4 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration	apoA-I	serum	Fig4_pra5_apoA	8	week	136.91756	142.08997	5.34531999999999	18.5167316454281	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	0	week	128.9787	134.32402	3.62115999999997	12.5440662046721	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	1	week	128.31934	131.9405	5.69112000000001	19.7146179839428	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	2	week	133.34033	139.03145	1.3544	4.69177922754257	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	3	week	130.77562	NA	NA	NA	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	4	week	132.34981	129.42122	2.92858999999999	10.1449333490762	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	6	week	131.35733	127.047966	4.30936399999999	14.9280747926165	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoA-I	serum	Fig4_pra20_apoA	8	week	127.77914	122.95252	4.82661999999999	16.7199021376562	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	0	week	136.39445	143.11761	6.72316000000001	24.2406981131485	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	1	week	134.69913	139.00801	4.30888000000002	15.5358877798213	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	2	week	141.44476	146.96103	5.51626999999999	19.8891943343037	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	3	week	133.87955	141.29286	7.41331	26.7290693259099	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	4	week	135.97148	142.69464	6.72315999999998	24.2406981131484	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	6	week	138.08342	145.66866	7.58524	27.3489717567005	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoA-I	serum	Fig4_pra40_apoA	8	week	134.50523	140.54312	6.03788999999998	21.7699219906112	mg/dl	NA

@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Saito1988	placebo	0	week	oral	single dose	qualitative dosing	tablet	placebo	0	mg	NA
+Saito1988	PRA10	S0T24R56	week	oral	multiple dose	dosing	tablet	pravastatin	10	mg	8 * 7 =56
+Saito1988	PRA20	S0T24R56	week	oral	multiple dose	dosing	tablet	pravastatin	20	mg	NA

@@ -1,0 +1,15 @@
+study	count	measurement_type	substance	tissue	method	group	intervention	time	time_unit	mean	sd	median	min	max	unit
+Kyrklund2004	10	cmax	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	NA	NA	65.1	46.0	NA	NA	NA	ng/ml
+Kyrklund2004	10	tmax	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	NA	NA	NA	NA	1.25	1.0	2.0	hr
+Kyrklund2004	10	thalf	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	NA	NA	1.5	0.3	NA	NA	NA	hr
+Kyrklund2004	10	auc_end	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	12.0	hr	141.0	99.6	NA	NA	NA	ng/ml*hr
+Kyrklund2004	10	auc_inf	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	NA	NA	142.0	99.6	NA	NA	NA	ng/ml*hr
+Kyrklund2004	10	cumulative amount	pravastatin	urine	LC MS/MS	all	pravastatin40mg_po	12.0	hr	3.16	1.57	NA	NA	NA	mg
+Kyrklund2004	10	clearance_renal	pravastatin	urine	LC MS/MS	all	pravastatin40mg_po	12.0	hr	24.2	3.5	NA	NA	NA	l/hr
+Kyrklund2004	10	cmax	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	NA	NA	51.3	44.7	NA	NA	NA	ng/ml
+Kyrklund2004	10	tmax	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	NA	NA	NA	NA	1.0	0.5	4.0	hr
+Kyrklund2004	10	thalf	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	NA	NA	1.6	0.4	NA	NA	NA	hr
+Kyrklund2004	10	auc_end	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	12.0	hr	97.5	79.5	NA	NA	NA	ng/ml*hr
+Kyrklund2004	10	auc_inf	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	NA	NA	98.1	79.8	NA	NA	NA	ng/ml*hr
+Kyrklund2004	10	cumulative amount	pravastatin	urine	LC MS/MS	all	pravastatin40mg_po, rifampicin	12.0	hr	2.49	2.02	NA	NA	NA	mg
+Kyrklund2004	10	clearance_renal	pravastatin	urine	LC MS/MS	all	pravastatin40mg_po, rifampicin	12.0	hr	26.2	3.3	NA	NA	NA	l/hr

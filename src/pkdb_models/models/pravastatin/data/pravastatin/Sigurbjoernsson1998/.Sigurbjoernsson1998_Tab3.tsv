@@ -1,0 +1,3 @@
+study	measurement_type	substance	tissue	group	count	intervention	method	mean	min	max	unit	comments
+Sigurbjoernsson1998	thalf	pravastatin	serum	tab3_subgroup1	3	pravastatin_20mg_po	HPLC/MS/UV	2.58	NA	NA	hr	Only single phase halflife used, ranges and averages mix 20 and 40mg
+Sigurbjoernsson1998	thalf	pravastatin	serum	tab3_subgroup2	3	pravastatin_40mg_po	HPLC/MS/UV	1.23	NA	NA	hr	Only single phase halflife used, ranges and averages mix 20 and 40mg

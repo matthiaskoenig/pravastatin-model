@@ -1,0 +1,41 @@
+study	group	count	intervention	measurement_type	tissue	substance	time	time_unit	mean	sd	unit	comments
+Halstenson1992	group1	all	pra_20_mg_oral	cmax	serum	pravastatin	NA	hr	54.9	66.2	ng/ml	NA
+Halstenson1992	group1	all	pra_20_mg_oral	tmax	serum	pravastatin	NA	hr	1.3	0.3	hr	NA
+Halstenson1992	group1	all	pra_20_mg_oral	auc_end	serum	pravastatin	24.0	hr	115.6	102.7	ng*hr/ml	NA
+Halstenson1992	group1	all	pra_20_mg_oral	kel	serum	pravastatin	NA	hr	0.431	0.206	1/hr	kel = beta, elimination rate
+Halstenson1992	group1	all	pra_20_mg_oral	thalf	serum	pravastatin	NA	hr	1.86	0.72	hr	thalf_beta
+Halstenson1992	group1	all	pra_20_mg_oral	plasma_binding	serum	pravastatin	NA	hr	67.6	2.3	percent	NA
+Halstenson1992	group1	all	pra_20_mg_oral	recovery	urine	pravastatin	24.0	hr	12.3	7.7	percent	fe = recovery, percentage of administered dose excreted and recovered in urine.
+Halstenson1992	group1	all	pra_20_mg_oral	clearance_renal	serum	pravastatin	NA	hr	25.86	9.24	l/hr	NA
+Halstenson1992	group1	all	pra_20_mg_oral	vd	serum	pravastatin	NA	hr	9.14	8.2	l/kg	NA
+Halstenson1992	group1	all	pra_20_mg_oral	clearance	serum	pravastatin	NA	hr	265.86	156.5	l/hr	NA
+Halstenson1992	group2	all	pra_20_mg_oral	cmax	serum	pravastatin	NA	hr	24.1	17.3	ng/ml	NA
+Halstenson1992	group2	all	pra_20_mg_oral	tmax	serum	pravastatin	NA	hr	1.5	0.4	hr	NA
+Halstenson1992	group2	all	pra_20_mg_oral	auc_end	serum	pravastatin	24.0	hr	92.5	76.7	ng*hr/ml	NA
+Halstenson1992	group2	all	pra_20_mg_oral	kel	serum	pravastatin	NA	hr	0.42	0.223	1/hr	kel = beta, elimination rate
+Halstenson1992	group2	all	pra_20_mg_oral	thalf	serum	pravastatin	NA	hr	1.92	0.68	hr	thalf_beta
+Halstenson1992	group2	all	pra_20_mg_oral	plasma_binding	serum	pravastatin	NA	hr	53.6	19.9	percent	NA
+Halstenson1992	group2	all	pra_20_mg_oral	recovery	urine	pravastatin	24.0	hr	8.2	9.8	percent	fe = recovery, percentage of administered dose excreted and recovered in urine.
+Halstenson1992	group2	all	pra_20_mg_oral	clearance_renal	serum	pravastatin	NA	hr	15.21	5.38	l/hr	NA
+Halstenson1992	group2	all	pra_20_mg_oral	vd	serum	pravastatin	NA	hr	10.82	5.63	l/kg	NA
+Halstenson1992	group2	all	pra_20_mg_oral	clearance	serum	pravastatin	NA	hr	333.13	223.85	l/hr	NA
+Halstenson1992	group3	all	pra_20_mg_oral	cmax	serum	pravastatin	NA	hr	52.0	29.9	ng/ml	NA
+Halstenson1992	group3	all	pra_20_mg_oral	tmax	serum	pravastatin	NA	hr	1.4	0.5	hr	NA
+Halstenson1992	group3	all	pra_20_mg_oral	auc_end	serum	pravastatin	24.0	hr	134.1	67.5	ng*hr/ml	NA
+Halstenson1992	group3	all	pra_20_mg_oral	kel	serum	pravastatin	NA	hr	0.595	0.176	1/hr	kel = beta, elimination rate
+Halstenson1992	group3	all	pra_20_mg_oral	thalf	serum	pravastatin	NA	hr	1.26	0.45	hr	thalf_beta
+Halstenson1992	group3	all	pra_20_mg_oral	plasma_binding	serum	pravastatin	NA	hr	64.8	5.4	percent	NA
+Halstenson1992	group3	all	pra_20_mg_oral	recovery	urine	pravastatin	24.0	hr	4.1	2.3	percent	fe = recovery, percentage of administered dose excreted and recovered in urine.
+Halstenson1992	group3	all	pra_20_mg_oral	clearance_renal	serum	pravastatin	NA	hr	6.23	1.49	l/hr	NA
+Halstenson1992	group3	all	pra_20_mg_oral	vd	serum	pravastatin	NA	hr	3.91	1.01	l/kg	NA
+Halstenson1992	group3	all	pra_20_mg_oral	clearance	serum	pravastatin	NA	hr	179.34	81.87	l/hr	NA
+Halstenson1992	group4	all	pra_20_mg_oral	cmax	serum	pravastatin	NA	hr	22.2	20.1	ng/ml	NA
+Halstenson1992	group4	all	pra_20_mg_oral	tmax	serum	pravastatin	NA	hr	1.6	0.3	hr	NA
+Halstenson1992	group4	all	pra_20_mg_oral	auc_end	serum	pravastatin	24.0	hr	70.3	53.5	ng*hr/ml	NA
+Halstenson1992	group4	all	pra_20_mg_oral	kel	serum	pravastatin	NA	hr	0.369	0.129	1/hr	kel = beta, elimination rate
+Halstenson1992	group4	all	pra_20_mg_oral	thalf	serum	pravastatin	NA	hr	2.07	0.77	hr	thalf_beta
+Halstenson1992	group4	all	pra_20_mg_oral	plasma_binding	serum	pravastatin	NA	hr	59.5	18.2	percent	NA
+Halstenson1992	group4	all	pra_20_mg_oral	recovery	urine	pravastatin	24.0	hr	0.8	0.5	percent	fe = recovery, percentage of administered dose excreted and recovered in urine.
+Halstenson1992	group4	all	pra_20_mg_oral	clearance_renal	serum	pravastatin	NA	hr	2.87	0.86	l/hr	NA
+Halstenson1992	group4	all	pra_20_mg_oral	vd	serum	pravastatin	NA	hr	16.65	16.57	l/kg	NA
+Halstenson1992	group4	all	pra_20_mg_oral	clearance	serum	pravastatin	NA	hr	486.1	440.64	l/hr	NA

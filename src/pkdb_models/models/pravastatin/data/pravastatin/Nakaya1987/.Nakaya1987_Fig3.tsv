@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	pm	unit	baseline	baseline_unit	comments
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	0	week	0.0	NA	NA	NA	percent	4.5	mg/dl	4 patients left study 
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	1	week	-0.33333334	11.50000034	39.8371697518787	11.166667	percent	4.5	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	2	week	-2.6666667	10.8333337	37.5277687674963	8.166667	percent	4.5	mg/dl	PRA20 -> 2 patients left
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	3	week	-7.6666665	7.33333316	25.4034112438992	-0.33333334	percent	4.5	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	4	week	-12.5	9.5	32.9089653438087	-3.0	percent	4.5	mg/dl	plus 2 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	6	week	-5.0	6.8333334	23.6713612677148	1.8333334	percent	4.5	mg/dl	plus 4 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration change	apoE	serum	Fig3_PRA5_concentration change	8	week	-13.833333	9.500001	32.9089688079103	-23.333334	percent	4.5	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	0	week	NA	NA	NA	NA	percent	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	1	week	-21.166666	8.166668	28.2901678090938	-29.333334	percent	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	2	week	-18.166666	7.833333	27.1354614972119	-10.333333	percent	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	3	week	-15.666667	7.499999	25.9807586494315	-23.166666	percent	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	4	week	-24.0	8.333332	28.8675088406791	-32.333332	percent	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	6	week	-2.6666667	9.1666667	31.7542649208995	6.5	percent	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoE	serum	Fig3_PRA20_concentration change	8	week	-8.5	8.16666666	28.2901631671977	-0.33333334	percent	4.8	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	0	week	NA	NA	NA	NA	percent	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	1	week	-18.666666	5.499999	19.8305284095007	-13.166667	percent	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	2	week	-24.333334	6.333332	22.8351532705369	-30.666666	percent	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	3	week	-24.833334	5.333332	19.2296019950729	-30.166666	percent	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	4	week	-21.0	7.333333	26.4407081515522	-13.666667	percent	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	6	week	-7.8333335	6.4999995	23.4360814877403	-14.333333	percent	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoE	serum	Fig3_PRA40_concentration change	8	week	-11.0	8.3333333	30.0462605086815	-2.6666667	percent	5.3	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	0	week	4.5	0.3	1.03923048454133	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	1	week	4.4849999997	NA	NA	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	2	week	4.3799999985	NA	NA	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	3	week	4.1550000075	NA	NA	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	4	week	3.9375	NA	NA	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	6	week	4.275	NA	NA	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoE	serum	Fig3_PRA5_concentration	8	week	3.877500015	NA	NA	NA	mg/dl	4.5	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	0	week	4.8	0.3	1.03923048454133	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	1	week	3.784000032	NA	NA	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	2	week	3.928000032	NA	NA	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	3	week	4.047999984	NA	NA	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	4	week	3.648	NA	NA	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	6	week	4.6719999984	NA	NA	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoE	serum	Fig3_PRA20_concentration	8	week	4.392	NA	NA	NA	mg/dl	4.8	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	0	week	5.3	0.4	1.4422205101856	NA	mg/dl	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	1	week	4.310666702	NA	NA	NA	mg/dl	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	2	week	4.010333298	NA	NA	NA	mg/dl	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	3	week	3.983833298	NA	NA	NA	mg/dl	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	4	week	4.187	NA	NA	NA	mg/dl	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	6	week	4.8848333245	NA	NA	NA	mg/dl	5.3	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoE	serum	Fig3_PRA40_concentration	8	week	4.717	NA	NA	NA	mg/dl	5.3	mg/dl	NA

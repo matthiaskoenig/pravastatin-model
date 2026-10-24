@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	unit	change	change_unit	change_pm	change_se	baseline	baseline_unit	comments
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	pra10-ldlc	12	week	6.959471024	0.107871800872	mmol/l	17.957136	percent	19.182796	1.55	5.9	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	pra20-ldlc	12	week	7.8358199376	0.0940298392512	mmol/l	23.204716	percent	24.215054	1.2	6.36	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	pra40-ldlc	12	week	7.730940746	0.0997291356234	mmol/l	31.032894	percent	32.08602	1.29	5.9	mmol/l	NA

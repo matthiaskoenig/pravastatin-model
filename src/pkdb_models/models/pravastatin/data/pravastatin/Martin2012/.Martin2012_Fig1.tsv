@@ -1,0 +1,37 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	unit	change	change_se	pm	change_unit	baseline	baseline_se	baseline_unit	comments
+Martin2012	TT	449	PRA40	concentration	cholesterol	serum	CHOL_TT	0	weeks	7.1	NA	NA	mmol/l	0.0	NA	NA	percent	7.1	0.042	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration	cholesterol	serum	CHOL_TC	0	weeks	7.08	NA	NA	mmol/l	0.0	NA	NA	percent	7.08	0.045	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration	cholesterol	serum	CHOL_CC	0	weeks	7.21	NA	NA	mmol/l	0.0	NA	NA	percent	7.21	0.07	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration	ldl-c	serum	LDLC_TT	0	weeks	5.06	NA	NA	mmol/l	0.0	NA	NA	percent	5.06	0.09	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration	ldl-c	serum	LDLC_TC	0	weeks	5.06	NA	NA	mmol/l	0.0	NA	NA	percent	5.06	0.096	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration	ldl-c	serum	LDLC_CC	0	weeks	4.91	NA	NA	mmol/l	0.0	NA	NA	percent	4.91	0.15	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration	hdl-c	serum	HDL_TT	0	weeks	1.15	NA	NA	mmol/l	0.0	NA	NA	percent	1.15	0.045	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration	hdl-c	serum	HDL_TC	0	weeks	1.15	NA	NA	mmol/l	0.0	NA	NA	percent	1.15	0.048	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration	hdl-c	serum	HDL_CC	0	weeks	1.13	NA	NA	mmol/l	0.0	NA	NA	percent	1.13	0.075	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration	cholesterol	serum	CHOL_TT	52	weeks	5.91067616	NA	NA	mmol/l	-16.75104	2.959266	-13.791774	percent	7.1	0.042	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration	cholesterol	serum	CHOL_TC	52	weeks	5.9343043464	NA	NA	mmol/l	-16.182142	2.865404	-13.316738	percent	7.08	0.045	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration	cholesterol	serum	CHOL_CC	52	weeks	6.2874878542	NA	NA	mmol/l	-12.794898	4.180505	-8.614393	percent	7.21	0.07	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration	ldl-c	serum	LDLC_TT	52	weeks	3.946985196	NA	NA	mmol/l	-21.99634	3.241131	-18.755209	percent	5.06	0.09	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration	ldl-c	serum	LDLC_TC	52	weeks	3.9448712292	NA	NA	mmol/l	-22.038118	3.382078	-18.65604	percent	5.06	0.096	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration	ldl-c	serum	LDLC_CC	52	weeks	4.0495950207	NA	NA	mmol/l	-17.523523	5.589861	-11.933662	percent	4.91	0.15	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration	hdl-c	serum	HDL_TT	52	weeks	1.23213950095	NA	NA	mmol/l	7.1425653	3.1001567	10.242722	percent	1.15	0.045	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration	hdl-c	serum	HDL_TC	52	weeks	1.23922136425	NA	NA	mmol/l	7.7583795	3.0532675	10.811647	percent	1.15	0.048	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration	hdl-c	serum	HDL_CC	52	weeks	1.18375660521	NA	NA	mmol/l	4.7572217	5.5428613	10.300083	percent	1.13	0.075	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration change	cholesterol	serum	CHOL_TT	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	7.1	0.042	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration change	cholesterol	serum	CHOL_TC	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	7.08	0.045	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration change	cholesterol	serum	CHOL_CC	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	7.21	0.07	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration change	ldl-c	serum	LDLC_TT	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	5.06	0.09	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration change	ldl-c	serum	LDLC_TC	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	5.06	0.096	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration change	ldl-c	serum	LDLC_CC	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	4.91	0.15	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration change	hdl-c	serum	HDL_TT	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	1.15	0.045	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration change	hdl-c	serum	HDL_TC	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	1.15	0.048	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration change	hdl-c	serum	HDL_CC	0	weeks	0.0	NA	NA	percent	NA	NA	NA	percent	1.13	0.075	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration change	cholesterol	serum	CHOL_TT	52	weeks	-16.75104	2.959266	24.1488861004171	percent	NA	NA	NA	percent	7.1	0.042	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration change	cholesterol	serum	CHOL_TC	52	weeks	-16.182142	2.865404	15.6716524748657	percent	NA	NA	NA	percent	7.08	0.045	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration change	cholesterol	serum	CHOL_CC	52	weeks	-12.794898	4.180505	7.78605627546399	percent	NA	NA	NA	percent	7.21	0.07	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration change	ldl-c	serum	LDLC_TT	52	weeks	-21.99634	3.241131	24.4307511004171	percent	NA	NA	NA	percent	5.06	0.09	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration change	ldl-c	serum	LDLC_TC	52	weeks	-22.038118	3.382078	16.1883264748657	percent	NA	NA	NA	percent	5.06	0.096	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration change	ldl-c	serum	LDLC_CC	52	weeks	-17.523523	5.589861	9.19541227546399	percent	NA	NA	NA	percent	4.91	0.15	mmol/l	NA
+Martin2012	TT	449	PRA40	concentration change	hdl-c	serum	HDL_TT	52	weeks	7.1425653	3.1001567	24.2897768004171	percent	NA	NA	NA	percent	1.15	0.045	mmol/l	NA
+Martin2012	TC	164	PRA40	concentration change	hdl-c	serum	HDL_TC	52	weeks	7.7583795	3.0532675	15.8595159748657	percent	NA	NA	NA	percent	1.15	0.048	mmol/l	NA
+Martin2012	CC	13	PRA40	concentration change	hdl-c	serum	HDL_CC	52	weeks	4.7572217	5.5428613	9.14841257546399	percent	NA	NA	NA	percent	1.13	0.075	mmol/l	NA

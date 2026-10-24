@@ -1,0 +1,27 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	sd	change	change_unit	change_sd	baseline	baseline_sd	baseline_unit	comments
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	0	week	8.05	mmol/l	NA	0.0	percent	NA	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	12	week	5.6346800125	mmol/l	0.450774401	-30.003975	percent	8.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	24	week	4.9877507785	mmol/l	0.548652585635	-38.040363	percent	11.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	36	week	4.5803322285	mmol/l	0.64124651199	-43.101463	percent	14.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	48	week	4.5107333775	mmol/l	0.5412880053	-43.966045	percent	12.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	60	week	4.903139885	mmol/l	0.6864395839	-39.09143	percent	14.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	72	week	4.90467502	mmol/l	0.6376077526	-39.07236	percent	13.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	84	week	5.37699589	mmol/l	0.6990094657	-33.20502	percent	13.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	96	week	5.2274564335	mmol/l	0.679569336355	-35.062653	percent	13.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	108	week	5.06012052	mmol/l	0.5566132572	-37.14136	percent	11.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	120	week	5.541404743	mmol/l	0.77579666402	-31.162674	percent	14.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	132	week	5.569543357	mmol/l	0.72404063641	-30.813126	percent	13.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	pra_long_ldlc	144	week	5.3221885115	mmol/l	0.691884506495	-33.885857	percent	13.0	8.05	1.62	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	0	week	6.35	mmol/l	NA	0.0	percent	NA	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	12	week	4.171423585	mmol/l	0.62571353775	-34.30829	percent	15.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	24	week	4.1164817975	mmol/l	0.699801905575	-35.173515	percent	17.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	36	week	4.2579103945	mmol/l	0.894161182845	-32.946293	percent	21.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	48	week	4.252215016	mmol/l	0.55278795208	-33.035984	percent	13.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	60	week	4.4076202805	mmol/l	0.44076202805	-30.588657	percent	10.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	72	week	4.6539965975	mmol/l	0.65155952365	-26.708715	percent	14.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	84	week	4.893384422	mmol/l	0.58720613064	-22.938828	percent	12.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	96	week	4.845451447	mmol/l	0.58145417364	-23.693678	percent	12.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	108	week	4.8185654835	mmol/l	0.77097047736	-24.117079	percent	16.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	120	week	5.0861325125	mmol/l	0.762919876875	-19.903425	percent	15.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	132	week	5.0942495905	mmol/l	0.81507993448	-19.775597	percent	16.0	6.35	1.68	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	chol_long_ldlc	144	week	4.8360517325	mmol/l	0.725407759875	-23.841705	percent	15.0	6.35	1.68	mmol/l	change_sd also reported in table 3

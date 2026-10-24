@@ -1,0 +1,14 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Bard1990	all	67	NA	species	67	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Bard1990	all	67	NA	age	67	NA	NA	NA	NA	19.0	70.0	yr	NA
+Bard1990	all	67	NA	sex	41	NA	F	NA	NA	NA	NA	NA	NA
+Bard1990	all	67	NA	sex	26	NA	M	NA	NA	NA	NA	NA	NA
+Bard1990	all	67	NA	healthy	67	NA	N	NA	NA	NA	NA	NA	NA
+Bard1990	pra_group	40	all	species	40	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Bard1990	pra_group	40	all	age	40	NA	NA	NA	NA	19.0	70.0	yr	NA
+Bard1990	women_pra	20	all	sex	20	NA	F	NA	NA	NA	NA	NA	NA
+Bard1990	men_pra	20	all	sex	20	NA	M	NA	NA	NA	NA	NA	NA
+Bard1990	cholestyr_group	27	all	species	27	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Bard1990	cholestyr_group	27	all	age	27	NA	NA	NA	NA	16.0	66.0	yr	NA
+Bard1990	women_cholestyr	21	all	sex	21	NA	F	NA	NA	NA	NA	NA	NA
+Bard1990	men_cholestyr	6	all	sex	6	NA	M	NA	NA	NA	NA	NA	NA

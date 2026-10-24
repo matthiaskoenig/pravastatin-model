@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	sem	sem_pm	mean_unit	count_unit
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	0.0	hr	0.0				mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	0.5	hr	0.00012602468612347772	0.0001010976302186703	19.19395	72.69521	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	1.0	hr	0.00018939302287235296	0.00014726824919440536	27.9597	108.36272	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	1.5	hr	0.00012353267142486987				mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	2.0	hr	8.50844628177043e-05	3.263782264796858e-05	6.196473	42.31738	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	3.0	hr	4.877226579982569e-05	2.149319938109804e-05	4.080604	24.785894	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	4.0	hr	2.5988139825218477e-05	1.512485376292321e-05	2.871538	13.904283	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	5.0	hr	2.456413209902716e-05				mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	7.0	hr	9.612052387346008e-06				mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	9.0	hr	3.5600193154782938e-06				mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	12.0	hr	2.492013520834806e-06				mole/meter^3	dimensionless

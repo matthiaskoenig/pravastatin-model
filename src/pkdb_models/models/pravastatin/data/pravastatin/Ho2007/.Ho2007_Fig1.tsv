@@ -1,0 +1,46 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	sd	se	unit
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	0	hr	0.0	NA	NA	NA	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	1	hr	74.21188	78.34625	4.13437	2.92344106293423	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	2	hr	48.165375	84.754524	36.589149	25.872435375745	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	3	hr	18.811369	22.532299	3.72093	2.63109483532046	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	4	hr	21.705427	31.834625	10.129198	7.16242459378122	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	5	hr	7.6485786	19.431524	11.7829454	8.33180059469084	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	6	hr	13.643411	14.677003	1.033592	0.730859912180166	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	8	hr	8.682171	9.922481	1.24031	0.877031611773487	ng/ml
+Ho2007	SLCO1B1 c.521 C/C	2	PRA40	concentration	pravastatin	plasma	HPLC	CC	12	hr	0.46	NA	NA	NA	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	0	hr	0.0	NA	NA	NA	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	1	hr	56.847546	82.067184	25.219638	6.11666066552005	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	2	hr	30.387596	43.410854	13.023258	3.15860401903942	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	3	hr	15.090439	21.498709	6.40827	1.55423376985158	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	4	hr	3.7209303	9.509044	5.7881137	1.40382377401086	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	5	hr	3.1007752	8.062016	4.9612408	1.20327763838376	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	6	hr	7.235142	9.302325	2.067183	0.501365520969482	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	8	hr	4.5478034	8.062016	3.5142126	0.852321749451557	ng/ml
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	12	hr	0.15503876	NA	NA	NA	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	0	hr	0.0	NA	NA	NA	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	1	hr	43.617573	8.682171	34.935402	3.72412636628561	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	2	hr	21.912146	4.134367	17.777779	1.89511760900586	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	3	hr	10.335917	0.82687336	9.50904364	1.01366745795238	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	4	hr	5.374677	-1.8604652	7.2351422	0.771268749987354	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	5	hr	3.514212	-2.6873386	6.2015506	0.661087515217783	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	6	hr	5.581395	-0.41343668	5.99483168	0.639051204303654	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	8	hr	3.7209303	0.41343668	3.30749362	0.352580004562805	ng/ml
+Ho2007	SLCO1B1 c.521 T/T	88	PRA40	concentration	pravastatin	plasma	HPLC	TT	12	hr	0.31007752	NA	NA	NA	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	0	hr	0.0	NA	NA	NA	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	1	hr	52.10886	87.109276	35.000416	4.21355493851681	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	2	hr	26.501976	44.001976	17.5	2.10675242900096	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	3	hr	12.144269	21.519268	9.374999	1.12861725229323	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	4	hr	5.2861495	12.161973	6.8758235	0.827751877714679	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	5	hr	3.0125988	10.095932	7.0833332	0.852733109972751	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	6	hr	6.1548915	12.821146	6.6662545	0.802522734869348	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	8	hr	4.1069665	8.689476	4.5825095	0.551669315431142	ng/ml
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	12	hr	0.1553398	NA	NA	NA	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	0	hr	0.0	NA	NA	NA	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	1	hr	36.27594	5.651762	30.624178	4.96789767612143	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	2	hr	19.001976	0.043642953	18.958333047	3.07544772915464	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	3	hr	9.227602	-0.98114294	10.20874494	1.65607711212828	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	4	hr	4.2448945	-2.0055172	6.2504117	1.01395066862635	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	5	hr	2.1788538	-1.9886364	4.1674902	0.676056182792526	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	6	hr	5.112401	-0.5117754	5.6241764	0.912361888298096	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	8	hr	3.481143	-0.2680336	3.7491766	0.6081967561222	ng/ml
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	12	hr	0.3106796	NA	NA	NA	ng/ml

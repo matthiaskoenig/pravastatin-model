@@ -1,0 +1,34 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	unit	comments
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	0.0	hr	0.0	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	0.5	hr	5.5	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	1.0	hr	15.4	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	1.5	hr	21.36	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	2.0	hr	26.23	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	3.0	hr	27.96	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	4.0	hr	25.29	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	6.0	hr	16.18	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	8.0	hr	8.64	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	10.0	hr	5.45	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	active lova inhibitors	enzymatic assay	serum	active_lova_inhibitors	12.0	hr	2.35	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	0.0	hr	0.0	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	0.5	hr	19.94	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	1.0	hr	38.48	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	1.5	hr	50.26	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	2.0	hr	54.82	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	3.0	hr	45.71	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	4.0	hr	36.13	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	6.0	hr	18.38	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	8.0	hr	10.68	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	10.0	hr	5.45	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	total lova inhibitors	enzymatic assay	serum	total_lova_inhibitors	12.0	hr	2.36	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	0.0	hr	0.0	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	0.5	hr	1.41	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	1.0	hr	3.46	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	1.5	hr	4.39	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	2.0	hr	5.03	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	3.0	hr	6.28	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	4.0	hr	7.85	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	6.0	hr	5.34	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	8.0	hr	2.83	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	10.0	hr	1.41	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	concentration	lovastatin acid	GC/MS	serum	lovastatin_acid	12.0	hr	0.47	ng/ml	NA

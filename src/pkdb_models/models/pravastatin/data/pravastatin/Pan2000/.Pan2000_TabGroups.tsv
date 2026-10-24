@@ -1,0 +1,14 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Pan2000	all	23	NA	species	23	NA	homo sapiens	NA	NA	NA	NA	NA	washout interval of 14 days
+Pan2000	all	23	NA	sex	16	NA	M	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	sex	7	NA	F	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	ethnicity	23	NA	caucasian	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	age	23	NA	NA	36.0	NA	21.0	49.0	yr	NA
+Pan2000	all	23	NA	weight	23	NA	NA	76.0	NA	55.0	105.0	kg	NA
+Pan2000	all	23	NA	height	23	NA	NA	177.0	NA	153.0	203.0	cm	NA
+Pan2000	all	23	NA	abstinence	23	grapefruit juice	NA	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	abstinence	23	grapefruit	NA	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	abstinence	23	caffeine	NA	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	alcohol	23	NA	N	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	healthy	23	NA	Y	NA	NA	NA	NA	NA	NA
+Pan2000	all	23	NA	medication	23	NA	N	NA	NA	NA	NA	NA	NA

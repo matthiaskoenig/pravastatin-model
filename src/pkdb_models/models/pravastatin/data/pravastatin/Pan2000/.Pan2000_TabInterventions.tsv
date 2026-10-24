@@ -1,0 +1,7 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Pan2000	PRA40	0	day	oral	single dose	dosing	tablet	pravastatin	40	mg	"regimen A: 3x67 fenofibrate capsules alone; 
+regimen B: 3x67 fenofibrate capsules plus 1x40 pravastatin tablet:
+regimen C: 1x40 pravastatin tablet alone"
+Pan2000	FEN201	0	day	oral	single dose	dosing	capsule	fenofibrate	201	mg	"regimen A: 3x67 fenofibrate capsules alone; 
+regimen B: 3x67 fenofibrate capsules plus 1x40 pravastatin tablet:
+regimen C: 1x40 pravastatin tablet alone"

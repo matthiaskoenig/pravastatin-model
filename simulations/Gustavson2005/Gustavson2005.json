@@ -1,0 +1,1212 @@
+{
+  "experiment_id": "Gustavson2005",
+  "base_path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin",
+  "data_path": [
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/pravastatin",
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/simvastatin"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Afeces_pra",
+        "Aurine_pra",
+        "GU__f_OATP2B1",
+        "GU__fed",
+        "IVDOSE_pra",
+        "KI__GFR",
+        "KI__f_OAT3",
+        "KI__f_renal_function",
+        "LI__f_MRP2",
+        "LI__f_OATP1B1",
+        "PODOSE_pra",
+        "[Car_pra]",
+        "[Cgulumen_pra]",
+        "[Cve_pra]",
+        "[LI__pra]",
+        "f_cirrhosis",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_pra_40_d5": {
+      "sid": "model__pra_40_d5",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_40_d5",
+      "observables": []
+    },
+    "task_pra_40_d6": {
+      "sid": "model__pra_40_d6",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_40_d6",
+      "observables": []
+    },
+    "task_pra_40_d15": {
+      "sid": "model__pra_40_d15",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_40_d15",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "pra_40_d5": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 7260,
+      "preinit_changes": {
+        "GU__fed": {
+          "value": 1,
+          "unit": "dimensionless"
+        },
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            1440,
+            2880,
+            4320,
+            5760
+          ],
+          "values": {
+            "PODOSE_pra": "PODOSE_pra + 38.03180291153415"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": -5760
+    },
+    "pra_40_d6": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 8700,
+      "preinit_changes": {
+        "GU__fed": {
+          "value": 1,
+          "unit": "dimensionless"
+        },
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            1440,
+            2880,
+            4320,
+            5760,
+            7200
+          ],
+          "values": {
+            "PODOSE_pra": "PODOSE_pra + 38.03180291153415"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": -7200
+    },
+    "pra_40_d15": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 21660,
+      "preinit_changes": {
+        "GU__fed": {
+          "value": 1,
+          "unit": "dimensionless"
+        },
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        }
+      },
+      "changes": [
+        {
+          "times": [
+            1440,
+            2880,
+            4320,
+            5760,
+            7200,
+            8640,
+            10080,
+            11520,
+            12960,
+            14400,
+            15840,
+            17280,
+            18720,
+            20160
+          ],
+          "values": {
+            "PODOSE_pra": "PODOSE_pra + 38.03180291153415"
+          }
+        }
+      ],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": -20160
+    }
+  },
+  "data": {
+    "task_pra_40_d5__time": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d5__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_40_d5__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_40_d5",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__time": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d6__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_40_d6__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_40_d6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__time": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_d15__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_40_d15__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_40_d15",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig1_control_multiple_dose": {
+      "sid": "Fig1_control_multiple_dose",
+      "name": null,
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_control_multiple_dose__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_control_multiple_dose__plot0_xaxis",
+              "name": "time [day]",
+              "label": "time",
+              "unit": "day",
+              "scale": "LINEAR",
+              "min": -4.5,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_control_multiple_dose__plot0_yaxis",
+              "name": "pravastatin [\u00b5M]",
+              "label": "pravastatin",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 0.09,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_control_multiple_dose__plot0_curve0",
+                "name": "Sim: day 5 (PRA 40mg, fed)",
+                "x": "task_pra_40_d5__time",
+                "y": "task_pra_40_d5__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_control_multiple_dose__plot0_curve1",
+                "name": "Gustavson2005: day 5\u00b1SD (n=24)",
+                "x": "Fig1_pra40_d5__time",
+                "y": "Fig1_pra40_d5__mean",
+                "xerr": null,
+                "yerr": "Fig1_pra40_d5__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig1_fenofibrate": {
+      "sid": "Fig1_fenofibrate",
+      "name": null,
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_fenofibrate__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_fenofibrate__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": 0,
+              "max": 25,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_fenofibrate__plot0_yaxis",
+              "name": "pravastatin [\u00b5M]",
+              "label": "pravastatin",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 0.09,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_fenofibrate__plot0_curve0",
+                "name": "Sim: day 5 (PRA 40mg, fed)",
+                "x": "task_pra_40_d5__time",
+                "y": "task_pra_40_d5__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_fenofibrate__plot0_curve1",
+                "name": "Gustavson2005: day 5\u00b1SD (n=24)",
+                "x": "Fig1_pra40_d5__time",
+                "y": "Fig1_pra40_d5__mean",
+                "xerr": null,
+                "yerr": "Fig1_pra40_d5__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_fenofibrate__plot0_curve2",
+                "name": "Sim: day 6, fenofibrate (PRA 40mg, fed)",
+                "x": "task_pra_40_d6__time",
+                "y": "task_pra_40_d6__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_fenofibrate__plot0_curve3",
+                "name": "Gustavson2005: day 6, fenofibrate\u00b1SD (n=24)",
+                "x": "Fig1_pra40_fen160_d1__time",
+                "y": "Fig1_pra40_fen160_d1__mean",
+                "xerr": null,
+                "yerr": "Fig1_pra40_fen160_d1__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig1_fenofibrate__plot0_curve4",
+                "name": "Sim: day 15, fenofibrate (PRA 40mg, fed)",
+                "x": "task_pra_40_d15__time",
+                "y": "task_pra_40_d15__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig1_fenofibrate__plot0_curve5",
+                "name": "Gustavson2005: day 15, fenofibrate\u00b1SD (n=23)",
+                "x": "Fig1_pra40_fen160_d10__time",
+                "y": "Fig1_pra40_fen160_d10__mean",
+                "xerr": null,
+                "yerr": "Fig1_pra40_fen160_d10__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

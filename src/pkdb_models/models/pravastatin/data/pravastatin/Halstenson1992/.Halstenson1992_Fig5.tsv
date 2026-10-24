@@ -1,0 +1,17 @@
+study	group	individual	count	intervention	x_tissue	x_measurement_type	x_substance	x_label	x_time	x_time_units	x_value	x_units	y_tissue	y_measurement_type	y_substance	y_label	y_time	y_time_units	y_value	y_units	comments
+Halstenson1992	all	Fig5_S1	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	112.00608	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	16.077171	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S2	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	105.319145	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	79.09968	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S3	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	95.13678	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	17.363344	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S4	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	91.641335	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	44.05145	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S5	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	80.243164	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	35.048233	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S6	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	77.811554	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	35.69132	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S7	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	65.95744	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	27.33119	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S8	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	53.647415	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	52.09003	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S9	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	35.410336	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	163.0225	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S10	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	31.610943	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	110.93247	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S11	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	30.69909	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	78.45659	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S12	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	30.24316	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	148.55305	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S13	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	24.62006	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	152.41158	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S14	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	20.82067	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	109.6463	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S15	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	16.8693	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	96.78457	ng*hr/ml	NA
+Halstenson1992	all	Fig5_S16	1	pra_20_mg_oral	urine	gfr	creatinine	creatine_clearance_3	NA	hr	14.589665	ml/min/(1.73*m^2)	serum	auc_end	SQ 31945	auc_end_sq31945	24	hr	100.0	ng*hr/ml	NA

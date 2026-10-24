@@ -1,0 +1,16 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Gustavson2005	all	24	NA	species	24	NA	homo sapiens	NA	NA	NA	NA	NA	One subject withdrew from the study on day 13
+Gustavson2005	all	24	NA	sex	17	NA	M	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	sex	7	NA	F	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	age	24	NA	NA	38.3	NA	24.0	49.0	yr	NA
+Gustavson2005	all	24	NA	weight	24	NA	NA	75.8	NA	59.0	92.0	kg	NA
+Gustavson2005	all	24	NA	height	24	NA	NA	176.9	NA	155.0	192.0	cm	NA
+Gustavson2005	all	24	NA	ethnicity	24	NA	caucasian	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	healthy	24	NA	Y	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	abstinence	24	grapefruit juice	NA	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	alcohol	24	NA	N	NA	NA	NA	NA	NA	Consuming alcohol during the study not permitted
+Gustavson2005	all	24	NA	abstinence	24	caffeine	NA	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	smoking	24	nicotine	N	NA	NA	NA	NA	NA	not smoked or used other forms of nicotine for at least 6 months prior to this study
+Gustavson2005	all	24	NA	diet	24	NA	NR	NA	NA	NA	NA	NA	Standardised diet for all meals which provided approx. 30% of the daily calories from fat
+Gustavson2005	all	24	NA	pregnant	24	NA	N	NA	NA	NA	NA	NA	NA
+Gustavson2005	all	24	NA	breastfeeding	24	NA	N	NA	NA	NA	NA	NA	NA

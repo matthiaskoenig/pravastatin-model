@@ -1,0 +1,33 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	sd	se	unit	comments
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	1.5316176	hr	1.7746645	0.9	0.8746645000000001	0.1823801557140243	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	1.575248	hr	5.85789	1.23	4.627890000000001	0.964981771670596	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	2.8421538	hr	8.037255	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	3.758715	hr	8.864605	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	4.325908	hr	8.072481	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	5.12037	hr	7.1571183	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	5.915157	hr	6.402354	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	7.510592	hr	6.0146265	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	10.245624	hr	5.403789	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	12.066862	hr	4.7482586	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	17.989508	hr	3.443965	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	23.799334	hr	2.5886135	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	48.307983	hr	1.2119793	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	72.018265	hr	0.5751061	0.12	0.45510609999999996	0.09489618177530047	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	96.18911	hr	0.3050485	0.06	0.2450485	0.05109614439306509	ng/ml	NA
+Pan2000	all	23	FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegB_Fig1	119.903786	hr	0.16325678	0.04	0.12325677999999998	0.02570081526026177	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	1.4054481	hr	1.2761937	0.38	0.8961937000000001	0.18686930423714188	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	2.0328774	hr	6.0433307	1.3	4.7433307000000005	0.9890528215894344	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	2.7291708	hr	8.29195	1.09	7.20195	1.5017103843183497	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	4.101408	hr	8.943787	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	5.1255794	hr	8.253983	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	5.919553	hr	7.220865	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	7.0580096	hr	6.6936617	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	8.082669	hr	6.2605343	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	10.247578	hr	5.700598	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	11.954368	hr	4.964652	NA	NA	NA	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	17.990322	hr	3.521556	0.6	2.921556	0.6091865374749311	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	24.143003	hr	2.6825035	0.59	2.0925035000000003	0.43631714121487825	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	48.077133	hr	1.1285948	0.26	0.8685947999999999	0.18111453577502204	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	72.47345	hr	0.5549522	0.15	0.4049522	0.08443837070412336	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	96.18716	hr	0.28916577	0.08	0.20916576999999997	0.043614077972346864	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	fenofibrate	plasma	LC MS/MS	PRA40_RegA_Fig1	120.24208	hr	0.146044	0.04	0.106044	0.022111702524268438	ng/ml	NA

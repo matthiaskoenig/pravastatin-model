@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	0.5	hr	4.2791176124184395e-06				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	1.0	hr	2.880220008008857e-05				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	1.5	hr	4.8004185805479004e-05				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	2.0	hr	3.396574093703626e-05				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	3.0	hr	2.5037629849480603e-05				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	4.0	hr	1.3246485289614398e-05				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	6.001789	hr	7.00224177325513e-06				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	8.00491	hr	3.7526108873342287e-06				not possible to report sd for group 4	mole/meter^3	dimensionless
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	12.0	hr	1.1549882929357171e-06				not possible to report sd for group 4	mole/meter^3	dimensionless

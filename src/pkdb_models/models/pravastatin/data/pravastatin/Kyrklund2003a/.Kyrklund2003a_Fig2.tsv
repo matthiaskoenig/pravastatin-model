@@ -1,0 +1,81 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	unit	comments
+Kyrklund2003a	S1	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	261.16565	ng/ml*hr	NA
+Kyrklund2003a	S1	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	103.2959	ng/ml*hr	NA
+Kyrklund2003a	S2	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	225.66681	ng/ml*hr	NA
+Kyrklund2003a	S2	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	666.69904	ng/ml*hr	NA
+Kyrklund2003a	S3	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	176.8819	ng/ml*hr	NA
+Kyrklund2003a	S3	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	282.22498	ng/ml*hr	NA
+Kyrklund2003a	S4	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	160.60568	ng/ml*hr	NA
+Kyrklund2003a	S4	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	231.93951	ng/ml*hr	NA
+Kyrklund2003a	S5	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	133.98976	ng/ml*hr	NA
+Kyrklund2003a	S5	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	546.9055	ng/ml*hr	NA
+Kyrklund2003a	S6	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	110.34756	ng/ml*hr	NA
+Kyrklund2003a	S6	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	204.57333	ng/ml*hr	NA
+Kyrklund2003a	S7	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	97.04507	ng/ml*hr	NA
+Kyrklund2003a	S7	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	285.86694	ng/ml*hr	NA
+Kyrklund2003a	S8	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	91.07029	ng/ml*hr	NA
+Kyrklund2003a	S8	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	213.46716	ng/ml*hr	NA
+Kyrklund2003a	S9	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	74.8378	ng/ml*hr	NA
+Kyrklund2003a	S9	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	179.41968	ng/ml*hr	NA
+Kyrklund2003a	S10	10	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	49.700542	ng/ml*hr	NA
+Kyrklund2003a	S10	10	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	64.089485	ng/ml*hr	NA
+Kyrklund2003a	S1	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	154.5013	ng/ml	NA
+Kyrklund2003a	S1	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	40.369194	ng/ml	NA
+Kyrklund2003a	S2	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	122.32597	ng/ml	NA
+Kyrklund2003a	S2	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	327.98465	ng/ml	NA
+Kyrklund2003a	S3	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	84.31393	ng/ml	NA
+Kyrklund2003a	S3	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	78.71526	ng/ml	NA
+Kyrklund2003a	S4	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	63.510624	ng/ml	NA
+Kyrklund2003a	S4	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	133.97409	ng/ml	NA
+Kyrklund2003a	S5	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	59.275192	ng/ml	NA
+Kyrklund2003a	S5	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	100.820244	ng/ml	NA
+Kyrklund2003a	S6	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	52.77948	ng/ml	NA
+Kyrklund2003a	S6	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	122.59663	ng/ml	NA
+Kyrklund2003a	S7	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	45.9588	ng/ml	NA
+Kyrklund2003a	S7	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	208.39146	ng/ml	NA
+Kyrklund2003a	S8	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	34.581345	ng/ml	NA
+Kyrklund2003a	S8	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	95.63164	ng/ml	NA
+Kyrklund2003a	S9	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	23.532476	ng/ml	NA
+Kyrklund2003a	S9	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	60.847527	ng/ml	NA
+Kyrklund2003a	S10	10	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	17.681267	ng/ml	NA
+Kyrklund2003a	S10	10	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	29.97931	ng/ml	NA
+Kyrklund2003a	S1	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	35.84788	l/hr	NA
+Kyrklund2003a	S1	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	26.017595	l/hr	NA
+Kyrklund2003a	S2	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	34.396557	l/hr	NA
+Kyrklund2003a	S2	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	21.552826	l/hr	NA
+Kyrklund2003a	S3	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	30.191206	l/hr	NA
+Kyrklund2003a	S3	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	13.924326	l/hr	NA
+Kyrklund2003a	S4	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	23.940655	l/hr	NA
+Kyrklund2003a	S4	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	14.668903	l/hr	NA
+Kyrklund2003a	S5	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	23.418285	l/hr	NA
+Kyrklund2003a	S5	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	13.478659	l/hr	NA
+Kyrklund2003a	S6	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	22.974903	l/hr	NA
+Kyrklund2003a	S6	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	9.050266	l/hr	NA
+Kyrklund2003a	S7	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	22.340496	l/hr	NA
+Kyrklund2003a	S7	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	12.137919	l/hr	NA
+Kyrklund2003a	S8	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	21.744751	l/hr	NA
+Kyrklund2003a	S8	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	11.282963	l/hr	NA
+Kyrklund2003a	S9	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	18.84293	l/hr	NA
+Kyrklund2003a	S9	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	7.0038185	l/hr	NA
+Kyrklund2003a	S10	10	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	16.684858	l/hr	NA
+Kyrklund2003a	S10	10	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	12.808704	l/hr	NA
+Kyrklund2003a	S1	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	3.1571825	hr	NA
+Kyrklund2003a	S1	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	2.9703386	hr	NA
+Kyrklund2003a	S2	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	2.065269	hr	NA
+Kyrklund2003a	S2	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.6477115	hr	NA
+Kyrklund2003a	S3	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.9645585	hr	NA
+Kyrklund2003a	S3	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.8686607	hr	NA
+Kyrklund2003a	S4	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.8183221	hr	NA
+Kyrklund2003a	S4	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.3552085	hr	NA
+Kyrklund2003a	S5	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.6330441	hr	NA
+Kyrklund2003a	S5	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.722364	hr	NA
+Kyrklund2003a	S6	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.5810187	hr	NA
+Kyrklund2003a	S6	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.6867532	hr	NA
+Kyrklund2003a	S7	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.5094953	hr	NA
+Kyrklund2003a	S7	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.6703085	hr	NA
+Kyrklund2003a	S8	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.4055501	hr	NA
+Kyrklund2003a	S8	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.7971824	hr	NA
+Kyrklund2003a	S9	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.3177781	hr	NA
+Kyrklund2003a	S9	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.4819617	hr	NA
+Kyrklund2003a	S10	10	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.2234614	hr	NA
+Kyrklund2003a	S10	10	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.416998	hr	NA

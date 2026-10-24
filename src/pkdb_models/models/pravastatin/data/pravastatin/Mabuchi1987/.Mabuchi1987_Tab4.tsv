@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	sd	unit	comments
+Mabuchi1987	all	13	NOPRA	concentration	FFA	serum	0	week	0.76	0.16	0.576888204074238	meq/l	No pra -> before intervention. 
+Mabuchi1987	all	13	NOPRA	concentration	cortisol	serum	0	week	10.7	0.9	3.24499614791759	µg/dl	NA
+Mabuchi1987	all	13	NOPRA	concentration	testosterone	serum	0	week	3.0	0.9	3.24499614791759	ng/ml	NA
+Mabuchi1987	all	13	PRA5_twice	concentration	FFA	serum	12	week	0.6	0.06	0.216333076527839	meq/l	NA
+Mabuchi1987	all	13	PRA5_twice	concentration	cortisol	serum	12	week	12.8	1.9	6.85054742338158	µg/dl	NA
+Mabuchi1987	all	13	PRA5_twice	concentration	testosterone	serum	12	week	3.0	0.7	2.52388589282479	ng/ml	NA
+Mabuchi1987	all	13	PRA10_twice	concentration	FFA	serum	12	week	0.66	0.11	0.396610640301039	meq/l	NA
+Mabuchi1987	all	13	PRA10_twice	concentration	cortisol	serum	12	week	10.8	1.0	3.60555127546399	µg/dl	NA
+Mabuchi1987	all	13	PRA10_twice	concentration	testosterone	serum	12	week	2.9	0.8	2.88444102037119	ng/ml	NA

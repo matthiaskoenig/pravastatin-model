@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	pm	unit	baseline	baseline_unit	comments
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	0	week	0.0	NA	NA	NA	percent	162	mg/dl	4 patients left study 
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	1	week	-15.865922	4.357701	15.0955190723874	-11.508221	percent	162	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	2	week	-14.357542	5.19046	17.9802808693079	-9.167082	percent	162	mg/dl	PRA20 -> 2 patients left
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	3	week	-13.687151	2.62732	9.10130345548372	-11.059831	percent	162	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	4	week	-11.005587	2.941816	10.1907495570381	-8.063771	percent	162	mg/dl	plus 2 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	6	week	0.89385474	3.55516896	12.3154665364236	4.4490237	percent	162	mg/dl	plus 4 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration change	apoB-100	serum	Fig2_PRA5_concentration change	8	week	-3.1284916	3.87409	13.420241426189	-7.0025816	percent	162	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	0	week	0.0	NA	NA	NA	percent	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	1	week	-17.705511	4.729836	16.3846325269367	-22.435347	percent	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	2	week	-23.67725	4.72304	16.3610904923602	-18.95421	percent	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	3	week	-21.00865	6.520677	22.5882877274916	-27.529327	percent	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	4	week	-23.715296	5.216271	18.0696927960962	-18.499025	percent	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	6	week	-2.7238553	2.2867882	7.92166669709796	-5.0106435	percent	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	apoB-100	serum	Fig2_PRA20_concentration change	8	week	1.1486027	5.3915483	18.6768711741232	6.540151	percent	160	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	0	week	0.0	NA	NA	NA	percent	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	1	week	-25.693645	5.217629	18.8124288958479	-30.911274	percent	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	2	week	-27.265728	4.562706	16.4510704378672	-31.828434	percent	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	3	week	-31.605598	5.376602	19.3856141987622	-36.9822	percent	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	4	week	-28.60818	4.89017	17.6317586807357	-33.49835	percent	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	6	week	-0.60419405	3.57353155	12.8845512380133	2.9693375	percent	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	apoB-100	serum	Fig2_PRA40_concentration change	8	week	4.7370806	5.2189864	18.8173230711492	9.956067	percent	148	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	0	week	162.0	8.0	27.712812921102	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	1	week	136.29720636	NA	NA	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	2	week	138.74078196	NA	NA	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	3	week	139.82681538	NA	NA	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	4	week	144.17094906	NA	NA	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	6	week	163.4480446788	NA	NA	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	apoB-100	serum	Fig2_PRA5_concentration	8	week	156.931843608	NA	NA	NA	mg/dl	162	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	0	week	160.0	11.0	38.1051177665153	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	1	week	131.6711824	NA	NA	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	2	week	122.1164	NA	NA	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	3	week	126.38616	NA	NA	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	4	week	122.0555264	NA	NA	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	6	week	155.64183152	NA	NA	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	apoB-100	serum	Fig2_PRA20_concentration	8	week	161.83776432	NA	NA	NA	mg/dl	160	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	0	week	148.0	9.0	32.4499614791759	NA	mg/dl	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	1	week	109.9734054	NA	NA	NA	mg/dl	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	2	week	107.64672256	NA	NA	NA	mg/dl	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	3	week	101.22371496	NA	NA	NA	mg/dl	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	4	week	105.6598936	NA	NA	NA	mg/dl	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	6	week	147.105792806	NA	NA	NA	mg/dl	148	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	apoB-100	serum	Fig2_PRA40_concentration	8	week	155.010879288	NA	NA	NA	mg/dl	148	mg/dl	NA

@@ -1,0 +1,56 @@
+study	group	count	intervention	measurement_type	method	substance	tissue	label	time	time_unit	mean	unit	comments
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	0.0	hr	0.0	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	0.5	hr	33.68	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	1.0	hr	68.56	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	1.5	hr	50.66	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	2.0	hr	35.62	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	3.0	hr	21.79	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	4.0	hr	16.31	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	6.0	hr	10.15	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	8.0	hr	6.61	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	10.0	hr	4.02	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	active pra inhibitors	serum	active_pra_inhibitors	12.0	hr	2.39	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	0.0	hr	0.0	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	0.5	hr	35.83	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	1.0	hr	69.27	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	1.5	hr	49.94	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	2.0	hr	36.34	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	3.0	hr	21.07	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	4.0	hr	16.08	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	6.0	hr	9.67	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	7.0	hr	4.94	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	10.0	hr	2.83	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	enzymatic assay	total pra inhibitors	serum	total_pra_inhibitors	12.0	hr	1.43	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	0.0	hr	0.0	ng/ml	assay: ng-equivalent
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	0.5	hr	27.47	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	1.0	hr	62.59	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	1.5	hr	43.73	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	2.0	hr	27.02	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	3.0	hr	15.1	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	4.0	hr	12.5	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	6.0	hr	6.81	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	8.0	hr	4.22	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	10.0	hr	2.35	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	pravastatin	serum	pravastatin	12.0	hr	1.19	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	0.0	hr	0.0	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	0.5	hr	10.51	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	1.0	hr	23.42	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	1.5	hr	20.09	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	2.0	hr	12.46	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	3.0	hr	5.55	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	4.0	hr	3.42	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	6.0	hr	1.31	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	8.0	hr	1.11	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	10.0	hr	0.92	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31906 (3'alpha-isopravastatin)	serum	SQ31906	12.0	hr	0.48	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	0.0	hr	0.0	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	0.5	hr	2.16	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	1.0	hr	7.42	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	1.5	hr	10.06	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	2.0	hr	9.83	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	3.0	hr	8.42	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	4.0	hr	6.28	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	6.0	hr	3.94	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	8.0	hr	2.07	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	10.0	hr	1.15	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	concentration	GC/MS	SQ 31945	serum	SQ31945	12.0	hr	0.72	ng/ml	NA

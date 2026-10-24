@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_unit	mean_se	change	change_unit	change_se	baseline	baseline_unit	comments
+Meilles1993	placebo_nonelderly_shortterm	NA	PLAC	concentration	cholesterol	NA	Fig1_nonelderly_plac_tot	NA	week	305.084279492	mg/dl	NA	1.0212846	percent	NA	302.0	mg/dl	stars in fig?
+Meilles1993	pra20_nonelderly_shortterm	NA	PRA20	concentration	cholesterol	NA	Fig1_nonelderly_pra20_tot	NA	week	231.930538488	mg/dl	NA	-18.962076	percent	NA	286.2	mg/dl	time: shortterm, between 8 and 16 weeks.
+Meilles1993	pra40_nonelderly_shortterm	NA	PRA40	concentration	cholesterol	NA	Fig1_nonelderly_pra40_tot	NA	week	238.40004771	mg/dl	NA	-22.847881	percent	NA	309.0	mg/dl	baseline values!? → Values from Tab2. 
+Meilles1993	placebo_elderly_shortterm	NA	PLAC	concentration	cholesterol	NA	Fig1_elderly_plac_tot	NA	week	295.124751768	mg/dl	NA	-0.9648484	percent	NA	298.0	mg/dl	COUNT!?
+Meilles1993	pra20_elderly_shortterm	NA	PRA20	concentration	cholesterol	NA	Fig1_elderly_pra20_tot	NA	week	234.21553004	mg/dl	NA	-18.956564	percent	NA	289.0	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	NA	PRA40	concentration	cholesterol	NA	Fig1_elderly_pra40_tot	NA	week	223.99370852	mg/dl	NA	-24.834326	percent	NA	298.0	mg/dl	NA
+Meilles1993	placebo_nonelderly_shortterm	NA	PLAC	concentration	ldl-c	NA	Fig1_nonelderly_plac_ldl	NA	week	229.538505361	mg/dl	NA	1.1182843	percent	NA	227.0	mg/dl	NA
+Meilles1993	pra20_nonelderly_shortterm	NA	PRA20	concentration	ldl-c	NA	Fig1_nonelderly_pra20_ldl	NA	week	158.53161444	mg/dl	NA	-25.572012	percent	NA	213.0	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	NA	PRA40	concentration	ldl-c	NA	Fig1_nonelderly_pra40_ldl	NA	week	164.675511	mg/dl	NA	-29.62585	percent	NA	234.0	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	NA	PLAC	concentration	ldl-c	NA	Fig1_elderly_plac_ldl	NA	week	214.6392282	mg/dl	NA	-1.99122	percent	NA	219.0	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	NA	PRA20	concentration	ldl-c	NA	Fig1_elderly_pra20_ldl	NA	week	160.46234655	mg/dl	NA	-24.665565	percent	NA	213.0	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	NA	PRA40	concentration	ldl-c	NA	Fig1_elderly_pra40_ldl	NA	week	150.67675168	mg/dl	NA	-32.733593	percent	NA	224.0	mg/dl	NA
+Meilles1993	placebo_nonelderly_shortterm	NA	PLAC	concentration	hdl-c	NA	Fig1_nonelderly_plac_hdl	NA	week	46.0	mg/dl	NA	0.0	percent	NA	46.0	mg/dl	value reported: 0
+Meilles1993	pra20_nonelderly_shortterm	NA	PRA20	concentration	hdl-c	NA	Fig1_nonelderly_pra20_hdl	NA	week	47.33511975	mg/dl	NA	5.189155	percent	NA	45.0	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	NA	PRA40	concentration	hdl-c	NA	Fig1_nonelderly_pra40_hdl	NA	week	48.220365735	mg/dl	NA	7.1563683	percent	NA	45.0	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	NA	PLAC	concentration	hdl-c	NA	Fig1_elderly_plac_hdl	NA	week	47.064817152	mg/dl	NA	-1.9482976	percent	NA	48.0	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	NA	PRA20	concentration	hdl-c	NA	Fig1_elderly_pra20_hdl	NA	week	48.82786886	mg/dl	NA	6.147541	percent	NA	46.0	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	NA	PRA40	concentration	hdl-c	NA	Fig1_elderly_pra40_hdl	NA	week	49.6163304	mg/dl	NA	10.258512	percent	NA	45.0	mg/dl	NA
+Meilles1993	placebo_nonelderly_shortterm	NA	PLAC	concentration	triglyceride	NA	Fig1_nonelderly_plac_tri	NA	week	136.0871794952	mg/dl	NA	0.06410257	percent	NA	136.0	mg/dl	NA
+Meilles1993	pra20_nonelderly_shortterm	NA	PRA20	concentration	triglyceride	NA	Fig1_nonelderly_pra20_tri	NA	week	124.86392685	mg/dl	NA	-13.886947	percent	NA	145.0	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	NA	PRA40	concentration	triglyceride	NA	Fig1_nonelderly_pra40_tri	NA	week	107.2174824	mg/dl	NA	-14.90676	percent	NA	126.0	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	NA	PLAC	concentration	triglyceride	NA	Fig1_elderly_plac_tri	NA	week	155.408566555	mg/dl	NA	2.9195805	percent	NA	151.0	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	NA	PRA20	concentration	triglyceride	NA	Fig1_elderly_pra20_tri	NA	week	135.10367058	mg/dl	NA	-15.029138	percent	NA	159.0	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	NA	PRA40	concentration	triglyceride	NA	Fig1_elderly_pra40_tri	NA	week	106.28251746	mg/dl	NA	-22.983683	percent	NA	138.0	mg/dl	NA

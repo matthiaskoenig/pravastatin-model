@@ -1,0 +1,37 @@
+study	group	count	intervention	measurement_type	tissue	time	time_unit	mean	se	unit	substance	comments
+Pan1990	PRA5_twice	11	PRA5_single	auc_end	serum	12.0	hr	15.5	2.5	ng*hr/ml	pravastatin	week 0, first dose
+Pan1990	PRA5_twice	11	PRA5_twice	auc_end	serum	12.0	hr	21.0	2.8	ng*hr/ml	pravastatin	week 4, steady state
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	auc_end	serum	12.0	hr	13.0	1.8	ng*hr/ml	pravastatin	week 8, with cholestyramine
+Pan1990	PRA5_twice	11	PRA5_single	cmax	serum	NA	NA	4.9	0.8	ng/ml	pravastatin	week 0, first dose
+Pan1990	PRA5_twice	11	PRA5_twice	cmax	serum	NA	NA	6.1	0.9	ng/ml	pravastatin	week 4, steady state
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	cmax	serum	NA	NA	6.4	1.0	ng/ml	pravastatin	week 8, with cholestyramine
+Pan1990	PRA5_twice	11	PRA5_single	tmax	serum	NA	NA	1.6	0.1	hr	pravastatin	week 0, first dose
+Pan1990	PRA5_twice	11	PRA5_twice	tmax	serum	NA	NA	1.1	0.1	hr	pravastatin	week 4, steady state
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	tmax	serum	NA	NA	1.5	0.3	hr	pravastatin	week 8, with cholestyramine
+Pan1990	PRA5_twice	11	PRA5_single	thalf	serum	NA	NA	1.8	0.3	hr	pravastatin	week 0, first dose
+Pan1990	PRA5_twice	11	PRA5_twice	thalf	serum	NA	NA	2.6	0.5	hr	pravastatin	week 4, steady state
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	thalf	serum	NA	NA	2.1	0.5	hr	pravastatin	week 8, with cholestyramine
+Pan1990	PRA10_twice	11	PRA10_single	auc_end	serum	12.0	hr	31.3	4.8	ng*hr/ml	pravastatin	week 0, first dose
+Pan1990	PRA10_twice	11	PRA10_twice	auc_end	serum	12.0	hr	30.0	4.0	ng*hr/ml	pravastatin	week 4, steady state
+Pan1990	PRA10_twice	10	PRA10_twice, CHOL	auc_end	serum	12.0	hr	24.1	5.1	ng*hr/ml	pravastatin	week 8, with cholestyramine
+Pan1990	PRA10_twice	11	PRA10_single	cmax	serum	NA	NA	11.6	2.0	ng/ml	pravastatin	week 0, first dose
+Pan1990	PRA10_twice	11	PRA10_twice	cmax	serum	NA	NA	10.6	1.4	ng/ml	pravastatin	week 4, steady state
+Pan1990	PRA10_twice	10	PRA10_twice, CHOL	cmax	serum	NA	NA	12.9	3.4	ng/ml	pravastatin	week 8, with cholestyramine
+Pan1990	PRA10_twice	11	PRA10_single	tmax	serum	NA	NA	1.3	0.1	hr	pravastatin	week 0, first dose
+Pan1990	PRA10_twice	11	PRA10_twice	tmax	serum	NA	NA	1.3	0.1	hr	pravastatin	week 4, steady state
+Pan1990	PRA10_twice	10	PRA10_twice, CHOL	tmax	serum	NA	NA	1.0	0.1	hr	pravastatin	week 8, with cholestyramine
+Pan1990	PRA10_twice	11	PRA10_single	thalf	serum	NA	NA	2.6	0.3	hr	pravastatin	week 0, first dose
+Pan1990	PRA10_twice	11	PRA10_twice	thalf	serum	NA	NA	3.2	0.4	hr	pravastatin	week 4, steady state
+Pan1990	PRA10_twice	10	PRA10_twice, CHOL	thalf	serum	NA	NA	1.7	0.2	hr	pravastatin	week 8, with cholestyramine
+Pan1990	PRA20_twice	11	PRA20_single	auc_end	serum	12.0	hr	60.2	8.0	ng*hr/ml	pravastatin	week 0, first dose
+Pan1990	PRA20_twice	11	PRA20_twice	auc_end	serum	12.0	hr	75.4	11.4	ng*hr/ml	pravastatin	week 4, steady state
+Pan1990	PRA20_twice	10	PRA20_twice, CHOL	auc_end	serum	12.0	hr	38.5	8.6	ng*hr/ml	pravastatin	week 8, with cholestyramine
+Pan1990	PRA20_twice	11	PRA20_single	cmax	serum	NA	NA	26.1	5.6	ng/ml	pravastatin	week 0, first dose
+Pan1990	PRA20_twice	11	PRA20_twice	cmax	serum	NA	NA	30.6	7.3	ng/ml	pravastatin	week 4, steady state
+Pan1990	PRA20_twice	10	PRA20_twice, CHOL	cmax	serum	NA	NA	21.3	5.3	ng/ml	pravastatin	week 8, with cholestyramine
+Pan1990	PRA20_twice	11	PRA20_single	tmax	serum	NA	NA	1.1	0.1	hr	pravastatin	week 0, first dose
+Pan1990	PRA20_twice	11	PRA20_twice	tmax	serum	NA	NA	1.1	0.1	hr	pravastatin	week 4, steady state
+Pan1990	PRA20_twice	10	PRA20_twice, CHOL	tmax	serum	NA	NA	1.1	0.1	hr	pravastatin	week 8, with cholestyramine
+Pan1990	PRA20_twice	11	PRA20_single	thalf	serum	NA	NA	2.1	0.2	hr	pravastatin	week 0, first dose
+Pan1990	PRA20_twice	11	PRA20_twice	thalf	serum	NA	NA	2.9	0.2	hr	pravastatin	week 4, steady state
+Pan1990	PRA20_twice	10	PRA20_twice, CHOL	thalf	serum	NA	NA	2.0	0.2	hr	pravastatin	week 8, with cholestyramine

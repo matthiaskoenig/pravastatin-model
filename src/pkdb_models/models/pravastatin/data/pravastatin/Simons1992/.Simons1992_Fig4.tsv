@@ -1,0 +1,27 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	sd	change	change_unit	change_sd	baseline	baseline_sd	baseline_unit	comments
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	0	week	1.697148225675	mmol/l	NA	0.75156575	percent	NA	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	12	week	1.705716074997	mmol/l	0.49465766174913	0.25052193	percent	29.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	24	week	1.62432150336	mmol/l	0.6009989562432	5.0104384	percent	37.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	36	week	1.307311074	mmol/l	0.9151177518	23.54906	percent	70.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	48	week	1.4486805873	mmol/l	0.695366681904	15.281837	percent	48.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	60	week	1.5643465605	mmol/l	0.610095158595	8.517745	percent	39.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	72	week	1.6585929027	mmol/l	0.547335657891	3.006263	percent	33.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	84	week	1.598617953	mmol/l	0.70339189932	6.51357	percent	44.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	96	week	1.69286430033	mmol/l	0.6094311481188	1.0020877	percent	36.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	108	week	1.620037584	mmol/l	0.61561428192	5.26096	percent	38.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	120	week	1.62860543127	mmol/l	0.651442172508	4.7599163	percent	40.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	132	week	1.69286430033	mmol/l	0.5755738621122	1.0020877	percent	34.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	pra_long_tri	144	week	1.73141962416	mmol/l	0.4847974947648	-1.2526096	percent	28.0	1.71	0.95	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	0	week	1.79720250528	mmol/l	NA	1.2526096	percent	NA	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	12	week	0.3427222708	mmol/l	0.253614480392	81.169106	percent	74.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	24	week	0.0828309300000001	mmol/l	0.1424691996	95.44885	percent	172.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	36	week	1.063123152	mmol/l	0.82923605856	41.58664	percent	78.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	48	week	1.5236325832	mmol/l	0.731343639936	16.283924	percent	48.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	60	week	1.0448851868	mmol/l	0.511993741532	42.588726	percent	49.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	72	week	1.6102630362	mmol/l	0.917849930634	11.524009	percent	57.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	84	week	1.6376200386	mmol/l	0.638671815054	10.020877	percent	39.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	96	week	1.437002112	mmol/l	0.76161111936	21.04384	percent	53.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	108	week	1.2455031316	mmol/l	1.083587724492	31.565762	percent	87.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	120	week	1.6467390394	mmol/l	0.675163006154	9.519833	percent	41.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	132	week	1.5692275508	mmol/l	0.54922964278	13.778706	percent	35.0	1.82	0.8	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	chol_long_tri	144	week	1.4233236108	mmol/l	1.095959180316	21.795406	percent	77.0	1.82	0.8	mmol/l	change_sd also reported in table 3

@@ -1,0 +1,9 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Becquemont1999	all	12	NA	species	12	pravastatin	homo sapiens	NA	NA	NA	NA	NA	NA
+Becquemont1999	all	12	NA	sex	5	pravastatin	F	NA	NA	NA	NA	NA	NA
+Becquemont1999	all	12	NA	sex	7	pravastatin	M	NA	NA	NA	NA	NA	NA
+Becquemont1999	all	12	NA	healthy	12	pravastatin	Y	NA	NA	NA	NA	NA	NA
+Becquemont1999	all	12	NA	age	12	pravastatin	NA	31.0	5.0	23.0	38.0	yr	NA
+Becquemont1999	all	12	NA	medication	12	NA	N	NA	NA	NA	NA	NA	NA
+Becquemont1999	all	12	NA	oral contraceptives	1	NA	Y	NA	NA	NA	NA	NA	NA
+Becquemont1999	all	12	NA	oral contraceptives	11	NA	N	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,14 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Kyrklund2003a	all	10	NA	species	10	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	smoking	10	NA	N	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	oral contraceptives	10	NA	N	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	medication	10	NA	N	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	overnight fast	10	NA	Y	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	abstinence alcohol	10	NA	NA	NA	NA	2.0	NA	day	NA
+Kyrklund2003a	all	10	NA	abstinence	10	grapefruit juice	NA	NA	NA	2.0	NA	day	NA
+Kyrklund2003a	all	10	NA	sex	5	NA	M	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	sex	5	NA	F	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	healthy	10	NA	Y	NA	NA	NA	NA	NA	NA
+Kyrklund2003a	all	10	NA	age	10	NA	NA	23.6	2.5	19.0	26.0	year	NA
+Kyrklund2003a	all	10	NA	weight	10	NA	NA	70.0	10.0	60.0	85.0	kg	NA
+Kyrklund2003a	all	10	NA	height	10	NA	NA	176.0	5.3	NA	NA	cm	NA

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	min	median	max	unit
+Maeda2006	homozygous carriers *1a	5	TEMO_2	auc_end	temocapril	plasma	2	hr	NA	NA	8.5611515	17.71	29.8	ng*hr/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	auc_end	temocapril	plasma	2	hr	NA	NA	6.5467625	13.43	16.62	ng*hr/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	auc_end	temocapril	plasma	2	hr	NA	NA	15.947242	17.71	27.03	ng*hr/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	auc_end	temocapril	plasma	2	hr	NA	NA	9.904077	14.77	23.08	ng*hr/ml

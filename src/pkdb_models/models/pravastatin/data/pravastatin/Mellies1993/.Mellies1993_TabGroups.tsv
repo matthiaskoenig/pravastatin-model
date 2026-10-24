@@ -1,0 +1,124 @@
+study	name	parent	group_count	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Meilles1993	all	NA	1123	species	1123	homo sapiens	NA	NA	NA	NA	NA	count from Tables 1, 2 and 3  from paper
+Meilles1993	nonelderly_long	all	3674	species	3674	homo sapiens	NA	NA	NA	NA	NA	Sum from all six studies reported in paper.  (!?!?!)
+Meilles1993	elderly_long	all	438	species	438	homo sapiens	NA	NA	NA	NA	NA	Sum from all six studies reported in paper. 
+Meilles1993	placebo_nonelderly_shortterm	all	358	species	358	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	age	358	NA	51.0	NA	NA	NA	yr	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	sex	243	M	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	sex	142	F	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	weight	358	NA	76.5	NA	NA	NA	kg	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	diet	358	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	healthy	358	N	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	disease	208	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	disease	90	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_nonelderly_shortterm	all	358	smoking	222	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	species	50	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	age	50	NA	67.0	NA	NA	NA	yr	NA
+Meilles1993	placebo_elderly_shortterm	all	50	sex	22	M	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	sex	28	F	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	weight	50	NA	72.6	NA	NA	NA	kg	NA
+Meilles1993	placebo_elderly_shortterm	all	50	diet	50	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	healthy	50	N	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	disease	27	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	disease	23	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	placebo_elderly_shortterm	all	50	smoking	33	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	species	359	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	age	359	NA	50.0	NA	NA	NA	yr	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	sex	244	M	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	sex	115	F	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	weight	359	NA	77.0	NA	NA	NA	kg	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	diet	359	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	healthy	359	N	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	disease	197	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	disease	97	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_nonelderly_shortterm	all	359	smoking	205	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	species	53	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	age	53	NA	68.0	NA	NA	NA	yr	NA
+Meilles1993	pra20_elderly_shortterm	all	53	sex	29	M	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	sex	24	F	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	weight	53	NA	72.9	NA	NA	NA	kg	NA
+Meilles1993	pra20_elderly_shortterm	all	53	diet	53	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	healthy	53	N	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	disease	27	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	disease	25	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	pra20_elderly_shortterm	all	53	smoking	32	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	species	259	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	age	259	NA	51.0	NA	NA	NA	yr	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	sex	184	M	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	sex	75	F	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	weight	259	NA	76.9	NA	NA	NA	kg	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	diet	259	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	healthy	259	N	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	disease	179	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	disease	49	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_nonelderly_shortterm	all	259	smoking	158	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	species	44	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	age	44	NA	67.0	NA	NA	NA	yr	NA
+Meilles1993	pra40_elderly_shortterm	all	44	sex	28	M	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	sex	16	F	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	weight	44	NA	75.0	NA	NA	NA	kg	NA
+Meilles1993	pra40_elderly_shortterm	all	44	diet	44	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	healthy	44	N	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	disease	24	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	disease	13	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	pra40_elderly_shortterm	all	44	smoking	28	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	species	212	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	age	212	NA	51.0	NA	NA	NA	yr	NA
+Meilles1993	resin_nonelderly_longterm	all	212	sex	142	M	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	sex	70	F	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	weight	212	NA	77.0	NA	NA	NA	kg	NA
+Meilles1993	resin_nonelderly_longterm	all	212	diet	212	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	healthy	212	N	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	disease	110	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	disease	57	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_nonelderly_longterm	all	212	smoking	131	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	species	31	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	age	31	NA	67.0	NA	NA	NA	yr	NA
+Meilles1993	resin_elderly_longterm	all	31	sex	13	M	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	sex	18	F	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	weight	31	NA	71.8	NA	NA	NA	kg	NA
+Meilles1993	resin_elderly_longterm	all	31	diet	31	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	healthy	31	N	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	disease	12	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	disease	14	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	resin_elderly_longterm	all	31	smoking	22	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	species	959	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	age	959	NA	50.0	NA	NA	NA	yr	NA
+Meilles1993	pra_nonelderly_longterm	all	959	sex	681	M	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	sex	278	F	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	weight	959	NA	77.1	NA	NA	NA	kg	NA
+Meilles1993	pra_nonelderly_longterm	all	959	diet	959	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	healthy	959	N	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	disease	595	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	disease	221	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_nonelderly_longterm	all	959	smoking	575	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	species	140	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	age	140	NA	68.0	NA	NA	NA	yr	NA
+Meilles1993	pra_elderly_longterm	all	140	sex	76	M	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	sex	64	F	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	weight	140	NA	73.0	NA	NA	NA	kg	NA
+Meilles1993	pra_elderly_longterm	all	140	diet	140	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	healthy	140	N	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	disease	71	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	disease	60	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	pra_elderly_longterm	all	140	smoking	90	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	species	455	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	age	455	NA	51.0	NA	NA	NA	yr	NA
+Meilles1993	combo_nonelderly_longterm	all	455	sex	323	M	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	sex	132	F	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	weight	455	NA	77.1	NA	NA	NA	kg	NA
+Meilles1993	combo_nonelderly_longterm	all	455	diet	455	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	healthy	455	N	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	disease	323	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	disease	100	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_nonelderly_longterm	all	455	smoking	273	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	species	39	homo sapiens	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	age	39	NA	67.0	NA	NA	NA	yr	NA
+Meilles1993	combo_elderly_longterm	all	39	sex	18	M	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	sex	21	F	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	weight	39	NA	71.8	NA	NA	NA	kg	NA
+Meilles1993	combo_elderly_longterm	all	39	diet	39	Y	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	healthy	39	N	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	disease	26	familial hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	disease	16	hypertension	NA	NA	NA	NA	NA	NA
+Meilles1993	combo_elderly_longterm	all	39	smoking	25	Y	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,5 @@
+study	group	count	intervention	substance	measurement_type	method	tissue	time	time_unit	mean	se	unit
+Pan1990a	all	10	PRA_40_D7	cholesterol	concentration change	enzymatic assay	serum	24	hr	-20.9	1.6	percent
+Pan1990a	all	10	PRA_40_D7	ldl-c	concentration change	enzymatic assay	serum	24	hr	-26.4	2.3	percent
+Pan1990a	all	10	LOV_40_D7	cholesterol	concentration change	enzymatic assay	serum	24	hr	-17.5	2.8	percent
+Pan1990a	all	10	LOV_40_D7	ldl-c	concentration change	enzymatic assay	serum	24	hr	-21.6	3.7	percent

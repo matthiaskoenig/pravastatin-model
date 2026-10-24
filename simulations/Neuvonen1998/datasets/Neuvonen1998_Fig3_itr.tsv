@@ -1,0 +1,9 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	0.0	hr	0.0			mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	0.5	hr	9.819506277530448e-05	4.143489741596589e-05	0.00013102865044987752	mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	1.0	hr	0.0001447383694909665	5.6192565896403075e-05	0.00017769649580173512	mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	2.0	hr	7.719380020257698e-05	2.270405625044164e-05	7.17965298759779e-05	mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	3.0	hr	3.575889336442654e-05	9.081622029067441e-06	2.8718610460612916e-05	mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	4.0	hr	1.9298450050644244e-05	4.540811014533721e-06	1.4359305230306504e-05	mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	6.0	hr	1.7595646008527078e-05	3.973211316043625e-06	1.2564397383852966e-05	mole/meter^3	dimensionless
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	8.0	hr	5.108413304124561e-06	3.40560879089817e-06	1.0769480598730337e-05	mole/meter^3	dimensionless

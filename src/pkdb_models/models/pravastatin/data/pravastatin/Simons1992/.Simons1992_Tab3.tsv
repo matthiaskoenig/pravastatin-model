@@ -1,0 +1,105 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	se	unit	reduction	reduction_sd	reduction_unit	comments
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	0	weeks	10.03	NA	1.54	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	0	weeks	8.05	NA	1.62	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	0	weeks	1.2	NA	0.37	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	0	weeks	1.71	NA	0.95	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	12	weeks	7.7231	8.263717	1.39682311648447	mmol/l	-23.0	7.0	percent	4 weeks in 1 month
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	12	weeks	5.635	6.0858	1.02868795268536	mmol/l	-30.0	8.0	percent	3 mo = 12 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	12	weeks	1.392	1.72608	0.291760771200359	mmol/l	16.0	24.0	percent	6 mo = 24 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	12	weeks	1.6758	2.161782	0.365407851019104	mmol/l	-2.0	29.0	percent	9 mo = 36 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	24	weeks	7.2216	7.871544	1.33053378057655	mmol/l	-28.0	9.0	percent	12 mo = 48 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	24	weeks	5.0715	5.629365	0.951536356233959	mmol/l	-37.0	11.0	percent	15 mo = 60 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	24	weeks	1.44	1.7856	0.301821487448648	mmol/l	20.0	24.0	percent	18 mo = 72 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	24	weeks	1.7955	2.459835	0.415788003236024	mmol/l	5.0	37.0	percent	21 mo = 84 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	36	weeks	6.7201	7.660914	1.29493081244185	mmol/l	-33.0	14.0	percent	24 mo = 96 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	36	weeks	4.5885	5.23089	0.88418178790337	mmol/l	-43.0	14.0	percent	27 mo = 108 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	36	weeks	1.332	1.74492	0.294945312432177	mmol/l	11.0	31.0	percent	30 mo = 120 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	36	weeks	2.1033	3.57561	0.604388400949966	mmol/l	23.0	70.0	percent	33 mo = 132 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	48	weeks	6.6198	7.28178	1.2308454697994	mmol/l	-34.0	10.0	percent	36 mo = 144 weeks
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	48	weeks	4.508	5.04896	0.853430005190818	mmol/l	-44.0	12.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	48	weeks	1.344	1.70688	0.288515378862202	mmol/l	12.0	27.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	48	weeks	2.0007	2.961036	0.500506434760862	mmol/l	17.0	48.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	60	weeks	6.9207	7.681977	1.29849110925532	mmol/l	-31.0	11.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	60	weeks	4.9105	5.59797	0.946229632668519	mmol/l	-39.0	14.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	60	weeks	1.38	1.725	0.291578217881338	mmol/l	15.0	25.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	60	weeks	1.8639	2.590821	0.437928678277998	mmol/l	9.0	39.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	72	weeks	6.9207	7.61277	1.28679299115392	mmol/l	-31.0	10.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	72	weeks	4.9105	5.548865	0.93792937273283	mmol/l	-39.0	13.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	72	weeks	1.308	1.60884	0.271943594235485	mmol/l	9.0	23.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	72	weeks	1.7784	2.365272	0.399803938878046	mmol/l	4.0	33.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	84	weeks	7.3219	8.127309	1.37376595616867	mmol/l	-27.0	11.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	84	weeks	5.3935	6.094655	1.03018472087049	mmol/l	-33.0	13.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	84	weeks	1.26	1.5372	0.259834224073735	mmol/l	5.0	22.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	84	weeks	1.8297	2.634768	0.445357077084509	mmol/l	7.0	44.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	96	weeks	7.2216	8.088192	1.36715397637223	mmol/l	-28.0	12.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	96	weeks	5.2325	5.912725	0.999432938157934	mmol/l	-35.0	13.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	96	weeks	1.26	1.449	0.244925703020324	mmol/l	5.0	15.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	96	weeks	1.6758	2.279088	0.385236184020141	mmol/l	-2.0	36.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	108	weeks	7.021	7.65289	1.29357450889386	mmol/l	-30.0	9.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	108	weeks	5.0715	5.629365	0.951536356233959	mmol/l	-37.0	11.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	108	weeks	1.2	1.38	0.233262574305071	mmol/l	0.0	15.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	108	weeks	1.8126	2.501388	0.422811742185371	mmol/l	6.0	38.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	120	weeks	7.4222	8.238642	1.39258466789701	mmol/l	-26.0	11.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	120	weeks	5.5545	6.33213	1.07032532219882	mmol/l	-31.0	14.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	120	weeks	1.188	1.3662	0.23092994856202	mmol/l	-1.0	15.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	120	weeks	1.7955	2.5137	0.424892850022214	mmol/l	5.0	40.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	132	weeks	7.5225	8.27475	1.39868803386296	mmol/l	-25.0	10.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	132	weeks	5.5545	6.276585	1.06093650358304	mmol/l	-31.0	13.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	132	weeks	1.272	1.60272	0.270909125427698	mmol/l	6.0	26.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	132	weeks	1.7442	2.337228	0.395063637694124	mmol/l	2.0	34.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	144	weeks	7.1213	7.83343	1.3240913387236	mmol/l	-29.0	10.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	ldl-c	plasma	144	weeks	5.313	6.00369	1.01480882951421	mmol/l	-34.0	13.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	hdl-c	plasma	144	weeks	1.2	1.452	0.245432795573161	mmol/l	0.0	21.0	percent	NA
+Simons1992	longterm_pra	35	PRA_long	concentration	triglyceride	plasma	144	weeks	1.6758	2.145024	0.362575232018956	mmol/l	-2.0	28.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	0	weeks	8.29	NA	1.7	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	0	weeks	6.35	NA	1.68	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	0	weeks	1.1	NA	0.17	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	0	weeks	1.82	NA	0.8	mmol/l	NA	NA	mmol/l	baseline
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	12	weeks	6.7978	7.749492	2.33655975271462	mmol/l	-18.0	14.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	12	weeks	4.191	4.81965	1.45317915189422	mmol/l	-34.0	15.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	12	weeks	1.177	1.40063	0.422305834555953	mmol/l	7.0	19.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	12	weeks	2.912	5.06688	1.52772180161418	mmol/l	60.0	74.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	24	weeks	6.8807	8.394454	2.53102311253619	mmol/l	-17.0	22.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	24	weeks	4.1275	4.829175	1.45605104745132	mmol/l	-35.0	17.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	24	weeks	1.122	1.30152	0.392423045194851	mmol/l	2.0	16.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	24	weeks	3.9858	10.841376	3.2687978548331	mmol/l	119.0	172.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	36	weeks	6.632	7.56048	2.27957049045329	mmol/l	-20.0	14.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	36	weeks	4.2545	5.147945	1.55216381876238	mmol/l	-33.0	21.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	36	weeks	1.155	1.30515	0.393517531375668	mmol/l	5.0	13.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	36	weeks	2.7482	4.891796	1.47493198936013	mmol/l	51.0	78.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	48	weeks	6.4662	7.048158	2.12509959537652	mmol/l	-22.0	9.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	48	weeks	4.2545	4.807585	1.44954141752189	mmol/l	-33.0	13.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	48	weeks	1.32	1.7424	0.525353366792295	mmol/l	20.0	32.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	48	weeks	2.1112	3.124576	0.94209511099541	mmol/l	16.0	48.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	60	weeks	6.5491	7.400483	2.23132957985488	mmol/l	-21.0	13.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	60	weeks	4.3815	4.81965	1.45317915189422	mmol/l	-31.0	10.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	60	weeks	1.133	1.25763	0.379189712281333	mmol/l	3.0	11.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	60	weeks	2.5844	3.850756	1.16104661920089	mmol/l	42.0	49.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	72	weeks	6.7978	7.885448	2.37755202907804	mmol/l	-18.0	16.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	72	weeks	4.6355	5.28447	1.59332765508085	mmol/l	-27.0	14.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	72	weeks	1.199	1.48676	0.448275006664436	mmol/l	9.0	24.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	72	weeks	2.0384	3.200288	0.964923137916082	mmol/l	12.0	57.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	84	weeks	6.8807	7.499963	2.26132392841348	mmol/l	-17.0	9.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	84	weeks	4.8895	5.47624	1.65114848563053	mmol/l	-23.0	12.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	84	weeks	1.144	1.33848	0.403566904490445	mmol/l	4.0	17.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	84	weeks	2.0202	2.808078	0.846667373459237	mmol/l	11.0	39.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	96	weeks	6.8807	7.56877	2.28207001949984	mmol/l	-17.0	10.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	96	weeks	4.8895	5.47624	1.65114848563053	mmol/l	-23.0	12.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	96	weeks	1.056	1.23552	0.372523296452719	mmol/l	-4.0	17.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	96	weeks	2.2386	3.425058	1.03269384283683	mmol/l	23.0	53.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	108	weeks	6.8807	7.706384	2.32356220167256	mmol/l	-17.0	12.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	108	weeks	4.826	5.59816	1.68790874876145	mmol/l	-24.0	16.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	108	weeks	1.078	1.26126	0.38028419846215	mmol/l	-2.0	17.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	108	weeks	2.4206	4.526522	1.36479773448083	mmol/l	33.0	87.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	120	weeks	7.0465	7.962545	2.40079764921095	mmol/l	-15.0	13.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	120	weeks	5.08	5.842	1.7614292750233	mmol/l	-20.0	15.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	120	weeks	1.1	1.276	0.384728475681226	mmol/l	0.0	16.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	120	weeks	2.002	2.82282	0.851112253701003	mmol/l	10.0	41.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	132	weeks	7.0465	7.962545	2.40079764921095	mmol/l	-15.0	13.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	132	weeks	5.08	5.8928	1.77674605132785	mmol/l	-20.0	16.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	132	weeks	1.1	1.276	0.384728475681226	mmol/l	0.0	16.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	132	weeks	2.0748	2.80098	0.844527245935424	mmol/l	14.0	35.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	144	weeks	6.9636	7.938504	2.39354901497595	mmol/l	-16.0	14.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	ldl-c	plasma	144	weeks	4.826	5.5499	1.67335781127213	mmol/l	-24.0	15.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	hdl-c	plasma	144	weeks	1.034	1.2408	0.374115276352089	mmol/l	-6.0	20.0	percent	NA
+Simons1992	longterm_resin	11	RESIN	concentration	triglyceride	plasma	144	weeks	2.2386	3.962322	1.19468503387005	mmol/l	23.0	77.0	percent	NA

@@ -1,0 +1,9 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	0.5	hr	4.6350116599533605e-05	1.5110036982074297e-05	26.091679	4.2737638456017005e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	1.0	hr	6.828215909358586e-05	1.1384234329729348e-05	33.820774	3.219947717267331e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	2.0	hr	3.8665034273196236e-05	5.381864650319176e-06	18.69923	1.5222211958675428e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	3.0	hr	2.2916167290886397e-05	4.347074411702353e-06	11.574064	1.2295383179349023e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	4.0	hr	1.8553229218194237e-05	3.5185030504322427e-06	6.3826923	9.95182946634476e-06	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	6.0	hr	8.58280145101642e-06	2.0698888182225047e-06	4.5223866	5.854529678669376e-06	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	8.0	hr	2.7524596612724664e-06	3.1056038442512896e-06	2.4869237	8.783974151796386e-06	mole/meter^3	dimensionless

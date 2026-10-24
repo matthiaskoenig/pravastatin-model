@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Keskitalo2009	FLU_40mg	0	hr	oral	single dose	dosing	NR	fluvastatin	40	mg
+Keskitalo2009	PRA_40mg	0	hr	oral	single dose	dosing	NR	pravastatin	40	mg
+Keskitalo2009	SIM_40mg	0	hr	oral	single dose	dosing	NR	simvastatin	40	mg

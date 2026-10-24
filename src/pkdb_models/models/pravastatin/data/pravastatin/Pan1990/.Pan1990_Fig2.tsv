@@ -1,0 +1,61 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	change	mean	baseline	baseline_unit	unit	comments
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	cholesterol	serum	cholesterol_PRA5_twice_concentration change	0	week	0.0	0.0	266.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	cholesterol	serum	cholesterol_PRA5_twice_concentration change	2	week	-14.96	-14.96	266.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	cholesterol	serum	cholesterol_PRA5_twice_concentration change	4	week	-16.37	-16.37	266.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	cholesterol	serum	cholesterol_PRA5_twice, CHOL_concentration change	6	week	-41.17	-41.17	266.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	cholesterol	serum	cholesterol_PRA5_twice, CHOL_concentration change	8	week	-37.59	-37.59	266.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	cholesterol	serum	cholesterol_PRA10_twice_concentration change	0	week	0.0	0.0	283.3	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	cholesterol	serum	cholesterol_PRA10_twice_concentration change	2	week	-18.79	-18.79	283.3	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	cholesterol	serum	cholesterol_PRA10_twice_concentration change	4	week	-19.69	-19.69	283.3	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	cholesterol	serum	cholesterol_PRA10_twice, CHOL_concentration change	6	week	-31.32	-31.32	283.3	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	cholesterol	serum	cholesterol_PRA10_twice, CHOL_concentration change	8	week	-32.45	-32.45	283.3	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	cholesterol	serum	cholesterol_PRA20_twice_concentration change	0	week	0.0	0.0	289.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	cholesterol	serum	cholesterol_PRA20_twice_concentration change	2	week	-22.76	-22.76	289.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	cholesterol	serum	cholesterol_PRA20_twice_concentration change	4	week	-24.94	-24.94	289.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	cholesterol	serum	cholesterol_PRA20_twice, CHOL_concentration change	6	week	-37.72	-37.72	289.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	cholesterol	serum	cholesterol_PRA20_twice, CHOL_concentration change	8	week	-32.48	-32.48	289.8	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	ldl-c	serum	ldl-c_PRA5_twice_concentration change	0	week	0.0	0.0	193.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	ldl-c	serum	ldl-c_PRA5_twice_concentration change	2	week	-20.75	-20.75	193.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	ldl-c	serum	ldl-c_PRA5_twice_concentration change	4	week	-23.04	-23.04	193.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	ldl-c	serum	ldl-c_PRA5_twice, CHOL_concentration change	6	week	-61.11	-61.11	193.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	ldl-c	serum	ldl-c_PRA5_twice, CHOL_concentration change	8	week	-56.77	-56.77	193.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	ldl-c	serum	ldl-c_PRA10_twice_concentration change	0	week	0.0	0.0	206.4	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	ldl-c	serum	ldl-c_PRA10_twice_concentration change	2	week	-26.47	-26.47	206.4	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	ldl-c	serum	ldl-c_PRA10_twice_concentration change	4	week	-27.86	-27.86	206.4	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	ldl-c	serum	ldl-c_PRA10_twice, CHOL_concentration change	6	week	-46.43	-46.43	206.4	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	ldl-c	serum	ldl-c_PRA10_twice, CHOL_concentration change	8	week	-47.1	-47.1	206.4	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	ldl-c	serum	ldl-c_PRA20_twice_concentration change	0	week	0.0	0.0	208.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	ldl-c	serum	ldl-c_PRA20_twice_concentration change	2	week	-31.48	-31.48	208.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	ldl-c	serum	ldl-c_PRA20_twice_concentration change	4	week	-35.38	-35.38	208.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	ldl-c	serum	ldl-c_PRA20_twice, CHOL_concentration change	6	week	-59.13	-59.13	208.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	ldl-c	serum	ldl-c_PRA20_twice, CHOL_concentration change	8	week	-54.08	-54.08	208.9	mg/dl	percent	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	cholesterol	serum	cholesterol_PRA5_twice_concentration	0	week	0.0	266.8	266.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	cholesterol	serum	cholesterol_PRA5_twice_concentration	2	week	-14.96	226.88672	266.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	cholesterol	serum	cholesterol_PRA5_twice_concentration	4	week	-16.37	223.12484	266.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	cholesterol	serum	cholesterol_PRA5_twice, CHOL_concentration	6	week	-41.17	156.95844	266.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	cholesterol	serum	cholesterol_PRA5_twice, CHOL_concentration	8	week	-37.59	166.50988	266.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	cholesterol	serum	cholesterol_PRA10_twice_concentration	0	week	0.0	283.3	283.3	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	cholesterol	serum	cholesterol_PRA10_twice_concentration	2	week	-18.79	230.06793	283.3	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	cholesterol	serum	cholesterol_PRA10_twice_concentration	4	week	-19.69	227.51823	283.3	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	cholesterol	serum	cholesterol_PRA10_twice, CHOL_concentration	6	week	-31.32	194.57044	283.3	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	cholesterol	serum	cholesterol_PRA10_twice, CHOL_concentration	8	week	-32.45	191.36915	283.3	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	cholesterol	serum	cholesterol_PRA20_twice_concentration	0	week	0.0	289.8	289.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	cholesterol	serum	cholesterol_PRA20_twice_concentration	2	week	-22.76	223.84152	289.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	cholesterol	serum	cholesterol_PRA20_twice_concentration	4	week	-24.94	217.52388	289.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	cholesterol	serum	cholesterol_PRA20_twice, CHOL_concentration	6	week	-37.72	180.48744	289.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	cholesterol	serum	cholesterol_PRA20_twice, CHOL_concentration	8	week	-32.48	195.67296	289.8	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	ldl-c	serum	ldl-c_PRA5_twice_concentration	0	week	0.0	193.9	193.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	ldl-c	serum	ldl-c_PRA5_twice_concentration	2	week	-20.75	153.66575	193.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	ldl-c	serum	ldl-c_PRA5_twice_concentration	4	week	-23.04	149.22544	193.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	ldl-c	serum	ldl-c_PRA5_twice, CHOL_concentration	6	week	-61.11	75.40771	193.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	ldl-c	serum	ldl-c_PRA5_twice, CHOL_concentration	8	week	-56.77	83.82297	193.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	ldl-c	serum	ldl-c_PRA10_twice_concentration	0	week	0.0	206.4	206.4	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	ldl-c	serum	ldl-c_PRA10_twice_concentration	2	week	-26.47	151.76592	206.4	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	ldl-c	serum	ldl-c_PRA10_twice_concentration	4	week	-27.86	148.89696	206.4	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	ldl-c	serum	ldl-c_PRA10_twice, CHOL_concentration	6	week	-46.43	110.56848	206.4	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	ldl-c	serum	ldl-c_PRA10_twice, CHOL_concentration	8	week	-47.1	109.1856	206.4	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	ldl-c	serum	ldl-c_PRA20_twice_concentration	0	week	0.0	208.9	208.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	ldl-c	serum	ldl-c_PRA20_twice_concentration	2	week	-31.48	143.13828	208.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	ldl-c	serum	ldl-c_PRA20_twice_concentration	4	week	-35.38	134.99118	208.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	ldl-c	serum	ldl-c_PRA20_twice, CHOL_concentration	6	week	-59.13	85.37743	208.9	mg/dl	mg/dl	patients w/ hypercholesterolemia
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	ldl-c	serum	ldl-c_PRA20_twice, CHOL_concentration	8	week	-54.08	95.92688	208.9	mg/dl	mg/dl	patients w/ hypercholesterolemia

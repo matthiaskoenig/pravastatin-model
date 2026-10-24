@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	geomean	ci_low	ci_high	unit	comment
+Becquemont1999	all	12	PRA_40_D1	auc_end	pravastatin	plasma	HPLC	24	hr	NA	NA	170.0	117.0	395.0	ng*hr/ml	geometric mean with 95% convidence intervals, AUCs are for 24 hrs, but complex dosing protocol
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	auc_end	pravastatin	plasma	HPLC	24	hr	NA	NA	224.0	174.0	381.0	ng*hr/ml	geometric mean with 95% convidence intervals, AUCs are for 24 hrs, but complex dosing protocol
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	auc_end	pravastatin	plasma	HPLC	24	hr	NA	NA	200.0	137.0	555.0	ng*hr/ml	geometric mean with 95% convidence intervals, AUCs are for 24 hrs, but complex dosing protocol
+Becquemont1999	all	12	PRA_40_D1	cmax	pravastatin	plasma	HPLC	24	hr	NA	NA	91.0	72.0	200.0	ng/ml	geometric mean with 95% convidence intervals, AUCs are for 24 hrs, but complex dosing protocol
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	cmax	pravastatin	plasma	HPLC	24	hr	NA	NA	124.0	102.0	191.0	ng/ml	geometric mean with 95% convidence intervals, AUCs are for 24 hrs, but complex dosing protocol
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	cmax	pravastatin	plasma	HPLC	24	hr	NA	NA	91.0	74.0	184.0	ng/ml	geometric mean with 95% convidence intervals, AUCs are for 24 hrs, but complex dosing protocol
+Becquemont1999	all	12	PRA_40_D1	tmax	pravastatin	plasma	HPLC	24	hr	0.9	0.1	NA	NA	NA	hr	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	tmax	pravastatin	plasma	HPLC	24	hr	1.1	0.3	NA	NA	NA	hr	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	tmax	pravastatin	plasma	HPLC	24	hr	1.2	0.3	NA	NA	NA	hr	NA

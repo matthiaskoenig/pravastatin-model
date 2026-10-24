@@ -1,0 +1,7 @@
+study	group	intervention	measurement_type	substance	tissue	time	time_unit	method	mean	se	unit
+Sugimoto2001	pra_group	PRA	cmax	pravastatin	plasma	NA	NA	LC MS/MS	36.5	5.7	ng/ml
+Sugimoto2001	pra_group	PRA,STJ	cmax	pravastatin	plasma	NA	NA	LC MS/MS	30.8	5.2	ng/ml
+Sugimoto2001	pra_group	PRA	tmax	pravastatin	plasma	NA	NA	LC MS/MS	1.1	0.1	hr
+Sugimoto2001	pra_group	PRA,STJ	tmax	pravastatin	plasma	NA	NA	LC MS/MS	1.0	0.2	hr
+Sugimoto2001	pra_group	PRA	auc_end	pravastatin	plasma	24.0	hr	LC MS/MS	109.4	17.4	ng/ml*hr
+Sugimoto2001	pra_group	PRA,STJ	auc_end	pravastatin	plasma	24.0	hr	LC MS/MS	96.6	13.4	ng/ml*hr

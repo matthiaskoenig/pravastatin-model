@@ -1,0 +1,17 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Nishizato2003	all	23	NA	species	23	pravastatin	homo sapiens	NA	NA	NA	NA	NA	NA
+Nishizato2003	all	23	NA	ethnicity	23	pravastatin	japanese	NA	NA	NA	NA	NA	NA
+Nishizato2003	all	23	NA	sex	23	pravastatin	M	NA	NA	NA	NA	NA	NA
+Nishizato2003	all	23	NA	age	23	pravastatin	NA	NA	NA	21.0	40.0	yr	NA
+Nishizato2003	all	23	NA	weight	23	pravastatin	NA	NA	NA	52.4	97.8	kg	NA
+Nishizato2003	all	23	NA	bmi	23	pravastatin	NA	NA	NA	18.0	30.0	kg/m^2	NA
+Nishizato2003	all	23	NA	healthy	23	pravastatin	Y	NA	NA	NA	NA	NA	NA
+Nishizato2003	all	23	NA	overnight fast	23	pravastatin	Y	NA	NA	NA	NA	NA	NA
+Nishizato2003	all	23	NA	medication	23	pravastatin	N	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_1a_1a	2	all	SLCO1B1 genotype	2	pravastatin	*1a/*1a	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_1a_1b	4	all	SLCO1B1 genotype	4	pravastatin	*1a/*1b	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_1b_1b	4	all	SLCO1B1 genotype	4	pravastatin	*1b/*1b	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_1b_15	9	all	SLCO1B1 genotype	9	pravastatin	*1b/*15	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_15_15	1	all	SLCO1B1 genotype	1	pravastatin	*15/*15	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_1b_16	2	all	SLCO1B1 genotype	2	pravastatin	*1b/*16	NA	NA	NA	NA	NA	NA
+Nishizato2003	slco1b1_unidentified	1	all	SLCO1B1 genotype	1	pravastatin	NR	NA	NA	NA	NA	NA	NA

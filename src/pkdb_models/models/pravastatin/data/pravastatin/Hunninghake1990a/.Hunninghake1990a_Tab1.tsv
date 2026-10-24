@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	comments
+Hunninghake1990a	placebo	88	PLAC	concentration	placebo	NA	0	week	6.02	mmol/l	Patients' characteristics enlisted in TabGroups
+Hunninghake1990a	placebo	88	PLAC	concentration	placebo	NA	0	week	232.6	mg/dl	Data curated here: LDL-C data
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	pravastatin	NA	0	week	5.92	mmol/l	tissue? Blood? 
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	pravastatin	NA	0	week	229.1	mg/dl	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	pravastatin	NA	0	week	6.35	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	pravastatin	NA	0	week	245.4	mg/dl	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	pravastatin	NA	0	week	5.92	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	pravastatin	NA	0	week	229.0	mg/dl	NA

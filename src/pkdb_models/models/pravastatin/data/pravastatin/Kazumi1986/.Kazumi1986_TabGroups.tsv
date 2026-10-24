@@ -1,0 +1,12 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Kazumi1986	all	14.0	NA	species	14.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Kazumi1986	all	14.0	NA	age	14.0	NA	NA	NA	NA	NA	NA	yr	NA
+Kazumi1986	all	14.0	NA	sex	8.0	NA	F	NA	NA	NA	NA	NA	NA
+Kazumi1986	all	14.0	NA	sex	6.0	NA	M	NA	NA	NA	NA	NA	NA
+Kazumi1986	all	14.0	NA	healthy	14.0	NA	N	NA	NA	NA	NA	NA	NA
+Kazumi1986	type_IIa	7.0	all	species	7.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Kazumi1986	type_IIa	7.0	all	age	7.0	NA	NA	54.4	8.3	NA	NA	yr	NA
+Kazumi1986	type_IIa	7.0	all	bmi	7.0	NA	NA	22.4	1.2	NA	NA	kg/m^2	NA
+Kazumi1986	type_IIb	7.0	all	species	7.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Kazumi1986	type_IIb	7.0	all	age	7.0	NA	NA	51.1	14.6	NA	NA	yr	NA
+Kazumi1986	type_IIb	7.0	all	bmi	7.0	NA	NA	25.4	1.9	NA	NA	kg/m^2	NA

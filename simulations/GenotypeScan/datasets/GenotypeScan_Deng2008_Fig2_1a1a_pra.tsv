@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	0.0	hr	1.677739382375804e-06					mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	0.33	hr	4.3621223470661675e-05	11.39	1.0953167098673828e-05	2.6829670459095946e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	0.675	hr	0.0002701160342025299	41.32	3.9735282222693334e-05	9.733116623089065e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	1.0	hr	0.00031373728593974516	46.29	4.45146712025063e-05	0.00010903823051374462		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	1.5	hr	0.00019294002779544436	32.76	3.1503578064212186e-05	7.716769132923468e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	2.0	hr	0.00011073080818787837	23.51	2.2608337005158647e-05	5.537888959555274e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	3.0	hr	5.704313947188656e-05	7.12	6.846931496242905e-06	1.6771488469601677e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	4.0	hr	4.19434880927143e-05					mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	6.0	hr	3.0199309824982923e-05					mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	12.0	hr	4.28709396273526e-06		7.116192846206393e-07	1.7431041386945565e-06	Fig2c (semilog), digitized from the PNG	mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	24.0	hr	2.2377688267024711e-07		5.192897486632275e-08	1.271994912020352e-07	Fig2c (semilog), digitized from the PNG	mole/meter^3	dimensionless

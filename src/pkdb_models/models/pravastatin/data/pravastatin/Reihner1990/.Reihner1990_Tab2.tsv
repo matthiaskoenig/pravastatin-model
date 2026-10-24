@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	sd	min	max	unit	change	change_unit	baseline	baseline_se	baseline_unit	comments
+Reihner1990	control	20	PLAC	concentration	cholesterol	plasma	3	week	5.43	0.22	0.983869910099907	2.6	7.8	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	triglyceride	plasma	3	week	1.36	0.11	0.491934955049954	NA	2.2	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	ldl-c	plasma	3	week	3.55	0.19	0.84970583144992	1.6	4.6	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	hdl-c	plasma	3	week	1.0	0.08	0.357770876399966	0.5	1.6	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	vldl-c	plasma	3	week	0.27	0.06	0.268328157299975	NA	0.5	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	vldl triglyceride	plasma	3	week	0.54	0.1	0.447213595499958	NA	1.1	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	apoA-I	plasma	3	week	1.28	0.06	0.268328157299975	1.2	1.9	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	apoB-100	plasma	3	week	0.92	0.07	0.313049516849971	0.5	1.7	mmol/l	NA	percent	NA	NA	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	cholesterol	plasma	0	week	6.11	0.31	0.980306074652198	NA	NA	mmol/l	NA	percent	6.11	0.31	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	cholesterol	plasma	3	week	4.5	0.19	0.600832755431992	NA	NA	mmol/l	-26.0	percent	6.11	0.31	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	triglyceride	plasma	0	week	1.36	0.19	0.600832755431992	NA	NA	mmol/l	NA	percent	1.36	0.19	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	triglyceride	plasma	3	week	1.15	0.15	0.474341649025257	NA	NA	mmol/l	-15.0	percent	1.36	0.19	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	ldl-c	plasma	0	week	4.67	0.33	1.04355162785557	NA	NA	mmol/l	NA	percent	4.67	0.33	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	ldl-c	plasma	3	week	2.87	0.1	0.316227766016838	NA	NA	mmol/l	-39.0	percent	4.67	0.33	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	hdl-c	plasma	0	week	1.09	0.12	0.379473319220206	NA	NA	mmol/l	NA	percent	1.09	0.12	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	hdl-c	plasma	3	week	1.35	0.18	0.569209978830308	NA	NA	mmol/l	24.0	percent	1.09	0.12	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	vldl-c	plasma	0	week	0.35	0.1	0.316227766016838	NA	NA	mmol/l	NA	percent	0.35	0.1	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	vldl-c	plasma	3	week	0.3	0.06	0.189736659610103	NA	NA	mmol/l	-14.0	percent	0.35	0.1	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	vldl triglyceride	plasma	0	week	0.71	0.16	0.505964425626941	NA	NA	mmol/l	NA	percent	0.71	0.16	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	vldl triglyceride	plasma	3	week	0.51	0.1	0.316227766016838	NA	NA	mmol/l	-28.0	percent	0.71	0.16	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	apoA-I	plasma	0	week	1.43	0.07	0.221359436211787	NA	NA	mmol/l	NA	percent	1.43	0.07	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	apoA-I	plasma	3	week	1.53	0.11	0.347850542618522	NA	NA	mmol/l	7.0	percent	1.43	0.07	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	apoB-100	plasma	0	week	1.16	0.08	0.25298221281347	NA	NA	mmol/l	NA	percent	1.16	0.08	mmol/l	NA
+Reihner1990	pra	10	PRA20_twice	concentration	apoB-100	plasma	3	week	0.82	0.05	0.158113883008419	NA	NA	mmol/l	-29.0	percent	1.16	0.08	mmol/l	NA

@@ -1,0 +1,12 @@
+study	name	parent	group_count	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Hedman2003	all	NA	20	species	20	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Hedman2003	all	NA	20	sex	13	NA	F	NA	NA	NA	NA	NA	NA
+Hedman2003	all	NA	20	sex	7	NA	M	NA	NA	NA	NA	NA	NA
+Hedman2003	all	NA	20	age	20	NA	NA	10.3	2.9	4.9	15.6	yr	NA
+Hedman2003	all	NA	20	weight	20	NA	NA	38.1	13.8	NA	NA	kg	NA
+Hedman2003	all	NA	20	height	20	NA	NA	141.9	17.1	NA	NA	cm	NA
+Hedman2003	all	NA	20	bmi	20	NA	NA	18.2	3.4	NA	NA	kg/m^2	NA
+Hedman2003	all	NA	20	body surface area	20	NA	NA	1.2	0.3	NA	NA	m^2	NA
+Hedman2003	all	NA	20	disease	20	NA	heterozygous FH	NA	NA	NA	NA	NA	NA
+Hedman2003	all	NA	20	overnight fast	20	NA	Y	NA	NA	NA	NA	NA	NA
+Hedman2003	all	NA	20	healthy	20	NA	N	NA	NA	NA	NA	NA	NA

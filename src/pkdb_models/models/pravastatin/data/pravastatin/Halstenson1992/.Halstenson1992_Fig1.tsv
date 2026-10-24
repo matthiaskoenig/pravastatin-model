@@ -1,0 +1,37 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	pm	se	sd	unit	comments
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	0.5	hr	9.278597	14.439158	2.5802805	5.160561	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	1.0	hr	52.18162	116.30907	32.063725	64.12745	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	1.5	hr	40.114067	67.81963	13.8527815	27.705563	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	2.0	hr	24.718157	37.937424	6.6096335	13.219267	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	3.0	hr	12.204843	20.072119	3.933638	7.867276	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	4.0	hr	7.83559	13.247577	2.7059935	5.411987	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	6.001789	hr	4.199215	7.0025296	1.4016573	2.8033146	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	8.00491	hr	1.8804348	3.752765	0.9361651	1.8723302	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group1	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr1	12.0	hr	0.09868928	0.23248631	0.066898515	0.13379703	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	0.5	hr	5.4879675	11.104844	2.80843825	5.6168765	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	1.0	hr	18.508785	30.440022	5.9656185	11.931237	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	1.5	hr	23.079277	41.237698	9.0792105	18.158421	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	2.0	hr	21.826965	42.96201	10.5675225	21.135045	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	3.0	hr	15.015789	28.75025	6.8672305	13.734461	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	4.0	hr	8.996722	14.000511	2.5018945	5.003789	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	6.001789	hr	4.562441	8.856877	2.147218	4.294436	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	8.00491	hr	2.5136762	4.0773735	0.78184865	1.5636973	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group2	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr2	12.0	hr	0.38766295	0.8883375	0.250337275	0.50067455	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	0.5	hr	12.232621	21.557077	4.662228	9.324456	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	1.0	hr	42.41267	76.83793	17.21263	34.42526	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	1.5	hr	39.562965	80.05303	20.2450325	40.490065	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	2.0	hr	37.937946	63.26284	12.662447	25.324894	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	3.0	hr	18.731731	33.46957	7.3689195	14.737839	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	4.0	hr	8.3960495	17.954916	4.77943325	9.5588665	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	6.001789	hr	4.2577085	9.104841	2.42356625	4.8471325	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	8.00491	hr	1.8546518	5.1570363	1.65119225	3.3023845	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group3	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr3	12.0	hr	0.2744187	1.2377037	0.4816425	0.963285	ng/ml	pm is the upper end of the SD bar (log axis)
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	0.5	hr	1.8166138	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	1.0	hr	12.227398	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	1.5	hr	20.379217	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	2.0	hr	14.419476	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	3.0	hr	10.629225	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	4.0	hr	5.6235304	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	6.001789	hr	2.9726617	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	8.00491	hr	1.5930959	NA	NA	NA	ng/ml	not possible to report sd for group 4
+Halstenson1992	group4	4	pra_20_mg_oral	concentration	pravastatin	serum	pra_gr4	12.0	hr	0.49032718	NA	NA	NA	ng/ml	not possible to report sd for group 4

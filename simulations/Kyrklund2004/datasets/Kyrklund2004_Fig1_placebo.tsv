@@ -1,0 +1,13 @@
+study	count	measurement_type	label	substance	tissue	method	group	intervention	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	0.0	hr	0.0			mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	0.5	hr	4.682825713141592e-05	2.69710032270982e-05	8.529432548936472e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	1.0	hr	0.00013445457329281795	3.474430546722258e-05	0.00010986267166042448	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	1.5	hr	0.00012545638706334063	2.7607000683108384e-05	8.72965397027301e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	2.0	hr	8.597743386804232e-05	2.1058582432336935e-05	6.659128919039879e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	2.5	hr	6.371752290768615e-05	1.9810142981650295e-05	6.263397168633549e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	3.0	hr	4.60980378300709e-05	1.1730619744187692e-05	3.7099851600593597e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	4.0	hr	2.8878995595128732e-05	4.569759498739783e-06	1.4451275528231222e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	6.0	hr	1.1659953360186561e-05	8.715520693472782e-07	2.755988976044096e-06	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	8.0	hr	4.499093114738652e-06	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	10.0	hr	7.302193013450169e-07	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	12.0	hr	7.302193013450169e-07	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless

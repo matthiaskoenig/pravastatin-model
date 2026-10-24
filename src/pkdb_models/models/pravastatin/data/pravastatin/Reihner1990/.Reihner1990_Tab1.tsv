@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	min	max	unit	comments
+Reihner1990	pra	10	PRA20_twice	concentration	cholesterol	plasma	3	week	6.11	5.0	7.8	mmol/l	Curated cholesterol and triglycerides. 
+Reihner1990	pra	10	PRA20_twice	concentration	triglyceride	plasma	3	week	1.36	0.6	2.6	mmol/l	Patients' characteristics found in TabGroups
+Reihner1990	control	20	PLAC	concentration	cholesterol	plasma	3	week	5.43	3.5	7.3	mmol/l	NA
+Reihner1990	control	20	PLAC	concentration	triglyceride	plasma	3	week	1.36	0.5	2.2	mmol/l	NA

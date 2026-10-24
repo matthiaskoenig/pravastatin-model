@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	0.0	hr	0.0					mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	0.5	hr	0.00012332706758061857	83.66063	7.373940593126517e-05	0.00023318447605052753		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	1.0	hr	0.00020884988104492025	113.87678	5.939212776482228e-05	0.00018781439882056364		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	1.5	hr	0.0002071290368171861	106.733284	4.428613761100511e-05	0.00014004506362242408		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	2.0	hr	0.00015829709561161756	84.00098	3.9571088026759016e-05	0.00012513476765557647		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	2.5	hr	0.00011528042776717782	62.25837	3.1372034956304626e-05	9.920708529634361e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	3.0	hr	8.040733517065931e-05	41.99912	1.852352955032624e-05	5.85765436844655e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	4.0	hr	6.126286245966128e-05	30.68002	1.1005340023084345e-05	3.4801940897556585e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	6.0	hr	3.169726992203143e-05	16.700443	7.641394012201731e-06	2.416420957732996e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	8.0	hr	1.2601728028643442e-05	6.4322057	2.5496292370386075e-06	8.06263557799934e-06		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	10.0	hr	5.139474242103032e-06	2.8443806	1.5605954820625162e-06	4.935036229485998e-06		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	12.0	hr	2.327396061526865e-06	1.4833597	1.1667261442065343e-06	3.6895120213587154e-06		mole/meter^3	dimensionless

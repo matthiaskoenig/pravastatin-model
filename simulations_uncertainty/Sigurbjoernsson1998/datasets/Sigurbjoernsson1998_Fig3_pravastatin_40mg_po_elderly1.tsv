@@ -1,0 +1,11 @@
+study	count	label	measurement_type	substance	tissue	id	intervention	method	time	time_unit	value	value_unit	count_unit
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	0.0	hr	0.0	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	0.4380001	hr	6.832381221586224e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	0.97495234	hr	0.0003009023155018491	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	1.4884251	hr	0.0001222411937907804	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	1.9900692	hr	7.337041434056487e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	2.5054576	hr	5.960049230914188e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	3.0431895	hr	4.7160907356370576e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	3.4836848	hr	4.131768308482322e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	4.0508885	hr	4.014350458153723e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_40mg_po	HPLC-UV	4.4689956	hr	3.429434904482605e-05	mole/meter^3	dimensionless

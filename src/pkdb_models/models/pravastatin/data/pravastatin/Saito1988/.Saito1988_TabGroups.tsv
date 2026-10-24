@@ -1,0 +1,10 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Saito1988	all	118	NA	species	118	homo sapiens	NA	NA	NA	NA	NA	NA
+Saito1988	all	118	NA	sex	118	NR	NA	NA	NA	NA	NA	sex NR
+Saito1988	all	118	NA	age	118	NA	NA	NA	30.0	80.0	yr	NA
+Saito1988	all	118	NA	healthy	118	N	NA	NA	NA	NA	NA	NA
+Saito1988	all	118	NA	disease	118	hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Saito1988	all	118	NA	alcohol	118	N	NA	NA	NA	NA	NA	NA
+Saito1988	placebo	23	all	species	23	homo sapiens	NA	NA	NA	NA	NA	NA
+Saito1988	pra10	41	all	species	41	homo sapiens	NA	NA	NA	NA	NA	NA
+Saito1988	pra20	44	all	species	44	homo sapiens	NA	NA	NA	NA	NA	NA

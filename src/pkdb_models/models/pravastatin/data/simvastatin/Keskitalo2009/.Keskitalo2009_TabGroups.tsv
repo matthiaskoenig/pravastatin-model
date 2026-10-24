@@ -1,0 +1,31 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Keskitalo2009	all	NA	healthy	32	Y	NA	32	NA	NA	NA	NA	NA
+Keskitalo2009	all	NA	species	32	homo sapiens	NA	32	NA	NA	NA	NA	NA
+Keskitalo2009	all	NA	medication	32	N	NA	32	NA	NA	NA	NA	NA
+Keskitalo2009	all	NA	overnight fast	32	Y	NA	32	NA	NA	NA	NA	NA
+Keskitalo2009	all	NA	abstinence	32	NA	grapefruit juice	32	NA	day	NA	3.0	NA
+Keskitalo2009	all	NA	sex	32	M	NA	15	NA	NA	NA	NA	NA
+Keskitalo2009	all	NA	sex	32	F	NA	17	NA	NA	NA	NA	NA
+Keskitalo2009	all	NA	ethnicity	32	caucasian	NA	32	NA	NA	NA	NA	NA
+Keskitalo2009	c.421A/A	all	ABCG2 genotype	5	c.421 A/A	NA	5	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/C	all	ABCG2 genotype	23	c.421 C/C	NA	23	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/A	all	ABCG2 genotype	4	c.421 C/A	NA	4	NA	NA	NA	NA	NA
+Keskitalo2009	c.421A/A	all	sex	5	M	NA	1	NA	NA	NA	NA	NA
+Keskitalo2009	c.421A/A	all	sex	5	F	NA	4	NA	NA	NA	NA	NA
+Keskitalo2009	c.421A/A	all	age	5	NA	NA	5	22.0	yr	2.0	NA	NA
+Keskitalo2009	c.421A/A	all	height	5	NA	NA	5	164.0	cm	10.0	NA	NA
+Keskitalo2009	c.421A/A	all	weight	5	NA	NA	5	56.0	kg	9.0	NA	NA
+Keskitalo2009	c.421A/A	all	SLCO1B1 genotype	5	c.521 T/C	NA	4	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/A	all	sex	4	M	NA	3	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/A	all	sex	4	F	NA	1	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/A	all	age	4	NA	NA	4	27.0	yr	5.0	NA	NA
+Keskitalo2009	c.421C/A	all	height	4	NA	NA	4	176.0	cm	9.0	NA	NA
+Keskitalo2009	c.421C/A	all	weight	4	NA	NA	4	73.0	kg	9.0	NA	NA
+Keskitalo2009	c.421C/A	all	SLCO1B1 genotype	4	c.521 T/C	NA	4	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/C	all	sex	23	M	NA	11	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/C	all	sex	23	F	NA	12	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/C	all	age	23	NA	NA	23	22.0	yr	3.0	NA	NA
+Keskitalo2009	c.421C/C	all	height	23	NA	NA	23	174.0	cm	9.0	NA	NA
+Keskitalo2009	c.421C/C	all	weight	23	NA	NA	23	68.0	kg	10.0	NA	NA
+Keskitalo2009	c.421C/C	all	SLCO1B1 genotype	23	c.521 T/C	NA	7	NA	NA	NA	NA	NA
+Keskitalo2009	c.421C/C	all	smoking	23	Y	NA	1	NA	NA	NA	NA	NA

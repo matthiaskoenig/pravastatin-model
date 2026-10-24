@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	mean_se	change	change_unit	change_pm	change_se	baseline	baseline_se	baseline_unit	comments
+Jones1991	pra5	22	PRA5	concentration	ldl-c	blood	Fig2_pra5_ldlc	8	week	3.8929388289	mmol/l	0.38931182529999997	-30.607151	percent	-34.245457	1.3001127	5.61	0.29	mmol/l	log_e scale?!
+Jones1991	pra10	22	PRA10	concentration	ldl-c	blood	Fig2_pra10_ldlc	8	week	3.9357654720000004	mmol/l	0.26118583	-27.65137	percent	-30.592915	1.8011658	5.44	0.2	mmol/l	NA
+Jones1991	pra20	19	PRA20	concentration	ldl-c	blood	Fig2_pra20_ldlc	8	week	4.520684409999999	mmol/l	0.2877473136	-17.805738	percent	-19.894714	2.5057259	5.5	0.24	mmol/l	NA
+Jones1991	pra40	20	PRA40	concentration	ldl-c	blood	Fig2_pra40_ldlc	8	week	4.531255713599999	mmol/l	0.1895796576	-15.932176	percent	-18.487286	3.4412632	5.39	0.16	mmol/l	NA

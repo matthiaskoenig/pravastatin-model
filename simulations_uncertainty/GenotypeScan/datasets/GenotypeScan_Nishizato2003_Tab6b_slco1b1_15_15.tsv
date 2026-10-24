@@ -1,0 +1,3 @@
+study	group	count	intervention	label	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	cv	bodyweight	bodyweight_unit	comments	mean_unit	count_unit
+Nishizato2003	slco1b1_15_15	1	PRA_10	cumulative amount_slco1b1_15_15	cumulative amount	pravastatin	urine	0	hr	0.0			75.1	kg		mole	dimensionless
+Nishizato2003	slco1b1_15_15	1	PRA_10	cumulative amount_slco1b1_15_15	cumulative amount	pravastatin	urine	24	hr	1.0086570560384425e-05			75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC	mole	dimensionless

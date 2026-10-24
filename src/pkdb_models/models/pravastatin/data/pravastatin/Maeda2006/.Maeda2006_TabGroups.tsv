@@ -1,0 +1,13 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Maeda2006	all	23	NA	species	23	pravastatin	homo sapiens	NA	NA	NA	NA	NA	NA
+Maeda2006	all	23	NA	sex	23	pravastatin	M	NA	NA	NA	NA	NA	NA
+Maeda2006	all	23	NA	age	23	pravastatin	NA	NA	NA	20.0	35.0	yr	NA
+Maeda2006	all	23	NA	weight	23	pravastatin	NA	NA	NA	50.0	80.0	kg	NA
+Maeda2006	all	23	NA	bmi	23	pravastatin	NA	NA	NA	17.6	26.4	kg/m^2	NA
+Maeda2006	all	23	NA	healthy	23	pravastatin	Y	NA	NA	NA	NA	NA	NA
+Maeda2006	all	23	NA	ethnicity	23	pravastatin	japanese	NA	NA	NA	NA	NA	NA
+Maeda2006	all	23	NA	overnight fast	23	pravastatin	Y	NA	NA	NA	NA	NA	NA
+Maeda2006	homozygous carriers *1a	5	all	SLCO1B1 genotype	5	pravastatin	*1a/*1a	NA	NA	NA	NA	NA	NA
+Maeda2006	heterozygous carriers *1a/*15	6	all	SLCO1B1 genotype	6	pravastatin	*1a/*15	NA	NA	NA	NA	NA	NA
+Maeda2006	homozygous carriers *1b	7	all	SLCO1B1 genotype	7	pravastatin	*1b/*1b	NA	NA	NA	NA	NA	NA
+Maeda2006	heterozygous carriers *1b/*15	5	all	SLCO1B1 genotype	5	pravastatin	*1b/*15	NA	NA	NA	NA	NA	NA

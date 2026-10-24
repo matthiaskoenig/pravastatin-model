@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	tissue	substance	method	time	time_unit	mean	sd	unit	comments
+Pan1993a	women tl	14	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	12.0	hr	82.5	9.4	ng*hr/ml	NA
+Pan1993a	women tl	14	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	48.0	hr	89.6	8.9	ng*hr/ml	NA
+Pan1993a	women tl	14	PRA_20	thalf	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.6	0.2	hr	NA
+Pan1993a	women tl	14	PRA_20	cmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	39.8	5.1	ng/ml	NA
+Pan1993a	women tl	14	PRA_20	tmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.0	0.1	hr	NA
+Pan1993a	women tl	14	PRA_20	plasma_binding	plasma	pravastatin	HPLC/MS/UV	1.5	hr	42.5	4.0	percent	NA
+Pan1993a	women tl	14	PRA_20	recovery	urine	pravastatin	HPLC/MS/UV	24.0	hr	5.9	0.8	percent	NA
+Pan1993a	women oc	13	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	12.0	hr	93.3	14.6	ng*hr/ml	NA
+Pan1993a	women oc	13	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	48.0	hr	99.3	15.7	ng*hr/ml	NA
+Pan1993a	women oc	13	PRA_20	thalf	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.3	0.1	hr	NA
+Pan1993a	women oc	13	PRA_20	cmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	52.0	10.1	ng/ml	NA
+Pan1993a	women oc	13	PRA_20	tmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.0	0.1	hr	NA
+Pan1993a	women oc	13	PRA_20	plasma_binding	plasma	pravastatin	HPLC/MS/UV	1.5	hr	44.8	4.2	percent	NA
+Pan1993a	women oc	13	PRA_20	recovery	urine	pravastatin	HPLC/MS/UV	24.0	hr	7.4	2.0	percent	NA
+Pan1993a	elderly women	12	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	12.0	hr	127.9	19.0	ng*hr/ml	NA
+Pan1993a	elderly women	12	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	48.0	hr	143.1	18.5	ng*hr/ml	NA
+Pan1993a	elderly women	12	PRA_20	thalf	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.6	0.2	hr	NA
+Pan1993a	elderly women	12	PRA_20	cmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	50.8	8.6	ng/ml	NA
+Pan1993a	elderly women	12	PRA_20	tmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.1	0.1	hr	NA
+Pan1993a	elderly women	12	PRA_20	plasma_binding	plasma	pravastatin	HPLC/MS/UV	1.5	hr	44.3	5.5	percent	NA
+Pan1993a	elderly women	12	PRA_20	recovery	urine	pravastatin	HPLC/MS/UV	24.0	hr	5.5	1.1	percent	NA
+Pan1993a	women tl	14	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	12.0	hr	39.8	6.1	ng*hr/ml	NA
+Pan1993a	women tl	14	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	48.0	hr	44.4	5.8	ng*hr/ml	NA
+Pan1993a	women tl	14	PRA_20	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.3	0.1	hr	NA
+Pan1993a	women tl	14	PRA_20	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	23.4	3.7	ng/ml	NA
+Pan1993a	women tl	14	PRA_20	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	0.8	0.1	hr	NA
+Pan1993a	women tl	14	PRA_20	plasma_binding	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	1.5	hr	NA	NA	percent	mean and sd not reported
+Pan1993a	women tl	14	PRA_20	recovery	urine	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	24.0	hr	1.2	0.2	percent	NA
+Pan1993a	women tl	13	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	12.0	hr	51.7	9.2	ng*hr/ml	NA
+Pan1993a	women oc	13	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	48.0	hr	53.5	9.2	ng*hr/ml	NA
+Pan1993a	women oc	13	PRA_20	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.2	0.1	hr	NA
+Pan1993a	women oc	13	PRA_20	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	31.6	6.3	ng/ml	NA
+Pan1993a	women oc	13	PRA_20	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.0	0.1	hr	NA
+Pan1993a	women oc	13	PRA_20	plasma_binding	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	1.5	hr	NA	NA	percent	mean and sd not reported
+Pan1993a	women oc	13	PRA_20	recovery	urine	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	24.0	hr	1.3	0.3	percent	NA
+Pan1993a	elderly women	12	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	12.0	hr	65.0	12.8	ng*hr/ml	NA
+Pan1993a	elderly women	12	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	48.0	hr	67.4	13.1	ng*hr/ml	NA
+Pan1993a	elderly women	12	PRA_20	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.4	0.2	hr	NA
+Pan1993a	elderly women	12	PRA_20	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	29.7	5.1	ng/ml	NA
+Pan1993a	elderly women	12	PRA_20	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.1	0.1	hr	NA
+Pan1993a	elderly women	12	PRA_20	plasma_binding	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	1.5	hr	NA	NA	percent	mean and sd not reported
+Pan1993a	elderly women	12	PRA_20	recovery	urine	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	24.0	hr	0.8	0.2	percent	NA

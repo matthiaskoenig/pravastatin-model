@@ -1,0 +1,33 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Hunninghake1990b	all	184	NA	species	184	homo sapiens	NA	NA	NA	NA	NA	calculated mean weight and height for 'all'.
+Hunninghake1990b	all	184	NA	age	184	NA	NA	NA	52.6	54.0	yr	calculated M and F from each group
+Hunninghake1990b	all	184	NA	sex	135	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	all	184	NA	sex	49	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	all	184	NA	weight	184	NA	171.63	NA	NA	NA	kg	NA
+Hunninghake1990b	all	184	NA	height	184	NA	77.56	NA	NA	NA	cm	NA
+Hunninghake1990b	all	184	NA	disease	184	hypercholesterolemia	NA	NA	NA	NA	NA	type II hypercholesterolaemia
+Hunninghake1990b	all	184	NA	healthy	184	N	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	placebo	46	all	species	46	homo sapiens	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	placebo	46	all	age	46	NA	53.5	NA	NA	NA	yr	NA
+Hunninghake1990b	placebo	46	all	sex	35	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	placebo	46	all	sex	11	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	placebo	46	all	weight	46	NA	77.0	NA	NA	NA	kg	NA
+Hunninghake1990b	placebo	46	all	height	46	NA	172.1	NA	NA	NA	cm	NA
+Hunninghake1990b	pra40_morning	48	all	species	48	homo sapiens	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra40_morning	48	all	age	48	NA	53.3	NA	NA	NA	yr	NA
+Hunninghake1990b	pra40_morning	48	all	sex	36	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra40_morning	48	all	sex	12	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra40_morning	48	all	weight	48	NA	79.1	NA	NA	NA	kg	NA
+Hunninghake1990b	pra40_morning	48	all	height	48	NA	172.2	NA	NA	NA	cm	NA
+Hunninghake1990b	pra40_evening	43	all	species	43	homo sapiens	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra40_evening	43	all	age	43	NA	54.0	NA	NA	NA	yr	NA
+Hunninghake1990b	pra40_evening	43	all	sex	30	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra40_evening	43	all	sex	13	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra40_evening	43	all	weight	43	NA	76.4	NA	NA	NA	kg	NA
+Hunninghake1990b	pra40_evening	43	all	height	43	NA	170.5	NA	NA	NA	cm	NA
+Hunninghake1990b	pra20_twice	47	all	species	47	homo sapiens	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra20_twice	47	all	age	47	NA	52.6	NA	NA	NA	yr	NA
+Hunninghake1990b	pra20_twice	47	all	sex	35	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra20_twice	47	all	sex	12	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990b	pra20_twice	47	all	weight	47	NA	77.8	NA	NA	NA	kg	NA
+Hunninghake1990b	pra20_twice	47	all	height	47	NA	171.7	NA	NA	NA	cm	NA

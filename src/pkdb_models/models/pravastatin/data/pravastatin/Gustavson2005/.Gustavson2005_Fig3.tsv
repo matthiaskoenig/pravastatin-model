@@ -1,0 +1,73 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	unit	comments
+Gustavson2005	F3_S1	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	123.94056	ng*hr/ml	NA
+Gustavson2005	F3_S1	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	131.37033	ng*hr/ml	NA
+Gustavson2005	F3_S1	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	127.4424	ng*hr/ml	NA
+Gustavson2005	F3_S2	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	120.50026	ng*hr/ml	NA
+Gustavson2005	F3_S2	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	256.94266	ng*hr/ml	NA
+Gustavson2005	F3_S2	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	208.6365	ng*hr/ml	NA
+Gustavson2005	F3_S3	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	116.02788	ng*hr/ml	NA
+Gustavson2005	F3_S3	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	95.59284	ng*hr/ml	NA
+Gustavson2005	F3_S3	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	96.479744	ng*hr/ml	NA
+Gustavson2005	F3_S4	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	102.61073	ng*hr/ml	NA
+Gustavson2005	F3_S4	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	122.42399	ng*hr/ml	NA
+Gustavson2005	F3_S4	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	117.465546	ng*hr/ml	NA
+Gustavson2005	F3_S5	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	96.41505	ng*hr/ml	NA
+Gustavson2005	F3_S5	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	180.909	ng*hr/ml	NA
+Gustavson2005	F3_S5	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	172.8543	ng*hr/ml	NA
+Gustavson2005	F3_S6	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	96.41978	ng*hr/ml	NA
+Gustavson2005	F3_S6	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	107.973175	ng*hr/ml	NA
+Gustavson2005	F3_S6	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	58.982113	ng*hr/ml	NA
+Gustavson2005	F3_S7	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	86.78538	ng*hr/ml	NA
+Gustavson2005	F3_S7	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	71.51236	ng*hr/ml	NA
+Gustavson2005	F3_S7	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	76.52446	ng*hr/ml	NA
+Gustavson2005	F3_S8	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	71.308784	ng*hr/ml	NA
+Gustavson2005	F3_S8	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	102.12625	ng*hr/ml	NA
+Gustavson2005	F3_S8	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	165.97528	ng*hr/ml	NA
+Gustavson2005	F3_S9	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	65.45871	ng*hr/ml	NA
+Gustavson2005	F3_S9	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	82.8606	ng*hr/ml	NA
+Gustavson2005	F3_S9	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	129.84903	ng*hr/ml	NA
+Gustavson2005	F3_S10	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	65.794846	ng*hr/ml	NA
+Gustavson2005	F3_S10	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	56.71436	ng*hr/ml	NA
+Gustavson2005	F3_S10	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	55.200947	ng*hr/ml	NA
+Gustavson2005	F3_S11	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	61.671227	ng*hr/ml	NA
+Gustavson2005	F3_S11	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	48.80326	ng*hr/ml	NA
+Gustavson2005	F3_S11	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	66.205154	ng*hr/ml	NA
+Gustavson2005	F3_S12	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	52.036823	ng*hr/ml	NA
+Gustavson2005	F3_S12	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	48.80484	ng*hr/ml	NA
+Gustavson2005	F3_S12	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	66.54761	ng*hr/ml	NA
+Gustavson2005	F3_S13	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	50.66386	ng*hr/ml	NA
+Gustavson2005	F3_S13	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	61.8748	ng*hr/ml	NA
+Gustavson2005	F3_S13	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	87.19095	ng*hr/ml	NA
+Gustavson2005	F3_S14	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	47.911625	ng*hr/ml	NA
+Gustavson2005	F3_S14	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	79.42346	ng*hr/ml	NA
+Gustavson2005	F3_S14	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	43.50079	ng*hr/ml	NA
+Gustavson2005	F3_S15	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	41.71594	ng*hr/ml	NA
+Gustavson2005	F3_S15	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	40.200947	ng*hr/ml	NA
+Gustavson2005	F3_S15	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	92.697	ng*hr/ml	NA
+Gustavson2005	F3_S16	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	39.30773	ng*hr/ml	NA
+Gustavson2005	F3_S16	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	38.82483	ng*hr/ml	NA
+Gustavson2005	F3_S16	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	39.716465	ng*hr/ml	NA
+Gustavson2005	F3_S17	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	36.902683	ng*hr/ml	NA
+Gustavson2005	F3_S17	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	35.386112	ng*hr/ml	NA
+Gustavson2005	F3_S17	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	61.732773	ng*hr/ml	NA
+Gustavson2005	F3_S18	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	33.46081	ng*hr/ml	NA
+Gustavson2005	F3_S18	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	38.827984	ng*hr/ml	NA
+Gustavson2005	F3_S18	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	39.372437	ng*hr/ml	NA
+Gustavson2005	F3_S19	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	31.39821	ng*hr/ml	NA
+Gustavson2005	F3_S19	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	59.81536	ng*hr/ml	NA
+Gustavson2005	F3_S19	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	43.84482	ng*hr/ml	NA
+Gustavson2005	F3_S20	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	26.92425	ng*hr/ml	NA
+Gustavson2005	F3_S20	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	30.912151	ng*hr/ml	NA
+Gustavson2005	F3_S20	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	27.331404	ng*hr/ml	NA
+Gustavson2005	F3_S21	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	25.889006	ng*hr/ml	NA
+Gustavson2005	F3_S21	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	26.43819	ng*hr/ml	NA
+Gustavson2005	F3_S21	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	45.56023	ng*hr/ml	NA
+Gustavson2005	F3_S22	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	23.48869	ng*hr/ml	NA
+Gustavson2005	F3_S22	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	57.056812	ng*hr/ml	NA
+Gustavson2005	F3_S22	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	32.834297	ng*hr/ml	NA
+Gustavson2005	F3_S23	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	23.14466	ng*hr/ml	NA
+Gustavson2005	F3_S23	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	52.934772	ng*hr/ml	NA
+Gustavson2005	F3_S23	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	32.48869	ng*hr/ml	NA
+Gustavson2005	F3_S24	1	PRA40_D5	auc_end	pravastatin	plasma	LC MS/MS	24	hr	16.945818	ng*hr/ml	NA
+Gustavson2005	F3_S24	1	PRA40_D6, FEN160_D6	auc_end	pravastatin	plasma	LC MS/MS	24	hr	16.464493	ng*hr/ml	NA
+Gustavson2005	F3_S24	1	PRA40_D15, FEN160_D15	auc_end	pravastatin	plasma	LC MS/MS	24	hr	38.340347	ng*hr/ml	NA

@@ -1,0 +1,61 @@
+study	group	intervention	measurement_type	substance	time	time_unit	tissue	mean	mean_sd	median	min	max	unit
+Keskitalo2009	c.421C/C	FLU_40mg	cmax	fluvastatin	na	na	plasma	254.0	NA	NA	197.0	329.0	ng/ml
+Keskitalo2009	c.421C/C	FLU_40mg	tmax	fluvastatin	na	na	plasma	NA	NA	1.0	0.5	3.0	hr
+Keskitalo2009	c.421C/C	FLU_40mg	thalf	fluvastatin	na	na	plasma	3.2	1.3	NA	NA	NA	hr
+Keskitalo2009	c.421C/C	FLU_40mg	auc_end	fluvastatin	12	hr	plasma	402.0	NA	NA	346.0	467.0	ng/ml*hr
+Keskitalo2009	c.421C/C	FLU_40mg	auc_inf	fluvastatin	na	na	plasma	419.0	NA	NA	316.0	487.0	ng/ml*hr
+Keskitalo2009	c.421C/A	FLU_40mg	cmax	fluvastatin	na	na	plasma	172.0	NA	NA	92.0	323.0	ng/ml
+Keskitalo2009	c.421C/A	FLU_40mg	tmax	fluvastatin	na	na	plasma	NA	1.75	NA	0.5	4.0	hr
+Keskitalo2009	c.421C/A	FLU_40mg	thalf	fluvastatin	na	na	plasma	2.9	1.2	NA	NA	NA	hr
+Keskitalo2009	c.421C/A	FLU_40mg	auc_end	fluvastatin	12	hr	plasma	354.0	NA	NA	245.0	512.0	ng/ml*hr
+Keskitalo2009	c.421C/A	FLU_40mg	auc_inf	fluvastatin	na	na	plasma	367.0	NA	NA	255.0	530.0	ng/ml*hr
+Keskitalo2009	c.421A/A	FLU_40mg	cmax	fluvastatin	na	na	plasma	476.0	NA	NA	258.0	876.0	ng/ml
+Keskitalo2009	c.421A/A	FLU_40mg	tmax	fluvastatin	na	na	plasma	NA	0.5	NA	0.5	1.5	hr
+Keskitalo2009	c.421A/A	FLU_40mg	thalf	fluvastatin	na	na	plasma	3.8	1.5	NA	NA	NA	hr
+Keskitalo2009	c.421A/A	FLU_40mg	auc_end	fluvastatin	12	hr	plasma	683.0	NA	NA	477.0	977.0	ng/ml*hr
+Keskitalo2009	c.421A/A	FLU_40mg	auc_inf	fluvastatin	na	na	plasma	723.0	NA	NA	507.0	1032.0	ng/ml*hr
+Keskitalo2009	c.421C/C	PRA_40mg	cmax	pravastatin	na	na	plasma	57.9	NA	NA	43.3	77.3	ng/ml
+Keskitalo2009	c.421C/C	PRA_40mg	tmax	pravastatin	na	na	plasma	NA	1.0	NA	0.5	2.0	hr
+Keskitalo2009	c.421C/C	PRA_40mg	thalf	pravastatin	na	na	plasma	1.7	0.4	NA	NA	NA	hr
+Keskitalo2009	c.421C/C	PRA_40mg	auc_end	pravastatin	12	hr	plasma	136.0	NA	NA	107.0	174.0	ng/ml*hr
+Keskitalo2009	c.421C/C	PRA_40mg	auc_inf	pravastatin	na	na	plasma	138.0	NA	NA	108.0	177.0	ng/ml*hr
+Keskitalo2009	c.421C/A	PRA_40mg	cmax	pravastatin	na	na	plasma	88.6	NA	NA	42.4	185.3	ng/ml
+Keskitalo2009	c.421C/A	PRA_40mg	tmax	pravastatin	na	na	plasma	NA	1.0	NA	1.0	1.5	hr
+Keskitalo2009	c.421C/A	PRA_40mg	thalf	pravastatin	na	na	plasma	1.8	0.7	NA	NA	NA	hr
+Keskitalo2009	c.421C/A	PRA_40mg	auc_end	pravastatin	12	hr	plasma	172.0	NA	NA	92.0	320.0	ng/ml*hr
+Keskitalo2009	c.421C/A	PRA_40mg	auc_inf	pravastatin	na	na	plasma	174.0	NA	NA	93.0	324.0	ng/ml*hr
+Keskitalo2009	c.421A/A	PRA_40mg	cmax	pravastatin	na	na	plasma	58.1	NA	NA	29.6	114.0	ng/ml
+Keskitalo2009	c.421A/A	PRA_40mg	tmax	pravastatin	na	na	plasma	NA	1.0	NA	0.5	1.5	hr
+Keskitalo2009	c.421A/A	PRA_40mg	thalf	pravastatin	na	na	plasma	2.0	0.6	NA	NA	NA	hr
+Keskitalo2009	c.421A/A	PRA_40mg	auc_end	pravastatin	12	hr	plasma	120.0	NA	NA	68.0	211.0	ng/ml*hr
+Keskitalo2009	c.421A/A	PRA_40mg	auc_inf	pravastatin	na	na	plasma	212.0	NA	NA	68.0	213.0	ng/ml*hr
+Keskitalo2009	c.421C/C	SIM_40mg	cmax	simvastatin	na	na	plasma	8.0	NA	NA	6.2	10.3	ng/ml
+Keskitalo2009	c.421C/C	SIM_40mg	tmax	simvastatin	na	na	plasma	NA	1.0	NA	0.5	1.5	hr
+Keskitalo2009	c.421C/C	SIM_40mg	thalf	simvastatin	na	na	plasma	2.7	0.6	NA	NA	NA	hr
+Keskitalo2009	c.421C/C	SIM_40mg	auc_end	simvastatin	12	hr	plasma	22.2	NA	NA	18.3	27.0	ng/ml*hr
+Keskitalo2009	c.421C/C	SIM_40mg	auc_inf	simvastatin	na	na	plasma	23.6	NA	NA	19.6	28.5	ng/ml*hr
+Keskitalo2009	c.421C/A	SIM_40mg	cmax	simvastatin	na	na	plasma	10.4	NA	NA	5.6	19.3	ng/ml
+Keskitalo2009	c.421C/A	SIM_40mg	tmax	simvastatin	na	na	plasma	NA	1.0	NA	0.5	1.5	hr
+Keskitalo2009	c.421C/A	SIM_40mg	thalf	simvastatin	na	na	plasma	3.8	1.1	NA	NA	NA	hr
+Keskitalo2009	c.421C/A	SIM_40mg	auc_end	simvastatin	12	hr	plasma	33.3	NA	NA	20.8	53.6	ng/ml*hr
+Keskitalo2009	c.421C/A	SIM_40mg	auc_inf	simvastatin	na	na	plasma	37.8	NA	NA	23.9	59.8	ng/ml*hr
+Keskitalo2009	c.421A/A	SIM_40mg	cmax	simvastatin	na	na	plasma	13.0	NA	NA	7.1	23.7	ng/ml
+Keskitalo2009	c.421A/A	SIM_40mg	tmax	simvastatin	na	na	plasma	NA	1.5	NA	0.5	5.0	hr
+Keskitalo2009	c.421A/A	SIM_40mg	thalf	simvastatin	na	na	plasma	4.2	2.1	NA	NA	NA	hr
+Keskitalo2009	c.421A/A	SIM_40mg	auc_end	simvastatin	12	hr	plasma	43.1	NA	NA	27.2	68.4	ng/ml*hr
+Keskitalo2009	c.421A/A	SIM_40mg	auc_inf	simvastatin	na	na	plasma	49.7	NA	NA	31.8	77.6	ng/ml*hr
+Keskitalo2009	c.421C/C	SIM_40mg	cmax	simvastatin acid	na	na	plasma	2.6	NA	NA	2.1	3.3	ng/ml
+Keskitalo2009	c.421C/C	SIM_40mg	tmax	simvastatin acid	na	na	plasma	NA	5.0	NA	3.0	7.0	hr
+Keskitalo2009	c.421C/C	SIM_40mg	thalf	simvastatin acid	na	na	plasma	3.2	1.0	NA	NA	NA	hr
+Keskitalo2009	c.421C/C	SIM_40mg	auc_end	simvastatin acid	12	hr	plasma	15.6	NA	NA	12.4	19.6	ng/ml*hr
+Keskitalo2009	c.421C/C	SIM_40mg	auc_inf	simvastatin acid	na	na	plasma	18.0	NA	NA	14.2	22.9	ng/ml*hr
+Keskitalo2009	c.421C/A	SIM_40mg	cmax	simvastatin acid	na	na	plasma	3.1	NA	NA	1.7	5.7	ng/ml
+Keskitalo2009	c.421C/A	SIM_40mg	tmax	simvastatin acid	na	na	plasma	NA	2.5	NA	1.5	3.0	hr
+Keskitalo2009	c.421C/A	SIM_40mg	thalf	simvastatin acid	na	na	plasma	3.3	0.9	NA	NA	NA	hr
+Keskitalo2009	c.421C/A	SIM_40mg	auc_end	simvastatin acid	12	hr	plasma	17.7	NA	NA	9.8	31.8	ng/ml*hr
+Keskitalo2009	c.421C/A	SIM_40mg	auc_inf	simvastatin acid	na	na	plasma	19.8	NA	NA	10.8	36.6	ng/ml*hr
+Keskitalo2009	c.421A/A	SIM_40mg	cmax	simvastatin acid	na	na	plasma	2.8	NA	NA	1.6	4.8	ng/ml
+Keskitalo2009	c.421A/A	SIM_40mg	tmax	simvastatin acid	na	na	plasma	NA	5.0	NA	2.0	7.0	hr
+Keskitalo2009	c.421A/A	SIM_40mg	thalf	simvastatin acid	na	na	plasma	3.0	0.7	NA	NA	NA	hr
+Keskitalo2009	c.421A/A	SIM_40mg	auc_end	simvastatin acid	12	hr	plasma	18.7	NA	NA	10.9	31.9	ng/ml*hr
+Keskitalo2009	c.421A/A	SIM_40mg	auc_inf	simvastatin acid	na	na	plasma	21.9	NA	NA	12.5	38.3	ng/ml*hr

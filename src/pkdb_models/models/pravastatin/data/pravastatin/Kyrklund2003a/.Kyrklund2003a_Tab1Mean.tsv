@@ -1,0 +1,3 @@
+study	group	count	intervention	substance	measurement_type	tissue	method	time	time_unit	mean	sd	unit	comments
+Kyrklund2003a	all	10	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	32	8.5	mg/l	NA
+Kyrklund2003a	all	10	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	209	97.0	mg/l*hr	NA

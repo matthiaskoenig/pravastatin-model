@@ -1,0 +1,3 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Meilles1993	PRA20	0.0	week	NA	multiple dose	dosing	NR	pravastatin	20.0	mg	value pra_resin?
+Meilles1993	PRA40	0.0	week	NA	multiple dose	dosing	NR	pravastatin	40.0	mg	value PRA?

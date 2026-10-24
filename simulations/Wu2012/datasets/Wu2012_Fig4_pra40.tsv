@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_sd	mean_se	comments	mean_unit	count_unit
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.0	hr	0.0				Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.25	hr	6.46059995760017e-05	9.47	2.2307021883023583e-05	5.576755470755896e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.5	hr	0.00013149892822650932	20.39	4.8029585659435143e-05	1.2007396414858786e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.75	hr	0.0001966766777377335	49.03	0.00011549242691918121	2.8873106729795303e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	1.0	hr	0.00022240470638117447	44.18	0.00010406802817233176	2.601700704308294e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	1.5	hr	0.0001772376981603185	29.13	6.861705886509788e-05	1.715426471627447e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	2.0	hr	0.00014350535886745346	42.72	0.00010062893081761007	2.5157232704402517e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	3.0	hr	0.00010176874190281017	23.3	5.488422490754482e-05	1.3721056226886206e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	4.0	hr	6.746467387463784e-05	14.08	3.3166089557863994e-05	8.291522389465999e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	6.0	hr	4.516702470967894e-05	12.38	2.9161661131133256e-05	7.290415282783314e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	8.0	hr	1.3721627446823547e-05	3.64	8.57418792547052e-06	2.14354698136763e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	10.0	hr	6.860813841189081e-06	0.73	1.7195486773608463e-06	4.2988716934021157e-07	Digitised linear axis	mole/meter^3	dimensionless

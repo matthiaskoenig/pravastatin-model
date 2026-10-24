@@ -1,0 +1,97 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	change	change_unit	baseline	baseline_unit	comments
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	Fig1_plac_chol	0	week	7.94	mmol/l	NA	percent	7.94	mmol/l	tissue blood?
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	Fig1_plac_chol	1	week	8.02625078286	mmol/l	1.0862819	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	Fig1_plac_chol	2	week	7.9385411981714	mmol/l	-0.018372819	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	Fig1_plac_chol	4	week	8.12775267802	mmol/l	2.3646433	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	Fig1_plac_chol	8	week	8.10947228104	mmol/l	2.1344116	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	Fig1_plac_chol	12	week	8.23704415782	mmol/l	3.7411103	percent	7.94	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	Fig1_pra10_chol	0	week	7.86	mmol/l	NA	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	Fig1_pra10_chol	1	week	7.08351453	mmol/l	-9.87895	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	Fig1_pra10_chol	2	week	6.7305866964	mmol/l	-14.369126	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	Fig1_pra10_chol	4	week	6.683145387	mmol/l	-14.972705	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	Fig1_pra10_chol	8	week	6.6470842572	mmol/l	-15.431498	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	Fig1_pra10_chol	12	week	6.8366211618	mmol/l	-13.020087	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	Fig1_pra20_chol	0	week	8.22	mmol/l	NA	percent	8.22	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	Fig1_pra20_chol	1	week	7.0494005682	mmol/l	-14.240869	percent	8.22	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	Fig1_pra20_chol	2	week	6.7039445466	mmol/l	-18.443497	percent	8.22	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	Fig1_pra20_chol	4	week	6.7628585196	mmol/l	-17.726782	percent	8.22	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	Fig1_pra20_chol	8	week	6.706184661	mmol/l	-18.416245	percent	8.22	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	Fig1_pra20_chol	12	week	6.7816534674	mmol/l	-17.498133	percent	8.22	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	Fig1_pra40_chol	0	week	7.86	mmol/l	NA	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	Fig1_pra40_chol	1	week	6.6955274022	mmol/l	-14.815173	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	Fig1_pra40_chol	2	week	6.1756985208	mmol/l	-21.428772	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	Fig1_pra40_chol	4	week	5.9070261144	mmol/l	-24.846996	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	Fig1_pra40_chol	8	week	5.965757685	mmol/l	-24.099775	percent	7.86	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	Fig1_pra40_chol	12	week	6.028814535	mmol/l	-23.297525	percent	7.86	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	Fig1_plac_ldlc	0	week	5.98	mmol/l	NA	percent	5.98	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	Fig1_plac_ldlc	1	week	5.952194700114	mmol/l	-0.46497157	percent	5.98	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	Fig1_plac_ldlc	2	week	5.91370427882	mmol/l	-1.1086241	percent	5.98	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	Fig1_plac_ldlc	4	week	6.11692111186	mmol/l	2.2896507	percent	5.98	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	Fig1_plac_ldlc	8	week	6.0942599198	mmol/l	1.910701	percent	5.98	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	Fig1_plac_ldlc	12	week	6.16629509548	mmol/l	3.1153026	percent	5.98	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	Fig1_pra10_ldlc	0	week	5.9	mmol/l	NA	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	Fig1_pra10_ldlc	1	week	5.116773643	mmol/l	-13.275023	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	Fig1_pra10_ldlc	2	week	4.775814944	mmol/l	-19.053984	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	Fig1_pra10_ldlc	4	week	4.733133341	mmol/l	-19.777401	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	Fig1_pra10_ldlc	8	week	4.681013862	mmol/l	-20.660782	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	Fig1_pra10_ldlc	12	week	4.841777534	mmol/l	-17.935974	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	Fig1_pra20_ldlc	0	week	6.36	mmol/l	NA	percent	6.36	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	Fig1_pra20_ldlc	1	week	5.2463907756	mmol/l	-17.509579	percent	6.36	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	Fig1_pra20_ldlc	2	week	4.87178067	mmol/l	-23.399675	percent	6.36	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	Fig1_pra20_ldlc	4	week	4.8905119512	mmol/l	-23.105158	percent	6.36	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	Fig1_pra20_ldlc	8	week	4.837725732	mmol/l	-23.93513	percent	6.36	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	Fig1_pra20_ldlc	12	week	4.881926778	mmol/l	-23.240145	percent	6.36	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	Fig1_pra40_ldlc	0	week	5.9	mmol/l	NA	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	Fig1_pra40_ldlc	1	week	4.79701565	mmol/l	-18.69465	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	Fig1_pra40_ldlc	2	week	4.273037358	mmol/l	-27.575638	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	Fig1_pra40_ldlc	4	week	4.00402733	mmol/l	-32.13513	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	Fig1_pra40_ldlc	8	week	4.044801876	mmol/l	-31.444036	percent	5.9	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	Fig1_pra40_ldlc	12	week	4.065931133	mmol/l	-31.085913	percent	5.9	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	cholesterol	blood	Fig1_plac_chol	0	week	0.0	mmol/l	NA	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	cholesterol	blood	Fig1_plac_chol	1	week	1.0862819	mmol/l	1.0862819	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	cholesterol	blood	Fig1_plac_chol	2	week	-0.018372819	mmol/l	-0.018372819	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	cholesterol	blood	Fig1_plac_chol	4	week	2.3646433	mmol/l	2.3646433	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	cholesterol	blood	Fig1_plac_chol	8	week	2.1344116	mmol/l	2.1344116	percent	7.94	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	cholesterol	blood	Fig1_plac_chol	12	week	3.7411103	mmol/l	3.7411103	percent	7.94	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	cholesterol	blood	Fig1_pra10_chol	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	cholesterol	blood	Fig1_pra10_chol	1	week	-9.87895	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	cholesterol	blood	Fig1_pra10_chol	2	week	-14.369126	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	cholesterol	blood	Fig1_pra10_chol	4	week	-14.972705	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	cholesterol	blood	Fig1_pra10_chol	8	week	-15.431498	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	cholesterol	blood	Fig1_pra10_chol	12	week	-13.020087	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	cholesterol	blood	Fig1_pra20_chol	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	cholesterol	blood	Fig1_pra20_chol	1	week	-14.240869	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	cholesterol	blood	Fig1_pra20_chol	2	week	-18.443497	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	cholesterol	blood	Fig1_pra20_chol	4	week	-17.726782	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	cholesterol	blood	Fig1_pra20_chol	8	week	-18.416245	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	cholesterol	blood	Fig1_pra20_chol	12	week	-17.498133	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	cholesterol	blood	Fig1_pra40_chol	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	cholesterol	blood	Fig1_pra40_chol	1	week	-14.815173	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	cholesterol	blood	Fig1_pra40_chol	2	week	-21.428772	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	cholesterol	blood	Fig1_pra40_chol	4	week	-24.846996	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	cholesterol	blood	Fig1_pra40_chol	8	week	-24.099775	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	cholesterol	blood	Fig1_pra40_chol	12	week	-23.297525	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	ldl-c	blood	Fig1_plac_ldlc	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	ldl-c	blood	Fig1_plac_ldlc	1	week	-0.46497157	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	ldl-c	blood	Fig1_plac_ldlc	2	week	-1.1086241	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	ldl-c	blood	Fig1_plac_ldlc	4	week	2.2896507	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	ldl-c	blood	Fig1_plac_ldlc	8	week	1.910701	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	ldl-c	blood	Fig1_plac_ldlc	12	week	3.1153026	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	ldl-c	blood	Fig1_pra10_ldlc	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	ldl-c	blood	Fig1_pra10_ldlc	1	week	-13.275023	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	ldl-c	blood	Fig1_pra10_ldlc	2	week	-19.053984	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	ldl-c	blood	Fig1_pra10_ldlc	4	week	-19.777401	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	ldl-c	blood	Fig1_pra10_ldlc	8	week	-20.660782	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	ldl-c	blood	Fig1_pra10_ldlc	12	week	-17.935974	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	ldl-c	blood	Fig1_pra20_ldlc	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	ldl-c	blood	Fig1_pra20_ldlc	1	week	-17.509579	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	ldl-c	blood	Fig1_pra20_ldlc	2	week	-23.399675	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	ldl-c	blood	Fig1_pra20_ldlc	4	week	-23.105158	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	ldl-c	blood	Fig1_pra20_ldlc	8	week	-23.93513	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	ldl-c	blood	Fig1_pra20_ldlc	12	week	-23.240145	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	ldl-c	blood	Fig1_pra40_ldlc	0	week	0.0	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	ldl-c	blood	Fig1_pra40_ldlc	1	week	-18.69465	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	ldl-c	blood	Fig1_pra40_ldlc	2	week	-27.575638	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	ldl-c	blood	Fig1_pra40_ldlc	4	week	-32.13513	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	ldl-c	blood	Fig1_pra40_ldlc	8	week	-31.444036	percent	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	ldl-c	blood	Fig1_pra40_ldlc	12	week	-31.085913	percent	NA	NA	NA	NA	NA

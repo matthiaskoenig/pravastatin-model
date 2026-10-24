@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	comments
+Hunninghake1990b	placebo	46	PLAC	concentration	ldl-c	blood	8	week	6.46	mmol/l	Patients' characteristics enlisted in TabGroups
+Hunninghake1990b	placebo	46	PLAC	concentration	ldl-c	blood	8	week	249.8	mg/dl	Data curated here: LDL-C
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	ldl-c	blood	8	week	6.28	mmol/l	FRR score? 
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	ldl-c	blood	8	week	242.7	mg/dl	time? 8 weeks?
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	ldl-c	blood	8	week	6.32	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	ldl-c	blood	8	week	244.7	mg/dl	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	ldl-c	blood	8	week	6.33	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	ldl-c	blood	8	week	244.7	mg/dl	NA

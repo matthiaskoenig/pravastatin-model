@@ -1,0 +1,28 @@
+study	name	parent	group_count	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Niemi2004	all	NA	41	species	41	homo sapiens	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	fasting	41	Y	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	ethnicity	41	caucasian	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	sex	17	M	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	sex	24	F	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	healthy	41	Y	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	age	41	NA	23.0	2.5	19.0	31.0	year	NA
+Niemi2004	all	NA	41	weight	41	NA	64.8	12.0	50.0	103.0	kg	NA
+Niemi2004	all	NA	41	height	41	NA	172.0	7.3	154.0	185.0	cm	NA
+Niemi2004	all	NA	41	oral contraceptives	5	Y	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	smoking	2	Y	NA	NA	NA	NA	NA	NA
+Niemi2004	all	NA	41	medication	41	N	NA	NA	NA	NA	NA	NA
+Niemi2004	outliers	all	6	age	6	NA	22.8	1.9	NA	NA	year	originates from Tab1
+Niemi2004	outliers	all	6	weight	6	NA	58.7	9.8	NA	NA	kg	originates from Tab1
+Niemi2004	outliers	all	6	height	6	NA	169.0	9.5	NA	NA	cm	originates from Tab1
+Niemi2004	control	all	35	age	35	NA	23.0	2.6	NA	NA	year	originates from Tab1
+Niemi2004	control	all	35	weight	35	NA	65.8	12.0	NA	NA	kg	originates from Tab1
+Niemi2004	control	all	35	height	35	NA	172.0	6.9	NA	NA	cm	originates from Tab1
+Niemi2004	11187GG genotype	all	35	SLCO1B1 genotype	35	g.11187 G/G	NA	NA	NA	NA	NA	NA
+Niemi2004	11187GA genotype	all	6	SLCO1B1 genotype	6	g.11187 G/A	NA	NA	NA	NA	NA	NA
+Niemi2004	521TT genotype	all	28	SLCO1B1 genotype	28	c.521 T/T	NA	NA	NA	NA	NA	NA
+Niemi2004	521TC genotype	all	11	SLCO1B1 genotype	11	c.521 T/C	NA	NA	NA	NA	NA	NA
+Niemi2004	521CC genotype	all	2	SLCO1B1 genotype	2	c.521 C/C	NA	NA	NA	NA	NA	NA
+Niemi2004	non-carriers of *15b	all	37	SLCO1B1 genotype	37	no *15b	NA	NA	NA	NA	NA	NA
+Niemi2004	heterozygous carriers of *15b	all	4	SLCO1B1 genotype	4	*x/*15b	NA	NA	NA	NA	NA	NA
+Niemi2004	non-carriers of *17	all	38	SLCO1B1 genotype	38	no *17	NA	NA	NA	NA	NA	NA
+Niemi2004	heterozygous carriers of *17	all	3	SLCO1B1 genotype	3	*x/*17	NA	NA	NA	NA	NA	NA

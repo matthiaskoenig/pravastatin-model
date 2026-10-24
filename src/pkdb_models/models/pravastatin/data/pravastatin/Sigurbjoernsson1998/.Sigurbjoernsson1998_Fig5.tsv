@@ -1,0 +1,9 @@
+study	count	label	id	measurement_type	substance	tissue	intervention	method	time	time_unit	value	unit
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	1.0	hr	128.28604	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	1.5	hr	51.570465	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	2.0	hr	30.957449	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	2.5	hr	24.875875	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	3.0	hr	19.747608	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	3.5	hr	17.809824	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	4.0	hr	17.1723	ng/ml
+Sigurbjoernsson1998	1	pravastatin_40mg_po_elderly3	elderly3	concentration	pravastatin	serum	pravastatin_40mg_po	HPLC-UV	4.5	hr	14.842394	ng/ml

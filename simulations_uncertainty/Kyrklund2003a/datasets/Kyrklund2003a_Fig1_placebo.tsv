@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	0.0	hr	0.0					mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	0.5	hr	6.516616729088639e-05	19.08213	2.0217329752903212e-05	6.393281022586334e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	1.0	hr	0.00014777903328386686	48.804615	3.281751112995548e-05	0.00010377808230858536		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	1.5	hr	0.00010941716015358163	38.443447	1.88618472192778e-05	5.964639809103125e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	2.0	hr	7.570730454855959e-05	27.58861	1.0721060937978477e-05	3.3902971497473195e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	2.5	hr	4.89768685369703e-05	17.227442	8.396834145996749e-06	2.6553121036024554e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	3.0	hr	3.504296045038042e-05	11.812374	7.2183685487480275e-06	2.2826485604567935e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	4.0	hr	2.7529929569170614e-05	9.897692	4.215459449273317e-06	1.333045324378271e-05		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	6.0	hr	1.2504791180835278e-05	4.8253303	1.1385030504322416e-06	3.6002627624154314e-06		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	8.0	hr	5.041614726874426e-06	1.9809499	3.753958495277132e-07	1.1871059086814184e-06		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	10.0	hr	1.6506879608037126e-06	0.6187528	1.9318719525121903e-07	6.109115517735169e-07		mole/meter^3	dimensionless
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	12.0	hr	5.834646550302688e-07	0.4960217	5.849373424728524e-07	1.8497342907001616e-06		mole/meter^3	dimensionless

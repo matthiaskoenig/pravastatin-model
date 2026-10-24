@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	method	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	0.0	hr	0.0					mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	0.5	hr	4.2929484370951404e-05	12.776243	1.2834454573292822e-05	7.592965722816807e-05		mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	1.0	hr	0.0001083742350363932	39.709946	1.4835625279721097e-05	8.776874278699957e-05		mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	2.0	hr	7.01731491296257e-05	26.864641	6.892247897675083e-06	4.077508844754639e-05		mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	3.0	hr	3.19751607660236e-05	12.154696	3.344213600923376e-06	1.978463447478955e-05		mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	4.0	hr	2.163107436459143e-05	8.839779	8.085671212870704e-07	4.783547599525494e-06		mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	6.0	hr	1.0714861140555437e-05	3.4530387	2.5810691823899367e-06	1.526981120871856e-05		mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	8.0	hr	4.201078604574471e-06				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	12.0	hr	4.5677330224012436e-07				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless

@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.0	hr	5.825728923750972e-09					mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.3	hr	0.0002338564059077097	94.67	9.972843164440676e-05	0.00022299955244623468		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.6886799	hr	0.0006070758721409559	80.47	8.476969361387887e-05	0.00018955079735236615		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.9998253	hr	0.0005276164464231032	43.55	4.587697473441217e-05	0.00010258403410830801		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	1.5	hr	0.0003130501966881022	24.14	2.5429854651968062e-05	5.686288365957647e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	2.0	hr	0.00020887917461663488	19.4	2.0436585760016964e-05	4.5697594987397824e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	3.0	hr	0.00013101481638517893	12.29	1.2946682422208089e-05	2.8949661979129858e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	4.0	hr	9.105613973099665e-05	9.46	9.96546913857678e-06	2.2283466421689872e-05		mole/meter^3	dimensionless
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	6.0	hr	5.5746401903281276e-05	6.63	6.9842558551810235e-06	1.5617270864249876e-05		mole/meter^3	dimensionless

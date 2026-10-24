@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	min	median	max	unit	comments
+Deng2008	NA	2	PRA40	tmax	pravastatin	plasma	NA	NA	NA	NA	0.75202614	0.9143552	1.1446732	hr	only digitised in vivo data
+Deng2008	NA	2	PITA4	tmax	pitavastatin	plasma	NA	NA	NA	NA	0.53532237	0.64525956	0.8154511	hr	Unclear genotypes. Which is which?
+Deng2008	NA	5	PRA40	clearance	pravastatin	plasma	NA	NA	NA	NA	0.4644714	0.5320624	0.63431543	l/hr/kg	Cannot group the genotypes clearly
+Deng2008	NA	5	PITA4	clearance	pitavastatin	plasma	NA	NA	NA	NA	0.17850953	0.3084922	0.41074523	l/hr/kg	NA
+Deng2008	NA	5	PRA40	cmax	pravastatin	plasma	NA	NA	NA	NA	1.3145069	1.789074	2.563958	ng/ml	NA
+Deng2008	NA	5	PITA4	cmax	pitavastatin	plasma	NA	NA	NA	NA	2.7120514	3.5356543	3.7801988	ng/ml	NA
+Deng2008	NA	5	PRA40	vd	pravastatin	plasma	NA	NA	NA	NA	0.27223504	0.37328517	0.46734855	l/kg	NA
+Deng2008	NA	5	PITA4	vd	pitavastatin	plasma	NA	NA	NA	NA	0.3492898	0.38414472	0.43466067	l/kg	NA
+Deng2008	NA	5	PRA40	auc_end	pravastatin	plasma	6.0	hr	NA	NA	1.5668947	1.8348383	2.2026038	ng*hr/ml	NA
+Deng2008	NA	5	PITA4	auc_end	pitavastatin	plasma	6.0	hr	NA	NA	2.2379818	2.3957338	3.2995522	ng*hr/ml	NA
+Deng2008	NA	5	PRA40	kel	pravastatin	plasma	NA	NA	NA	NA	1.2377317	1.9785923	2.135112	1/hr	NA
+Deng2008	NA	5	PITA4	kel	pitavastatin	plasma	NA	NA	NA	NA	0.2845304	0.35215604	0.58193624	1/hr	NA

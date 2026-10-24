@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	comments	mean_unit	count_unit
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	0.0	hr	0.0		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	0.33	hr	9.068813040303396e-06		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	0.66	hr	4.858304949002426e-05		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	1.0	hr	6.21441170235319e-05		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	1.5	hr	4.939248580783455e-05		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	2.0	hr	3.687770004475538e-05		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	3.0	hr	1.975133677243069e-05		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	4.0	hr	1.2771276470449673e-05		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	6.0	hr	6.9500888040892275e-06		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	8.0	hr	5.730602077591689e-06		mole/meter^3	dimensionless
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	pravastatin	serum	PRA20_twice	12.0	hr	2.5860221892445768e-06		mole/meter^3	dimensionless

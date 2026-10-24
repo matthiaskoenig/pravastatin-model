@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	lower_quartile	median	upper_quartile	min	max	unit	comments
+Ho2007	SLCO1B1 *1b/*1b	25	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	67.18	111.95	23.41	43.26	93.64	4.58	117.61	ng*hr/ml	Outlier: 216.28
+Ho2007	SLCO1B1 *1a/*1b	34	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	89.57	122.14	42.75	80.41	126.21	2.04	231.04	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1a	29	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	87.53	133.84	29.52	65.65	130.28	11.2	211.7	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*5	1	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	59.033077	0.0	na	na	na	na	na	ng*hr/ml	outlier
+Ho2007	SLCO1B1 *1b/*15	8	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	100.25	95.16	67.68	101.78	113.99	36.64	118.58	ng*hr/ml	outlier: 196.44
+Ho2007	SLCO1B1 *1a/*15	8	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	121.12	73.79	99.24	122.64	143.51	58.52	177.61	ng*hr/ml	NA
+Ho2007	SLCO1B1 *15/*15	2	PRA40	auc_end	pravastatin	plasma	HPLC	5	hr	167.94	61.57	145.04	166.92	189.31	145.04	189.31	ng*hr/ml	min and max same as lower and upper quartile 

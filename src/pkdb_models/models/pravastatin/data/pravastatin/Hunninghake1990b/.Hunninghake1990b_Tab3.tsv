@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	change	change_unit	baseline	baseline_se	baseline_unit	comments
+Hunninghake1990b	placebo	46	PLAC	concentration	hdl-c	blood	0	week	1.2	0.04	mmol/l	NA	NA	1.2	0.04	mmol/l	NA
+Hunninghake1990b	placebo	46	PLAC	concentration	hdl-c	blood	8	week	1.22	0.04	mmol/l	2.0	percent	1.2	0.04	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	hdl-c	blood	0	week	1.15	0.04	mmol/l	NA	NA	1.15	0.04	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	hdl-c	blood	8	week	1.21	0.04	mmol/l	4.1	percent	1.15	0.04	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	hdl-c	blood	0	week	1.15	0.05	mmol/l	NA	NA	1.15	0.05	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	hdl-c	blood	8	week	1.25	0.05	mmol/l	8.2	percent	1.15	0.05	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	hdl-c	blood	0	week	1.14	0.04	mmol/l	NA	NA	1.14	0.04	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	hdl-c	blood	8	week	1.24	0.04	mmol/l	7.8	percent	1.14	0.04	mmol/l	NA
+Hunninghake1990b	placebo	46	PLAC	concentration	triglyceride	blood	0	week	1.43	0.09	mmol/l	NA	NA	1.43	0.09	mmol/l	NA
+Hunninghake1990b	placebo	46	PLAC	concentration	triglyceride	blood	8	week	1.4	0.08	mmol/l	-2.6	percent	1.43	0.09	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	triglyceride	blood	0	week	1.44	0.08	mmol/l	NA	NA	1.44	0.08	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	triglyceride	blood	8	week	1.29	0.07	mmol/l	-10.6	percent	1.44	0.08	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	triglyceride	blood	0	week	1.43	0.12	mmol/l	NA	NA	1.43	0.12	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	triglyceride	blood	8	week	1.09	0.09	mmol/l	-24.1	percent	1.43	0.12	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	triglyceride	blood	0	week	1.55	0.09	mmol/l	NA	NA	1.55	0.09	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	triglyceride	blood	8	week	1.15	0.07	mmol/l	-24.5	percent	1.55	0.09	mmol/l	NA

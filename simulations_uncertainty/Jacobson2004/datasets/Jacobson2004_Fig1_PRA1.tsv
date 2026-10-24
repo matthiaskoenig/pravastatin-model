@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	0.5	hr	4.7862544460933265e-05	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	1.0	hr	0.00010908513885944458	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	2.0	hr	4.918338868866747e-05	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	3.0	hr	3.4344903775940454e-05	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	4.0	hr	1.7613630838809977e-05	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	6.0	hr	8.587111393776647e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	8.0	hr	3.1548861093444514e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	12.0	hr	8.752044849598379e-07	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	14.0	hr	5.663161142910985e-07	mole/meter^3	dimensionless
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	24.0	hr	9.695692648340518e-08	mole/meter^3	dimensionless

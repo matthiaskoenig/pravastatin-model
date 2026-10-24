@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	comments	mean_unit	count_unit
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	0.33	hr	1.4917125998162676e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	0.67	hr	8.298522365910536e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	1.0	hr	0.00010635578168798438	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	1.5	hr	7.613821402492167e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	2.0	hr	7.258895484418063e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	3.0	hr	3.538037594516288e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	4.0	hr	2.677088073869927e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	6.0	hr	1.3265975313876524e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	8.0	hr	6.913442395119308e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	12.0	hr	4.179715921136315e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	24.0	hr	1.8888030056768662e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly women	12	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_women	48.0	hr	1.408570890160884e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless

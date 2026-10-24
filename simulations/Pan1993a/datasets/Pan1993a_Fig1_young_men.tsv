@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	comments	mean_unit	count_unit
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	0.33	hr	8.804415706781619e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	0.67	hr	5.125182672602643e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	1.0	hr	8.60942454007962e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	2.0	hr	4.91352154146939e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	3.0	hr	2.234988575601253e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	4.0	hr	1.1603823051374461e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	6.0	hr	1.0630009657739147e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	8.0	hr	5.453216498245119e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	12.0	hr	2.042230702188302e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	24.0	hr	1.1739221256448307e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	young men 	10	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	young_men	48.0	hr	1.1862311261866065e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless

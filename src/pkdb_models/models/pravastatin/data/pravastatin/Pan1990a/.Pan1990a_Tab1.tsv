@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	se	unit	comments
+Pan1990a	all	20	PRA_40_D7	auc_end	active pra inhibitors	enzymatic assay	serum	24.0	hr	204.2	14.0	ng*hr/ml	NA
+Pan1990a	all	20	PRA_40_D7	cmax	active pra inhibitors	enzymatic assay	serum	NA	NA	69.1	5.2	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	tmax	active pra inhibitors	enzymatic assay	serum	NA	NA	1.02	0.03	hr	NA
+Pan1990a	all	20	PRA_40_D7	thalf	active pra inhibitors	enzymatic assay	serum	NA	NA	2.77	0.15	hr	NA
+Pan1990a	all	20	PRA_40_D7	auc_end	total pra inhibitors	enzymatic assay	serum	24.0	hr	189.3	13.3	ng*hr/ml	NA
+Pan1990a	all	20	PRA_40_D7	cmax	total pra inhibitors	enzymatic assay	serum	NA	NA	69.6	4.2	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	tmax	total pra inhibitors	enzymatic assay	serum	NA	NA	1.02	0.03	hr	NA
+Pan1990a	all	20	PRA_40_D7	thalf	total pra inhibitors	enzymatic assay	serum	NA	NA	2.7	0.23	hr	NA
+Pan1990a	all	20	PRA_40_D7	auc_end	active lova inhibitors	enzymatic assay	serum	24.0	hr	176.9	16.2	ng*hr/ml	NA
+Pan1990a	all	20	PRA_40_D7	cmax	active lova inhibitors	enzymatic assay	serum	NA	NA	33.0	2.2	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	tmax	active lova inhibitors	enzymatic assay	serum	NA	NA	2.63	0.28	hr	NA
+Pan1990a	all	20	PRA_40_D7	thalf	active lova inhibitors	enzymatic assay	serum	NA	NA	3.0	0.27	hr	NA
+Pan1990a	all	20	PRA_40_D7	auc_end	total lova inhibitors	enzymatic assay	serum	24.0	hr	284.6	24.7	ng*hr/ml	NA
+Pan1990a	all	20	PRA_40_D7	cmax	total lova inhibitors	enzymatic assay	serum	NA	NA	65.7	6.7	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	tmax	total lova inhibitors	enzymatic assay	serum	NA	NA	2.32	0.28	hr	NA
+Pan1990a	all	20	PRA_40_D7	thalf	total lova inhibitors	enzymatic assay	serum	NA	NA	2.76	0.2	hr	NA

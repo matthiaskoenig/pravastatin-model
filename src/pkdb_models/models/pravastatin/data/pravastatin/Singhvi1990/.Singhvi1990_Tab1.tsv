@@ -1,0 +1,21 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit	comments
+Singhvi1990	all	8.0	PRA_iv_10	clearance	pravastatin	plasma	scintillation counting	96.0	hr	13.5	2.4	ml/min/kg	NA
+Singhvi1990	all	8.0	PRA_iv_10	clearance_renal	pravastatin	plasma	scintillation counting	96.0	hr	6.3	1.0	ml/min/kg	NA
+Singhvi1990	all	8.0	PRA_iv_10	thalf	pravastatin	plasma	scintillation counting	96.0	hr	0.09	0.02	hr	thalf_1
+Singhvi1990	all	8.0	PRA_iv_10	thalf	pravastatin	plasma	scintillation counting	96.0	hr	0.78	0.18	hr	thalf_2
+Singhvi1990	all	8.0	PRA_iv_10	mrt	pravastatin	plasma	scintillation counting	96.0	hr	0.59	0.11	hr	NA
+Singhvi1990	all	8.0	PRA_iv_10	mat	pravastatin	plasma	scintillation counting	96.0	hr	NA	NA	hr	NA
+Singhvi1990	all	8.0	PRA_iv_10	cmax	pravastatin	plasma	scintillation counting	96.0	hr	NA	NA	ng/ml	NA
+Singhvi1990	all	8.0	PRA_iv_10	tmax	pravastatin	plasma	scintillation counting	96.0	hr	NA	NA	hr	NA
+Singhvi1990	all	8.0	PRA_iv_10	auc_end	pravastatin	plasma	scintillation counting	96.0	hr	171.2	28.7	ng*hr/ml	NA
+Singhvi1990	all	8.0	PRA_iv_10	fraction_absorbed	pravastatin	plasma	scintillation counting	96.0	hr	25.4	5.72	percent	NA
+Singhvi1990	all	8.0	PRA_po_20	clearance	pravastatin	plasma	scintillation counting	96.0	hr	NA	NA	ml/min/kg	NA
+Singhvi1990	all	8.0	PRA_po_20	clearance_renal	pravastatin	plasma	scintillation counting	96.0	hr	NA	NA	ml/min/kg	NA
+Singhvi1990	all	8.0	PRA_po_20	thalf	pravastatin	plasma	scintillation counting	96.0	hr	NA	NA	hr	thalf_1
+Singhvi1990	all	8.0	PRA_po_20	thalf	pravastatin	plasma	scintillation counting	96.0	hr	1.77	0.75	hr	thalf_2
+Singhvi1990	all	8.0	PRA_po_20	mrt	pravastatin	plasma	scintillation counting	96.0	hr	2.96	0.94	hr	NA
+Singhvi1990	all	8.0	PRA_po_20	mat	pravastatin	plasma	scintillation counting	96.0	hr	2.37	0.95	hr	NA
+Singhvi1990	all	8.0	PRA_po_20	cmax	pravastatin	plasma	scintillation counting	96.0	hr	27.4	10.7	ng/ml	NA
+Singhvi1990	all	8.0	PRA_po_20	tmax	pravastatin	plasma	scintillation counting	96.0	hr	0.88	0.16	hr	NA
+Singhvi1990	all	8.0	PRA_po_20	auc_end	pravastatin	plasma	scintillation counting	96.0	hr	66.2	32.1	ng*hr/ml	NA
+Singhvi1990	all	8.0	PRA_po_20	fraction_absorbed	pravastatin	plasma	scintillation counting	96.0	hr	5.69	2.21	percent	NA

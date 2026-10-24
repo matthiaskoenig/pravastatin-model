@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	tissue	substance	time	time_unit	mean	sd	unit	comments
+Gustavson2005	all	24	PRA40_D5	auc_end	plasma	pravastatin	24	hr	1.191	NA	ng*hr/ml	ask

@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	pm	unit	baseline	baseline_unit	comments
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	0	week	0.0	NA	NA	NA	percent	286	mg/dl	4 patients left study 
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	1	week	-14.632271	4.323853	14.9782661609182	-10.308418	percent	286	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	2	week	-20.52082	2.626254	9.09761072316199	-17.894566	percent	286	mg/dl	PRA20 -> 2 patients left
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	3	week	-22.238739	2.934319	10.1647791872294	-19.30442	percent	286	mg/dl	PRA5 -> 1 patient left
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	4	week	-17.006548	2.16091	7.48561182116732	-14.845638	percent	286	mg/dl	plus 2 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	6	week	-2.9909115	3.0895688	10.7025802701592	0.0986573	percent	286	mg/dl	plus 4 weeks after week 4
+Nakaya1987	PRA5	12	PRA5	concentration change	ldl-c	serum	Fig1_PRA5_concentration change	8	week	-0.09479636	2.77947396	9.62838023406933	2.6846776	percent	286	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	0	week	0.0	NA	NA	NA	percent	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	1	week	-21.582378	3.860944	13.3747023463564	-17.721434	percent	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	2	week	-26.697521	4.941604	17.1182183977712	-21.755917	percent	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	3	week	-28.261406	4.324259	14.979672586174	-23.937147	percent	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	4	week	-29.979324	4.014976	13.9082848463393	-25.964348	percent	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	6	week	-6.85145	4.17104	14.4489064008042	-11.02249	percent	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration change	ldl-c	serum	Fig1_PRA20_concentration change	8	week	-3.8021164	3.5512566	12.3019137238286	-7.353373	percent	272	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	0	week	0.0	NA	NA	NA	percent	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	1	week	-30.076456	5.713791	20.6013664277847	-24.362665	percent	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	2	week	-36.58235	5.86904	21.1611246577492	-30.71331	percent	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	3	week	-41.08015	5.40532200000001	19.4891656313936	-35.674828	percent	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	4	week	-38.937122	4.323852	15.5898700935175	-34.61327	percent	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	6	week	-6.5437937	5.098073	18.3813636075585	-1.4457207	percent	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration change	ldl-c	serum	Fig1_PRA40_concentration change	8	week	6.2367473	4.3246647	15.5928003250391	10.561412	percent	271	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	0	week	286.0	66.0	19.0525588832576	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	1	week	244.15170494	NA	NA	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	2	week	227.3104548	NA	NA	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	3	week	222.39720646	NA	NA	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	4	week	237.36127272	NA	NA	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	6	week	277.44599311	NA	NA	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA5	12	PRA5	concentration	ldl-c	serum	Fig1_PRA5_concentration	8	week	285.7288824104	NA	NA	NA	mg/dl	286	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	0	week	272.0	45.0	12.9903810567666	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	1	week	213.29593184	NA	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	2	week	199.38274288	NA	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	3	week	195.12897568	NA	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	4	week	190.45623872	NA	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	6	week	253.364056	NA	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	12	PRA20	concentration	ldl-c	serum	Fig1_PRA20_concentration	8	week	261.658243392	NA	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	0	week	271.0	37.0	10.2619536301667	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	1	week	189.49280424	NA	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	2	week	171.8618315	NA	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	3	week	159.6727935	NA	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	4	week	165.48039938	NA	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	6	week	253.266319073	NA	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	13	PRA40	concentration	ldl-c	serum	Fig1_PRA40_concentration	8	week	287.901585183	NA	NA	NA	mg/dl	271	mg/dl	NA

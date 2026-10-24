@@ -1,0 +1,45 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	unit	change	change_unit	baseline	baseline_unit	comment
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	cholesterol	serum	Tab1_conc_cholestyr_chol	0.0	week	309.0	48	0	mg/dl	0.0	percent	309.0	mg/dl	These are not absolute concentration changes!!
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	cholesterol	serum	Tab1_conc_cholestyr_chol	4.0	week	231.132	NA	NA	mg/dl	-25.2	percent	309.0	mg/dl	"changed calculation for concentration change ""mean"""
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	cholesterol	serum	Tab1_conc_cholestyr_chol	8.0	week	243.801	NA	NA	mg/dl	-21.1	percent	309.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	cholesterol	serum	Tab1_conc_cholestyr_chol	12.0	week	243.801	NA	NA	mg/dl	-21.1	percent	309.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	triglyceride	serum	Tab1_conc_cholestyr_tri	0.0	week	100.0	28	0	mg/dl	0.0	percent	100.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	triglyceride	serum	Tab1_conc_cholestyr_tri	4.0	week	109.7	NA	NA	mg/dl	9.7	percent	100.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	triglyceride	serum	Tab1_conc_cholestyr_tri	8.0	week	110.5	NA	NA	mg/dl	10.5	percent	100.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	triglyceride	serum	Tab1_conc_cholestyr_tri	12.0	week	107.7	NA	NA	mg/dl	7.7	percent	100.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	vldl-c	serum	Tab1_conc_cholestyr_vldlc	0.0	week	29.0	10	0	mg/dl	0.0	percent	29.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	vldl-c	serum	Tab1_conc_cholestyr_vldlc	4.0	week	30.972	NA	NA	mg/dl	6.8	percent	29.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	vldl-c	serum	Tab1_conc_cholestyr_vldlc	8.0	week	31.581	NA	NA	mg/dl	8.9	percent	29.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	vldl-c	serum	Tab1_conc_cholestyr_vldlc	12.0	week	23.751	NA	NA	mg/dl	-18.1	percent	29.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	ldl-c	serum	Tab1_conc_cholestyr_ldlc	0.0	week	238.0	53	0	mg/dl	0.0	percent	238.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	ldl-c	serum	Tab1_conc_cholestyr_ldlc	4.0	week	154.7	NA	NA	mg/dl	-35.0	percent	238.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	ldl-c	serum	Tab1_conc_cholestyr_ldlc	8.0	week	164.22	NA	NA	mg/dl	-31.0	percent	238.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	ldl-c	serum	Tab1_conc_cholestyr_ldlc	12.0	week	178.262	NA	NA	mg/dl	-25.1	percent	238.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	hdl-c	serum	Tab1_conc_cholestyr_hdlc	0.0	week	44.0	13	0	mg/dl	0.0	percent	44.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	hdl-c	serum	Tab1_conc_cholestyr_hdlc	4.0	week	45.892	NA	NA	mg/dl	4.3	percent	44.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	hdl-c	serum	Tab1_conc_cholestyr_hdlc	8.0	week	52.888	NA	NA	mg/dl	20.2	percent	44.0	mg/dl	NA
+Bard1990	cholestyr_group	27.0	CHOLESTYR	concentration	hdl-c	serum	Tab1_conc_cholestyr_hdlc	12.0	week	48.796	NA	NA	mg/dl	10.9	percent	44.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	cholesterol	serum	Tab1_conc_pra_chol	0.0	week	338.0	68	0	mg/dl	0.0	percent	338.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	cholesterol	serum	Tab1_conc_pra_chol	4.0	week	259.922	NA	NA	mg/dl	-23.1	percent	338.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	cholesterol	serum	Tab1_conc_pra_chol	8.0	week	268.372	NA	NA	mg/dl	-20.6	percent	338.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	cholesterol	serum	Tab1_conc_pra_chol	12.0	week	255.866	NA	NA	mg/dl	-24.3	percent	338.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	triglyceride	serum	Tab1_conc_pra_tri	0.0	week	100.0	39	0	mg/dl	0.0	percent	100.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	triglyceride	serum	Tab1_conc_pra_tri	4.0	week	95.4	NA	NA	mg/dl	-4.6	percent	100.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	triglyceride	serum	Tab1_conc_pra_tri	8.0	week	96.1	NA	NA	mg/dl	-3.9	percent	100.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	triglyceride	serum	Tab1_conc_pra_tri	12.0	week	88.2	NA	NA	mg/dl	-11.8	percent	100.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	vldl-c	serum	Tab1_conc_pra_vldlc	0.0	week	33.0	12	0	mg/dl	0.0	percent	33.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	vldl-c	serum	Tab1_conc_pra_vldlc	4.0	week	27.192	NA	NA	mg/dl	-17.6	percent	33.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	vldl-c	serum	Tab1_conc_pra_vldlc	8.0	week	26.4	NA	NA	mg/dl	-20.0	percent	33.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	vldl-c	serum	Tab1_conc_pra_vldlc	12.0	week	24.321	NA	NA	mg/dl	-26.3	percent	33.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	ldl-c	serum	Tab1_conc_pra_ldlc	0.0	week	263.0	65	0	mg/dl	0.0	percent	263.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	ldl-c	serum	Tab1_conc_pra_ldlc	4.0	week	191.99	NA	NA	mg/dl	-27.0	percent	263.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	ldl-c	serum	Tab1_conc_pra_ldlc	8.0	week	194.094	NA	NA	mg/dl	-26.2	percent	263.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	ldl-c	serum	Tab1_conc_pra_ldlc	12.0	week	182.259	NA	NA	mg/dl	-30.7	percent	263.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	hdl-c	serum	Tab1_conc_pra_hdlc	0.0	week	42.0	10	0	mg/dl	0.0	percent	42.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	hdl-c	serum	Tab1_conc_pra_hdlc	4.0	week	45.738	NA	NA	mg/dl	8.9	percent	42.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	hdl-c	serum	Tab1_conc_pra_hdlc	8.0	week	51.576	NA	NA	mg/dl	22.8	percent	42.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration	hdl-c	serum	Tab1_conc_pra_hdlc	12.0	week	51.324	NA	NA	mg/dl	22.2	percent	42.0	mg/dl	NA
+Bard1990	pra_group	40.0	PRA20_twice	concentration change	ldl-c	serum	Tab1_conc_change_pra_ldlc	0.0	week	0.0	na	na	percent	0.0	percent	263.0	mg/dl	Need these for errorbars in data comparison
+Bard1990	pra_group	40.0	PRA20_twice	concentration change	ldl-c	serum	Tab1_conc_change_pra_ldlc	4.0	week	-27.0	na	na	percent	-27.0	percent	263.0	mg/dl	Need these for errorbars in data comparison
+Bard1990	pra_group	40.0	PRA20_twice	concentration change	ldl-c	serum	Tab1_conc_change_pra_ldlc	8.0	week	-26.2	na	na	percent	-26.2	percent	263.0	mg/dl	Need these for errorbars in data comparison
+Bard1990	pra_group	40.0	PRA20_twice	concentration change	ldl-c	serum	Tab1_conc_change_pra_ldlc	12.0	week	-30.7	na	na	percent	-30.7	percent	263.0	mg/dl	Need these for errorbars in data comparison

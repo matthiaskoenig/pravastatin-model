@@ -1,0 +1,33 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	unit	comments
+Wu2012	S1	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	583.57623	ng*hr/ml	NA
+Wu2012	S1	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	731.5654	ng*hr/ml	NA
+Wu2012	S2	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	469.60687	ng*hr/ml	NA
+Wu2012	S2	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	390.76233	ng*hr/ml	NA
+Wu2012	S3	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	449.13666	ng*hr/ml	NA
+Wu2012	S3	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	506.94162	ng*hr/ml	NA
+Wu2012	S4	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	435.85715	ng*hr/ml	NA
+Wu2012	S4	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	605.9763	ng*hr/ml	NA
+Wu2012	S5	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	413.1724	ng*hr/ml	NA
+Wu2012	S5	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	564.48035	ng*hr/ml	NA
+Wu2012	S6	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	408.74945	ng*hr/ml	NA
+Wu2012	S6	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	552.30963	ng*hr/ml	NA
+Wu2012	S7	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	405.433	ng*hr/ml	NA
+Wu2012	S7	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	494.77167	ng*hr/ml	NA
+Wu2012	S8	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	378.32074	ng*hr/ml	NA
+Wu2012	S8	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	458.2557	ng*hr/ml	NA
+Wu2012	S9	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	361.7202	ng*hr/ml	NA
+Wu2012	S9	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	394.08185	ng*hr/ml	NA
+Wu2012	S10	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	347.3342	ng*hr/ml	NA
+Wu2012	S10	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	433.91656	ng*hr/ml	NA
+Wu2012	S11	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	335.16425	ng*hr/ml	NA
+Wu2012	S11	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	420.07996	ng*hr/ml	NA
+Wu2012	S12	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	330.19034	ng*hr/ml	NA
+Wu2012	S12	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	366.41708	ng*hr/ml	NA
+Wu2012	S13	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	319.67554	ng*hr/ml	NA
+Wu2012	S13	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	408.46555	ng*hr/ml	NA
+Wu2012	S14	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	285.9243	ng*hr/ml	NA
+Wu2012	S14	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	398.51166	ng*hr/ml	NA
+Wu2012	S15	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	269.8854	ng*hr/ml	NA
+Wu2012	S15	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	340.41437	ng*hr/ml	NA
+Wu2012	S16	1	PRA40	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	254.39061	ng*hr/ml	NA
+Wu2012	S16	1	PRA40, QUE500	auc_end	pravastatin	plasma	LC MS/MS	NA	10	hr	285.645	ng*hr/ml	NA

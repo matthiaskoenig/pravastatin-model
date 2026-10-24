@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	change	change_unit	comments
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	0	week	1.18	mmol/l	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	12	week	1.19	mmol/l	1.2	percent	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	0	week	1.22	mmol/l	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	12	week	1.29	mmol/l	5.6	percent	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	0	week	1.1	mmol/l	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	12	week	1.17	mmol/l	5.6	percent	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	0	week	1.22	mmol/l	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	12	week	1.3	mmol/l	6.7	percent	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	0	week	1.5	mmol/l	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	12	week	1.55	mmol/l	3.5	percent	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	0	week	1.41	mmol/l	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	12	week	1.26	mmol/l	-11.0	percent	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	0	week	1.42	mmol/l	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	12	week	1.21	mmol/l	-14.7	percent	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	0	week	1.37	mmol/l	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	12	week	1.16	mmol/l	-15.4	percent	NA

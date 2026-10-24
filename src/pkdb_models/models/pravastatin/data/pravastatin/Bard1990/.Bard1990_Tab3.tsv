@@ -1,0 +1,41 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	unit	change	change_unit	baseline	baseline_unit	comments
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	Lp A-II:A-I	serum	Tab3_conc_cholestyr_A2_A1	0	week	93.0	24.0	0.0	mg/dl	0.0	percent	93.0	mg/dl	concentration changes vs. Metabolic ratio?
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	Lp A-II:A-I	serum	Tab3_conc_cholestyr_A2_A1	4	week	100.533	NA	NA	mg/dl	8.1	percent	93.0	mg/dl	These are not absolute concentration changes!!
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	Lp A-II:A-I	serum	Tab3_conc_cholestyr_A2_A1	8	week	103.974	NA	NA	mg/dl	11.8	percent	93.0	mg/dl	"changed calculation for concentration change ""mean"""
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	Lp A-II:A-I	serum	Tab3_conc_cholestyr_A2_A1	12	week	131.316	NA	NA	mg/dl	41.2	percent	93.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoA-I	serum	Tab3_conc_cholestyr_A1	0	week	45.0	10.0	0.0	mg/dl	0.0	percent	45.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoA-I	serum	Tab3_conc_cholestyr_A1	4	week	54.63	NA	NA	mg/dl	21.4	percent	45.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoA-I	serum	Tab3_conc_cholestyr_A1	8	week	54.765	NA	NA	mg/dl	21.7	percent	45.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoA-I	serum	Tab3_conc_cholestyr_A1	12	week	51.795	NA	NA	mg/dl	15.1	percent	45.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoB-100	serum	Tab3_conc_cholestyr_apoB	0	week	52.0	31.0	0.0	mg/dl	0.0	percent	52.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoB-100	serum	Tab3_conc_cholestyr_apoB	4	week	53.196	NA	NA	mg/dl	2.3	percent	52.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoB-100	serum	Tab3_conc_cholestyr_apoB	8	week	53.092	NA	NA	mg/dl	2.1	percent	52.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoB-100	serum	Tab3_conc_cholestyr_apoB	12	week	38.376	NA	NA	mg/dl	-26.2	percent	52.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoC-III	serum	Tab3_conc_cholestyr_apoCIII	0	week	24.0	11.0	0.0	mg/dl	0.0	percent	24.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoC-III	serum	Tab3_conc_cholestyr_apoCIII	4	week	23.808	NA	NA	mg/dl	-0.8	percent	24.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoC-III	serum	Tab3_conc_cholestyr_apoCIII	8	week	28.608	NA	NA	mg/dl	19.2	percent	24.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoC-III	serum	Tab3_conc_cholestyr_apoCIII	12	week	20.952	NA	NA	mg/dl	-12.7	percent	24.0	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoE	serum	Tab3_conc_cholesetyr_apoE	0	week	2.27	2.3	0.0	mg/dl	0.0	percent	2.27	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoE	serum	Tab3_conc_cholesetyr_apoE	4	week	2.57418	NA	NA	mg/dl	13.4	percent	2.27	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoE	serum	Tab3_conc_cholesetyr_apoE	8	week	2.17239	NA	NA	mg/dl	-4.3	percent	2.27	mg/dl	NA
+Bard1990	cholestyr_group	27	CHOLESTYR	concentration	apoE	serum	Tab3_conc_cholesetyr_apoE	12	week	1.62305	NA	NA	mg/dl	-28.5	percent	2.27	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	Lp A-II:A-I	serum	Tab3_conc_pra_A2_A1	0	week	96.0	29.0	0.0	mg/dl	0.0	percent	96.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	Lp A-II:A-I	serum	Tab3_conc_pra_A2_A1	4	week	102.912	NA	NA	mg/dl	7.2	percent	96.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	Lp A-II:A-I	serum	Tab3_conc_pra_A2_A1	8	week	119.904	NA	NA	mg/dl	24.9	percent	96.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	Lp A-II:A-I	serum	Tab3_conc_pra_A2_A1	12	week	127.296	NA	NA	mg/dl	32.6	percent	96.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoA-I	serum	Tab3_conc_pra_A1	0	week	43.0	9.0	0.0	mg/dl	0.0	percent	43.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoA-I	serum	Tab3_conc_pra_A1	4	week	43.731	NA	NA	mg/dl	1.7	percent	43.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoA-I	serum	Tab3_conc_pra_A1	8	week	48.59	NA	NA	mg/dl	13.0	percent	43.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoA-I	serum	Tab3_conc_pra_A1	12	week	45.064	NA	NA	mg/dl	4.8	percent	43.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoB-100	serum	Tab3_conc_pra_apoB	0	week	56.0	44.0	0.0	mg/dl	0.0	percent	56.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoB-100	serum	Tab3_conc_pra_apoB	4	week	45.024	NA	NA	mg/dl	-19.6	percent	56.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoB-100	serum	Tab3_conc_pra_apoB	8	week	50.288	NA	NA	mg/dl	-10.2	percent	56.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoB-100	serum	Tab3_conc_pra_apoB	12	week	35.56	NA	NA	mg/dl	-36.5	percent	56.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoC-III	serum	Tab3_conc_pra_apoCIII	0	week	27.0	12.0	0.0	mg/dl	0.0	percent	27.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoC-III	serum	Tab3_conc_pra_apoCIII	4	week	21.357	NA	NA	mg/dl	-20.9	percent	27.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoC-III	serum	Tab3_conc_pra_apoCIII	8	week	25.056	NA	NA	mg/dl	-7.2	percent	27.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoC-III	serum	Tab3_conc_pra_apoCIII	12	week	23.004	NA	NA	mg/dl	-14.8	percent	27.0	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoE	serum	Tab3_conc_pra_apoE	0	week	1.99	1.3	0.0	mg/dl	0.0	percent	1.99	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoE	serum	Tab3_conc_pra_apoE	4	week	1.96214	NA	NA	mg/dl	-1.4	percent	1.99	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoE	serum	Tab3_conc_pra_apoE	8	week	1.9303	NA	NA	mg/dl	-3.0	percent	1.99	mg/dl	NA
+Bard1990	pra_group	40	PRA20_twice	concentration	apoE	serum	Tab3_conc_pra_apoE	12	week	1.58802	NA	NA	mg/dl	-20.2	percent	1.99	mg/dl	NA

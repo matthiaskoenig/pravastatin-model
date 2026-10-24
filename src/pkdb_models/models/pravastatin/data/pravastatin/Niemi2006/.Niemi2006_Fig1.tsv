@@ -1,0 +1,28 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	method	time	time_unit	mean	pm	se	sd	unit	comments
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	0.5	hr	70.714325	40.05525	30.659075	53.103075613064775	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	1.0	hr	120.48922	92.541435	27.947784999999996	48.406983579011346	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	2.0	hr	49.292625	47.790054	1.5025710000000032	2.602529313979581	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	3.0	hr	24.984734	22.928177	2.056556999999998	3.562061212661424	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	4.0	hr	15.821588	11.60221	4.219378000000001	7.3081770723383555	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	6.0	hr	8.075741	5.2486186	2.8271224000000004	4.896719636016063	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	8.0	hr	3.442793	NA	NA	NA	ng/ml	NA
+Niemi2006	SLCO1B1_17	3	pra_40_mg_oral	concentration	pravastatin	plasma	SLCO1B1_17	NR	12.0	hr	0.22102258	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	0.5	hr	18.224854	12.776243	5.448611000000001	32.23441738307419	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	1.0	hr	46.008114	39.709946	6.298167999999997	37.260464375364926	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	2.0	hr	29.790607	26.864641	2.9259660000000025	17.310248298636868	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	3.0	hr	13.574415	12.154696	1.4197190000000006	8.399170873582408	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	4.0	hr	9.18304	8.839779	0.34326100000000004	2.0307594624265577	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	6.0	hr	4.54878	3.4530387	1.0957412999999998	6.4824929524372905	ng/ml	NA
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	8.0	hr	1.7834839	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	no_SLCO1B1_17_c1446CC	35	pra_40_mg_oral	concentration	pravastatin	plasma	no_SLCO1B1_17_c1446CC	NR	12.0	hr	0.19391397	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	0.0	hr	0.0	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	0.5	hr	7.208677	4.0745854	3.1340915999999996	5.428405886774834	ng/ml	NA
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	1.0	hr	15.673558	12.56906	3.1044979999999995	5.377148267995963	ng/ml	NA
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	2.0	hr	8.190836	6.5607734	1.6300625999999987	2.8233512427178216	ng/ml	NA
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	3.0	hr	4.4331236	4.281768	0.15135560000000048	0.26215558921007276	ng/ml	NA
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	4.0	hr	2.1228154	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	6.0	hr	2.4672794	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	8.0	hr	0.74321425	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	12.0	hr	0.19381563	NA	NA	NA	ng/ml	pm, se, sd not recognizable in figure

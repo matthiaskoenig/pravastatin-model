@@ -1,0 +1,17 @@
+study	group	measurment_type	count	choice	mean	min	max	unit	comments
+Pan1993a	elderly men	age	15	NA	70.0	65.0	75.0	yr	NA
+Pan1993a	elderly men	ethnicity	14	caucasian	NA	NA	NA	NA	NA
+Pan1993a	elderly men	ethnicity	1	african american	NA	NA	NA	NA	NA
+Pan1993a	elderly men	ethnicity	0	hispanic	NA	NA	NA	NA	NA
+Pan1993a	young men	age	10	NA	24.0	19.0	31.0	yr	NA
+Pan1993a	young men	ethnicity	6	caucasian	NA	NA	NA	NA	NA
+Pan1993a	young men	ethnicity	2	african american	NA	NA	NA	NA	NA
+Pan1993a	young men	ethnicity	2	hispanic	NA	NA	NA	NA	NA
+Pan1993a	elderly women	age	15	NA	69.7	65.0	78.0	yr	NA
+Pan1993a	elderly women	ethnicity	14	caucasian	NA	NA	NA	NA	NA
+Pan1993a	elderly women	ethnicity	1	african american	NA	NA	NA	NA	NA
+Pan1993a	elderly women	ethnicity	0	hispanic	NA	NA	NA	NA	NA
+Pan1993a	young women	age	30	NA	26.1	18.0	38.0	yr	NA
+Pan1993a	young women	ethnicity	29	caucasian	NA	NA	NA	NA	NA
+Pan1993a	young women	ethnicity	1	african american	NA	NA	NA	NA	NA
+Pan1993a	young women	ethnicity	0	hispanic	NA	NA	NA	NA	NA

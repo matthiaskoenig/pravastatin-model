@@ -1,0 +1,52 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Ho2007	all	107	NA	species	107	homo sapiens	NA	NA	NA	NA	NA	NA
+Ho2007	all	107	NA	sex	37	M	NA	NA	NA	NA	NA	NA
+Ho2007	all	107	NA	sex	70	F	NA	NA	NA	NA	NA	NA
+Ho2007	all	107	NA	age	107	NA	NA	NA	19.0	55.0	yr	NA
+Ho2007	all	107	NA	weight	107	NA	NA	NA	47.7	109.0	kg	NA
+Ho2007	all	107	NA	healthy	107	Y	NA	NA	NA	NA	NA	NA
+Ho2007	all	107	NA	fasting	107	Y	NA	NA	NA	NA	NA	NA
+Ho2007	all	107	NA	medication	107	N	NA	NA	NA	NA	NA	NA
+Ho2007	all	107	NA	abstinence medication	107	NA	NA	NA	7.0	NA	day	NA
+Ho2007	European-Americans	69	all	ethnicity	69	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	African-Americans	38	all	ethnicity	38	 african american	NA	NA	NA	NA	NA	NA
+Ho2007	European-American men	37	European-Americans	sex	37	M	NA	NA	NA	NA	NA	NA
+Ho2007	European-American men	37	European-Americans	body surface area	37	NA	1.96	NA	NA	NA	m^2	NA
+Ho2007	European-American men	37	European-Americans	weight	37	NA	77.3	NA	NA	NA	kg	NA
+Ho2007	European-American men	37	European-Americans	height	37	NA	1.81	NA	NA	NA	m	NA
+Ho2007	African-American men	19	African-Americans	sex	19	M	NA	NA	NA	NA	NA	NA
+Ho2007	African-American men	19	African-Americans	body surface area	19	NA	2.05	NA	NA	NA	m^2	NA
+Ho2007	African-American men	19	African-Americans	weight	19	NA	84.6	NA	NA	NA	kg	NA
+Ho2007	African-American men	19	African-Americans	height	19	NA	1.81	NA	NA	NA	m	NA
+Ho2007	European-American women	32	European-Americans	sex	32	F	NA	NA	NA	NA	NA	NA
+Ho2007	European-American women	32	European-Americans	body surface area	32	NA	1.7	NA	NA	NA	m^2	NA
+Ho2007	European-American women	32	European-Americans	weight	32	NA	63.3	NA	NA	NA	kg	NA
+Ho2007	European-American women	32	European-Americans	height	32	NA	1.64	NA	NA	NA	m	NA
+Ho2007	African-American women	19	African-Americans	sex	19	F	NA	NA	NA	NA	NA	NA
+Ho2007	African-American women	19	African-Americans	body surface area	19	NA	1.75	NA	NA	NA	m^2	NA
+Ho2007	African-American women	19	African-Americans	weight	19	NA	67.0	NA	NA	NA	kg	NA
+Ho2007	African-American women	19	African-Americans	height	19	NA	1.65	NA	NA	NA	m	NA
+Ho2007	SLCO1B1 c.521 C/C	30	all	SLCO1B1 genotype	30	c.521 C/C	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 c.521 T/C 	43	all	SLCO1B1 genotype	43	c.521 T/C	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 c.521 T/T	35	all	SLCO1B1 genotype	35	c.521 T/T	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*1a	29	all	SLCO1B1 genotype	29	*1a/*1a	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*1a European	26	all	ethnicity	26	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*1a African	3	all	ethnicity	3	 african american	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*1b	34	all	SLCO1B1 genotype	34	*1a/*1b	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*1b European	23	SLCO1B1 *1a/*1b	ethnicity	23	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*1b African	11	SLCO1B1 *1a/*1b	ethnicity	11	 african american	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1b/*1b	25	all	SLCO1B1 genotype	25	*1b/*1b	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1b/*1b European	2	SLCO1B1 *1b/*1b	ethnicity	2	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1b/*1b African	23	SLCO1B1 *1b/*1b	ethnicity	23	 african american	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*5	1	all	SLCO1B1 genotype	1	*1a/*5	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*5 European	1	SLCO1B1 *1a/*5	ethnicity	1	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*15	8	all	SLCO1B1 genotype	8	*1a/*15	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1a/*15 European	8	SLCO1B1 *1a/*15	ethnicity	1	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1b/*15	8	all	SLCO1B1 genotype	8	*1b/*15	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1b/*15 European	7	SLCO1B1 *1b/*15	ethnicity	7	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *1b/*15 African	1	SLCO1B1 *1b/*15	ethnicity	1	 african american	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *15/*15	2	all	SLCO1B1 genotype	2	*15/*15	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 *15/*15 European	2	SLCO1B1 *15/*15	ethnicity	2	caucasian	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 c.388 A/A	30	all	SLCO1B1 genotype	30	c.388 A/A	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 c.388 A/G 	43	all	SLCO1B1 genotype	43	c.388 A/G	NA	NA	NA	NA	NA	NA
+Ho2007	SLCO1B1 c.388 G/G	35	all	SLCO1B1 genotype	35	c.388 G/G	NA	NA	NA	NA	NA	NA

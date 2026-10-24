@@ -1,0 +1,7 @@
+study	measurement_type	substance	tissue	group	count	intervention	method	time	time_unit	mean	se	sd	unit
+Sigurbjoernsson1998	auc_end	pravastatin	serum	tab2_subgroup1	5	pravastatin_20mg_po	HPLC/MS/UV	4.5	hr	104.4	17.0	38.0131556174964	ng*hr/ml
+Sigurbjoernsson1998	cmax	pravastatin	serum	all	20	pravastatin_20mg_po	HPLC/MS/UV	NA	NA	48.9	7.1	31.752165280497	ng/ml
+Sigurbjoernsson1998	tmax	pravastatin	serum	all	20	pravastatin_20mg_po	HPLC/MS/UV	NA	NA	1.05	0.05	0.223606797749979	hr
+Sigurbjoernsson1998	auc_end	pravastatin	serum	tab2_subgroup2	5	pravastatin_40mg_po	HPLC/MS/UV	4.5	hr	201.2	44.4	99.2814182009907	ng*hr/ml
+Sigurbjoernsson1998	cmax	pravastatin	serum	tab2_subgroup3	6	pravastatin_40mg_po	HPLC/MS/UV	NA	NA	97.1	20.2	49.4796928042202	ng/ml
+Sigurbjoernsson1998	tmax	pravastatin	serum	tab2_subgroup4	6	pravastatin_40mg_po	HPLC/MS/UV	NA	NA	1.17	0.07	0.171464281994822	hr

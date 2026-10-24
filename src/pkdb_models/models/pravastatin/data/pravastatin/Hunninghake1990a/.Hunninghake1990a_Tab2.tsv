@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	change	change_unit	comments
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	0	week	7.94	mmol/l	NA	NA	tissue: not specified in study --> blood?
+Hunninghake1990a	placebo	88	PLAC	concentration	cholesterol	blood	12	week	8.24	mmol/l	3.7	percent	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	0	week	7.86	mmol/l	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	cholesterol	blood	12	week	6.88	mmol/l	-12.9	percent	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	0	week	8.22	mmol/l	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	cholesterol	blood	12	week	6.8	mmol/l	-17.4	percent	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	0	week	7.86	mmol/l	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	cholesterol	blood	12	week	6.06	mmol/l	-23.3	percent	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	0	week	5.98	mmol/l	NA	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	ldl-c	blood	12	week	6.19	mmol/l	3.3	percent	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	0	week	5.9	mmol/l	NA	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	ldl-c	blood	12	week	4.9	mmol/l	-17.5	percent	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	0	week	6.36	mmol/l	NA	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	ldl-c	blood	12	week	4.94	mmol/l	-22.9	percent	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	0	week	5.9	mmol/l	NA	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	ldl-c	blood	12	week	4.11	mmol/l	-30.8	percent	NA

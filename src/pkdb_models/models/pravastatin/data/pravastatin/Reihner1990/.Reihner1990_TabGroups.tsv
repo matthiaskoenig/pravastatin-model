@@ -1,0 +1,14 @@
+study	name	parent	group_count	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Reihner1990	all	NA	30.0	species	30.0	homo sapiens	NA	NA	NA	NA	NA	NA
+Reihner1990	all	NA	30.0	sex	23.0	M	NA	NA	NA	NA	NA	NA
+Reihner1990	all	NA	30.0	sex	7.0	F	NA	NA	NA	NA	NA	NA
+Reihner1990	all	NA	30.0	overnight fast	30.0	Y	NA	NA	NA	NA	NA	NA
+Reihner1990	all	NA	30.0	healthy	30.0	N	NA	NA	NA	NA	NA	NA
+Reihner1990	pra	all	10.0	species	10.0	homo sapiens	NA	NA	NA	NA	NA	NA
+Reihner1990	pra	all	10.0	sex	2.0	M	NA	NA	NA	NA	NA	NA
+Reihner1990	pra	all	10.0	sex	8.0	F	NA	NA	NA	NA	NA	NA
+Reihner1990	pra	all	10.0	age	10.0	NA	58.0	NA	49.0	68.0	yr	NA
+Reihner1990	control	all	20.0	species	20.0	homo sapiens	NA	NA	NA	NA	NA	NA
+Reihner1990	control	all	20.0	sex	5.0	M	NA	NA	NA	NA	NA	NA
+Reihner1990	control	all	20.0	sex	15.0	F	NA	NA	NA	NA	NA	NA
+Reihner1990	control	all	20.0	age	20.0	NA	51.0	NA	31.0	71.0	yr	NA

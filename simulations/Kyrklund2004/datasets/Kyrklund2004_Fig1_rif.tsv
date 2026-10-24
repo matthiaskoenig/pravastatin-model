@@ -1,0 +1,13 @@
+study	count	measurement_type	label	substance	tissue	method	group	intervention	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	0.0	hr	0.0			mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	0.5	hr	7.502414434786705e-05	3.008032412314795e-05	9.511695286552188e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	1.0	hr	0.00011528042776717782	3.102254257649636e-05	9.810849645490307e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	1.5	hr	7.639036110522225e-05	1.8255482533625423e-05	5.7734435728923754e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	2.0	hr	4.652203613407769e-05	1.0175959296162817e-05	3.217676018184816e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	2.5	hr	3.189409464584364e-05	7.066638400113066e-06	2.234706616729089e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	3.0	hr	2.131769250700775e-05	4.569759498739783e-06	1.4451275528231222e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	4.0	hr	1.695993216027136e-05	4.26353850140155e-06	1.348314606741573e-05	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	6.0	hr	6.6897510187737035e-06	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	8.0	hr	2.638211669375545e-06	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	10.0	hr	7.302193013450169e-07	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	12.0	hr	7.302193013450169e-07	2.732433514710386e-06	8.64014321720491e-06	mole/meter^3	dimensionless

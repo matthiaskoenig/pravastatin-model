@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	min	median	max	unit	comments
+Maeda2006	homozygous carriers *1a	5	TEMO_2	auc_end	temocaprilat	plasma	24	hr	NA	NA	292.16153	443.23	530.17	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	TEMO_2	auc_end	temocaprilat	plasma	24	hr	NA	NA	220.90262	371.97	500.24	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	auc_end	temocaprilat	plasma	24	hr	NA	NA	373.39667	448.93	470.31	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	auc_end	temocaprilat	plasma	24	hr	NA	NA	307.83847	374.82	508.79	ng*hr/ml	NA

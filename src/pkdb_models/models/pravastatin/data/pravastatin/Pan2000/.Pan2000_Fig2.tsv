@@ -1,0 +1,41 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	sd	se	unit	comments
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	0.5	hr	5.4058056	1.77	4.244310898131756	0.885	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	1.0	hr	24.837849	8.18	19.61495093034902	4.09	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	1.5	hr	27.86516	6.7	16.06603560309761	3.35	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	2.0	hr	23.330061	6.35	15.226765086517883	3.175	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	3.0	hr	9.77792	3.11	7.457518018751278	1.555	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	4.0	hr	4.681002	1.18	2.829540598754504	0.59	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	6.0	hr	1.5570302	0.43	1.0311037775122347	0.215	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	8.0	hr	0.7856819	0.22	0.5275414675643991	0.11	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	10.0	hr	0.35329786	0.17	0.40764567948158115	0.085	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	12.0	hr	0.090866975	0.11	0.26377073378219956	0.055	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	0.5	hr	3.8594403	2.35	5.635102039892445	1.175	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	1.0	hr	25.508186	10.98	26.32911506298683	5.49	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	1.5	hr	31.829021	10.76	25.80157359542243	5.38	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	2.0	hr	29.37859	8.74	20.957783756876584	4.37	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	3.0	hr	15.36932	5.11	12.253349542063997	2.555	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	4.0	hr	6.733431	1.87	4.4841024742973925	0.935	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	6.0	hr	1.6566929	0.33	0.7913122013465987	0.165	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	8.0	hr	0.8816538	0.2	0.4795831523312719	0.1	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	10.0	hr	0.50819975	0.18	0.4316248370981447	0.09	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegB	12.0	hr	0.27286366	0.17	0.40764567948158115	0.085	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	0.5	hr	2.9078999	3.69	8.848309160511967	1.845	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	1.0	hr	18.501228	6.73	16.1379730759473	3.365	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	1.5	hr	29.295332	7.14	17.121118538226405	3.57	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	2.0	hr	28.999943	8.27	19.830763348898092	4.135	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	3.0	hr	15.191782	5.13	12.301307857297124	2.565	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	4.0	hr	6.4384575	2.42	5.80295614320839	1.21	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	6.0	hr	1.5673046	0.5	1.1989578808281798	0.25	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	8.0	hr	0.6332509	0.24	0.5754997827975262	0.12	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	10.0	hr	0.21279418	0.17	0.40764567948158115	0.085	ng/ml	NA
+Pan2000	all	23	PRA40	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegC	12.0	hr	0.034862455	0.04	0.09591663046625439	0.02	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	0.5	hr	3.073302	4.12	9.8794129380242	2.06	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	1.0	hr	16.114866	7.07	16.953264434910462	3.535	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	1.5	hr	32.719837	8.19	19.638930087965583	4.095	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	2.0	hr	37.1908	11.4	27.3362396828825	5.7	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	3.0	hr	20.026049	4.6	11.030412503619253	2.3	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	4.0	hr	8.487277	1.61	3.8606443762667393	0.805	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	6.0	hr	1.9195166	0.36	0.8632496741962894	0.18	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	8.0	hr	0.70723325	0.26	0.6234580980306536	0.13	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	10.0	hr	0.21476313	0.17	0.40764567948158115	0.085	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	concentration	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	sq31906_RegB	12.0	hr	0.05180173	0.05	0.11989578808281798	0.025	ng/ml	NA

@@ -1,0 +1,40 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	se	sd	unit	comments
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.0	hr	0.0	NA	NA	NA	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.25	hr	3.36	5.7	1.6454482672	5.7	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.5	hr	69.38	86.8	25.0570016828	86.8	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.75	hr	120.94	99.3	28.6654408653	99.3	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	1.0	hr	119.74	89.2	25.7498220059	89.2	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	1.5	hr	73.7	57.1	16.4833501854	57.1	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	2.0	hr	53.45	46.1	13.3079237048	46.1	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	3.0	hr	23.55	34.0	9.8149545762	34.0	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	4.0	hr	10.99	12.2	3.5218366421	12.2	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	6.0	hr	12.41	10.2	2.9444863729	10.2	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	8.0	hr	3.69	5.4	1.5588457268	5.4	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	12.0	hr	0.72	4.0	1.1547005384	4.0	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	24.0	hr	0.54	NA	NA	NA	ng/ml	identical data in fig B, not digitized
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	0.25	hr	6.25	6.5	1.8763883749	6.5	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	0.5	hr	64.56	67.0	19.3412340179	67.0	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	0.75	hr	103.11	76.8	22.1702503369	76.8	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	1.0	hr	136.36	65.9	19.0236913698	65.9	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	1.5	hr	102.13	52.6	15.1843120797	52.6	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	2.0	hr	62.12	32.6	9.4108093878	32.6	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	3.0	hr	19.69	17.4	5.0229473419	17.4	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	4.0	hr	17.74	15.8	4.5610671266	15.8	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	6.0	hr	11.92	13.9	4.0125843709	13.9	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	8.0	hr	6.1	6.5	1.8763883749	6.5	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	12.0	hr	0.72	1.8	0.5196152423	1.8	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D8	24.0	hr	0.57	NA	NA	NA	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	0.25	hr	13.05	24.1	6.9570707437	24.1	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	0.5	hr	60.14	70.7	20.4093320159	70.7	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	0.75	hr	88.11	77.3	22.3145879042	77.3	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	1.0	hr	103.96	81.9	23.6424935233	81.9	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	1.5	hr	99.3	82.1	23.7002285502	82.1	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	2.0	hr	78.32	69.6	20.0917893678	69.6	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	3.0	hr	34.03	31.0	8.9489291724	31.0	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	4.0	hr	24.24	32.6	9.4108093878	32.6	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	6.0	hr	16.32	24.2	6.9859382572	24.2	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	8.0	hr	6.06	12.5	3.6084391824	12.5	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	12.0	hr	2.33	0.8	0.2309401077	0.8	ng/ml	NA
+Becquemont1999	all	12	PRA_40_D1, PRA_40_D8, PRA_40_DM, MIB_100	concentration	pravastatin	plasma	LC MS/MS	D16	24.0	hr	0.93	0.9	0.2598076211	0.9	ng/ml	NA

@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	unit	comments
+Igel2006	control	8	PRA40	concentration	cholesterol	blood	3	week	186.0	25.6	mg/dl	age and bmi in TabGroups
+Igel2006	control	8	PRA40	concentration	cholesterol	blood	3	week	4.82	0.66	mmol/l	NA
+Igel2006	control	8	PRA40	concentration	ldl-c	blood	3	week	112.0	23.2	mg/dl	NA
+Igel2006	control	8	PRA40	concentration	ldl-c	blood	3	week	2.9	0.6	mmol/l	NA
+Igel2006	control	8	PRA40	concentration	hdl-c	blood	3	week	47.8	12.9	mg/dl	NA
+Igel2006	control	8	PRA40	concentration	hdl-c	blood	3	week	1.24	0.33	mmol/l	NA
+Igel2006	control	8	PRA40	concentration	triglyceride	blood	3	week	1.34	69.5	mg/dl	NA
+Igel2006	control	8	PRA40	concentration	triglyceride	blood	3	week	1.51	0.78	mmol/l	NA
+Igel2006	variant	8	PRA40	concentration	cholesterol	blood	3	week	218.0	44.4	mg/dl	NA
+Igel2006	variant	8	PRA40	concentration	cholesterol	blood	3	week	5.65	1.15	mmol/l	NA
+Igel2006	variant	8	PRA40	concentration	ldl-c	blood	3	week	141.0	45.4	mg/dl	NA
+Igel2006	variant	8	PRA40	concentration	ldl-c	blood	3	week	3.65	1.18	mmol/l	NA
+Igel2006	variant	8	PRA40	concentration	hdl-c	blood	3	week	51.9	11.0	mg/dl	NA
+Igel2006	variant	8	PRA40	concentration	hdl-c	blood	3	week	1.34	0.28	mmol/l	NA
+Igel2006	variant	8	PRA40	concentration	triglyceride	blood	3	week	124.0	53.3	mg/dl	NA
+Igel2006	variant	8	PRA40	concentration	triglyceride	blood	3	week	1.4	0.6	mmol/l	NA

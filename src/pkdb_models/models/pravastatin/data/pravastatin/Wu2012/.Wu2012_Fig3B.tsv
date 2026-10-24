@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	pm	sd	se	unit	comments
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	100.22727	NA	NA	NA	µmol/min	quercetin values: 0.013559117
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	96.818184	16.19	80.628184	32.9163182812058	µmol/min	quercetin values: 1
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	54.545456	12.95	41.595456	16.9812738030648	µmol/min	quercetin values:10
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	14.318182	4.77	9.548182	3.89802897853783	µmol/min	quercetin values: 50.405663
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	8.181818	3.92	4.261818	1.73987991276812	µmol/min	quercetin values: 101.92119
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	5.4545455	1.7	3.7545455	1.53278678184379	µmol/min	quercetin values: 494.55533
+Wu2012	all	6.0	NA	kabs	pravastatin	plasma	PRA_QUE	NA	NA	4.431818	NA	NA	NA	µmol/min	quercetin values: 1000

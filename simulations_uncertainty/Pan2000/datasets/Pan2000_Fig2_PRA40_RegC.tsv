@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_sd	mean_se	comments	mean_unit	count_unit
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	0.5	hr	1.2733624478835418e-05	1.77	9.99767012491875e-06	2.0846583280333546e-06		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	1.0	hr	5.850669917320331e-05	8.18	4.620392182024597e-05	9.634183685487481e-06		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	1.5	hr	6.563766989376489e-05	6.7	3.7844288043477754e-05	7.891079546792924e-06		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	2.0	hr	5.4955034979860085e-05	6.35	3.586734762329608e-05	7.478858973452995e-06		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	3.0	hr	2.3032341648411184e-05	3.11	1.75665277336143e-05	3.6628742373919397e-06		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	4.0	hr	1.1026316161402022e-05	1.18	6.665113416612498e-06	1.389772218688903e-06		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	6.0	hr	3.6676564671519092e-06	0.43	2.428812516223199e-06	5.064424186747697e-07		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	8.0	hr	1.850709961604598e-06	0.22	1.2426482641141948e-06	2.5911007467081245e-07		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	10.0	hr	8.322094080512567e-07	0.17	9.602282040882413e-07	2.0022142133653688e-07		mole/meter^3	dimensionless
+Pan2000	all	23	PRA40	concentration	pravastatin	plasma	LC MS/MS	PRA40_RegC	12.0	hr	2.1404135161237134e-07	0.11	6.213241320570973e-07	1.2955503733540623e-07		mole/meter^3	dimensionless

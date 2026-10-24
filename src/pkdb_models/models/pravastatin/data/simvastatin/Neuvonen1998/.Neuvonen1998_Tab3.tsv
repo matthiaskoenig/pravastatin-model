@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	mean	se	sd	unit
+Neuvonen1998	simvastatin	10	SIM,ITR	cmax	simva+simacid	serum	HPLC	217.0	40.0	12.6491106406735	ng/ml
+Neuvonen1998	simvastatin	10	SIM	cmax	simva+simacid	serum	HPLC	13.0	2.4	0.758946638440411	ng/ml
+Neuvonen1998	simvastatin	10	SIM,ITR	tmax	simva+simacid	serum	HPLC	2.2	0.3	0.0948683298050514	hr
+Neuvonen1998	simvastatin	10	SIM	tmax	simva+simacid	serum	HPLC	1.7	0.3	0.0948683298050514	hr
+Neuvonen1998	simvastatin	10	SIM,ITR	thalf	simva+simacid	serum	HPLC	3.9	0.2	0.0632455532033676	hr
+Neuvonen1998	simvastatin	10	SIM	thalf	simva+simacid	serum	HPLC	3.1	0.2	0.0632455532033676	hr
+Neuvonen1998	simvastatin	10	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	977.0	126.0	39.8446985181216	ng/ml*hr
+Neuvonen1998	simvastatin	10	SIM	auc_inf	simva+simacid	serum	HPLC	52.5	4.7	1.48627050027914	ng/ml*hr
+Neuvonen1998	simvastatin	10	SIM,ITR	cmax	total simva inhibitors	serum	radioenzymatic assay	234.0	35.0	11.0679718105893	ng/ml
+Neuvonen1998	simvastatin	10	SIM	cmax	total simva inhibitors	serum	radioenzymatic assay	85.0	12.0	3.79473319220205	ng/ml
+Neuvonen1998	simvastatin	10	SIM,ITR	tmax	total simva inhibitors	serum	radioenzymatic assay	2.1	0.2	0.0632455532033676	hr
+Neuvonen1998	simvastatin	10	SIM	tmax	total simva inhibitors	serum	radioenzymatic assay	1.6	0.3	0.0948683298050514	hr
+Neuvonen1998	simvastatin	10	SIM,ITR	thalf	total simva inhibitors	serum	radioenzymatic assay	4.4	0.3	0.0948683298050514	hr
+Neuvonen1998	simvastatin	10	SIM	thalf	total simva inhibitors	serum	radioenzymatic assay	1.6	0.1	0.0316227766016838	hr
+Neuvonen1998	simvastatin	10	SIM,ITR	auc_inf	total simva inhibitors	serum	radioenzymatic assay	1133.0	114.0	36.0499653259195	ng/ml*hr
+Neuvonen1998	simvastatin	10	SIM	auc_inf	total simva inhibitors	serum	radioenzymatic assay	219.0	16.0	5.05964425626941	ng/ml*hr
+Neuvonen1998	pravastatin	10	PRA, ITR	cmax	total pra inhibitors	serum	radioenzymatic assay	82.0	23.0	7.27323861838727	ng/ml
+Neuvonen1998	pravastatin	10	PRA	cmax	total pra inhibitors	serum	radioenzymatic assay	49.0	12.0	3.79473319220205	ng/ml
+Neuvonen1998	pravastatin	10	PRA, ITR	tmax	total pra inhibitors	serum	radioenzymatic assay	1.3	0.2	0.0632455532033676	hr
+Neuvonen1998	pravastatin	10	PRA	tmax	total pra inhibitors	serum	radioenzymatic assay	1.3	0.2	0.0632455532033676	hr
+Neuvonen1998	pravastatin	10	PRA, ITR	thalf	total pra inhibitors	serum	radioenzymatic assay	1.3	0.1	0.0316227766016838	hr
+Neuvonen1998	pravastatin	10	PRA	thalf	total pra inhibitors	serum	radioenzymatic assay	1.2	0.1	0.0316227766016838	hr
+Neuvonen1998	pravastatin	10	PRA, ITR	auc_inf	total pra inhibitors	serum	radioenzymatic assay	189.0	49.0	15.4951605348251	ng/ml*hr
+Neuvonen1998	pravastatin	10	PRA	auc_inf	total pra inhibitors	serum	radioenzymatic assay	111.0	32.0	10.1192885125388	ng/ml*hr

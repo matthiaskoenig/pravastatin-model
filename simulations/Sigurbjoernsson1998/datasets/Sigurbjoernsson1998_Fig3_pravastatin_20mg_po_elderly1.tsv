@@ -1,0 +1,12 @@
+study	count	label	measurement_type	substance	tissue	id	intervention	method	time	time_unit	value	value_unit	count_unit
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	0.0	hr	0.0	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	0.5737084	hr	2.7302642922761643e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	0.7729938	hr	9.291438060914423e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	1.1227567	hr	0.00012214433608932234	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	1.3771541	hr	0.00010234537017407487	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	1.713774	hr	7.859492144253645e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	2.1176689	hr	5.1551230772854685e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	2.5434167	hr	4.0406407085482774e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	3.0885446	hr	2.9955416578333685e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	3.551316	hr	2.7429152238946602e-05	mole/meter^3	dimensionless
+Sigurbjoernsson1998	1	pravastatin_20mg_po_elderly1	concentration	pravastatin	serum	elderly1	pravastatin_20mg_po	HPLC-UV	4.081452	hr	1.896082491225591e-05	mole/meter^3	dimensionless

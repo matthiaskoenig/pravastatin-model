@@ -1,0 +1,3421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:distrib="http://www.sbml.org/sbml/level3/version1/distrib/version1" level="3" version="2" distrib:required="true">
+  <notes>
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
+<a href="https://doi.org/10.5281/zenodo.5525390">
+        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5525390.svg" alt="DOI"/></a></p>
+      </body>
+    </notes>
+  <model metaid="meta_pravastatin_body_pravastatin" id="pravastatin_body_pravastatin" name="Pravastatin (PRA) body model" substanceUnits="mmole" timeUnits="min" volumeUnits="litre" areaUnits="m2" lengthUnits="metre" extentUnits="mmole">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <h1>PK/PD model for whole-body pravastatin metabolism.</h1>
+        <p>The content of this model has been carefully created in a manual research effort.</p>
+        <h2>Terms of use</h2>
+        <p>Copyright © 2026 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"/>
+        </a>
+        <br/>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<p>Redistribution and use of any part of this model, with or without modification, are permitted provided
+that the following conditions are met:</p>
+        <ul>
+          <li>Redistributions of this SBML file must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+          <li>Redistributions in a different form must reproduce the above copyright notice, this list of conditions
+and the following disclaimer in the documentation and/or other materials provided
+with the distribution.</li>
+        </ul>
+        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></body>
+      </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#meta_pravastatin_body_pravastatin">
+          <dcterms:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>Leal Pujol</vCard4:family-name>
+                  <vCard4:given-name>Helen</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>lepujolh@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>König</vCard4:family-name>
+                  <vCard4:given-name>Matthias</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>koenigmx@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
+              </rdf:li>
+            </rdf:Bag>
+          </dcterms:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2026-10-24T18:36:29Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2026-10-24T18:36:29Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:is>
+            <rdf:Bag>
+              <rdf:li rdf:resource="https://identifiers.org/taxonomy:9606"/>
+            </rdf:Bag>
+          </bqbiol:is>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="cm" name="cm">
+        <listOfUnits>
+          <unit kind="metre" exponent="1" scale="0" multiplier="0.01"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="hr" name="hr">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="kg" name="kg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_hr" name="l/hr">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_kg" name="l/kg">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_min" name="l/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_min_kg" name="l/min/kg">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_mmole" name="l/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="m2" name="meter^2">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="m2_per_kg" name="meter^2/kg">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mM" name="mmole/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_day" name="mg/day">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_g" name="mg/g">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_hr" name="mg/hr">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_l" name="mg/l">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_min" name="mg/min">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min" name="min">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min_per_day" name="min/day">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min_per_hr" name="min/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml" name="ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_l" name="ml/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_s" name="ml/s">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_s_kg" name="ml/s/kg">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole" name="mmole">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_hr" name="mmole/hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_hr_ml" name="mmole/hr/ml">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_l" name="mmole/l">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_min" name="mmole/min">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_min_kg" name="mmole/min/kg">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_min_l" name="mmole/min/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mulitre_per_g" name="microlitre/g">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1e-06"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mul_per_min_mg" name="microliter/min/mg">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1e-06"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_hr" name="1/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min" name="1/min">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min_kg" name="1/min/kg">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="s_per_min" name="s/min">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__l_per_min" name="l/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__m2" name="meter^2">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__mM" name="mmole/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__min" name="min">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__ml_per_l" name="ml/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__mmole" name="mmole">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__mmole_per_min" name="mmole/min">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__mmole_per_min_l" name="mmole/min/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__per_min" name="1/min">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="KI__per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__l_per_min" name="l/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__m2" name="meter^2">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__mM" name="mmole/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__min" name="min">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__ml_per_l" name="ml/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__mmole" name="mmole">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__mmole_per_min" name="mmole/min">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__mmole_per_min_l" name="mmole/min/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__per_min" name="1/min">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="LI__per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__l_per_min" name="l/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__m2" name="meter^2">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__mM" name="mmole/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__mg_per_min" name="mg/min">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__min" name="min">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__min_per_hr" name="min/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__ml_per_l" name="ml/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__mmole" name="mmole">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__mmole_per_min" name="mmole/min">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__mmole_per_min_l" name="mmole/min/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__per_hr" name="1/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__per_min" name="1/min">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="GU__per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment metaid="meta_Vre" sboTerm="SBO:0000290" id="Vre" name="rest of body" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vre">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:62955"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C14250"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vgu" sboTerm="SBO:0000290" id="Vgu" name="gut" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vgu">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000545"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000648"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vki" sboTerm="SBO:0000290" id="Vki" name="kidney" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vki">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7203"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000671"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12415"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vli" sboTerm="SBO:0000290" id="Vli" name="liver" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vli">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12392"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vlu" sboTerm="SBO:0000290" id="Vlu" name="lung" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vlu">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7195"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000763"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12468"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vve" sboTerm="SBO:0000290" id="Vve" name="venous blood" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vve">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:50723"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Var" sboTerm="SBO:0000290" id="Var" name="arterial blood" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Var">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:50720"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vurine" sboTerm="SBO:0000290" id="Vurine" name="urine" size="1" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vurine">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:12274"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13283"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001419"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vfeces" sboTerm="SBO:0000290" id="Vfeces" name="feces" size="1" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vfeces">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:64183"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13234"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000440"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vstomach" sboTerm="SBO:0000290" id="Vstomach" name="stomach" size="1" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vstomach">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7148"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12391"/>
+                  <rdf:li rdf:resource="https://identifiers.org/UBERON:0000945"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001307"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vpo" sboTerm="SBO:0000290" id="Vpo" name="portal plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vpo">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:66645"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vhv" sboTerm="SBO:0000290" id="Vhv" name="hepatic venous plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vhv">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:14337"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vgu_tissue" sboTerm="SBO:0000290" id="Vgu_tissue" name="gu tissue" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vgu_tissue">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:45732"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C74601"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000545"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000648"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vgu_plasma" sboTerm="SBO:0000290" id="Vgu_plasma" name="gu plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vgu_plasma">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000545"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12736"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7199"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000648"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vki_tissue" sboTerm="SBO:0000290" id="Vki_tissue" name="ki tissue" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vki_tissue">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:45732"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C74601"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7203"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000671"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12415"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vki_plasma" sboTerm="SBO:0000290" id="Vki_plasma" name="ki plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vki_plasma">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7203"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000671"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12415"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vli_tissue" sboTerm="SBO:0000290" id="Vli_tissue" name="li tissue" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vli_tissue">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:45732"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C74601"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12392"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vli_plasma" sboTerm="SBO:0000290" id="Vli_plasma" name="li plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vli_plasma">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12392"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vlu_tissue" sboTerm="SBO:0000290" id="Vlu_tissue" name="lu tissue" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vlu_tissue">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:45732"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C74601"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7195"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000763"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12468"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vlu_plasma" sboTerm="SBO:0000290" id="Vlu_plasma" name="lu plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vlu_plasma">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7195"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000763"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12468"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vre_tissue" sboTerm="SBO:0000290" id="Vre_tissue" name="re tissue" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vre_tissue">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:45732"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C74601"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0001539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:62955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C14250"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vre_plasma" sboTerm="SBO:0000290" id="Vre_plasma" name="re plasma" size="1" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vre_plasma">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:62955"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C14250"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vgulumen" sboTerm="SBO:0000290" id="Vgulumen" name="gut lumen" size="1" units="litre" constant="false"/>
+      <compartment metaid="LI__meta_Vbaso" sboTerm="SBO:0000290" id="LI__Vbaso" name="basolateral membrane" spatialDimensions="2" size="1" units="LI__m2" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#LI__meta_Vbaso">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:84669"/>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0016323"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="meta_Cgu_plasma_pra" sboTerm="SBO:0000247" id="Cgu_plasma_pra" name="pravastatin (gut plasma)" compartment="Vgu_plasma" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cgu_plasma_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cki_plasma_pra" sboTerm="SBO:0000247" id="Cki_plasma_pra" name="pravastatin (kidney plasma)" compartment="Vki_plasma" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cki_plasma_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cli_plasma_pra" sboTerm="SBO:0000247" id="Cli_plasma_pra" name="pravastatin (liver plasma)" compartment="Vli_plasma" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cli_plasma_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Clu_plasma_pra" sboTerm="SBO:0000247" id="Clu_plasma_pra" name="pravastatin (lung plasma)" compartment="Vlu_plasma" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Clu_plasma_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cre_plasma_pra" sboTerm="SBO:0000247" id="Cre_plasma_pra" name="pravastatin (rest plasma)" compartment="Vre_plasma" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cre_plasma_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Car_pra" sboTerm="SBO:0000247" id="Car_pra" name="pravastatin (arterial blood plasma)" compartment="Var" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Car_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cve_pra" sboTerm="SBO:0000247" id="Cve_pra" name="pravastatin (venous blood plasma)" compartment="Vve" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cve_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cpo_pra" sboTerm="SBO:0000247" id="Cpo_pra" name="pravastatin (portal vein plasma)" compartment="Vpo" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cpo_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Chv_pra" sboTerm="SBO:0000247" id="Chv_pra" name="pravastatin (hepatic vein plasma)" compartment="Vhv" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Chv_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Clu_pra" sboTerm="SBO:0000247" id="Clu_pra" name="pravastatin (lung)" compartment="Vlu_tissue" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Clu_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cre_pra" sboTerm="SBO:0000247" id="Cre_pra" name="pravastatin (rest)" compartment="Vre_tissue" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cre_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cre_deep_pra" sboTerm="SBO:0000247" id="Cre_deep_pra" name="pravastatin deep (rest)" compartment="Vre_tissue" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Cre_deep_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Aurine_pra" sboTerm="SBO:0000247" id="Aurine_pra" name="pravastatin (urine)" compartment="Vurine" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Aurine_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Afeces_pra" sboTerm="SBO:0000247" id="Afeces_pra" name="pravastatin (feces)" compartment="Vfeces" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Afeces_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_Cgulumen_pra" id="Cgulumen_pra" name="pravastatin (gut lumen)" compartment="Vgulumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="LI__meta_pra" sboTerm="SBO:0000247" id="LI__pra" name="pravastatin (liver)" compartment="Vli_tissue" initialConcentration="0" substanceUnits="LI__mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#LI__meta_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="GU__meta_pra_stomach" sboTerm="SBO:0000247" id="GU__pra_stomach" name="pravastatin (stomach)" compartment="Vstomach" initialConcentration="0" substanceUnits="GU__mmole" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Species in amounts, no dependency on stomach volume.</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#GU__meta_pra_stomach">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="f_lumen" name="fraction lumen of intestine" value="0.9" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="BW" name="body weight [kg]" value="75" units="kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="BW_ref" name="reference body weight [kg]" value="75" units="kg" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Body weight at which the exchange flows of the tissue distribution (<code>ftissue_&lt;sid&gt;</code>) are given; they scale with the body weight as the volumes, the blood flows and the renal clearance do.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="HEIGHT" name="height [cm]" value="170" units="cm" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="HR" name="heart rate [1/min]" value="70" units="per_min" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="HRrest" name="resting heart rate [1/min]" value="70" units="per_min" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="BSA" name="body surface area [m^2]" value="0" units="m2" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="COBW" name="cardiac output per bodyweight [ml/s/kg]" value="1.25" units="ml_per_s_kg" constant="true"/>
+      <parameter metaid="meta_CO" sboTerm="SBO:0000002" id="CO" name="cardiac output [ml/s]" value="NaN" units="ml_per_s" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>BW*COBW (100 ml/s)</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_CO">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C119246"/>
+                  <rdf:li rdf:resource="https://identifiers.org/omit:0003637"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_QC" sboTerm="SBO:0000002" id="QC" name="cardiac output [L/min]" value="NaN" units="l_per_min" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_QC">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C119246"/>
+                  <rdf:li rdf:resource="https://identifiers.org/omit:0003637"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="COHRI" name="increase of cardiac output per heartbeat [ml/min*min]" value="150" units="ml" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="Fblood" name="blood fraction of organ volume" value="0.02" units="dimensionless" constant="false"/>
+      <parameter metaid="meta_HCT" sboTerm="SBO:0000002" id="HCT" name="hematocrit" value="0.51" units="dimensionless" constant="true"/>
+      <parameter metaid="meta_FVgi" sboTerm="SBO:0000002" id="FVgi" name="fractional tissue volume gastrointestinal tract" value="0.0297" units="l_per_kg" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FVgi = FVgu + FVpa + FVsp = 0.0171 + 0.01 + 0.0026 = 0.0297</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_FVgi">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:71132"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000511"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C34082"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="FVki" name="kidney fractional tissue volume" value="0.0044" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FVli" name="liver fractional tissue volume" value="0.021" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FVlu" name="lung fractional tissue volume" value="0.0076" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FVre" name="rest of body fractional tissue volume" value="0" units="l_per_kg" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="FVve" name="venous fractional tissue volume" value="0.0514" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FVar" name="arterial fractional tissue volume" value="0.0257" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FVpo" name="portal fractional tissue volume" value="0.001" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FVhv" name="hepatic venous fractional tissue volume" value="0.001" units="l_per_kg" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FQgu" name="gut fractional tissue blood flow" value="0.18" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Assumed FQgu is the sum of FQgu + FQsp + FQpa for correct portal blood flow.
+with FQgu=0.146, FQsp=0.017, FQpa=0.017</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="FQki" name="kidney fractional tissue blood flow" value="0.19" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FQh" name="hepatic (venous side) fractional tissue blood flow" value="0.215" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FQlu" name="lung fractional tissue blood flow" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="FQre" name="rest of body fractional tissue blood flow" value="0" units="dimensionless" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="conversion_min_per_day" name="Conversion factor min to day" value="1440" units="min_per_day" constant="true"/>
+      <parameter metaid="meta_f_cirrhosis" sboTerm="SBO:0000002" id="f_cirrhosis" name="severity of cirrhosis [0, 0.95]" value="0" units="dimensionless" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_f_cirrhosis">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C2951"/>
+                  <rdf:li rdf:resource="https://identifiers.org/efo:0001422"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_f_shunts" sboTerm="SBO:0000002" id="f_shunts" name="fraction of portal venous blood shunted by the liver" value="0" units="dimensionless" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_f_shunts">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/HP:0002629"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="f_tissue_loss" name="fraction of lost parenchymal liver volume" value="0" units="dimensionless" constant="false"/>
+      <parameter metaid="meta_fu_pra" sboTerm="SBO:0000002" id="fu_pra" name="fraction unbound in plasma pravastatin" value="0.5" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="f_GFR_Qki" name="relationship GFR and Qki" value="94.5029239766082" units="ml_per_l" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GFR per renal blood flow (94.5 ml/l). Calibrated so that the
+healthy GFR is 101 ml/min at the renal blood flow of 1.06875 l/min
+of 75 kg, the normal GFR of the classes of renal impairment
+(<code>pkpdsim.impairment</code>).</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GFR_base" name="glomerular filtration rate (healthy)" value="NaN" units="ml_per_min" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>The GFR of healthy kidneys, which scales with the renal blood flow
+and so with the body weight; the GFR is <code>KI__f_renal_function</code>
+times this rate.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000647" id="Mr_pra" name="Molecular weight pra [g/mole]" value="424.53" units="g_per_mole" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="ftissue_pra" name="tissue distribution pra" value="20" units="l_per_min" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Exchange flow at the reference body weight <code>BW_ref</code>.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="Kp_pra" name="tissue/plasma partition coefficient pra" value="0.172885468603702" units="dimensionless" constant="true">
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>Kp_pra</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 0.172885 dimensionless |
+| bounds | [0.05, 3] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [0.0892765, 0.284822] |
+| Fisher confidence interval | [0.106998, 0.279345] |
+| distribution of the draws | <code>lognormal(-1.7551259349162511, 0.2959557126396953, 0.05, 3.0)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="dimensionless" distrib:type="confidenceInterval" distrib:valueLower="0.0892765210662533" distrib:valueUpper="0.284821767346639"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.0420545244101692" distrib:units="dimensionless" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <apply>
+                    <minus/>
+                    <cn> 1.75512593491625 </cn>
+                  </apply>
+                  <cn> 0.295955712639695 </cn>
+                  <cn> 0.05 </cn>
+                  <cn> 3 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="Kpdeep_pra" name="deep/tissue partition coefficient pra" value="0.85" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Ratio of the deep to the free concentration of the rest
+tissue in the equilibrium of the slow distribution: with
+<code>Kp</code> it sets the volume of distribution of the terminal
+phase.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000009" id="kdeep_pra" name="rate of the deep distribution pra" value="0.011" units="per_min" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Rate of the slow exchange between the rest tissue and its
+deep compartment: the concentrations fall fast in the
+first 2 hr after a dose (distribution and elimination) and
+slower after it (terminal half-life 0.8 hr after an
+intravenous dose, 1.5-2 hr after an oral dose).</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="IVDOSE_pra" name="IV bolus dose pra [mg]" value="0" units="mg" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="ti_pra" name="injection time pra [s]" value="10" units="second" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="Ki_pra" name="Ki [1/min] injection pra" value="0.02" units="per_min" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="Ri_pra" name="Ri [mg/min] rate of infusion pra" value="0" units="mg_per_min" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="cum_dose_pra" name="Cumulative dose due to infusion pra" value="0" units="mg" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="PODOSE_pra" name="oral dose pra [mg]" value="0" units="mg" constant="false"/>
+      <parameter id="Qgu" name="gut blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Qki" name="kidney blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Qh" name="hepatic (venous side) blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Qha" name="hepatic artery blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Qlu" name="lung blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Qre" name="rest of body blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Qpo" name="portal blood flow" units="l_per_min" constant="false"/>
+      <parameter id="Agu_plasma_pra" name="pravastatin amount (gut) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xgu_plasma_pra" name="pravastatin amount (gut) [mg]" units="mg" constant="false"/>
+      <parameter id="Mgu_plasma_pra" name="pravastatin concentration (gut) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Aki_plasma_pra" name="pravastatin amount (kidney) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xki_plasma_pra" name="pravastatin amount (kidney) [mg]" units="mg" constant="false"/>
+      <parameter id="Mki_plasma_pra" name="pravastatin concentration (kidney) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Ali_plasma_pra" name="pravastatin amount (liver) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xli_plasma_pra" name="pravastatin amount (liver) [mg]" units="mg" constant="false"/>
+      <parameter id="Mli_plasma_pra" name="pravastatin concentration (liver) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Alu_plasma_pra" name="pravastatin amount (lung) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xlu_plasma_pra" name="pravastatin amount (lung) [mg]" units="mg" constant="false"/>
+      <parameter id="Mlu_plasma_pra" name="pravastatin concentration (lung) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Are_plasma_pra" name="pravastatin amount (rest) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xre_plasma_pra" name="pravastatin amount (rest) [mg]" units="mg" constant="false"/>
+      <parameter id="Mre_plasma_pra" name="pravastatin concentration (rest) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Aar_pra" name="pravastatin amount (arterial blood) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xar_pra" name="pravastatin amount (arterial blood) [mg]" units="mg" constant="false"/>
+      <parameter id="Mar_pra" name="pravastatin concentration (arterial blood) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Ave_pra" name="pravastatin amount (venous blood) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xve_pra" name="pravastatin amount (venous blood) [mg]" units="mg" constant="false"/>
+      <parameter id="Mve_pra" name="pravastatin concentration (venous blood) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Apo_pra" name="pravastatin amount (portal vein) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xpo_pra" name="pravastatin amount (portal vein) [mg]" units="mg" constant="false"/>
+      <parameter id="Mpo_pra" name="pravastatin concentration (portal vein) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Ahv_pra" name="pravastatin amount (hepatic vein) [mmole]" units="mmole" constant="false"/>
+      <parameter id="Xhv_pra" name="pravastatin amount (hepatic vein) [mg]" units="mg" constant="false"/>
+      <parameter id="Mhv_pra" name="pravastatin concentration (hepatic vein) [mg/l]" units="mg_per_l" constant="false"/>
+      <parameter id="Xurine_pra" name="pravastatin amount (urine) [mg]" units="mg" constant="false"/>
+      <parameter id="Xfeces_pra" name="pravastatin amount (feces)" units="mg" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="KI__f_renal_function" name="renal function" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <blockquote>
+              <p>1.0: increased kidney function
+1.0: normal kidney function (healthy control)
+&lt;1.0: decreased kidney function</p>
+            </blockquote>
+            <p>Renal function relative to the healthy glomerular filtration rate
+GFR_base, which is 101 ml/min at 75 kg; a measured creatinine
+clearance of X ml/min is the renal function X/101.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000009" id="KI__PRAEX_f" name="renal clearance of unbound pravastatin relative to the GFR" value="16.5960789851112" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>The renal clearance of pravastatin is PRAEX_f times the filtration of
+its unbound fraction, fu_pra * GFR: 1 is filtration alone, above 1 a
+net tubular secretion (OAT3). The clearance from the plasma of the
+kidney is limited by the renal plasma flow, so the effective renal
+clearance of 0.42-0.46 l/min (Singhvi1990) needs a value of about 16
+(fitted).</p>
+          </body>
+        </notes>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>KI__PRAEX_f</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 16.5961 dimensionless |
+| bounds | [1, 60] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [11.6757, 23.5464] |
+| Fisher confidence interval | [12.7307, 21.6351] |
+| distribution of the draws | <code>lognormal(2.8091664617453405, 0.17894758565872768, 1.0, 60.0)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="dimensionless" distrib:type="confidenceInterval" distrib:valueLower="11.6757042048921" distrib:valueUpper="23.5463722755267"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="2.23087727950007" distrib:units="dimensionless" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <cn> 2.80916646174534 </cn>
+                  <cn> 0.178947585658728 </cn>
+                  <cn> 1 </cn>
+                  <cn> 60 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="KI__f_OAT3" name="parameter for OAT3 activity" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Activity of the tubular secretion of pravastatin by OAT3 (SLC22A8)
+(1.0 reference function, &lt; 1.0 inhibition, e.g. by gemfibrozil). It
+scales the secreted part of the renal clearance, PRAEX_f - 1, not the
+filtration.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter id="KI__GFR" name="glomerular filtration rate" units="KI__ml_per_min" constant="false"/>
+      <parameter sboTerm="SBO:0000186" id="LI__PRAIM_Vmax" name="Vmax for pravastatin import via OATP1B1" value="0.00492447459626885" units="LI__mmole_per_min_l" constant="true">
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>LI__PRAIM_Vmax</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 0.00492447 (mmol)/(min)/l |
+| bounds | [0.0005, 0.1] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [0.00235234, 0.0124437] |
+| Fisher confidence interval | [0.0024576, 0.00986751] |
+| distribution of the draws | <code>lognormal(-5.313537691009542, 0.42495802927595794, 0.0005, 0.1)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="LI__mmole_per_min_l" distrib:type="confidenceInterval" distrib:valueLower="0.00235234154212269" distrib:valueUpper="0.0124437202444794"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.00173516358515952" distrib:units="LI__mmole_per_min_l" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <apply>
+                    <minus/>
+                    <cn> 5.31353769100954 </cn>
+                  </apply>
+                  <cn> 0.424958029275958 </cn>
+                  <cn> 0.0005 </cn>
+                  <cn> 0.1 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="LI__f_OATP1B1" name="parameter for OATP1B1 activity" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>parameter controls genetic variants (1.0 reference function,
+&lt; 1.0 reduced function, &gt; 1.0 increased function)</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000027" id="LI__PRAIM_Km_pra" name="Km for pravastatin import via OATP1B1" value="0.01" units="LI__mM" constant="true"/>
+      <parameter sboTerm="SBO:0000009" id="LI__PRAEX_k" name="rate for pravastatin export via MRP2" value="0.1" units="LI__per_min" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Rate of the biliary excretion, a half-life of pravastatin in
+the liver of about 7 min. It changes only the timing of the
+enterohepatic circulation, not the exposure, and is not
+fitted.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="LI__f_MRP2" name="parameter for MRP2 activity" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>parameter controls genetic variants (1.0 reference function,
+&lt; 1.0 reduced function, &gt; 1.0 increased function)</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__F_pra_abs" name="fraction absorbed pravastatin (fasted)" value="0.217463051507184" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Fraction of the pravastatin leaving the intestinal lumen which is
+absorbed via OATP2B1, <code>F_pra_abs * f_OATP2B1 * f_absorption</code>; the rest
+is excreted with the feces. It applies to the dose and to every pass of
+the enterohepatic circulation. The oral absorption of 14C-pravastatin
+is about 34 % (Singhvi1990).</p>
+          </body>
+        </notes>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>GU__F_pra_abs</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 0.217463 dimensionless |
+| bounds | [0.05, 0.9] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [0.148039, 0.367909] |
+| Fisher confidence interval | [0.147527, 0.320553] |
+| distribution of the draws | <code>lognormal(-1.5257263210122123, 0.23223885589461346, 0.05, 0.9)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="dimensionless" distrib:type="confidenceInterval" distrib:valueLower="0.148039155659052" distrib:valueUpper="0.367909281739071"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.0427774577365844" distrib:units="dimensionless" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <apply>
+                    <minus/>
+                    <cn> 1.52572632101221 </cn>
+                  </apply>
+                  <cn> 0.232238855894613 </cn>
+                  <cn> 0.05 </cn>
+                  <cn> 0.9 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
+      </parameter>
+      <parameter sboTerm="SBO:0000009" id="GU__PRAABS_k" name="rate of pravastatin leaving the intestinal lumen" value="0.0219368198080403" units="GU__per_min" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>First order rate of the absorption from the lumen; together with the
+dissolution and gastric emptying it gives the tmax of 0.75-1.5 hr of
+the tablets.</p>
+          </body>
+        </notes>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>GU__PRAABS_k</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 0.0219368 1/(min) |
+| bounds | [0.001, 0.5] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [0.0153934, 0.0432535] |
+| Fisher confidence interval | [0.0142593, 0.0337482] |
+| distribution of the draws | <code>lognormal(-3.819588784138041, 0.26356058192207593, 0.001, 0.5)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="GU__per_min" distrib:type="confidenceInterval" distrib:valueLower="0.015393418724007" distrib:valueUpper="0.0432535174812272"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.00479055264407113" distrib:units="GU__per_min" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <apply>
+                    <minus/>
+                    <cn> 3.81958878413804 </cn>
+                  </apply>
+                  <cn> 0.263560581922076 </cn>
+                  <cn> 0.001 </cn>
+                  <cn> 0.5 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__f_OATP2B1" name="parameter for OATP2B1 activity" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>parameter controls genetic variants and the inhibition of the
+intestinal uptake (1.0 reference function, &lt; 1.0 reduced function,</p>
+            <blockquote>
+              <p>1.0 increased function); it scales the fraction absorbed.</p>
+            </blockquote>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__fed" name="fed state (0 fasted, 1 fed)" value="0" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>The dose is taken in the fasted state (0) or with a meal (1). The
+effects of food on the fraction absorbed and on the dissolution and
+gastric emptying are <code>FED_f_absorption</code> and <code>FED_f_dissolution</code>.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__FED_f_absorption" name="fed effect on the fraction absorbed" value="0.75" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Food reduces the AUC of pravastatin by about 30 % (Pravachol label;
+Pan2000, dosed after breakfast).</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__FED_f_dissolution" name="fed effect on the dissolution and gastric emptying" value="0.4" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Food delays the tmax of pravastatin from about 1 hr to 1.5-2 hr
+(Gustavson2005, Pan2000).</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__POSTOMACH_pra" name="oral dose in stomach pravastatin [mg]" value="0" units="GU__mg" constant="false"/>
+      <parameter sboTerm="SBO:0000002" id="GU__Ka_application_pra" name="Ka [1/hr] application pravastatin" value="1000" units="GU__per_hr" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Fast application to shift applied dose in the stomach.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="GU__Ka_dis_pra" name="Ka_dis [1/hr] dissolution pravastatin" value="2.01072783691315" units="GU__per_hr" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Dissolution of the tablet and gastric emptying (fasted).</p>
+          </body>
+        </notes>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>GU__Ka_dis_pra</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 2.01073 1/(hr) |
+| bounds | [0.1, 20] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [1.07358, 3.20803] |
+| Fisher confidence interval | [1.20686, 3.35005] |
+| distribution of the draws | <code>lognormal(0.6984967644427271, 0.2792539526620365, 0.1, 20.0)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="GU__per_hr" distrib:type="confidenceInterval" distrib:valueLower="1.07358263671066" distrib:valueUpper="3.20802888386105"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="0.520364810066643" distrib:units="GU__per_hr" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <cn> 0.698496764442727 </cn>
+                  <cn> 0.279253952662037 </cn>
+                  <cn> 0.1 </cn>
+                  <cn> 20 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
+      </parameter>
+      <parameter id="GU__f_absorption" name="factor of the fraction absorbed" units="dimensionless" constant="false"/>
+      <parameter id="GU__f_dissolution" name="factor of the dissolution and gastric emptying" units="dimensionless" constant="false"/>
+      <parameter id="GU__F_absorbed" name="fraction absorbed" units="dimensionless" constant="false"/>
+      <parameter id="GU__absorption" name="pravastatin leaving the lumen" units="GU__mmole_per_min" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule variable="Vgulumen">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> f_lumen </ci>
+            <ci> Vgu </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="f_shunts">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> f_cirrhosis </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="f_tissue_loss">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> f_cirrhosis </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="FVre">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <minus/>
+            <cn sbml:units="l_per_kg"> 1 </cn>
+            <apply>
+              <plus/>
+              <ci> FVgi </ci>
+              <ci> FVki </ci>
+              <ci> FVli </ci>
+              <ci> FVlu </ci>
+              <ci> FVve </ci>
+              <ci> FVar </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="FQre">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <minus/>
+            <cn sbml:units="dimensionless"> 1 </cn>
+            <apply>
+              <plus/>
+              <ci> FQki </ci>
+              <ci> FQh </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="BSA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <cn sbml:units="m2"> 0.024265 </cn>
+            <apply>
+              <power/>
+              <apply>
+                <divide/>
+                <ci> BW </ci>
+                <cn sbml:units="kg" type="integer"> 1 </cn>
+              </apply>
+              <cn> 0.5378 </cn>
+            </apply>
+            <apply>
+              <power/>
+              <apply>
+                <divide/>
+                <ci> HEIGHT </ci>
+                <cn sbml:units="cm" type="integer"> 1 </cn>
+              </apply>
+              <cn> 0.3964 </cn>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="CO">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> BW </ci>
+              <ci> COBW </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> HR </ci>
+                  <ci> HRrest </ci>
+                </apply>
+                <ci> COHRI </ci>
+              </apply>
+              <cn sbml:units="s_per_min" type="integer"> 60 </cn>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="QC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> CO </ci>
+              <cn sbml:units="ml_per_l" type="integer"> 1000 </cn>
+            </apply>
+            <cn sbml:units="s_per_min" type="integer"> 60 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vgu">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> BW </ci>
+            <ci> FVgi </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vki">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> BW </ci>
+            <ci> FVki </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vli">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> BW </ci>
+            <ci> FVli </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vlu">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> BW </ci>
+            <ci> FVlu </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vre">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> BW </ci>
+            <ci> FVre </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vve">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> BW </ci>
+              <ci> FVve </ci>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <ci> FVve </ci>
+                <apply>
+                  <plus/>
+                  <ci> FVar </ci>
+                  <ci> FVve </ci>
+                </apply>
+              </apply>
+              <ci> BW </ci>
+              <ci> Fblood </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <minus/>
+                  <cn sbml:units="l_per_kg" type="integer"> 1 </cn>
+                  <ci> FVve </ci>
+                </apply>
+                <ci> FVar </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Var">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> BW </ci>
+              <ci> FVar </ci>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <ci> FVar </ci>
+                <apply>
+                  <plus/>
+                  <ci> FVar </ci>
+                  <ci> FVve </ci>
+                </apply>
+              </apply>
+              <ci> BW </ci>
+              <ci> Fblood </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <minus/>
+                  <cn sbml:units="l_per_kg" type="integer"> 1 </cn>
+                  <ci> FVve </ci>
+                </apply>
+                <ci> FVar </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vpo">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> BW </ci>
+                <ci> FVpo </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <ci> FVpo </ci>
+                  <apply>
+                    <plus/>
+                    <ci> FVar </ci>
+                    <ci> FVve </ci>
+                    <ci> FVpo </ci>
+                    <ci> FVhv </ci>
+                  </apply>
+                </apply>
+                <ci> BW </ci>
+                <ci> Fblood </ci>
+                <apply>
+                  <minus/>
+                  <cn sbml:units="l_per_kg" type="integer"> 1 </cn>
+                  <apply>
+                    <plus/>
+                    <ci> FVar </ci>
+                    <ci> FVve </ci>
+                    <ci> FVpo </ci>
+                    <ci> FVhv </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Vhv">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> BW </ci>
+                <ci> FVhv </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <ci> FVhv </ci>
+                  <apply>
+                    <plus/>
+                    <ci> FVar </ci>
+                    <ci> FVve </ci>
+                    <ci> FVpo </ci>
+                    <ci> FVhv </ci>
+                  </apply>
+                </apply>
+                <ci> BW </ci>
+                <ci> Fblood </ci>
+                <apply>
+                  <minus/>
+                  <cn sbml:units="l_per_kg" type="integer"> 1 </cn>
+                  <apply>
+                    <plus/>
+                    <ci> FVar </ci>
+                    <ci> FVve </ci>
+                    <ci> FVpo </ci>
+                    <ci> FVhv </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="gut blood flow" variable="Qgu">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> QC </ci>
+            <ci> FQgu </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="kidney blood flow" variable="Qki">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> QC </ci>
+            <ci> FQki </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="hepatic (venous side) blood flow" variable="Qh">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> QC </ci>
+            <ci> FQh </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="hepatic artery blood flow" variable="Qha">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> Qh </ci>
+            <ci> Qgu </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="lung blood flow" variable="Qlu">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> QC </ci>
+            <ci> FQlu </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="rest of body blood flow" variable="Qre">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> QC </ci>
+            <ci> FQre </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="portal blood flow" variable="Qpo">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> Qgu </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="glomerular filtration rate (healthy)" variable="GFR_base">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> f_GFR_Qki </ci>
+            <ci> Qki </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="plasma volume of gut" variable="Vgu_plasma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vgu </ci>
+            <ci> Fblood </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of gut" variable="Vgu_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vgu </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="plasma volume of kidney" variable="Vki_plasma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vki </ci>
+            <ci> Fblood </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of kidney" variable="Vki_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vki </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="plasma volume of liver" variable="Vli_plasma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vli </ci>
+            <ci> Fblood </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of liver" variable="Vli_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vli </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> f_tissue_loss </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="plasma volume of lung" variable="Vlu_plasma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vlu </ci>
+            <ci> Fblood </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of lung" variable="Vlu_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vlu </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="plasma volume of rest" variable="Vre_plasma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vre </ci>
+            <ci> Fblood </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> HCT </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="tissue volume of rest" variable="Vre_tissue">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <ci> Vre </ci>
+            <apply>
+              <minus/>
+              <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              <ci> Fblood </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="injection rate IV" variable="Ki_pra">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>log(2) ~ 0.693 used for conversion of half-life injection time to
+injection rate.</p>
+          </body>
+        </notes>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <cn sbml:units="dimensionless"> 0.693 </cn>
+              <ci> ti_pra </ci>
+            </apply>
+            <cn sbml:units="s_per_min" type="integer"> 60 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (gut) [mmole]" variable="Agu_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Cgu_plasma_pra </ci>
+            <ci> Vgu_plasma </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (gut) [mg]" variable="Xgu_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Agu_plasma_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (gut) [mg/l]" variable="Mgu_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Agu_plasma_pra </ci>
+              <ci> Vgu_plasma </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (kidney) [mmole]" variable="Aki_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Cki_plasma_pra </ci>
+            <ci> Vki_plasma </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (kidney) [mg]" variable="Xki_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Aki_plasma_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (kidney) [mg/l]" variable="Mki_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Aki_plasma_pra </ci>
+              <ci> Vki_plasma </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (liver) [mmole]" variable="Ali_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Cli_plasma_pra </ci>
+            <ci> Vli_plasma </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (liver) [mg]" variable="Xli_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Ali_plasma_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (liver) [mg/l]" variable="Mli_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Ali_plasma_pra </ci>
+              <ci> Vli_plasma </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (lung) [mmole]" variable="Alu_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Clu_plasma_pra </ci>
+            <ci> Vlu_plasma </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (lung) [mg]" variable="Xlu_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Alu_plasma_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (lung) [mg/l]" variable="Mlu_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Alu_plasma_pra </ci>
+              <ci> Vlu_plasma </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (rest) [mmole]" variable="Are_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Cre_plasma_pra </ci>
+            <ci> Vre_plasma </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (rest) [mg]" variable="Xre_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Are_plasma_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (rest) [mg/l]" variable="Mre_plasma_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Are_plasma_pra </ci>
+              <ci> Vre_plasma </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (arterial blood) [mmole]" variable="Aar_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Car_pra </ci>
+            <ci> Var </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (arterial blood) [mg]" variable="Xar_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Aar_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (arterial blood) [mg/l]" variable="Mar_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Aar_pra </ci>
+              <ci> Var </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (venous blood) [mmole]" variable="Ave_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Cve_pra </ci>
+            <ci> Vve </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (venous blood) [mg]" variable="Xve_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Ave_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (venous blood) [mg/l]" variable="Mve_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Ave_pra </ci>
+              <ci> Vve </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (portal vein) [mmole]" variable="Apo_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Cpo_pra </ci>
+            <ci> Vpo </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (portal vein) [mg]" variable="Xpo_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Apo_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (portal vein) [mg/l]" variable="Mpo_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Apo_pra </ci>
+              <ci> Vpo </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (hepatic vein) [mmole]" variable="Ahv_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Chv_pra </ci>
+            <ci> Vhv </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (hepatic vein) [mg]" variable="Xhv_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Ahv_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin concentration (hepatic vein) [mg/l]" variable="Mhv_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Ahv_pra </ci>
+              <ci> Vhv </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (urine) [mg]" variable="Xurine_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Aurine_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin amount (feces)" variable="Xfeces_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> Afeces_pra </ci>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <rateRule variable="IVDOSE_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> iv_pra </ci>
+              </apply>
+              <ci> Mr_pra </ci>
+            </apply>
+            <ci> Ri_pra </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="cum_dose_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> Ri_pra </ci>
+        </math>
+      </rateRule>
+      <assignmentRule name="glomerular filtration rate" variable="KI__GFR">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> KI__f_renal_function </ci>
+            <ci> GFR_base </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="factor of the fraction absorbed" variable="GU__f_absorption">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <plus/>
+            <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+            <apply>
+              <times/>
+              <ci> GU__fed </ci>
+              <apply>
+                <minus/>
+                <ci> GU__FED_f_absorption </ci>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="factor of the dissolution and gastric emptying" variable="GU__f_dissolution">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <plus/>
+            <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+            <apply>
+              <times/>
+              <ci> GU__fed </ci>
+              <apply>
+                <minus/>
+                <ci> GU__FED_f_dissolution </ci>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="fraction absorbed" variable="GU__F_absorbed">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> GU__F_pra_abs </ci>
+            <ci> GU__f_OATP2B1 </ci>
+            <ci> GU__f_absorption </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="pravastatin leaving the lumen" variable="GU__absorption">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> GU__PRAABS_k </ci>
+            <ci> Vgulumen </ci>
+            <ci> Cgulumen_pra </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <rateRule variable="PODOSE_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> GU__application_pra </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="GU__POSTOMACH_pra">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> GU__application_pra </ci>
+              <ci> GU__dissolution_pra </ci>
+            </apply>
+            <ci> Mr_pra </ci>
+          </apply>
+        </math>
+      </rateRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction sboTerm="SBO:0000655" id="transport_lu_pra" name="transport pravastatin" reversible="true" compartment="Vlu_tissue">
+        <listOfReactants>
+          <speciesReference species="Clu_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Clu_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> ftissue_pra </ci>
+                  <ci> BW </ci>
+                </apply>
+                <ci> BW_ref </ci>
+              </apply>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Clu_plasma_pra </ci>
+                  <ci> Kp_pra </ci>
+                </apply>
+                <ci> Clu_pra </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="transport_re_pra" name="transport pravastatin" reversible="true" compartment="Vre_tissue">
+        <listOfReactants>
+          <speciesReference species="Cre_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cre_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> ftissue_pra </ci>
+                  <ci> BW </ci>
+                </apply>
+                <ci> BW_ref </ci>
+              </apply>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cre_plasma_pra </ci>
+                  <ci> Kp_pra </ci>
+                </apply>
+                <ci> Cre_pra </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="deep_re_pra" name="deep distribution pravastatin (tissue)" reversible="true" compartment="Vre_tissue">
+        <listOfReactants>
+          <speciesReference species="Cre_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cre_deep_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kdeep_pra </ci>
+              <ci> Vre_tissue </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Kpdeep_pra </ci>
+                  <ci> Cre_pra </ci>
+                </apply>
+                <ci> Cre_deep_pra </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="meta_iv_pra" sboTerm="SBO:0000655" id="iv_pra" name="iv pravastatin" reversible="false" compartment="Vve">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_iv_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C38276"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="Cve_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Ki_pra </ci>
+                <ci> IVDOSE_pra </ci>
+              </apply>
+              <ci> Mr_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_ar_gu_pra" name="inflow gut pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cgu_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qgu </ci>
+              <ci> Car_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_gu_po_pra" name="outflow gut pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cgu_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cpo_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qgu </ci>
+              <ci> Cgu_plasma_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_ar_ki_pra" name="inflow kidney pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cki_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qki </ci>
+              <ci> Car_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_ki_ve_pra" name="outflow kidney pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cki_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cve_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qki </ci>
+              <ci> Cki_plasma_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_arli_li_pra" name="arterial inflow liver pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cli_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> f_shunts </ci>
+              </apply>
+              <ci> Qha </ci>
+              <ci> Car_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_arli_hv_pra" name="flow arterial shunts" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> f_shunts </ci>
+              <ci> Qha </ci>
+              <ci> Car_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_po_li_pra" name="outflow po pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cpo_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cli_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> f_shunts </ci>
+              </apply>
+              <ci> Qpo </ci>
+              <ci> Cpo_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_po_hv_pra" name="flow portal shunts" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cpo_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> f_shunts </ci>
+              <ci> Qpo </ci>
+              <ci> Cpo_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_li_hv_pra" name="outflow liver pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cli_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> f_shunts </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Qpo </ci>
+                <ci> Qha </ci>
+              </apply>
+              <ci> Cli_plasma_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_hv_ve_pra" name="outflow hepatic vein pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Chv_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cve_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qh </ci>
+              <ci> Chv_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_ve_lu_pra" name="inflow lung pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cve_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Clu_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qlu </ci>
+              <ci> Cve_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_lu_ar_pra" name="outflow lung pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Clu_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qlu </ci>
+              <ci> Clu_plasma_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_ar_re_pra" name="inflow rest pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Car_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cre_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qre </ci>
+              <ci> Car_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="Flow_re_ve_pra" name="outflow rest pravastatin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cre_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cve_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Qre </ci>
+              <ci> Cre_plasma_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="KI__meta_PRAEX" sboTerm="SBO:0000655" id="KI__PRAEX" name="excretion pravastatin" reversible="false" compartment="Vki_tissue">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#KI__meta_PRAEX">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C75913"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="Cki_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Aurine_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <ci> KI__GFR </ci>
+              <cn sbml:units="KI__l_per_ml"> 0.001 </cn>
+              <ci> fu_pra </ci>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <ci> KI__f_OAT3 </ci>
+                  <apply>
+                    <minus/>
+                    <ci> KI__PRAEX_f </ci>
+                    <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> Cki_plasma_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="LI__PRAIM" name="pravastatin import (OATP1B1)" reversible="false" compartment="LI__Vbaso">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Import of pravastatin via OATP1B1 (SLCO1B1) from the plasma in the liver.
+Here the genetic variants of SLCO1B1 and the inhibition of OATP1B1 have
+their effects.</p>
+            <p>Irreversible import of pravastatin via Michaelis-Menten kinetics. The
+Km of 10 µM is far above the plasma concentrations (0.01-0.5 µM), so
+the uptake is linear and Vmax/Km sets the intrinsic clearance; the
+hepatic extraction is about 0.5 (F 0.17-0.18 with a fraction absorbed
+of 0.34, Singhvi1990).</p>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="Cli_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="LI__pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> LI__f_OATP1B1 </ci>
+                <ci> LI__PRAIM_Vmax </ci>
+                <ci> Vli_tissue </ci>
+                <ci> Cli_plasma_pra </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cli_plasma_pra </ci>
+                <ci> LI__PRAIM_Km_pra </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="LI__PRAEX" name="pravastatin bile export (MRP2)" reversible="false" compartment="Vli_tissue">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Export of pravastatin via MRP2 from the liver into the bile, which
+flows into the intestinal lumen (enterohepatic circulation). Here the
+genetic variants of MRP2 have their effects.</p>
+            <p>Irreversible first order export.</p>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="LI__pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cgulumen_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> LI__f_MRP2 </ci>
+              <ci> LI__PRAEX_k </ci>
+              <ci> Vli_tissue </ci>
+              <ci> LI__pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="GU__PRAABS" name="absorption pravastatin (OATP2B1)" reversible="false" compartment="Vgu">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Import via OATP2B1 is irreversible at apical membrane of enterocytes.</p>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="Cgulumen_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cgu_plasma_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> GU__F_absorbed </ci>
+              <ci> GU__absorption </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="GU__PRAEXC" name="excretion pravastatin (feces)" reversible="false" compartment="Vgulumen">
+        <listOfReactants>
+          <speciesReference species="Cgulumen_pra" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Afeces_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> GU__F_absorbed </ci>
+              </apply>
+              <ci> GU__absorption </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="GU__application_pra" name="PO application pravastatin" reversible="false" compartment="Vgu">
+        <listOfProducts>
+          <speciesReference species="GU__pra_stomach" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <ci> GU__Ka_application_pra </ci>
+                  <cn sbml:units="GU__min_per_hr" type="integer"> 60 </cn>
+                </apply>
+                <ci> PODOSE_pra </ci>
+              </apply>
+              <ci> Mr_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="GU__dissolution_pra" name="dissolution pravastatin" reversible="false" compartment="Vgu">
+        <listOfReactants>
+          <speciesReference species="GU__pra_stomach" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cgulumen_pra" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> GU__f_dissolution </ci>
+                    <ci> GU__Ka_dis_pra </ci>
+                  </apply>
+                  <cn sbml:units="GU__min_per_hr" type="integer"> 60 </cn>
+                </apply>
+                <ci> GU__POSTOMACH_pra </ci>
+              </apply>
+              <ci> Mr_pra </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

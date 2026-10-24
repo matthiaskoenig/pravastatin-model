@@ -1,0 +1,13 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Nakaya1987	all	41	NA	species	41	homo sapiens	NA	NA	NA	NA	NA	NA
+Nakaya1987	all	41	NA	sex	26	M	NA	NA	NA	NA	NA	NA
+Nakaya1987	all	41	NA	sex	16	F	NA	NA	NA	NA	NA	NA
+Nakaya1987	all	41	NA	age	41	NA	NA	NA	27.0	71.0	yr	NA
+Nakaya1987	all	41	NA	alcohol	41	N	NA	NA	NA	NA	NA	NA
+Nakaya1987	all	41	NA	fasting	41	N	NA	NA	NA	NA	NA	NA
+Nakaya1987	all	41	NA	healthy	41	N	NA	NA	NA	NA	NA	NA
+Nakaya1987	hypercholesterolemic	8	all	disease	8	heterozygous FH	NA	NA	NA	NA	NA	NA
+Nakaya1987	healthy	33	all	healthy	33	Y	NA	NA	NA	NA	NA	NA
+Nakaya1987	PRA5	13	all	species	13	homo sapiens	NA	NA	NA	NA	NA	NA
+Nakaya1987	PRA20	14	all	species	14	homo sapiens	NA	NA	NA	NA	NA	NA
+Nakaya1987	PRA40	14	all	species	14	homo sapiens	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	pm	se	sd	unit	comments
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	0.058625158	hr	0.1823187	NA	NA	NA	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	0.55698776	hr	5.6911883	12.276649	6.5854607	29.4510755767067	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	1.0333468	hr	14.048793	28.447607	14.398814	64.3934537987513	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	1.5320578	hr	12.057466	23.817045	11.759579	52.590436061558	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	2.052828	hr	7.2696695	11.738376	4.4687065	19.9846630109903	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	3.0426555	hr	3.992688	6.5015225	2.5088345	11.2198489725934	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	4.017795	hr	2.5974417	3.9823048	1.3848631	6.19329606226218	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	8.013768	hr	0.3866256	NA	NA	NA	ng/ml	NA
+Hedman2003	all	20	PRA10	concentration	pravastatin	plasma	pra10	9.983529	hr	0.20923679	NA	NA	NA	ng/ml	NA

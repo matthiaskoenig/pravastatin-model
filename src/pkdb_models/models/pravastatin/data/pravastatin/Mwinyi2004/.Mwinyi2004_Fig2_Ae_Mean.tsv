@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	sd	se	unit	comments
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a1a_urine	0	hr	0.0	NA	NA	µg	NA
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a1a_urine	12	hr	2908.0	1576.0	498.374959242537	µg	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a1b_1b1b_urine	0	hr	0.0	NA	NA	µg	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a1b_1b1b_urine	12	hr	1658.0	899.0	284.288761649137	µg	NA
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a5_urine	0	hr	0.0	NA	NA	µg	NA
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a5_urine	12	hr	3693.0	1482.0	468.649549236954	µg	NA
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	recovery	pravastatin	urine	HPLC/UV	Fig2_1a1a_urine_recovery	0	hr	0.0	NA	NA	percent	calculated from dose
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	recovery	pravastatin	urine	HPLC/UV	Fig2_1a1a_urine_recovery	12	hr	7.27	3.94	1.24593739810634	percent	calculated from dose
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	recovery	pravastatin	urine	HPLC/UV	Fig2_1a1b_1b1b_urine_recovery	0	hr	0.0	NA	NA	percent	calculated from dose
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	recovery	pravastatin	urine	HPLC/UV	Fig2_1a1b_1b1b_urine_recovery	12	hr	4.145	2.2475	0.710721904122843	percent	calculated from dose
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	recovery	pravastatin	urine	HPLC/UV	Fig2_1a5_urine_recovery	0	hr	0.0	NA	NA	percent	calculated from dose
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	recovery	pravastatin	urine	HPLC/UV	Fig2_1a5_urine_recovery	12	hr	9.2325	3.705	1.17162387309238	percent	calculated from dose

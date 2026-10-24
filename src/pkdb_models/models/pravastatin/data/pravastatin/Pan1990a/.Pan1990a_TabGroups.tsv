@@ -1,0 +1,12 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Pan1990a	all	20	NA	species	20	homo sapiens	NA	NA	NA	NA	NA	three subjects withdrew from the study
+Pan1990a	all	20	NA	sex	20	M	NA	NA	NA	NA	NA	NA
+Pan1990a	all	20	NA	age	20	NA	25.0	NA	19.0	36.0	yr	mean +- SEM 1.1
+Pan1990a	all	20	NA	weight	20	NA	76.4	NA	59.0	88.6	kg	mean +- SEM 1.8
+Pan1990a	all	20	NA	height	20	NA	178.0	NA	163.0	188.0	cm	mean +- SEM 1.4
+Pan1990a	all	20	NA	healthy	20	Y	NA	NA	NA	NA	NA	NA
+Pan1990a	all	20	NA	fasting	20	Y	NA	NA	NA	NA	NA	NA
+Pan1990a	all	20	NA	ethnicity	15	caucasian	NA	NA	NA	NA	NA	of the 23 subjects who entered the study
+Pan1990a	all	20	NA	ethnicity	2	african american	NA	NA	NA	NA	NA	of the 23 subjects who entered the study
+Pan1990a	all	20	NA	ethnicity	5	hispanic	NA	NA	NA	NA	NA	of the 23 subjects who entered the study
+Pan1990a	all	20	NA	ethnicity	1	asian indian	NA	NA	NA	NA	NA	of the 23 subjects who entered the study

@@ -1,0 +1,19 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	unit	comments
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	0.0	hr	0.686733	NA	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	0.5	hr	134.48972	44.25	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	1.0	hr	131.91647	21.6	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	2.0	hr	47.052883	9.06	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	3.0	hr	26.187868	5.23	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	4.0	hr	21.047695	NA	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	6.0	hr	8.6725855	NA	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	8.0	hr	2.9251237	NA	ng/ml	NA
+Igel2006	variant	8	PRA40	concentration	pravastatin	plasma	variant group	10.000346	hr	1.048951	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	0.0	hr	1.3671823	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	0.49514738	hr	22.25823	10.28	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	1.0	hr	47.307377	6.27	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	2.0	hr	32.0242	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	3.0	hr	15.7015	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	4.0	hr	15.100496	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	6.0	hr	4.486207	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	8.0	hr	1.901308	NA	ng/ml	NA
+Igel2006	control	8	PRA40	concentration	pravastatin	plasma	control group	10.0	hr	1.7576776	NA	ng/ml	NA

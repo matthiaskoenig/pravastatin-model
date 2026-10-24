@@ -1,0 +1,73 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	unit	comments
+Gustavson2005	F4_S1	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	154.72713	ng*hr/ml	NA
+Gustavson2005	F4_S1	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	88.33031	ng*hr/ml	NA
+Gustavson2005	F4_S1	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	208.10297	ng*hr/ml	NA
+Gustavson2005	F4_S2	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	149.9983	ng*hr/ml	NA
+Gustavson2005	F4_S2	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	140.536	ng*hr/ml	NA
+Gustavson2005	F4_S2	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	186.62917	ng*hr/ml	NA
+Gustavson2005	F4_S3	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	146.45291	ng*hr/ml	NA
+Gustavson2005	F4_S3	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	190.37971	ng*hr/ml	NA
+Gustavson2005	F4_S3	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	175.59688	ng*hr/ml	NA
+Gustavson2005	F4_S4	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	140.34598	ng*hr/ml	NA
+Gustavson2005	F4_S4	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	160.43376	ng*hr/ml	NA
+Gustavson2005	F4_S4	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	147.8189	ng*hr/ml	NA
+Gustavson2005	F4_S5	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	132.4653	ng*hr/ml	NA
+Gustavson2005	F4_S5	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	130.68713	ng*hr/ml	NA
+Gustavson2005	F4_S5	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	230.5618	ng*hr/ml	NA
+Gustavson2005	F4_S6	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	105.08134	ng*hr/ml	NA
+Gustavson2005	F4_S6	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	155.11485	ng*hr/ml	NA
+Gustavson2005	F4_S6	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	98.37105	ng*hr/ml	NA
+Gustavson2005	F4_S7	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	92.07969	ng*hr/ml	NA
+Gustavson2005	F4_S7	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	83.20817	ng*hr/ml	NA
+Gustavson2005	F4_S7	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	85.17146	ng*hr/ml	NA
+Gustavson2005	F4_S8	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	86.95756	ng*hr/ml	NA
+Gustavson2005	F4_S8	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	150.97797	ng*hr/ml	NA
+Gustavson2005	F4_S8	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	107.43306	ng*hr/ml	NA
+Gustavson2005	F4_S9	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	86.95709	ng*hr/ml	NA
+Gustavson2005	F4_S9	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	105.46929	ng*hr/ml	NA
+Gustavson2005	F4_S9	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	66.06289	ng*hr/ml	NA
+Gustavson2005	F4_S10	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	75.33424	ng*hr/ml	NA
+Gustavson2005	F4_S10	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	110.78913	ng*hr/ml	NA
+Gustavson2005	F4_S10	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	122.01168	ng*hr/ml	NA
+Gustavson2005	F4_S11	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	70.01487	ng*hr/ml	NA
+Gustavson2005	F4_S11	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	58.581814	ng*hr/ml	NA
+Gustavson2005	F4_S11	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	111.768105	ng*hr/ml	NA
+Gustavson2005	F4_S12	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	59.376354	ng*hr/ml	NA
+Gustavson2005	F4_S12	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	92.07271	ng*hr/ml	NA
+Gustavson2005	F4_S12	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	98.372215	ng*hr/ml	NA
+Gustavson2005	F4_S13	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	49.921036	ng*hr/ml	NA
+Gustavson2005	F4_S13	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	44.989384	ng*hr/ml	NA
+Gustavson2005	F4_S13	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	58.37945	ng*hr/ml	NA
+Gustavson2005	F4_S14	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	43.61524	ng*hr/ml	NA
+Gustavson2005	F4_S14	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	93.25474	ng*hr/ml	NA
+Gustavson2005	F4_S14	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	98.174515	ng*hr/ml	NA
+Gustavson2005	F4_S15	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	42.63114	ng*hr/ml	NA
+Gustavson2005	F4_S15	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	78.08603	ng*hr/ml	NA
+Gustavson2005	F4_S15	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	35.132603	ng*hr/ml	NA
+Gustavson2005	F4_S16	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	41.450275	ng*hr/ml	NA
+Gustavson2005	F4_S16	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	32.380814	ng*hr/ml	NA
+Gustavson2005	F4_S16	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	41.23883	ng*hr/ml	NA
+Gustavson2005	F4_S17	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	39.873302	ng*hr/ml	NA
+Gustavson2005	F4_S17	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	41.048115	ng*hr/ml	NA
+Gustavson2005	F4_S17	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	37.102654	ng*hr/ml	NA
+Gustavson2005	F4_S18	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	38.4938	ng*hr/ml	NA
+Gustavson2005	F4_S18	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	51.490555	ng*hr/ml	NA
+Gustavson2005	F4_S18	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	45.770885	ng*hr/ml	NA
+Gustavson2005	F4_S19	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	37.706245	ng*hr/ml	NA
+Gustavson2005	F4_S19	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	10.512768	ng*hr/ml	NA
+Gustavson2005	F4_S19	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	NA	ng*hr/ml	No data available here.
+Gustavson2005	F4_S20	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	30.61359	ng*hr/ml	NA
+Gustavson2005	F4_S20	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	91.8729	ng*hr/ml	NA
+Gustavson2005	F4_S20	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	111.96348	ng*hr/ml	NA
+Gustavson2005	F4_S21	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	29.825802	ng*hr/ml	NA
+Gustavson2005	F4_S21	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	29.425737	ng*hr/ml	NA
+Gustavson2005	F4_S21	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	63.50112	ng*hr/ml	NA
+Gustavson2005	F4_S22	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	22.1419	ng*hr/ml	NA
+Gustavson2005	F4_S22	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	90.8916	ng*hr/ml	NA
+Gustavson2005	F4_S22	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	73.94217	ng*hr/ml	NA
+Gustavson2005	F4_S23	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	20.763096	ng*hr/ml	NA
+Gustavson2005	F4_S23	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	43.21494	ng*hr/ml	NA
+Gustavson2005	F4_S23	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	74.33827	ng*hr/ml	NA
+Gustavson2005	F4_S24	1	PRA40_D5	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	16.035202	ng*hr/ml	NA
+Gustavson2005	F4_S24	1	PRA40_D6, FEN160_D6	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	24.106361	ng*hr/ml	NA
+Gustavson2005	F4_S24	1	PRA40_D15, FEN160_D15	auc_end	SQ 31906 (3'alpha-isopravastatin)	plasma	LC MS/MS	24	hr	29.616688	ng*hr/ml	NA

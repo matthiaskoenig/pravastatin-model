@@ -1,0 +1,92 @@
+study	id	group	substance	tissue	measurement_type	choice	value	unit	comments
+Mabuchi1987	1	all	NA	NA	sex	M	NA	NA	Only patients' characteristics
+Mabuchi1987	1	all	NA	NA	age	NA	46.0	yr	NA
+Mabuchi1987	1	all	NA	NA	height	NA	167.0	cm	NA
+Mabuchi1987	1	all	NA	NA	weight	NA	64.0	kg	NA
+Mabuchi1987	2	all	NA	NA	sex	M	NA	NA	NA
+Mabuchi1987	2	all	NA	NA	age	NA	41.0	yr	NA
+Mabuchi1987	2	all	NA	NA	height	NA	169.0	cm	NA
+Mabuchi1987	2	all	NA	NA	weight	NA	73.0	kg	NA
+Mabuchi1987	3	all	NA	NA	sex	M	NA	NA	NA
+Mabuchi1987	3	all	NA	NA	age	NA	29.0	yr	NA
+Mabuchi1987	3	all	NA	NA	height	NA	173.0	cm	NA
+Mabuchi1987	3	all	NA	NA	weight	NA	72.0	kg	NA
+Mabuchi1987	4	all	NA	NA	sex	M	NA	NA	NA
+Mabuchi1987	4	all	NA	NA	age	NA	54.0	yr	NA
+Mabuchi1987	4	all	NA	NA	height	NA	170.0	cm	NA
+Mabuchi1987	4	all	NA	NA	weight	NA	73.0	kg	NA
+Mabuchi1987	5	all	NA	NA	sex	M	NA	NA	NA
+Mabuchi1987	5	all	NA	NA	age	NA	26.0	yr	NA
+Mabuchi1987	5	all	NA	NA	height	NA	179.0	cm	NA
+Mabuchi1987	5	all	NA	NA	weight	NA	65.0	kg	NA
+Mabuchi1987	6	all	NA	NA	sex	M	NA	NA	NA
+Mabuchi1987	6	all	NA	NA	age	NA	51.0	yr	NA
+Mabuchi1987	6	all	NA	NA	height	NA	171.0	cm	NA
+Mabuchi1987	6	all	NA	NA	weight	NA	72.0	kg	NA
+Mabuchi1987	7	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	7	all	NA	NA	age	NA	19.0	yr	NA
+Mabuchi1987	7	all	NA	NA	height	NA	170.0	cm	NA
+Mabuchi1987	7	all	NA	NA	weight	NA	64.0	kg	NA
+Mabuchi1987	8	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	8	all	NA	NA	age	NA	51.0	yr	NA
+Mabuchi1987	8	all	NA	NA	height	NA	152.0	cm	NA
+Mabuchi1987	8	all	NA	NA	weight	NA	72.0	kg	NA
+Mabuchi1987	9	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	9	all	NA	NA	age	NA	68.0	yr	NA
+Mabuchi1987	9	all	NA	NA	height	NA	147.0	cm	NA
+Mabuchi1987	9	all	NA	NA	weight	NA	55.0	kg	NA
+Mabuchi1987	10	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	10	all	NA	NA	age	NA	69.0	yr	NA
+Mabuchi1987	10	all	NA	NA	height	NA	142.0	cm	NA
+Mabuchi1987	10	all	NA	NA	weight	NA	40.0	kg	NA
+Mabuchi1987	11	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	11	all	NA	NA	age	NA	43.0	yr	NA
+Mabuchi1987	11	all	NA	NA	height	NA	156.0	cm	NA
+Mabuchi1987	11	all	NA	NA	weight	NA	53.0	kg	NA
+Mabuchi1987	12	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	12	all	NA	NA	age	NA	53.0	yr	NA
+Mabuchi1987	12	all	NA	NA	height	NA	148.0	cm	NA
+Mabuchi1987	12	all	NA	NA	weight	NA	49.0	kg	NA
+Mabuchi1987	13	all	NA	NA	sex	F	NA	NA	NA
+Mabuchi1987	13	all	NA	NA	age	NA	56.0	yr	NA
+Mabuchi1987	13	all	NA	NA	height	NA	159.0	cm	NA
+Mabuchi1987	13	all	NA	NA	weight	NA	56.0	kg	NA
+Mabuchi1987	1	all	cholesterol	serum	concentration	NA	328.0	mg/dl	baseline values
+Mabuchi1987	1	all	triglyceride	serum	concentration	NA	110.0	mg/dl	baseline values
+Mabuchi1987	1	all	phospholipids	serum	concentration	NA	298.0	mg/dl	baseline values
+Mabuchi1987	2	all	cholesterol	serum	concentration	NA	365.0	mg/dl	baseline values
+Mabuchi1987	2	all	triglyceride	serum	concentration	NA	403.0	mg/dl	baseline values
+Mabuchi1987	2	all	phospholipids	serum	concentration	NA	360.0	mg/dl	baseline values
+Mabuchi1987	3	all	cholesterol	serum	concentration	NA	477.0	mg/dl	baseline values
+Mabuchi1987	3	all	triglyceride	serum	concentration	NA	184.0	mg/dl	baseline values
+Mabuchi1987	3	all	phospholipids	serum	concentration	NA	302.0	mg/dl	baseline values
+Mabuchi1987	4	all	cholesterol	serum	concentration	NA	379.0	mg/dl	baseline values
+Mabuchi1987	4	all	triglyceride	serum	concentration	NA	310.0	mg/dl	baseline values
+Mabuchi1987	4	all	phospholipids	serum	concentration	NA	311.0	mg/dl	baseline values
+Mabuchi1987	5	all	cholesterol	serum	concentration	NA	295.0	mg/dl	baseline values
+Mabuchi1987	5	all	triglyceride	serum	concentration	NA	133.0	mg/dl	baseline values
+Mabuchi1987	5	all	phospholipids	serum	concentration	NA	261.0	mg/dl	baseline values
+Mabuchi1987	6	all	cholesterol	serum	concentration	NA	309.0	mg/dl	baseline values
+Mabuchi1987	6	all	triglyceride	serum	concentration	NA	258.0	mg/dl	baseline values
+Mabuchi1987	6	all	phospholipids	serum	concentration	NA	310.0	mg/dl	baseline values
+Mabuchi1987	7	all	cholesterol	serum	concentration	NA	384.0	mg/dl	baseline values
+Mabuchi1987	7	all	triglyceride	serum	concentration	NA	89.0	mg/dl	baseline values
+Mabuchi1987	7	all	phospholipids	serum	concentration	NA	324.0	mg/dl	baseline values
+Mabuchi1987	8	all	cholesterol	serum	concentration	NA	456.0	mg/dl	baseline values
+Mabuchi1987	8	all	triglyceride	serum	concentration	NA	101.0	mg/dl	baseline values
+Mabuchi1987	8	all	phospholipids	serum	concentration	NA	319.0	mg/dl	baseline values
+Mabuchi1987	9	all	cholesterol	serum	concentration	NA	330.0	mg/dl	baseline values
+Mabuchi1987	9	all	triglyceride	serum	concentration	NA	95.0	mg/dl	baseline values
+Mabuchi1987	9	all	phospholipids	serum	concentration	NA	373.0	mg/dl	baseline values
+Mabuchi1987	10	all	cholesterol	serum	concentration	NA	413.0	mg/dl	baseline values
+Mabuchi1987	10	all	triglyceride	serum	concentration	NA	130.0	mg/dl	baseline values
+Mabuchi1987	10	all	phospholipids	serum	concentration	NA	300.0	mg/dl	baseline values
+Mabuchi1987	11	all	cholesterol	serum	concentration	NA	400.0	mg/dl	baseline values
+Mabuchi1987	11	all	triglyceride	serum	concentration	NA	88.0	mg/dl	baseline values
+Mabuchi1987	11	all	phospholipids	serum	concentration	NA	319.0	mg/dl	baseline values
+Mabuchi1987	12	all	cholesterol	serum	concentration	NA	283.0	mg/dl	baseline values
+Mabuchi1987	12	all	triglyceride	serum	concentration	NA	93.0	mg/dl	baseline values
+Mabuchi1987	12	all	phospholipids	serum	concentration	NA	265.0	mg/dl	baseline values
+Mabuchi1987	13	all	cholesterol	serum	concentration	NA	354.0	mg/dl	baseline values
+Mabuchi1987	13	all	triglyceride	serum	concentration	NA	145.0	mg/dl	baseline values
+Mabuchi1987	13	all	phospholipids	serum	concentration	NA	299.0	mg/dl	baseline values

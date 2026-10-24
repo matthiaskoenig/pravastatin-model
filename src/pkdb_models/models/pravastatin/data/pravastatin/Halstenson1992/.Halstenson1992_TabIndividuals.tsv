@@ -1,0 +1,25 @@
+study	group	count	measurement_type	mean	sd	unit	comments
+Halstenson1992	group1	4	age	47.0	23.0	year	originates from Tab1
+Halstenson1992	group1	4	sex	3.0	NA	m	originates from Tab1
+Halstenson1992	group1	4	sex	1.0	NA	f	originates from Tab1
+Halstenson1992	group1	4	height	174.5	12.9	cm	originates from Tab1
+Halstenson1992	group1	4	weight	82.0	11.3	kg	originates from Tab1
+Halstenson1992	group1	4	clearance_creatinine	101.0	9.2	ml/min/(1.73*m^2)	originates from Tab1
+Halstenson1992	group2	4	age	61.0	13.0	year	originates from Tab1
+Halstenson1992	group2	4	sex	3.0	NA	m	originates from Tab1
+Halstenson1992	group2	4	sex	1.0	NA	f	originates from Tab1
+Halstenson1992	group2	4	height	172.1	6.8	cm	originates from Tab1
+Halstenson1992	group2	4	weight	77.9	16.5	kg	originates from Tab1
+Halstenson1992	group2	4	clearance_creatinine	69.5	12.0	ml/min/(1.73*m^2)	originates from Tab1
+Halstenson1992	group3	4	age	51.0	17.0	year	originates from Tab1
+Halstenson1992	group3	4	sex	3.0	NA	m	originates from Tab1
+Halstenson1992	group3	4	sex	1.0	NA	f	originates from Tab1
+Halstenson1992	group3	4	height	172.7	6.9	cm	originates from Tab1
+Halstenson1992	group3	4	weight	76.6	18.3	kg	originates from Tab1
+Halstenson1992	group3	4	clearance_creatinine	32.5	2.4	ml/min/(1.73*m^2)	originates from Tab1
+Halstenson1992	group4	4	age	51.0	14.0	year	originates from Tab1
+Halstenson1992	group4	4	sex	4.0	NA	m	originates from Tab1
+Halstenson1992	group4	4	sex	0.0	NA	f	originates from Tab1
+Halstenson1992	group4	4	height	178.1	4.2	cm	originates from Tab1
+Halstenson1992	group4	4	weight	85.9	12.9	kg	originates from Tab1
+Halstenson1992	group4	4	clearance_creatinine	19.5	4.4	ml/min/(1.73*m^2)	originates from Tab1

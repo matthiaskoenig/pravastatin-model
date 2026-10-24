@@ -1,0 +1,69 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	min	median	max	unit	comments
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	0.0	hr	0.0	0	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	0.29337534	hr	48.77868	NA	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	0.44738945	hr	281.9875	131.92	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	0.69562334	hr	536.0956	253.48	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	0.9757934	hr	762.36725	381.95	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	1.911159	hr	1420.3179	500.01	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	3.9245706	hr	1643.4309	569.46	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	5.9216695	hr	867.69434	288.18	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	7.974061	hr	600.09204	170.14	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	11.949458	hr	284.12247	86.83	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1a1a	23.958904	hr	77.53349	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	0.0	hr	0.0	0	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	NA	hr	NA	NA	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	0.4482898	hr	222.82253	142.32	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	0.6978478	hr	389.92334	256.98	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	0.9148869	hr	623.14386	343.72	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	1.8811824	hr	1319.3835	562.48	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	3.9323559	hr	1131.828	309.04	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	5.955777	hr	697.16583	222.18	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	7.976815	hr	419.11685	135.42	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	11.919322	hr	193.62901	0	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1b1b	23.99084	hr	49.69701	0	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	0.0	hr	10.434783	0	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	0.2512563	hr	31.304348	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	0.5339196	hr	180.86957	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	0.8165829	hr	333.91306	83.77	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	1.0678391	hr	490.43478	177.54	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	2.0414572	hr	1241.7391	617.8	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	4.0515075	hr	1206.9565	516.58	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	6.030151	hr	629.56525	230.37	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	concentration	valsartan	plasma	Fig2_1a15	8.040201	hr	424.34784	143.1	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1a15	12.028894	hr	208.69565	0	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1a15	23.963568	hr	62.608696	0	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1a15	0.0	hr	0.0	0	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1a15	0.40829146	hr	34.782608	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	0.5967337	hr	73.04348	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	0.84799	hr	215.65218	177.99	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	1.0992463	hr	365.21738	300.16	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	2.0414572	hr	681.73914	436.3	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	4.0201006	hr	886.95654	617.8	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	6.0929646	hr	490.43478	268.75	NA	NA	NA	ng/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	concentration	valsartan	plasma	Fig2_1b15	8.071608	hr	337.3913	129.14	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15	12.060302	hr	121.73913	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15	24.057789	hr	31.304348	0 (or NA)	NA	NA	NA	ng/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1a1a_auc	NA	hr	7.56612	NA	7.8557434	11.86	17.46	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1a1a_auc	NA	hr	8.023249	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1a1a_auc	NA	hr	11.852021	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1a1a_auc	NA	hr	16.365507	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1a1a_auc	NA	hr	16.936916	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1a	5	VAL_40	auc_end	valsartan	plasma	Fig2_1a1a_auc	NA	hr	17.565142	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	4.412264	NA	4.292758	8.64	13.67	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	6.811859	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	7.726115	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	8.754653	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	10.469209	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	12.81199	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	homozygous carriers *1b	7	VAL_40	auc_end	valsartan	plasma	Fig2_1b1b_auc	NA	hr	13.725593	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	Fig2_1a15_auc	NA	hr	2.6866062	NA	2.8537843	10.05	14.8	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	Fig2_1a15_auc	NA	hr	6.4007707	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	Fig2_1a15_auc	NA	hr	9.657807	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	Fig2_1a15_auc	NA	hr	10.000326	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	Fig2_1a15_auc	NA	hr	12.857702	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1a/*15	6	VAL_40	auc_end	valsartan	plasma	Fig2_1a15_auc	NA	hr	14.571606	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15_auc	NA	hr	3.8179977	NA	3.9848495	4.84	12.78	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15_auc	NA	hr	4.50369	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15_auc	NA	hr	4.846209	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15_auc	NA	hr	6.674721	NA	NA	NA	NA	ng*hr/ml	NA
+Maeda2006	heterozygous carriers *1b/*15	5	VAL_40	auc_end	valsartan	plasma	Fig2_1b15_auc	NA	hr	12.788807	NA	NA	NA	NA	ng*hr/ml	NA

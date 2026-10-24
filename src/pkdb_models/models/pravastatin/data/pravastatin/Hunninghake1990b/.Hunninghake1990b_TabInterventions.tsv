@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Hunninghake1990b	PLAC	0	week	oral	multiple dose	dosing	tablet	placebo	40	mg	NA
+Hunninghake1990b	PRA40_morning	0	week	oral	multiple dose	dosing	tablet	pravastatin	40	mg	NA
+Hunninghake1990b	PRA40_evening	0	week	oral	multiple dose	dosing	tablet	pravastatin	40	mg	NA
+Hunninghake1990b	PRA20_twice	0	week	oral	multiple dose	dosing	tablet	pravastatin	20	mg	NA

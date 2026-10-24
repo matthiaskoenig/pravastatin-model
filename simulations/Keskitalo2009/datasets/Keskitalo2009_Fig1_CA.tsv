@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	sem	sem_pm	mean_unit	count_unit
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	0.0	hr	0.0				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	0.5	hr	0.00010252855393022872	5.6248293406826376e-05	11.939544	31.586903	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	1.0	hr	0.00018369699667867997				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	1.5	hr	0.00013029670459095943	3.773620709961605e-05	8.010076	63.324936	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	2.0	hr	7.013238169269545e-05	3.9872216333356896e-05	8.463476	21.309824	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	3.0	hr	3.239617694862554e-05	1.8512100440487126e-05	3.929471	9.823678	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	4.0	hr	2.0292111275999342e-05				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	5.0	hr	1.9580107412903684e-05	1.2104068028172332e-05	2.56927	5.743073	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	7.0	hr	1.8156098508939297e-05	1.566408263255836e-05	3.3249365	11.032745	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	9.0	hr	7.1200386309565875e-06	1.0680057475325656e-05	2.2670024	5.2896724	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	12.0	hr	1.068005794643488e-06				mole/meter^3	dimensionless

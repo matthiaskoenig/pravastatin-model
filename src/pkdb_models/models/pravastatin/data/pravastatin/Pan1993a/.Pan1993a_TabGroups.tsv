@@ -1,0 +1,33 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Pan1993a	all	70	NA	species	70	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	sex	25	NA	M	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	sex	45	NA	F	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	healthy	70	NA	Y	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	overnight fast	70	NA	Y	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	abstinence smoking	70	NA	NA	NA	NA	NA	NA	day	NA
+Pan1993a	all	70	NA	abstinence	70	caffeine	NA	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	abstinence alcohol	70	NA	NA	NA	NA	NA	NA	NA	NA
+Pan1993a	all	70	NA	abstinence medication	70	NA	NA	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly men	15	all	sex	15	NA	M	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly men	15	all	age	15	NA	NA	70.0	NA	65.0	75.0	yr	NA
+Pan1993a	elderly men	15	all	ethnicity	14	NA	caucasian	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly men	15	all	ethnicity	1	NA	african american	NA	NA	NA	NA	NA	NA
+Pan1993a	young men	10	all	sex	10	NA	M	NA	NA	NA	NA	NA	NA
+Pan1993a	young men	10	all	age	10	NA	NA	24.0	NA	19.0	31.0	yr	NA
+Pan1993a	young men	10	all	ethnicity	6	NA	caucasian	NA	NA	NA	NA	NA	NA
+Pan1993a	young men	10	all	ethnicity	2	NA	african american	NA	NA	NA	NA	NA	NA
+Pan1993a	young men	10	all	ethnicity	2	NA	hispanic	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly women	15	all	sex	15	NA	F	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly women	15	all	age	15	NA	NA	69.7	NA	65.0	78.0	yr	NA
+Pan1993a	elderly women	15	all	ethnicity	14	NA	caucasian	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly women	15	all	ethnicity	1	NA	african american	NA	NA	NA	NA	NA	NA
+Pan1993a	elderly women	15	all	oral contraceptives	15	NA	N	NA	NA	NA	NA	NA	NA
+Pan1993a	young women	30	all	sex	30	NA	F	NA	NA	NA	NA	NA	NA
+Pan1993a	young women	30	all	age	30	NA	NA	26.1	NA	18.0	38.0	yr	NA
+Pan1993a	young women	30	all	ethnicity	29	NA	caucasian	NA	NA	NA	NA	NA	NA
+Pan1993a	young women	30	all	ethnicity	1	NA	african american	NA	NA	NA	NA	NA	NA
+Pan1993a	young women	30	all	oral contraceptives	15	NA	Y	NA	NA	NA	NA	NA	NA
+Pan1993a	women oc	13	all	oral contraceptives	13	NA	Y	NA	NA	NA	NA	NA	"One of the following oc were taken for at least three months before study: ethinly estradiol, norethindrone,norgestrel, levonorgestrel
+"
+Pan1993a	women tl	14	all	oral contraceptives	14	NA	N	NA	NA	NA	NA	NA	NA
+Pan1993a	women tl	14	all	medical procedure	14	NA	tubal ligation	NA	NA	NA	NA	NA	NA

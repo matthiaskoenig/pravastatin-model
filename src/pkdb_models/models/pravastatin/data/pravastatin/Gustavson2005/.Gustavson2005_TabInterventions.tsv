@@ -1,0 +1,6 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Gustavson2005	PRA40_D5	S0T1R5	day	oral	multiple dose	dosing	tablet	pravastatin	40	mg	NA
+Gustavson2005	PRA40_D6	S0T1R6	day	oral	multiple dose	dosing	tablet	pravastatin	40	mg	NA
+Gustavson2005	PRA40_D15	S0T1R15	day	oral	single dose	dosing	tablet	pravastatin	40	mg	Single dose of pravastatin on Day 5
+Gustavson2005	FEN160_D6	6	day	oral	multiple dose	dosing	tablet	fenofibrate	160	mg	fenofibrate was coadministered with pravastatin on the mornings of days 6 to 15. 
+Gustavson2005	FEN160_D15	S6T1R9	day	oral	single dose	dosing	tablet	fenofibrate	160	mg	fenofibrate was coadministered with pravastatin on the mornings of days 6 to 15. Day1 equals 1st dose. Here: Single dose on that specific day

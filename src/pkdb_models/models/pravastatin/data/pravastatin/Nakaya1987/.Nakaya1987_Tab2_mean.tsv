@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	comments
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	hdl-c	serum	0	week	57.0	19.5	mg/dl	baseline
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	hdl-c	serum	1	week	3.0	1.0	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	hdl-c	serum	2	week	2.4	1.2	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	hdl-c	serum	3	week	4.2	1.0	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	hdl-c	serum	4	week	3.7	1.1	mg/dl	NA
+Nakaya1987	PRA_tot	41	PLAC	concentration	hdl-c	serum	6	week	3.4	1.4	mg/dl	NA
+Nakaya1987	PRA_tot	41	PLAC	concentration	hdl-c	serum	8	week	0.0	1.4	mg/dl	NA

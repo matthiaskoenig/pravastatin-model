@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_sd	mean_se	comments	mean_unit	count_unit
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a1a_urine	0	hr	0.0				mole	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	cumulative amount	pravastatin	urine	HPLC/UV	Fig2_1a1a_urine	12	hr	6.8499281558429325e-06	3.7123407061927306e-06	1.1739452082126986e-06		mole	dimensionless

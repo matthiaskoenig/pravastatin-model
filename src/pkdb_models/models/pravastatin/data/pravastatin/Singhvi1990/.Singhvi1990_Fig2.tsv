@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	se	sd	unit
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	0.09	hr	421.1	516.7844	33.829544046883036	95.68439999999998	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	0.18	hr	224.23	255.58183	11.08454579780392	31.351830000000007	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	0.34	hr	119.435	153.14964	11.919925284631612	33.71464	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	0.68	hr	50.36	64.66638	5.058069156115801	14.306380000000004	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	1.01	hr	29.75	40.009716	3.627357378324059	10.259715999999997	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	1.52	hr	16.59	10.736812	2.0694144631798626	5.853187999999999	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	2.01	hr	10.1	6.959152	1.1104574597381027	3.140848	ng/ml
+Singhvi1990	all	8	PRA_iv_10	concentration	pravastatin	plasma	scintillation counting	PRA_iv_10	3.01	hr	4.6	2.9236023	0.5926960908177655	1.6763976999999994	ng/ml
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	0.33	hr	5.03	10.098539	1.7919991488042413	5.068539	ng/ml
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	0.67	hr	21.83	33.873726	4.258100162676366	12.043726	ng/ml
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	1.01	hr	25.32	14.512716	3.820951901304438	10.807284000000001	ng/ml
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	1.51	hr	18.65	27.504751	3.1306272389091814	8.854751	ng/ml
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	2.01	hr	13.74	20.347193	2.335995487454144	6.6071930000000005	ng/ml
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	3.01	hr	8.26	12.711695	1.5739118611371241	4.451695000000001	ng/ml

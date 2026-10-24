@@ -1,0 +1,6 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Jones1991	PLAC	0	hr	oral	multiple dose	dosing	tablet	placebo	40	mg	placebo value!?
+Jones1991	PRA5	0	hr	oral	multiple dose	dosing	tablet	pravastatin	5	mg	NA
+Jones1991	PRA10	0	hr	oral	multiple dose	dosing	tablet	pravastatin	10	mg	NA
+Jones1991	PRA20	0	hr	oral	multiple dose	dosing	tablet	pravastatin	20	mg	NA
+Jones1991	PRA40	0	hr	oral	multiple dose	dosing	tablet	pravastatin	40	mg	NA

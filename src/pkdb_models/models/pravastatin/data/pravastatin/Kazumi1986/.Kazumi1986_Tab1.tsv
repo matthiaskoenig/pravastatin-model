@@ -1,0 +1,57 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	sd	unit	baseline	baseline_unit	comment
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	cholesterol	plasma	0	week	294.0	21.0	55.5607775323564	mg/dl	294.0	mg/dl	total: seems like mean from Iia and Iib was calculated, data not curated.
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	cholesterol	plasma	12	week	235.0	11.0	29.1032644217105	mg/dl	294.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	hdl-c	plasma	0	week	59.0	3.0	7.93725393319377	mg/dl	59.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	hdl-c	plasma	12	week	56.0	3.0	7.93725393319377	mg/dl	59.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	ldl-c	plasma	0	week	210.0	26.0	68.7895340876794	mg/dl	210.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	ldl-c	plasma	12	week	144.0	20.0	52.9150262212918	mg/dl	210.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	vldl-c	plasma	0	week	12.4	1.3	3.43947670438397	mg/dl	12.4	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	vldl-c	plasma	12	week	19.3	9.1	24.0763369306878	mg/dl	12.4	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	triglyceride	plasma	0	week	90.0	9.0	23.8117617995813	mg/dl	90.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	triglyceride	plasma	12	week	115.0	14.0	37.0405183549043	mg/dl	90.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	hdl triglyceride	plasma	0	week	13.0	2.0	5.29150262212918	mg/dl	13.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	hdl triglyceride	plasma	12	week	14.0	2.0	5.29150262212918	mg/dl	13.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	ldl triglyceride	plasma	0	week	44.0	10.0	26.4575131106459	mg/dl	44.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	ldl triglyceride	plasma	12	week	35.0	5.0	13.228756555323	mg/dl	44.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	vldl triglyceride	plasma	0	week	40.0	9.0	23.8117617995813	mg/dl	40.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	vldl triglyceride	plasma	12	week	42.0	9.0	23.8117617995813	mg/dl	40.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoA-I	plasma	0	week	157.0	7.0	18.5202591774521	mg/dl	157.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoA-I	plasma	12	week	163.0	10.0	26.4575131106459	mg/dl	157.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoA-II	plasma	0	week	35.0	3.0	7.93725393319377	mg/dl	35.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoA-II	plasma	12	week	40.0	4.0	10.5830052442584	mg/dl	35.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoC-II	plasma	0	week	4.9	0.4	1.05830052442584	mg/dl	4.9	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoC-II	plasma	12	week	4.1	0.4	1.05830052442584	mg/dl	4.9	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoC-III	plasma	0	week	12.3	1.1	2.91032644217105	mg/dl	12.3	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoC-III	plasma	12	week	10.6	0.8	2.11660104885167	mg/dl	12.3	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoB-100	plasma	0	week	146.0	16.0	42.3320209770335	mg/dl	146.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoB-100	plasma	12	week	129.0	19.0	50.2692749102272	mg/dl	146.0	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoE	plasma	0	week	4.9	0.4	1.05830052442584	mg/dl	4.9	mg/dl	NA
+Kazumi1986	type_IIa	7	PRA10_twice	concentration	apoE	plasma	12	week	3.9	0.3	0.793725393319377	mg/dl	4.9	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	cholesterol	plasma	0	week	277.0	7.0	18.5202591774521	mg/dl	277.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	cholesterol	plasma	12	week	277.0	11.0	29.1032644217105	mg/dl	277.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	hdl-c	plasma	0	week	39.0	4.0	10.5830052442584	mg/dl	39.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	hdl-c	plasma	12	week	47.0	3.0	7.93725393319377	mg/dl	39.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	ldl-c	plasma	0	week	194.0	8.0	21.1660104885167	mg/dl	194.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	ldl-c	plasma	12	week	128.0	8.0	21.1660104885167	mg/dl	194.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	vldl-c	plasma	0	week	20.8	9.1	24.0763369306878	mg/dl	20.8	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	vldl-c	plasma	12	week	18.9	4.7	12.4350311620036	mg/dl	20.8	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	triglyceride	plasma	0	week	224.0	36.0	95.2470471983253	mg/dl	224.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	triglyceride	plasma	12	week	171.0	26.0	68.7895340876794	mg/dl	224.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	hdl triglyceride	plasma	0	week	19.0	6.0	15.8745078663875	mg/dl	19.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	hdl triglyceride	plasma	12	week	18.0	5.0	13.228756555323	mg/dl	19.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	ldl triglyceride	plasma	0	week	48.0	3.0	7.93725393319377	mg/dl	48.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	ldl triglyceride	plasma	12	week	34.0	4.0	10.5830052442584	mg/dl	48.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	vldl triglyceride	plasma	0	week	132.0	49.0	129.641814242165	mg/dl	132.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	vldl triglyceride	plasma	12	week	72.0	29.0	76.7267880208731	mg/dl	132.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoA-I	plasma	0	week	134.0	7.0	18.5202591774521	mg/dl	134.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoA-I	plasma	12	week	159.0	10.0	26.4575131106459	mg/dl	134.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoA-II	plasma	0	week	32.0	2.0	5.29150262212918	mg/dl	32.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoA-II	plasma	12	week	39.0	3.0	7.93725393319377	mg/dl	32.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoC-II	plasma	0	week	6.0	0.6	1.58745078663875	mg/dl	6.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoC-II	plasma	12	week	5.2	0.3	0.793725393319377	mg/dl	6.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoC-III	plasma	0	week	13.6	1.1	2.91032644217105	mg/dl	13.6	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoC-III	plasma	12	week	12.7	1.0	2.64575131106459	mg/dl	13.6	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoB-100	plasma	0	week	147.0	11.0	29.1032644217105	mg/dl	147.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoB-100	plasma	12	week	132.0	13.0	34.3947670438397	mg/dl	147.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoE	plasma	0	week	7.0	1.5	3.96862696659689	mg/dl	7.0	mg/dl	NA
+Kazumi1986	type_IIb	7	PRA10_twice	concentration	apoE	plasma	12	week	5.8	1.0	2.64575131106459	mg/dl	7.0	mg/dl	NA

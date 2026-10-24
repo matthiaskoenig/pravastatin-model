@@ -1,0 +1,10 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Mabuchi1987	all	13	NA	species	13	homo sapiens	NA	NA	NA	NA	NA	age, height and weight values in TabIndividuals
+Mabuchi1987	all	13	NA	ethnicity	13	japanese	NA	NA	NA	NA	NA	NA
+Mabuchi1987	all	13	NA	age	13	NA	47.0	4.0	19.0	69.0	yr	NA
+Mabuchi1987	all	13	NA	sex	7	F	NA	NA	NA	NA	NA	NA
+Mabuchi1987	all	13	NA	sex	6	M	NA	NA	NA	NA	NA	NA
+Mabuchi1987	all	13	NA	height	13	NA	162.0	3.0	142.0	179.0	cm	NA
+Mabuchi1987	all	13	NA	weight	13	NA	62.0	3.0	40.0	73.0	kg	NA
+Mabuchi1987	all	13	NA	healthy	13	N	NA	NA	NA	NA	NA	NA
+Mabuchi1987	all	13	NA	disease	13	FH	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	min	median	max	mean_unit	median_unit	count_unit
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	0.0	hr	0.0					mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	0.25	hr	1.0364402986832498e-06					mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	0.5	hr	8.338633312133419e-06	1.978658752031659e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	0.75	hr	1.7619485077615247e-05	3.2506536640520105e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	1.0	hr	2.426212517372153e-05	4.475537653404942e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	2.0	hr	1.79728169976209e-05	1.790215061361977e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	4.0	hr	9.65773914682119e-06	3.297764586719431e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	6.0	hr	9.869738298824584e-06	3.2506536640520105e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	8.0	hr	4.852425034744306e-06	1.7195486773608463e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	12.0	hr	9.893293760158294e-07					mole/meter^3	ng/ml	dimensionless
+Maeda2006	homozygous carriers *1b	7	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b1b	24.0	hr	0.0					mole/meter^3	ng/ml	dimensionless

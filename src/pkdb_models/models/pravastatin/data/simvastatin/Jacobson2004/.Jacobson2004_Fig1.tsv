@@ -1,0 +1,57 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	0.5	hr	1.275031	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	1.0	hr	5.825761	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	2.0	hr	5.7738414	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	3.0	hr	4.536654	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	4.0	hr	3.1435778	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	6.0	hr	2.569449	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	8.0	hr	1.4681408	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	12.0	hr	0.8903605	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	14.0	hr	0.5769527	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin	SIM1	concentration	simvastatin	serum	LC MS/MS	24.0	hr	0.37248838	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	0.5	hr	11.687564	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	1.0	hr	29.596104	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	2.0	hr	27.148197	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	3.0	hr	19.93461	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	4.0	hr	13.033523	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	6.0	hr	7.3048325	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	8.0	hr	4.688036	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	12.0	hr	2.275838	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	14.0	hr	1.5329309	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin	SIM1,VER	concentration	simvastatin	serum	LC MS/MS	24.0	hr	0.39474353	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	0.33200052	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	0.8031882	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	1.3821306	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	1.1882113	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	0.9963369	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	8.0	hr	0.83017266	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	0.48305187	ng/ml
+Jacobson2004	VER_SIM	15	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	14.0	hr	0.20492674	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	0.4011239	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	2.0555663	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	4.411036	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	4.759162	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	3.9148438	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	3.6541696	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	8.0	hr	3.346989	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	1.6738709	ng/ml
+Jacobson2004	VER_SIM	15	SIM1,VER_simvastatin acid	SIM1,VER	concentration	simvastatin acid	serum	LC MS/MS	14.0	hr	0.83668214	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	0.5	hr	20.319086	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	1.0	hr	46.309914	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	2.0	hr	20.879824	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	3.0	hr	14.580442	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	4.0	hr	7.4775147	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	6.0	hr	3.6454864	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	8.0	hr	1.3393438	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	12.0	hr	0.37155056	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	14.0	hr	0.24041818	ng/ml
+Jacobson2004	VER_PRA	15	PRA1_pravastatin	PRA1	concentration	pravastatin	serum	LC MS/MS	24.0	hr	0.041161124	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	0.5	hr	33.993256	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	1.0	hr	51.32952	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	2.0	hr	24.366272	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	3.0	hr	12.177484	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	4.0	hr	6.7459273	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	6.0	hr	3.4628308	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	8.0	hr	1.8238713	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	12.0	hr	0.38123363	ng/ml
+Jacobson2004	VER_PRA	15	PRA1,VER_pravastatin	PRA1,VER	concentration	pravastatin	serum	LC MS/MS	14.0	hr	0.22257161	ng/ml

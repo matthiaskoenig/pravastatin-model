@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	comments
+Jones1991	placebo	42	PLAC	concentration	placebo	blood	8	week	6.02	mmol/l	patients' characteristics enlisted in TabGroups
+Jones1991	placebo	42	PLAC	concentration	placebo	blood	8	week	232.7	mg/dl	Data curated here: LDL cholesterol
+Jones1991	pra5	22	PRA5	concentration	pravastatin	blood	8	week	5.92	mmol/l	NA
+Jones1991	pra5	22	PRA5	concentration	pravastatin	blood	8	week	228.9	mg/dl	NA
+Jones1991	pra10	22	PRA10	concentration	pravastatin	blood	8	week	6.35	mmol/l	NA
+Jones1991	pra10	22	PRA10	concentration	pravastatin	blood	8	week	245.5	mg/dl	NA
+Jones1991	pra20	19	PRA20	concentration	pravastatin	blood	8	week	5.92	mmol/l	NA
+Jones1991	pra20	19	PRA20	concentration	pravastatin	blood	8	week	228.9	mg/dl	NA
+Jones1991	pra40	20	PRA40	concentration	pravastatin	blood	8	week	5.43	mmol/l	NA
+Jones1991	pra40	20	PRA40	concentration	pravastatin	blood	8	week	210.0	mg/dl	NA

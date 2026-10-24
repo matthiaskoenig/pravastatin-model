@@ -1,0 +1,97 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	change	change_unit	baseline	baseline_unit	comments
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	Fig3_plac_hdlc	0	week	1.18	mmol/l	NA	percent	1.18	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	Fig3_plac_hdlc	1	week	1.2048785536	mmol/l	2.108352	percent	1.18	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	Fig3_plac_hdlc	2	week	1.1662627527	mmol/l	-1.1641735	percent	1.18	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	Fig3_plac_hdlc	4	week	1.178434919862	mmol/l	-0.13263391	percent	1.18	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	Fig3_plac_hdlc	8	week	1.19945372308	mmol/l	1.6486206	percent	1.18	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	hdl-c	blood	Fig3_plac_hdlc	12	week	1.19440507774	mmol/l	1.2207693	percent	1.18	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	Fig3_pra10_hdlc	0	week	1.22	mmol/l	NA	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	Fig3_pra10_hdlc	1	week	1.2742151286	mmol/l	4.443863	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	Fig3_pra10_hdlc	2	week	1.2621911685	mmol/l	3.4582925	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	Fig3_pra10_hdlc	4	week	1.29794840592	mmol/l	6.3892136	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	Fig3_pra10_hdlc	8	week	1.30213442966	mmol/l	6.7323303	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	hdl-c	blood	Fig3_pra10_hdlc	12	week	1.2884619897	mmol/l	5.6116385	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	Fig3_pra20_hdlc	0	week	1.1	mmol/l	NA	percent	1.1	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	Fig3_pra20_hdlc	1	week	1.10624589295	mmol/l	0.56780845	percent	1.1	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	Fig3_pra20_hdlc	2	week	1.146509606	mmol/l	4.228146	percent	1.1	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	Fig3_pra20_hdlc	4	week	1.1589830065	mmol/l	5.3620915	percent	1.1	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	Fig3_pra20_hdlc	8	week	1.1675516534	mmol/l	6.1410594	percent	1.1	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	hdl-c	blood	Fig3_pra20_hdlc	12	week	1.1591773886	mmol/l	5.3797626	percent	1.1	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	Fig3_pra40_hdlc	0	week	1.22	mmol/l	NA	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	Fig3_pra40_hdlc	1	week	1.220673716574	mmol/l	0.05522267	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	Fig3_pra40_hdlc	2	week	1.24246037568	mmol/l	1.8410144	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	Fig3_pra40_hdlc	4	week	1.29389396528	mmol/l	6.0568824	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	Fig3_pra40_hdlc	8	week	1.28396277366	mmol/l	5.2428503	percent	1.22	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	hdl-c	blood	Fig3_pra40_hdlc	12	week	1.30192223994	mmol/l	6.7149377	percent	1.22	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	Fig3_plac_tri	0	week	1.5	mmol/l	NA	percent	1.5	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	Fig3_plac_tri	1	week	1.515985308	mmol/l	1.0656872	percent	1.5	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	Fig3_plac_tri	2	week	1.520889669	mmol/l	1.3926446	percent	1.5	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	Fig3_plac_tri	4	week	1.517106711	mmol/l	1.1404474	percent	1.5	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	Fig3_plac_tri	8	week	1.507993542	mmol/l	0.5329028	percent	1.5	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration	triglyceride	blood	Fig3_plac_tri	12	week	1.5535806795	mmol/l	3.5720453	percent	1.5	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	Fig3_pra10_tri	0	week	1.41	mmol/l	NA	percent	1.41	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	Fig3_pra10_tri	1	week	1.2636526878	mmol/l	-10.379242	percent	1.41	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	Fig3_pra10_tri	2	week	1.227619179	mmol/l	-12.93481	percent	1.41	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	Fig3_pra10_tri	4	week	1.1790696924	mmol/l	-16.378036	percent	1.41	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	Fig3_pra10_tri	8	week	1.2190327866	mmol/l	-13.543774	percent	1.41	mmol/l	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration	triglyceride	blood	Fig3_pra10_tri	12	week	1.2540388566	mmol/l	-11.061074	percent	1.41	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	Fig3_pra20_tri	0	week	1.42	mmol/l	NA	percent	1.42	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	Fig3_pra20_tri	1	week	1.2359561572	mmol/l	-12.960834	percent	1.42	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	Fig3_pra20_tri	2	week	1.2492462496	mmol/l	-12.024912	percent	1.42	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	Fig3_pra20_tri	4	week	1.2406191106	mmol/l	-12.632457	percent	1.42	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	Fig3_pra20_tri	8	week	1.1715953388	mmol/l	-17.493286	percent	1.42	mmol/l	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration	triglyceride	blood	Fig3_pra20_tri	12	week	1.2111161966	mmol/l	-14.710127	percent	1.42	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	Fig3_pra40_tri	0	week	1.37	mmol/l	NA	percent	1.37	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	Fig3_pra40_tri	1	week	1.2562360494	mmol/l	-8.303938	percent	1.37	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	Fig3_pra40_tri	2	week	1.16570329155	mmol/l	-14.9121685	percent	1.37	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	Fig3_pra40_tri	4	week	1.08108892	mmol/l	-21.0884	percent	1.37	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	Fig3_pra40_tri	8	week	1.1351972755	mmol/l	-17.138885	percent	1.37	mmol/l	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration	triglyceride	blood	Fig3_pra40_tri	12	week	1.1566992748	mmol/l	-15.569396	percent	1.37	mmol/l	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	hdl-c	blood	Fig3_plac_hdlc	0	week	0.0	percent	NA	NA	1.18	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	hdl-c	blood	Fig3_plac_hdlc	1	week	2.108352	percent	NA	NA	1.18	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	hdl-c	blood	Fig3_plac_hdlc	2	week	-1.1641735	percent	NA	NA	1.18	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	hdl-c	blood	Fig3_plac_hdlc	4	week	-0.13263391	percent	NA	NA	1.18	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	hdl-c	blood	Fig3_plac_hdlc	8	week	1.6486206	percent	NA	NA	1.18	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	hdl-c	blood	Fig3_plac_hdlc	12	week	1.2207693	percent	NA	NA	1.18	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	hdl-c	blood	Fig3_pra10_hdlc	0	week	0.0	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	hdl-c	blood	Fig3_pra10_hdlc	1	week	4.443863	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	hdl-c	blood	Fig3_pra10_hdlc	2	week	3.4582925	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	hdl-c	blood	Fig3_pra10_hdlc	4	week	6.3892136	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	hdl-c	blood	Fig3_pra10_hdlc	8	week	6.7323303	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	hdl-c	blood	Fig3_pra10_hdlc	12	week	5.6116385	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	hdl-c	blood	Fig3_pra20_hdlc	0	week	0.0	percent	NA	NA	1.1	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	hdl-c	blood	Fig3_pra20_hdlc	1	week	0.56780845	percent	NA	NA	1.1	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	hdl-c	blood	Fig3_pra20_hdlc	2	week	4.228146	percent	NA	NA	1.1	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	hdl-c	blood	Fig3_pra20_hdlc	4	week	5.3620915	percent	NA	NA	1.1	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	hdl-c	blood	Fig3_pra20_hdlc	8	week	6.1410594	percent	NA	NA	1.1	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	hdl-c	blood	Fig3_pra20_hdlc	12	week	5.3797626	percent	NA	NA	1.1	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	hdl-c	blood	Fig3_pra40_hdlc	0	week	0.0	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	hdl-c	blood	Fig3_pra40_hdlc	1	week	0.05522267	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	hdl-c	blood	Fig3_pra40_hdlc	2	week	1.8410144	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	hdl-c	blood	Fig3_pra40_hdlc	4	week	6.0568824	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	hdl-c	blood	Fig3_pra40_hdlc	8	week	5.2428503	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	hdl-c	blood	Fig3_pra40_hdlc	12	week	6.7149377	percent	NA	NA	1.22	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	triglyceride	blood	Fig3_plac_tri	0	week	0.0	percent	NA	NA	1.5	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	triglyceride	blood	Fig3_plac_tri	1	week	1.0656872	percent	NA	NA	1.5	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	triglyceride	blood	Fig3_plac_tri	2	week	1.3926446	percent	NA	NA	1.5	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	triglyceride	blood	Fig3_plac_tri	4	week	1.1404474	percent	NA	NA	1.5	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	triglyceride	blood	Fig3_plac_tri	8	week	0.5329028	percent	NA	NA	1.5	NA	NA
+Hunninghake1990a	placebo	88	PLAC	concentration change	triglyceride	blood	Fig3_plac_tri	12	week	3.5720453	percent	NA	NA	1.5	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	triglyceride	blood	Fig3_pra10_tri	0	week	0.0	percent	NA	NA	1.41	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	triglyceride	blood	Fig3_pra10_tri	1	week	-10.379242	percent	NA	NA	1.41	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	triglyceride	blood	Fig3_pra10_tri	2	week	-12.93481	percent	NA	NA	1.41	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	triglyceride	blood	Fig3_pra10_tri	4	week	-16.378036	percent	NA	NA	1.41	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	triglyceride	blood	Fig3_pra10_tri	8	week	-13.543774	percent	NA	NA	1.41	NA	NA
+Hunninghake1990a	pra10	65	PRA5_twice	concentration change	triglyceride	blood	Fig3_pra10_tri	12	week	-11.061074	percent	NA	NA	1.41	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	triglyceride	blood	Fig3_pra20_tri	0	week	0.0	percent	NA	NA	1.42	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	triglyceride	blood	Fig3_pra20_tri	1	week	-12.960834	percent	NA	NA	1.42	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	triglyceride	blood	Fig3_pra20_tri	2	week	-12.024912	percent	NA	NA	1.42	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	triglyceride	blood	Fig3_pra20_tri	4	week	-12.632457	percent	NA	NA	1.42	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	triglyceride	blood	Fig3_pra20_tri	8	week	-17.493286	percent	NA	NA	1.42	NA	NA
+Hunninghake1990a	pra20	56	PRA10_twice	concentration change	triglyceride	blood	Fig3_pra20_tri	12	week	-14.710127	percent	NA	NA	1.42	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	triglyceride	blood	Fig3_pra40_tri	0	week	0.0	percent	NA	NA	1.37	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	triglyceride	blood	Fig3_pra40_tri	1	week	-8.303938	percent	NA	NA	1.37	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	triglyceride	blood	Fig3_pra40_tri	2	week	-14.9121685	percent	NA	NA	1.37	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	triglyceride	blood	Fig3_pra40_tri	4	week	-21.0884	percent	NA	NA	1.37	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	triglyceride	blood	Fig3_pra40_tri	8	week	-17.138885	percent	NA	NA	1.37	NA	NA
+Hunninghake1990a	pra40	59	PRA20_twice	concentration change	triglyceride	blood	Fig3_pra40_tri	12	week	-15.569396	percent	NA	NA	1.37	NA	NA

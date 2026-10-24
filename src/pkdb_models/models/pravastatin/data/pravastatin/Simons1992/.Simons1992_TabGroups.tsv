@@ -1,0 +1,39 @@
+study	name	parent	group_count	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Simons1992	all	NA	61	species	61	homo sapiens	NA	NA	NA	NA	NA	"12 weeks: time of the short-term study --> in ""mean"" since there's no ""time"" column"
+Simons1992	all	NA	61	disease	61	hypercholesterolemia	NA	NA	NA	NA	NA	"eventually change ""species"" to ""phenotype"" for Iia and Iib"
+Simons1992	all	NA	61	healthy	61	N	NA	NA	NA	NA	NA	2/3 of 61 patients (ca. 42 patients) were given pravastatin. 1/3 was given choelstyramine
+Simons1992	all	NA	61	sex	24	M	NA	NA	NA	NA	NA	M(all) = 12 +12 = 24M, F(all) = 9 +9 = 18; 24+18 = 42
+Simons1992	all	NA	61	sex	18	F	NA	NA	NA	NA	NA	NA
+Simons1992	group1	all	23	species	23	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	group2	all	25	species	25	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	group3	all	13	species	13	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra20	all	21	species	21	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra20	all	21	sex	12	M	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra20	all	21	sex	9	F	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra20	all	21	age	21	NA	50.0	10.0	NA	NA	yr	NA
+Simons1992	shortterm_pra20_IIa	shortterm_pra20	21	species	14	homo sapiens	12.0	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra20_IIb	shortterm_pra20	21	species	7	homo sapiens	12.0	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra40	all	21	species	21	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra40	all	21	sex	12	M	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra40	all	21	sex	9	F	NA	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra40	all	21	age	21	NA	55.0	12.0	NA	NA	yr	NA
+Simons1992	shortterm_pra40_IIa	shortterm_pra40	21	species	14	homo sapiens	12.0	NA	NA	NA	NA	NA
+Simons1992	shortterm_pra40_Iib	shortterm_pra40	21	species	7	homo sapiens	12.0	NA	NA	NA	NA	NA
+Simons1992	resin_16mg	all	18	species	18	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	resin_16mg	all	18	sex	13	M	NA	NA	NA	NA	NA	NA
+Simons1992	resin_16mg	all	18	sex	5	F	NA	NA	NA	NA	NA	NA
+Simons1992	resin_16mg	all	18	age	18	NA	52.0	13.0	NA	NA	yr	NA
+Simons1992	resin_16mg_IIa	resin_16mg	18	species	8	homo sapiens	12.0	NA	NA	NA	NA	NA
+Simons1992	resin_16mg_IIb	resin_16mg	18	species	10	homo sapiens	12.0	NA	NA	NA	NA	NA
+Simons1992	longterm_pra	all	35	species	35	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	longterm_pra	all	35	sex	19	M	NA	NA	NA	NA	NA	NA
+Simons1992	longterm_pra	all	35	sex	16	F	NA	NA	NA	NA	NA	NA
+Simons1992	longterm_pra	all	35	age	35	NA	53.0	12.0	NA	NA	yr	NA
+Simons1992	longterm_pra_IIa	longterm_pra	35	species	24	homo sapiens	14.0	NA	NA	NA	NA	36 months = 36 * 4 weeks = 144 weeks
+Simons1992	longterm_pra_IIb	longterm_pra	35	species	11	homo sapiens	144.0	NA	NA	NA	NA	NA
+Simons1992	longterm_resin	all	11	species	11	homo sapiens	NA	NA	NA	NA	NA	NA
+Simons1992	longterm_resin	all	11	sex	10	M	NA	NA	NA	NA	NA	NA
+Simons1992	longterm_resin	all	11	sex	1	F	NA	NA	NA	NA	NA	NA
+Simons1992	longterm_resin	all	11	age	11	NA	52.0	12.0	NA	NA	yr	NA
+Simons1992	longterm_resin_IIa	longterm_resin	11	species	6	homo sapiens	144.0	NA	NA	NA	NA	36 months = 36 * 4 weeks = 144 weeks
+Simons1992	longterm_resin_IIb	longterm_resin	11	species	5	homo sapiens	144.0	NA	NA	NA	NA	NA

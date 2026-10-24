@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	comment	mean_unit	count_unit
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	0.0	hr						mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	0.5	hr	3.65724707323393e-05	28.144989	2.972434928038066e-05	5.944869856076132e-05		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	1.0	hr	0.00021189586130544366	118.97655	6.83588910088804e-05	0.0001367177820177608		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	2.0	hr	0.000144646008527077	80.597015	4.520397851741927e-05	9.040795703483853e-05		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	3.0	hr	7.303237227051091e-05	43.17697	2.86729724636657e-05	5.73459449273314e-05		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	4.0	hr	3.8934814971851225e-05	21.748402	1.229454926624738e-05	2.458909853249476e-05		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	6.0	hr	1.0871420158763809e-05	6.3965883	4.19603867806751e-06	8.39207735613502e-06		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	8.0	hr	2.873882411137022e-06	2.5586355	3.1531015475938096e-06	6.306203095187619e-06		mole/meter^3	dimensionless
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	12.0	hr	1.7134032930534945e-06	0.31982943	9.600303158787366e-07	1.9200606317574733e-06		mole/meter^3	dimensionless

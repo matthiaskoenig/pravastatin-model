@@ -1,0 +1,2 @@
+study	count	measurement_type	substance	tissue	method	group	intervention	time	time_unit	mean	mean_sd	median	min	max	mean_unit	median_unit	count_unit
+Kyrklund2004	10	cumulative amount	pravastatin	urine	LC MS/MS	all	pravastatin40mg_po	12.0	hr	7.44352578145243e-06	3.698207429392505e-06				mole	mg	dimensionless

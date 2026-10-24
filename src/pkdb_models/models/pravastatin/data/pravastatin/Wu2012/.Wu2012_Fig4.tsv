@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	sd	se	unit	comments
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.0	hr	0.0	NA	NA	NA	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.25	hr	27.427185	9.47	9.47	2.3675	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.5	hr	55.82524	20.39	20.39	5.0975	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	0.75	hr	83.49515	49.03	49.03	12.2575	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	1.0	hr	94.41747	44.18	44.18	11.045	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	1.5	hr	75.24272	29.13	29.13	7.2825	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	2.0	hr	60.92233	42.72	42.72	10.68	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	3.0	hr	43.203884	23.3	23.3	5.825	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	4.0	hr	28.640778	14.08	14.08	3.52	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	6.0	hr	19.174757	12.38	12.38	3.095	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	8.0	hr	5.8252425	3.64	3.64	0.91	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra40	10.0	hr	2.9126213	0.73	0.73	0.1825	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.0	hr	0.0	NA	NA	NA	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.25	hr	36.165047	12.14	12.14	3.035	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.5	hr	106.31068	56.3	56.3	14.075	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.75	hr	146.60194	61.9	61.9	15.475	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	1.0	hr	120.631065	53.88	53.88	13.47	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	1.5	hr	95.38835	30.34	30.34	7.585	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	2.0	hr	76.456314	20.15	20.15	5.0375	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	3.0	hr	45.14563	15.77	15.77	3.9425	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	4.0	hr	31.796116	9.96	9.96	2.49	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	6.0	hr	24.757282	12.86	12.86	3.215	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	8.0	hr	10.92233	13.1	13.1	3.275	ng/ml	Digitised linear axis
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	10.0	hr	6.553398	7.0	7.0	1.75	ng/ml	Digitised linear axis

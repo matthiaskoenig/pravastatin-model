@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	mean_unit	count_unit
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	0.33	hr	1.1848397050856241e-05	10.098539	4.221136665969994e-06	1.1939177443290229e-05	mole/meter^3	dimensionless
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	0.67	hr	5.142157209148941e-05	33.873726	1.0030151373698836e-05	2.8369552210680047e-05	mole/meter^3	dimensionless
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	1.01	hr	5.9642428096954285e-05	14.512716	9.000428476914326e-06	2.5457056038442513e-05	mole/meter^3	dimensionless
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	1.51	hr	4.393093538736956e-05	27.504751	7.374336887638522e-06	2.0857774480013193e-05	mole/meter^3	dimensionless
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	2.01	hr	3.2365203872517846e-05	20.347193	5.502545138044766e-06	1.5563547923586084e-05	mole/meter^3	dimensionless
+Singhvi1990	all	8	PRA_po_20	concentration	pravastatin	plasma	scintillation counting	PRA_po_20	3.01	hr	1.9456811061644642e-05	12.711695	3.7074219987683413e-06	1.0486172944197114e-05	mole/meter^3	dimensionless

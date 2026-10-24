@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.0	hr	0.0				identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.25	hr	7.914635008126635e-06	5.7	3.875929303465009e-06	1.3426612960214827e-05	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.5	hr	0.0001634277907332815	86.8	5.9022923427790734e-05	0.0002044614043766047	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	0.75	hr	0.0002848797493698914	99.3	6.75227683916331e-05	0.00023390573104374249	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	1.0	hr	0.0002820530940098462	89.2	6.0654893660989806e-05	0.0002101147150966952	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	1.5	hr	0.00017360375002944435	57.1	3.882729179421949e-05	0.00013450168421548535	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	2.0	hr	0.00012590394082868115	46.1	3.13474282260382e-05	0.00010859067674840413	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	3.0	hr	5.5473111440887574e-05	34.0	2.311957830118013e-05	8.008856853461475e-05	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	4.0	hr	2.5887452005747533e-05	12.2	8.295848684663039e-06	2.873766282712647e-05	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	6.0	hr	2.9232327515134385e-05	10.2	6.935873490448262e-06	2.4026570560384424e-05	identical data in fig B, not digitized	mole/meter^3	dimensionless
+Becquemont1999	all	12	PRA_40_D1	concentration	pravastatin	plasma	LC MS/MS	D1	8.0	hr	8.691965232139071e-06	5.4	3.671933024285681e-06	1.271994912020352e-05	identical data in fig B, not digitized	mole/meter^3	dimensionless

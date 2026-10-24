@@ -1,0 +1,22 @@
+study	group	count	intervention	measurement_type	tissue	substance	time	time_unit	mean	se	sd	change	change_se	unit	baseline	baseline_se	baseline_unit	comments
+Nakaya1987	PRA5	13	PRA5	metabolic ratio	serum	cholesterol	0	week	4.75	2.29	0.6351317246778874	NA	NA	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA5	13	PRA5	metabolic ratio	serum	cholesterol	1	week	4.719125	4.6110570375	1.278877121753487	-0.65	0.2	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA5	13	PRA5	metabolic ratio	serum	cholesterol	2	week	4.71295	4.6050234450000005	1.2772037042816404	-0.78	0.2	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA5	13	PRA5	metabolic ratio	serum	cholesterol	3	week	4.695375	4.5878509125	1.2724409007079234	-1.15	0.27	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA5	13	PRA5	metabolic ratio	serum	cholesterol	4	week	4.7006	4.592956259999999	1.273856869337947	-1.04	0.27	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA5	13	PLAC	metabolic ratio	serum	cholesterol	6	week	4.731475	4.6231242224999995	1.2822239566971798	-0.39	0.23	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA5	13	PLAC	metabolic ratio	serum	cholesterol	8	week	4.75285	4.644009734999999	1.288016555638187	0.06	0.35	dimensionless	4.75	2.29	dimensionless	NA
+Nakaya1987	PRA20	14	PRA20	metabolic ratio	serum	cholesterol	0	week	4.43	2.33	0.6227186936559489	NA	NA	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA20	14	PRA20	metabolic ratio	serum	cholesterol	1	week	4.382599	4.2804844433	1.1440075883031704	-1.07	0.25	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA20	14	PRA20	metabolic ratio	serum	cholesterol	2	week	4.371524	4.2696674908	1.1411166361443128	-1.32	0.3	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA20	14	PRA20	metabolic ratio	serum	cholesterol	3	week	4.376397	4.2744269499	1.1423886550942102	-1.21	0.27	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA20	14	PRA20	metabolic ratio	serum	cholesterol	4	week	4.375068	4.2731289156	1.1420417408351473	-1.24	0.28	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA20	14	PLAC	metabolic ratio	serum	cholesterol	6	week	4.404306	4.3016856702	1.1496738545345317	-0.58	0.35	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA20	14	PLAC	metabolic ratio	serum	cholesterol	8	week	4.433101	4.3298097467	1.1571903301475617	0.07	0.26	dimensionless	4.43	2.33	dimensionless	NA
+Nakaya1987	PRA40	14	PRA40	metabolic ratio	serum	cholesterol	0	week	3.9	1.65	0.44098104915550024	NA	NA	dimensionless	3.9	1.65	dimensionless	NA
+Nakaya1987	PRA40	14	PRA40	metabolic ratio	serum	cholesterol	1	week	3.85242	3.78885507	1.0126141114343856	-1.22	0.19	dimensionless	3.9	1.65	dimensionless	NA
+Nakaya1987	PRA40	14	PRA40	metabolic ratio	serum	cholesterol	2	week	3.84306	3.77964951	1.0101538220362862	-1.46	0.23	dimensionless	3.9	1.65	dimensionless	NA
+Nakaya1987	PRA40	14	PRA40	metabolic ratio	serum	cholesterol	3	week	3.83331	3.770060385	1.0075910205799328	-1.71	0.22	dimensionless	3.9	1.65	dimensionless	NA
+Nakaya1987	PRA40	14	PRA40	metabolic ratio	serum	cholesterol	4	week	3.83604	3.77274534	1.008308604987712	-1.64	0.25	dimensionless	3.9	1.65	dimensionless	NA
+Nakaya1987	PRA40	14	PLAC	metabolic ratio	serum	cholesterol	6	week	3.87933	3.815321055	1.0196874434539211	-0.53	0.16	dimensionless	3.9	1.65	dimensionless	NA
+Nakaya1987	PRA40	14	PLAC	metabolic ratio	serum	cholesterol	8	week	3.89844	3.83411574	1.024710534308374	-0.04	0.13	dimensionless	3.9	1.65	dimensionless	NA

@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	change	change_unit	comments
+Igel2006	control	8.0	PRA40	concentration	cholesterol	blood	0.0	week	4.82	0.66	mmol/l	NA	NA	NA
+Igel2006	control	8.0	PRA40	concentration	cholesterol	blood	3.0	week	3.91	0.63	mmol/l	NA	NA	NA
+Igel2006	control	8.0	PRA40	concentration	ldl-c	blood	0.0	week	2.9	0.6	mmol/l	NA	NA	NA
+Igel2006	control	8.0	PRA40	concentration	ldl-c	blood	3.0	week	1.93	0.32	mmol/l	NA	NA	NA
+Igel2006	variant	8.0	PRA40	concentration	cholesterol	blood	0.0	week	5.65	1.15	mmol/l	NA	NA	NA
+Igel2006	variant	8.0	PRA40	concentration	cholesterol	blood	3.0	week	4.84	0.76	mmol/l	NA	NA	NA
+Igel2006	variant	8.0	PRA40	concentration	ldl-c	blood	0.0	week	3.65	1.18	mmol/l	NA	NA	NA
+Igel2006	variant	8.0	PRA40	concentration	ldl-c	blood	3.0	week	2.59	0.69	mmol/l	NA	NA	NA

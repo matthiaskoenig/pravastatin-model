@@ -1,0 +1,13 @@
+study	name	group_count	parent	measurement_type	substance	count	choice	mean	sd	min	max	unit	comments
+Igel2006	all	16.0	NA	species	NA	16.0	homo sapiens	NA	NA	NA	NA	NA	NA
+Igel2006	all	16.0	NA	age	NA	16.0	NA	NA	NA	NA	NA	yr	NA
+Igel2006	all	16.0	NA	sex	NA	16.0	NR	NA	NA	NA	NA	NA	NA
+Igel2006	all	16.0	NA	ethnicity	NA	16.0	caucasian	NA	NA	NA	NA	NA	NA
+Igel2006	all	16.0	NA	healthy	NA	16.0	Y	NA	NA	NA	NA	NA	NA
+Igel2006	all	16.0	NA	abstinence	grapefruit juice	16.0	NA	NA	NA	NA	NA	NA	no exact medication provided in the paper
+Igel2006	control	8.0	all	SLCO1B1 genotype	NA	8.0	NR	NA	NA	NA	NA	NA	*15 or *17
+Igel2006	control	8.0	all	age	NA	8.0	NA	40.5	4.4	NA	NA	yr	NA
+Igel2006	control	8.0	all	bmi	NA	8.0	NA	25.4	2.5	NA	NA	kg/m^2	NA
+Igel2006	variant	8.0	all	SLCO1B1 genotype	NA	8.0	NR	NA	NA	NA	NA	NA	*15 or *17
+Igel2006	variant	8.0	all	age	NA	8.0	NA	31.9	6.9	NA	NA	yr	NA
+Igel2006	variant	8.0	all	bmi	NA	8.0	NA	26.8	4.3	NA	NA	kg/m^2	NA

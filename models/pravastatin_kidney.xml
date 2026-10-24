@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:distrib="http://www.sbml.org/sbml/level3/version1/distrib/version1" level="3" version="2" comp:required="true" distrib:required="true">
   <notes>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
@@ -11,35 +11,27 @@
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <h1>Model for pravastatin elimination in the kidneys</h1>
-        <p>Model for renal excretion of pravastatin and pravastatin metabolites.
+        <p>Model for the renal excretion of pravastatin by glomerular filtration and
+tubular secretion (OAT3), relative to the glomerular filtration rate,
 encoded in <a href="http://sbml.org">SBML</a> format.</p>
+        <p>The content of this model has been carefully created in a manual research effort.</p>
         <h2>Terms of use</h2>
-        <p>The content of this model has been carefully created in a manual research effort.
-This file has been created by <a href="https://livermetabolism.com">Matthias König</a>
-using <a>
-          <a href="https://github.com/matthiaskoenig/sbmlutils">sbmlutils</a>
-        </a>.
-For questions contact koenigmx@hu-berlin.de.</p>
-        <a href="https://livermetabolism.com">
-          <img src="https://livermetabolism.com/img/people/koenig.png" width="80"/>
+        <p>Copyright © 2026 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"/>
         </a>
-Copyright © 2022 Matthias König.
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
-          <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-<p>Redistribution and use of any part of this model, with or without modification,
-are permitted provided that the following conditions are met:</p>
-          <ol>
-            <li>Redistributions of this SBML file must retain the above copyright notice, this
-list of conditions and the following disclaimer.</li>
-            <li>Redistributions in a different form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation and/or
-other materials provided with the distribution.</li>
-          </ol>
-          <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.</p></body>
-        </notes>
+        <br/>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<p>Redistribution and use of any part of this model, with or without modification, are permitted provided
+that the following conditions are met:</p>
+        <ul>
+          <li>Redistributions of this SBML file must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+          <li>Redistributions in a different form must reproduce the above copyright notice, this list of conditions
+and the following disclaimer in the documentation and/or other materials provided
+with the distribution.</li>
+        </ul>
+        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></body>
+      </notes>
     <annotation>
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
         <rdf:Description rdf:about="#meta_pravastatin_kidney">
@@ -64,10 +56,10 @@ FOR A PARTICULAR PURPOSE.</p></body>
             </rdf:Bag>
           </dcterms:creator>
           <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T18:36:29Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T18:36:29Z</dcterms:W3CDTF>
           </dcterms:modified>
         </rdf:Description>
       </rdf:RDF>
@@ -92,6 +84,12 @@ FOR A PARTICULAR PURPOSE.</p></body>
           <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="m2" name="meter^2">
         <listOfUnits>
           <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
@@ -111,6 +109,18 @@ FOR A PARTICULAR PURPOSE.</p></body>
       <unitDefinition id="min" name="min">
         <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_l" name="ml/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="mmole" name="mmole">
@@ -144,14 +154,13 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" spatialDimensions="3" size="4" units="litre" constant="true">
+      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" size="1" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
                   <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -159,31 +168,29 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vki" sboTerm="SBO:0000290" id="Vki" name="kidney" spatialDimensions="3" size="1.5" units="litre" constant="true">
+      <compartment metaid="meta_Vki" sboTerm="SBO:0000290" id="Vki" name="kidney" size="0.3" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vki">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
                   <rdf:li rdf:resource="https://identifiers.org/FMA:7203"/>
                   <rdf:li rdf:resource="https://identifiers.org/BTO:0000671"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C12415"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12415"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vurine" sboTerm="SBO:0000290" id="Vurine" name="urine" spatialDimensions="3" size="1" units="litre" constant="true">
+      <compartment metaid="meta_Vurine" sboTerm="SBO:0000290" id="Vurine" name="urine" size="1" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vurine">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
                   <rdf:li rdf:resource="https://identifiers.org/FMA:12274"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C13283"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13283"/>
                   <rdf:li rdf:resource="https://identifiers.org/BTO:0001419"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -199,11 +206,10 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_pra_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
                   <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C62070"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -221,11 +227,10 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_pra_urine">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound/54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
                   <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C62070"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -234,39 +239,93 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_f_renal_function" sboTerm="SBO:0000002" id="f_renal_function" name="parameter for kidney function" value="1" units="dimensionless" constant="true">
+      <parameter sboTerm="SBO:0000002" id="f_renal_function" name="renal function" value="1" units="dimensionless" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>Parameter controls the health state/renal function.
-[0, 1] with 1.0 perfect function, and 0.0 no function at all.</p>
+            <blockquote>
+              <p>1.0: increased kidney function
+1.0: normal kidney function (healthy control)
+&lt;1.0: decreased kidney function</p>
+            </blockquote>
+            <p>Renal function relative to the healthy glomerular filtration rate
+GFR_base, which is 101 ml/min at 75 kg; a measured creatinine
+clearance of X ml/min is the renal function X/101.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_f_renal_function">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_PRAEX_k" sboTerm="SBO:0000009" id="PRAEX_k" name="rate urinary excretion pravastatin metabolites" value="1.40368423941635" units="per_min" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_PRAEX_k">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <parameter sboTerm="SBO:0000002" id="GFR_base" name="glomerular filtration rate (healthy)" value="101" units="ml_per_min" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="fu_pra" name="fraction unbound in plasma pravastatin" value="0.5" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000009" id="PRAEX_f" name="renal clearance of unbound pravastatin relative to the GFR" value="16.5960789851112" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>The renal clearance of pravastatin is PRAEX_f times the filtration of
+its unbound fraction, fu_pra * GFR: 1 is filtration alone, above 1 a
+net tubular secretion (OAT3). The clearance from the plasma of the
+kidney is limited by the renal plasma flow, so the effective renal
+clearance of 0.42-0.46 l/min (Singhvi1990) needs a value of about 16
+(fitted).</p>
+          </body>
+        </notes>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PK_20261019_164944__7b050">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>KI__PRAEX_f</code> is the result of the fit <code>PK_20261019_164944__7b050</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PK_20261019_164944__7b050</code> |
+| record | <code>PK_20261019_164944__7b050/</code> |
+| cost | 53.5273 |
+| data points | 196 |
+| value | 16.5961 dimensionless |
+| bounds | [1, 60] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [11.6757, 23.5464] |
+| Fisher confidence interval | [12.7307, 21.6351] |
+| distribution of the draws | <code>lognormal(2.8091664617453405, 0.17894758565872768, 1.0, 60.0)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="dimensionless" distrib:type="confidenceInterval" distrib:valueLower="11.6757042048921" distrib:valueUpper="23.5463722755267"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="2.23087727950007" distrib:units="dimensionless" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <cn> 2.80916646174534 </cn>
+                  <cn> 0.178947585658728 </cn>
+                  <cn> 1 </cn>
+                  <cn> 60 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
       </parameter>
+      <parameter sboTerm="SBO:0000002" id="f_OAT3" name="parameter for OAT3 activity" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Activity of the tubular secretion of pravastatin by OAT3 (SLC22A8)
+(1.0 reference function, &lt; 1.0 inhibition, e.g. by gemfibrozil). It
+scales the secreted part of the renal clearance, PRAEX_f - 1, not the
+filtration.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter id="GFR" name="glomerular filtration rate" units="ml_per_min" constant="false"/>
     </listOfParameters>
+    <listOfRules>
+      <assignmentRule name="glomerular filtration rate" variable="GFR">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> f_renal_function </ci>
+            <ci> GFR_base </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
     <listOfReactions>
       <reaction metaid="meta_PRAEX" sboTerm="SBO:0000655" id="PRAEX" name="excretion pravastatin" reversible="false" compartment="Vki">
         <annotation>
@@ -274,8 +333,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
             <rdf:Description rdf:about="#meta_PRAEX">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C75913"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C75913"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -288,12 +346,25 @@ FOR A PARTICULAR PURPOSE.</p></body>
           <speciesReference species="pra_urine" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
               <times/>
-              <ci> f_renal_function </ci>
-              <ci> PRAEX_k </ci>
-              <ci> Vki </ci>
+              <ci> GFR </ci>
+              <cn sbml:units="l_per_ml"> 0.001 </cn>
+              <ci> fu_pra </ci>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <ci> f_OAT3 </ci>
+                  <apply>
+                    <minus/>
+                    <ci> PRAEX_f </ci>
+                    <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
               <ci> pra_ext </ci>
             </apply>
           </math>
@@ -301,6 +372,8 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </reaction>
     </listOfReactions>
     <comp:listOfPorts>
+      <comp:port metaid="GFR_base_port" sboTerm="SBO:0000599" comp:idRef="GFR_base" comp:id="GFR_base_port" comp:name="Port of GFR_base"/>
+      <comp:port metaid="fu_pra_port" sboTerm="SBO:0000599" comp:idRef="fu_pra" comp:id="fu_pra_port" comp:name="Port of fu_pra"/>
       <comp:port metaid="Vext_port" sboTerm="SBO:0000599" comp:idRef="Vext" comp:id="Vext_port" comp:name="Port of Vext"/>
       <comp:port metaid="Vki_port" sboTerm="SBO:0000599" comp:idRef="Vki" comp:id="Vki_port" comp:name="Port of Vki"/>
       <comp:port metaid="Vurine_port" sboTerm="SBO:0000599" comp:idRef="Vurine" comp:id="Vurine_port" comp:name="Port of Vurine"/>

@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_sd	mean_se	mean_unit	count_unit
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	0	hr	0.0				mole/meter^3	dimensionless
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	1	hr	0.00012274482368737193	87.109276	8.244509457517727e-05	9.925223043169646e-06	mole/meter^3	dimensionless
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	2	hr	6.242662709349162e-05	44.001976	4.122205733399289e-05	4.9625525381032196e-06	mole/meter^3	dimensionless
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	3	hr	2.860638588556757e-05	21.519268	2.20832426448072e-05	2.6585100046951454e-06	mole/meter^3	dimensionless
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	4	hr	1.2451769015146162e-05	12.161973	1.6196319459166608e-05	1.949807734941415e-06	mole/meter^3	dimensionless
+Ho2007	European-Americans	69	PRA40	concentration	pravastatin	plasma	HPLC	EuropeanAmericans	5	hr	7.096315454738182e-06	10.095932	1.668511813063859e-05	2.00865217999376e-06	mole/meter^3	dimensionless

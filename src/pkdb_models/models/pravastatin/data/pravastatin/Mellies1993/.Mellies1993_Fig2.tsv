@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_unit	mean_se	change	change_unit	change_se	baseline	baseline_unit	comments
+Meilles1993	resin_nonelderly_longterm	NA	RESIN	concentration	cholesterol	NA	Fig2_nonelderly_res_tot	48	week	243.76095	mg/dl	NA	-15.9445	percent	NA	290	mg/dl	baseline values from Tab3
+Meilles1993	pra_nonelderly_longterm	NA	PRA	concentration	cholesterol	NA	Fig2_nonelderly_pra_tot	48	week	221.84022512	mg/dl	NA	-25.053978	percent	NA	296	mg/dl	COUNT!?
+Meilles1993	combo_nonelderly_longterm	NA	PRA_RESIN	concentration	cholesterol	NA	Fig2_nonelderly_combo_tot	48	week	225.73475804	mg/dl	NA	-32.007603	percent	NA	332	mg/dl	NA
+Meilles1993	resin_elderly_longterm	NA	RESIN	concentration	cholesterol	NA	Fig2_elderly_res_tot	48	week	235.2040389	mg/dl	NA	-18.895159	percent	NA	290	mg/dl	NA
+Meilles1993	pra_elderly_longterm	NA	PRA	concentration	cholesterol	NA	Fig2_elderly_pra_tot	48	week	219.79951993	mg/dl	NA	-24.983099	percent	NA	293	mg/dl	NA
+Meilles1993	combo_elderly_longterm	NA	PRA_RESIN	concentration	cholesterol	NA	Fig2_elderly_combo_tot	48	week	231.0624995	mg/dl	NA	-33.982143	percent	NA	350	mg/dl	NA
+Meilles1993	resin_nonelderly_longterm	NA	RESIN	concentration	ldl-c	NA	Fig2_nonelderly_res_ldl	48	week	160.98014149	mg/dl	NA	-25.815603	percent	NA	217	mg/dl	NA
+Meilles1993	pra_nonelderly_longterm	NA	PRA	concentration	ldl-c	NA	Fig2_nonelderly_pra_ldl	48	week	145.70064795	mg/dl	NA	-34.072105	percent	NA	221	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	NA	PRA_RESIN	concentration	ldl-c	NA	Fig2_nonelderly_combo_ldl	48	week	149.36891046	mg/dl	NA	-42.328606	percent	NA	259	mg/dl	NA
+Meilles1993	resin_elderly_longterm	NA	RESIN	concentration	ldl-c	NA	Fig2_elderly_res_ldl	48	week	147.7553186	mg/dl	NA	-31.276596	percent	NA	215	mg/dl	NA
+Meilles1993	pra_elderly_longterm	NA	PRA	concentration	ldl-c	NA	Fig2_elderly_pra_ldl	48	week	142.1233992	mg/dl	NA	-34.20213	percent	NA	216	mg/dl	NA
+Meilles1993	combo_elderly_longterm	NA	PRA_RESIN	concentration	ldl-c	NA	Fig2_elderly_combo_ldl	48	week	149.08558	mg/dl	NA	-45.189125	percent	NA	272	mg/dl	NA
+Meilles1993	resin_nonelderly_longterm	NA	RESIN	concentration	hdl-c	NA	Fig2_nonelderly_res_hdl	48	week	45.94905342	mg/dl	NA	2.1090076	percent	NA	45	mg/dl	NA
+Meilles1993	pra_nonelderly_longterm	NA	PRA	concentration	hdl-c	NA	Fig2_nonelderly_pra_hdl	48	week	49.260742016	mg/dl	NA	7.0885696	percent	NA	46	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	NA	PRA_RESIN	concentration	hdl-c	NA	Fig2_nonelderly_combo_hdl	48	week	47.59235074	mg/dl	NA	8.1644335	percent	NA	44	mg/dl	NA
+Meilles1993	resin_elderly_longterm	NA	RESIN	concentration	hdl-c	NA	Fig2_elderly_res_hdl	48	week	52.68978992	mg/dl	NA	12.105936	percent	NA	47	mg/dl	NA
+Meilles1993	pra_elderly_longterm	NA	PRA	concentration	hdl-c	NA	Fig2_elderly_pra_hdl	48	week	49.77561238	mg/dl	NA	8.207853	percent	NA	46	mg/dl	NA
+Meilles1993	combo_elderly_longterm	NA	PRA_RESIN	concentration	hdl-c	NA	Fig2_elderly_combo_hdl	48	week	48.23380434	mg/dl	NA	12.171638	percent	NA	43	mg/dl	NA
+Meilles1993	resin_nonelderly_longterm	NA	RESIN	concentration	triglyceride	NA	Fig2_nonelderly_res_tri	48	week	157.8245048	mg/dl	NA	16.04743	percent	NA	136	mg/dl	NA
+Meilles1993	pra_nonelderly_longterm	NA	PRA	concentration	triglyceride	NA	Fig2_nonelderly_pra_tri	48	week	115.67482416	mg/dl	NA	-13.026448	percent	NA	133	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	NA	PRA_RESIN	concentration	triglyceride	NA	Fig2_nonelderly_combo_tri	48	week	122.27453828	mg/dl	NA	-3.720836	percent	NA	127	mg/dl	NA
+Meilles1993	resin_elderly_longterm	NA	RESIN	concentration	triglyceride	NA	Fig2_elderly_res_tri	48	week	184.9871346	mg/dl	NA	30.27263	percent	NA	142	mg/dl	NA
+Meilles1993	pra_elderly_longterm	NA	PRA	concentration	triglyceride	NA	Fig2_elderly_pra_tri	48	week	131.28547791	mg/dl	NA	-11.888941	percent	NA	149	mg/dl	NA
+Meilles1993	combo_elderly_longterm	NA	PRA_RESIN	concentration	triglyceride	NA	Fig2_elderly_combo_tri	48	week	146.1237312	mg/dl	NA	-8.672668	percent	NA	160	mg/dl	NA

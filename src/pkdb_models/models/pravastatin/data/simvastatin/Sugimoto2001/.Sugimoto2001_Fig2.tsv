@@ -1,0 +1,21 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	0.5	hr	23.014553	6.326857	29.34141	17.8950539531903	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	1.0	hr	36.36772	5.88736	42.25508	16.6519687171457	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	2.0	hr	16.76426	1.493972	18.258232	4.22559092841132	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	3.0	hr	9.727162	1.493842	11.221004	4.2252232328851	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	4.0	hr	9.368478	1.581976	10.950454	4.47450382909748	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	6.0	hr	5.3116746	1.7575254	7.0692	4.9710325137904	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	8.0	hr	2.2215393	1.3181605	3.5396998	3.728320912969	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	12.0	hr	0.18568403	1.14254517	1.3282292	3.23160575007575	ng/ml
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	24.0	hr	0.0001	0.52262666	0.52272666	1.4782114212595	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	0.5	hr	19.677015	6.414664	26.091679	18.1434096537329	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	1.0	hr	28.987825	4.832949	33.820774	13.669644044115	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	2.0	hr	16.414467	2.284763	18.69923	6.46228564281648	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	3.0	hr	9.7286005	1.8454635	11.574064	5.21975902112904	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	4.0	hr	7.8764024	1.4937101	6.3826923	4.22485016334734	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	6.0	hr	3.6436567	0.8787299	4.5223866	2.48542348448551	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	8.0	hr	1.1685017	1.318422	2.4869237	3.72906054666212	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	12.0	hr	0.1	0.52687975	0.62687975	1.49024097637949	ng/ml
+Sugimoto2001	pra_group	8	SIM+STJ_pravastatin	PRA,STJ	concentration	pravastatin	plasma	LC MS/MS	24.0	hr	0.001	0.874984	0.875984	2.47482847931892	ng/ml

@@ -1,0 +1,10 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Pan1990	all	33	NA	species	33	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Pan1990	all	33	NA	ethnicity	33	NA	caucasian	NA	NA	NA	NA	NA	NA
+Pan1990	all	33	NA	sex	33	NA	M	NA	NA	NA	NA	NA	NA
+Pan1990	all	33	NA	disease	33	NA	hypercholesterolemia	NA	NA	NA	NA	NA	primary hypercholesterolemia
+Pan1990	all	33	NA	healthy	33	NA	N	NA	NA	NA	NA	NA	NA
+Pan1990	all	33	NA	age	33	NA	NA	50.0	NA	24.0	70.0	yr	NA
+Pan1990	PRA5_twice	11	all	species	11	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Pan1990	PRA10_twice	11	all	species	11	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Pan1990	PRA20_twice	11	all	species	11	NA	homo sapiens	NA	NA	NA	NA	NA	NA

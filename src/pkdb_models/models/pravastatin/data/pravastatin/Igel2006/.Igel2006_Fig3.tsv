@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	unit	change	change_sd	change_unit	baseline	baseline_sd	baseline_unit	comments
+Igel2006	control	8.0	PRA40	concentration change	cholesterol	blood	Fig3_pra40_chol	3.0	week	5.745098262	0.8408197578	dimensionless	-19.19291	-27.396933	percent	4.82	0.66	mmol/l	NA
+Igel2006	variant	8.0	PRA40	concentration change	cholesterol	blood	Fig3_pra40_chol	3.0	week	5.4681503164	0.8072902068	dimensionless	-13.447102	-22.316698	percent	4.82	0.66	mmol/l	NA
+Igel2006	control	8.0	PRA40	concentration change	ldl-c	blood	Fig3_pra40_ldlc	3.0	week	3.831224655	0.860518962	dimensionless	-32.111195	-43.419827	percent	2.9	0.6	mmol/l	NA
+Igel2006	variant	8.0	PRA40	concentration change	ldl-c	blood	Fig3_pra40_ldlc	3.0	week	3.70964085	0.816736038	dimensionless	-27.91865	-36.122673	percent	2.9	0.6	mmol/l	NA
+Igel2006	control	8.0	PRA40	concentration change	lathosterol	blood	Fig3_pra40_latho	3.0	week	0.38399147852	0.12587080142	dimensionless	-31.503931	-46.361397	percent	0.292	0.086	mg/dl	NA
+Igel2006	variant	8.0	PRA40	concentration change	lathosterol	blood	Fig3_pra40_latho	3.0	week	0.38599320276	0.12264560104	dimensionless	-32.189453	-42.611164	percent	0.292	0.086	mg/dl	NA

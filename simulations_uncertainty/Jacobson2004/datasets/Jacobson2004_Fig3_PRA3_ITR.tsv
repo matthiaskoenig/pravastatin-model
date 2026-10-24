@@ -1,0 +1,8 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	0.5	hr	8.912989423597862e-05	mole/meter^3	dimensionless
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	1.0	hr	0.00022012566838621538	mole/meter^3	dimensionless
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	2.0	hr	0.00011846636515676161	mole/meter^3	dimensionless
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	3.0	hr	6.964294631710363e-05	mole/meter^3	dimensionless
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	4.0	hr	4.2788646267637154e-05	mole/meter^3	dimensionless
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	6.0	hr	2.5115607848679715e-05	mole/meter^3	dimensionless
+Jacobson2004	ITR_PRA	16	ITR,PRA3_pravastatin	ITR,PRA3	concentration	pravastatin	serum	radioenzymatic assay	8.0	hr	1.4741435469813678e-05	mole/meter^3	dimensionless

@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	change	change_unit	baseline	baseline_se	baseline_unit	comments
+Hunninghake1990b	placebo	46	PLAC	metabolic ratio	pravastatin	blood	0	week	5.4	0.27	dimensionless	NA	NA	5.4	0.27	dimensionless	NA
+Hunninghake1990b	placebo	46	PLAC	metabolic ratio	pravastatin	blood	8	week	5.3	0.3	dimensionless	-1.9	percent	5.4	0.27	dimensionless	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	metabolic ratio	pravastatin	blood	0	week	5.5	0.29	dimensionless	NA	NA	5.5	0.29	dimensionless	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	metabolic ratio	pravastatin	blood	8	week	3.7	0.2	dimensionless	-32.2	percent	5.5	0.29	dimensionless	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	metabolic ratio	pravastatin	blood	0	week	5.5	0.34	dimensionless	NA	NA	5.5	0.34	dimensionless	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	metabolic ratio	pravastatin	blood	8	week	3.4	0.23	dimensionless	-37.7	percent	5.5	0.34	dimensionless	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	metabolic ratio	pravastatin	blood	0	week	5.6	3.4	dimensionless	NA	NA	5.6	3.4	dimensionless	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	metabolic ratio	pravastatin	blood	8	week	3.4	0.2	dimensionless	-38.8	percent	5.6	3.4	dimensionless	NA
+Hunninghake1990b	placebo	46	PLAC	metabolic ratio	pravastatin	blood	0	week	7.0	0.31	dimensionless	NA	NA	7.0	0.31	dimensionless	NA
+Hunninghake1990b	placebo	46	PLAC	metabolic ratio	pravastatin	blood	8	week	6.9	0.32	dimensionless	-1.7	percent	7.0	0.31	dimensionless	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	metabolic ratio	pravastatin	blood	0	week	7.2	0.32	dimensionless	NA	NA	7.2	0.32	dimensionless	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	metabolic ratio	pravastatin	blood	8	week	5.3	0.22	dimensionless	-25.9	percent	7.2	0.32	dimensionless	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	metabolic ratio	pravastatin	blood	0	week	7.2	0.39	dimensionless	NA	NA	7.2	0.39	dimensionless	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	metabolic ratio	pravastatin	blood	8	week	4.9	0.25	dimensionless	-31.3	percent	7.2	0.39	dimensionless	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	metabolic ratio	pravastatin	blood	0	week	7.3	0.34	dimensionless	NA	NA	7.3	0.34	dimensionless	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	metabolic ratio	pravastatin	blood	8	week	4.9	0.21	dimensionless	-32.4	percent	7.3	0.34	dimensionless	NA

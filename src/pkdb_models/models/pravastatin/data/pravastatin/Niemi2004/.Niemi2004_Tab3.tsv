@@ -1,0 +1,37 @@
+study	group	count	intervention	measurement_type	time	time_unit	tissue	substance	method	label	p_value	mean	sd	min	max	unit	comment
+Niemi2004	11187GG genotype	35.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	45.6	34.3	NA	NA	ng/ml	NA
+Niemi2004	11187GG genotype	35.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	0.5	2.0	hr	NA
+Niemi2004	11187GG genotype	35.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.6	0.3	NA	NA	hr	NA
+Niemi2004	11187GG genotype	35.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	102.7	69.1	NA	NA	ng*hr/ml	NA
+Niemi2004	11187GA genotype	6.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	93.8	60.6	NA	NA	ng/ml	NA
+Niemi2004	11187GA genotype	6.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	1.0	2.0	hr	NA
+Niemi2004	11187GA genotype	6.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.9	0.2	NA	NA	hr	NA
+Niemi2004	11187GA genotype	6.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	203.7	126.4	NA	NA	ng*hr/ml	NA
+Niemi2004	521TT genotype	28.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	40.3	28.9	NA	NA	ng/ml	NA
+Niemi2004	521TT genotype	28.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	0.5	2.0	hr	NA
+Niemi2004	521TT genotype	28.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.7	0.1	NA	NA	hr	NA
+Niemi2004	521TT genotype	28.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	89.5	64.0	NA	NA	ng*hr/ml	NA
+Niemi2004	521TC genotype	11.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	84.4	56.6	NA	NA	ng/ml	NA
+Niemi2004	521TC genotype	11.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	1.0	2.0	hr	NA
+Niemi2004	521TC genotype	11.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.6	0.2	NA	NA	hr	NA
+Niemi2004	521TC genotype	11.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	184.7	105.0	NA	NA	ng*hr/ml	NA
+Niemi2004	521CC genotype	2.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	51.9	19.0	NA	NA	ng/ml	NA
+Niemi2004	521CC genotype	2.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.5	NA	1.0	2.0	hr	NA
+Niemi2004	521CC genotype	2.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.8	0.4	NA	NA	hr	NA
+Niemi2004	521CC genotype	2.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	140.1	39.3	NA	NA	ng*hr/ml	NA
+Niemi2004	non-carriers of *15b	37.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	48.4	38.7	NA	NA	ng/ml	NA
+Niemi2004	non-carriers of *15b	37.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	0.5	2.0	hr	NA
+Niemi2004	non-carriers of *15b	37.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.7	0.3	NA	NA	hr	NA
+Niemi2004	non-carriers of *15b	37.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	107.7	77.4	NA	NA	ng*hr/ml	NA
+Niemi2004	heterozygous carriers of *15b	4.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	91.9	56.6	NA	NA	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	1.0	2.0	hr	NA
+Niemi2004	heterozygous carriers of *15b	4.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.7	0.3	NA	NA	hr	NA
+Niemi2004	heterozygous carriers of *15b	4.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	207.8	119.3	NA	NA	ng*hr/ml	NA
+Niemi2004	non-carriers of *17	38.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	47.3	37.0	NA	NA	ng/ml	NA
+Niemi2004	non-carriers of *17	38.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	0.5	2.0	hr	NA
+Niemi2004	non-carriers of *17	38.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.6	0.3	NA	NA	hr	NA
+Niemi2004	non-carriers of *17	38.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	107.3	78.9	NA	NA	ng*hr/ml	NA
+Niemi2004	heterozygous carriers of *17	3.0	pra_40mg_po	cmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	120.6	48.2	NA	NA	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3.0	pra_40mg_po	tmax	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	1.0	NA	1.0	1.0	hr	NA
+Niemi2004	heterozygous carriers of *17	3.0	pra_40mg_po	thalf	NA	NA	plasma	pravastatin	NR	pra_40mg_po	NA	2.0	0.2	NA	NA	hr	NA
+Niemi2004	heterozygous carriers of *17	3.0	pra_40mg_po	auc_end	12.0	hr	plasma	pravastatin	NR	pra_40mg_po	NA	246.4	72.5	NA	NA	ng*hr/ml	NA

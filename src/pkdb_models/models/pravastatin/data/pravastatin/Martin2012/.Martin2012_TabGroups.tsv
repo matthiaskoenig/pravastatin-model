@@ -1,0 +1,8 @@
+study	name	parent	group_count	measurement_type	substance	count	choice	mean	sd	min	max	unit	comments
+Martin2012	all	NA	626	species	NA	626	homo sapiens	NA	NA	NA	NA	NA	rs4149056 equals to 521T>C
+Martin2012	all	NA	626	sex	NA	626	M	NA	NA	NA	NA	NA	NA
+Martin2012	all	NA	626	age	NA	626	NA	NA	NA	45.0	64.0	yr	NA
+Martin2012	all	NA	626	healthy	NA	626	NR	NA	NA	NA	NA	NA	NA
+Martin2012	TT	all	449	SLCO1B1 genotype	NA	449	c.521 T/T	NA	NA	NA	NA	NA	NA
+Martin2012	TC	all	164	SLCO1B1 genotype	NA	164	c.521 T/C	NA	NA	NA	NA	NA	NA
+Martin2012	CC	all	13	SLCO1B1 genotype	NA	13	c.521 C/C	NA	NA	NA	NA	NA	NA

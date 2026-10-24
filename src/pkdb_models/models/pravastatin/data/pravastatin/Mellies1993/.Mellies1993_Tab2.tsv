@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	baseline	baseline_se	baseline_unit	comments
+Meilles1993	placebo_nonelderly_shortterm	358	PLAC	concentration	cholesterol	NA	NA	NA	302	mg/dl	NA	NA	mg/dl	Only curated total choelsterol, ldl-c, hdl-c, triglycerides from this table.
+Meilles1993	placebo_nonelderly_shortterm	358	PLAC	concentration	ldl-c	NA	NA	NA	227	mg/dl	NA	NA	mg/dl	Exact baseline values from text
+Meilles1993	placebo_nonelderly_shortterm	358	PLAC	concentration	hdl-c	NA	NA	NA	46	mg/dl	NA	NA	mg/dl	time: short term duration between 8 and 16 weeks.
+Meilles1993	placebo_nonelderly_shortterm	358	PLAC	concentration	triglyceride	NA	NA	NA	136	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	50	PLAC	concentration	cholesterol	NA	NA	NA	298	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	50	PLAC	concentration	ldl-c	NA	NA	NA	219	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	50	PLAC	concentration	hdl-c	NA	NA	NA	48	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	placebo_elderly_shortterm	50	PLAC	concentration	triglyceride	NA	NA	NA	151	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra20_nonelderly_shortterm	359	PRA20	concentration	cholesterol	NA	NA	NA	286	mg/dl	286.2	2.6	mg/dl	NA
+Meilles1993	pra20_nonelderly_shortterm	359	PRA20	concentration	ldl-c	NA	NA	NA	213	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra20_nonelderly_shortterm	359	PRA20	concentration	hdl-c	NA	NA	NA	45	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra20_nonelderly_shortterm	359	PRA20	concentration	triglyceride	NA	NA	NA	145	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	53	PRA20	concentration	cholesterol	NA	NA	NA	289	mg/dl	288.5	8.7	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	53	PRA20	concentration	ldl-c	NA	NA	NA	213	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	53	PRA20	concentration	hdl-c	NA	NA	NA	46	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra20_elderly_shortterm	53	PRA20	concentration	triglyceride	NA	NA	NA	159	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	259	PRA40	concentration	cholesterol	NA	NA	NA	309	mg/dl	309.0	3.6	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	259	PRA40	concentration	ldl-c	NA	NA	NA	234	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	259	PRA40	concentration	hdl-c	NA	NA	NA	45	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra40_nonelderly_shortterm	259	PRA40	concentration	triglyceride	NA	NA	NA	126	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	44	PRA40	concentration	cholesterol	NA	NA	NA	298	mg/dl	238.2	3.3	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	44	PRA40	concentration	ldl-c	NA	NA	NA	224	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	44	PRA40	concentration	hdl-c	NA	NA	NA	45	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra40_elderly_shortterm	44	PRA40	concentration	triglyceride	NA	NA	NA	138	mg/dl	NA	NA	mg/dl	NA

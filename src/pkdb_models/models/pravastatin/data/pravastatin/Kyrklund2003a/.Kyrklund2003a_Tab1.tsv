@@ -1,0 +1,21 @@
+study	individual	count	intervention	substance	measurement_type	tissue	method	time	time_unit	value	unit	comments
+Kyrklund2003a	S1	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	26	mg/l	NA
+Kyrklund2003a	S1	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	141	mg/l*hr	NA
+Kyrklund2003a	S2	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	26	mg/l	NA
+Kyrklund2003a	S2	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	105	mg/l*hr	NA
+Kyrklund2003a	S3	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	33	mg/l	NA
+Kyrklund2003a	S3	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	134	mg/l*hr	NA
+Kyrklund2003a	S4	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	23	mg/l	NA
+Kyrklund2003a	S4	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	134	mg/l*hr	NA
+Kyrklund2003a	S5	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	38	mg/l	NA
+Kyrklund2003a	S5	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	266	mg/l*hr	NA
+Kyrklund2003a	S6	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	34	mg/l	NA
+Kyrklund2003a	S6	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	331	mg/l*hr	NA
+Kyrklund2003a	S7	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	22	mg/l	NA
+Kyrklund2003a	S7	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	221	mg/l*hr	NA
+Kyrklund2003a	S8	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	49	mg/l	NA
+Kyrklund2003a	S8	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	191	mg/l*hr	NA
+Kyrklund2003a	S9	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	29	mg/l	NA
+Kyrklund2003a	S9	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	161	mg/l*hr	NA
+Kyrklund2003a	S10	1	PRA40, GEM600	gemfibrozil	cmax	plasma	HPLC/UV	25	hr	37	mg/l	NA
+Kyrklund2003a	S10	1	PRA40, GEM600	gemfibrozil	auc_end	plasma	HPLC/UV	25	hr	403	mg/l*hr	NA

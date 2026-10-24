@@ -1,0 +1,25 @@
+{
+  "sets": [
+    {
+      "sid": "PK_20261019_164944__7b050_0",
+      "values": {
+        "LI__PRAIM_Vmax": 0.004924474596268853,
+        "KI__PRAEX_f": 16.59607898511119,
+        "GU__F_pra_abs": 0.21746305150718384,
+        "GU__PRAABS_k": 0.021936819808040322,
+        "GU__Ka_dis_pra": 2.010727836913154,
+        "Kp_pra": 0.17288546860370174
+      },
+      "units": {
+        "LI__PRAIM_Vmax": "(mmol)/(min)/l",
+        "KI__PRAEX_f": "dimensionless",
+        "GU__F_pra_abs": "dimensionless",
+        "GU__PRAABS_k": "1/(min)",
+        "GU__Ka_dis_pra": "1/(hr)",
+        "Kp_pra": "dimensionless"
+      },
+      "cost": 53.52726260107612,
+      "provenance": "optimization 'PK_20261019_164944__7b050', run '2'"
+    }
+  ]
+}

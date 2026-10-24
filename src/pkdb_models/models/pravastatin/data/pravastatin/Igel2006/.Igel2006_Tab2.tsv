@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	tissue	substance	time	time_unit	mean	sd	unit	comments
+Igel2006	control	8	PRA40	cmax	plasma	pravastatin	NA	NA	52.7	22.1	ng/ml	NA
+Igel2006	control	8	PRA40	tmax	plasma	pravastatin	NA	NA	60.0	NA	min	NA
+Igel2006	control	8	PRA40	thalf	plasma	pravastatin	NA	NA	1.8	0.5	h	NA
+Igel2006	control	8	PRA40	auc_end	plasma	pravastatin	3.0	week	144.9	48.2	ng*hr/ml	NA
+Igel2006	control	8	PRA40	cumulative amount	plasma	pravastatin	3.0	week	3.3	1.7	mg	ae = cumulative amount
+Igel2006	control	8	PRA40	clearance_renal	plasma	pravastatin	NA	NA	23.3	9.8	l/hr	NA
+Igel2006	variant	8	PRA40	cmax	plasma	pravastatin	NA	NA	174.5	98.6	ng/ml	NA
+Igel2006	variant	8	PRA40	tmax	plasma	pravastatin	NA	NA	45.0	NA	min	NA
+Igel2006	variant	8	PRA40	thalf	plasma	pravastatin	NA	NA	1.8	0.6	h	NA
+Igel2006	variant	8	PRA40	auc_end	plasma	pravastatin	3.0	week	305.0	149.4	ng*hr/ml	NA
+Igel2006	variant	8	PRA40	cumulative amount	plasma	pravastatin	3.0	week	6.2	2.4	mg	ae = cumulative amount
+Igel2006	variant	8	PRA40	clearance_renal	plasma	pravastatin	NA	NA	25.9	18.0	l/hr	NA

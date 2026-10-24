@@ -1,0 +1,61 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	baseline	unit	comments
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	hdl-c	serum	hdl-c_PRA5_twice_concentration change	0	week	NA	0.0	37.4	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	hdl-c	serum	hdl-c_PRA5_twice_concentration change	2	week	NA	8.35	37.4	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	hdl-c	serum	hdl-c_PRA5_twice_concentration change	4	week	NA	7.81	37.4	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	hdl-c	serum	hdl-c_PRA5_twice, CHOL_concentration change	6	week	NA	18.73	37.4	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	hdl-c	serum	hdl-c_PRA5_twice, CHOL_concentration change	8	week	NA	11.27	37.4	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	hdl-c	serum	hdl-c_PRA10_twice_concentration change	0	week	NA	0.0	37.4	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	hdl-c	serum	hdl-c_PRA10_twice_concentration change	2	week	NA	7.25	37.4	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	hdl-c	serum	hdl-c_PRA10_twice_concentration change	4	week	NA	8.92	37.4	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	hdl-c	serum	hdl-c_PRA10_twice, CHOL_concentration change	6	week	NA	16.46	37.4	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	hdl-c	serum	hdl-c_PRA10_twice, CHOL_concentration change	8	week	NA	15.47	37.4	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	hdl-c	serum	hdl-c_PRA20_twice_concentration change	0	week	NA	0.0	41.5	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	hdl-c	serum	hdl-c_PRA20_twice_concentration change	2	week	NA	13.29	41.5	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	hdl-c	serum	hdl-c_PRA20_twice_concentration change	4	week	NA	8.28	41.5	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	hdl-c	serum	hdl-c_PRA20_twice, CHOL_concentration change	6	week	NA	20.53	41.5	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	hdl-c	serum	hdl-c_PRA20_twice, CHOL_concentration change	8	week	NA	18.08	41.5	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	triglyceride	serum	triglyceride_PRA5_twice_concentration change	0	week	NA	0.0	157.2	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	triglyceride	serum	triglyceride_PRA5_twice_concentration change	2	week	NA	-11.55	157.2	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration change	triglyceride	serum	triglyceride_PRA5_twice_concentration change	4	week	NA	-8.78	157.2	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	triglyceride	serum	triglyceride_PRA5_twice, CHOL_concentration change	6	week	NA	-2.79	157.2	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration change	triglyceride	serum	triglyceride_PRA5_twice, CHOL_concentration change	8	week	NA	5.06	157.2	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	triglyceride	serum	triglyceride_PRA10_twice_concentration change	0	week	NA	0.0	162.9	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	triglyceride	serum	triglyceride_PRA10_twice_concentration change	2	week	NA	-11.66	162.9	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration change	triglyceride	serum	triglyceride_PRA10_twice_concentration change	4	week	NA	-6.08	162.9	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	triglyceride	serum	triglyceride_PRA10_twice, CHOL_concentration change	6	week	NA	-1.23	162.9	percent	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration change	triglyceride	serum	triglyceride_PRA10_twice, CHOL_concentration change	8	week	NA	12.48	162.9	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	triglyceride	serum	triglyceride_PRA20_twice_concentration change	0	week	NA	0.0	181.9	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	triglyceride	serum	triglyceride_PRA20_twice_concentration change	2	week	NA	-19.53	181.9	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration change	triglyceride	serum	triglyceride_PRA20_twice_concentration change	4	week	NA	-7.95	181.9	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	triglyceride	serum	triglyceride_PRA20_twice, CHOL_concentration change	6	week	NA	-5.38	181.9	percent	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration change	triglyceride	serum	triglyceride_PRA20_twice, CHOL_concentration change	8	week	NA	7.86	181.9	percent	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	hdl-c	serum	hdl-c_PRA5_twice_concentration	0	week	37.4	0.0	37.4	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	hdl-c	serum	hdl-c_PRA5_twice_concentration	2	week	40.5229	8.35	37.4	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	hdl-c	serum	hdl-c_PRA5_twice_concentration	4	week	40.32094	7.81	37.4	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	hdl-c	serum	hdl-c_PRA5_twice, CHOL_concentration	6	week	44.40502	18.73	37.4	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	hdl-c	serum	hdl-c_PRA5_twice, CHOL_concentration	8	week	41.61498	11.27	37.4	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	hdl-c	serum	hdl-c_PRA10_twice_concentration	0	week	37.4	0.0	37.4	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	hdl-c	serum	hdl-c_PRA10_twice_concentration	2	week	40.1115	7.25	37.4	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	hdl-c	serum	hdl-c_PRA10_twice_concentration	4	week	40.73608	8.92	37.4	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	hdl-c	serum	hdl-c_PRA10_twice, CHOL_concentration	6	week	43.55604	16.46	37.4	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	hdl-c	serum	hdl-c_PRA10_twice, CHOL_concentration	8	week	43.18578	15.47	37.4	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	hdl-c	serum	hdl-c_PRA20_twice_concentration	0	week	41.5	0.0	41.5	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	hdl-c	serum	hdl-c_PRA20_twice_concentration	2	week	47.01535	13.29	41.5	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	hdl-c	serum	hdl-c_PRA20_twice_concentration	4	week	44.9362	8.28	41.5	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	hdl-c	serum	hdl-c_PRA20_twice, CHOL_concentration	6	week	50.01995	20.53	41.5	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	hdl-c	serum	hdl-c_PRA20_twice, CHOL_concentration	8	week	49.0032	18.08	41.5	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	triglyceride	serum	triglyceride_PRA5_twice_concentration	0	week	157.2	0.0	157.2	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	triglyceride	serum	triglyceride_PRA5_twice_concentration	2	week	139.0434	-11.55	157.2	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	triglyceride	serum	triglyceride_PRA5_twice_concentration	4	week	143.39784	-8.78	157.2	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	triglyceride	serum	triglyceride_PRA5_twice, CHOL_concentration	6	week	152.81412	-2.79	157.2	mg/dl	NA
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	triglyceride	serum	triglyceride_PRA5_twice, CHOL_concentration	8	week	165.15432	5.06	157.2	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	triglyceride	serum	triglyceride_PRA10_twice_concentration	0	week	162.9	0.0	162.9	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	triglyceride	serum	triglyceride_PRA10_twice_concentration	2	week	143.90586	-11.66	162.9	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	triglyceride	serum	triglyceride_PRA10_twice_concentration	4	week	152.99568	-6.08	162.9	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	triglyceride	serum	triglyceride_PRA10_twice, CHOL_concentration	6	week	160.89633	-1.23	162.9	mg/dl	NA
+Pan1990	PRA10_twice	11	PRA10_twice, CHOL	concentration	triglyceride	serum	triglyceride_PRA10_twice, CHOL_concentration	8	week	183.22992	12.48	162.9	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	triglyceride	serum	triglyceride_PRA20_twice_concentration	0	week	181.9	0.0	181.9	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	triglyceride	serum	triglyceride_PRA20_twice_concentration	2	week	146.37493	-19.53	181.9	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	triglyceride	serum	triglyceride_PRA20_twice_concentration	4	week	167.43895	-7.95	181.9	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	triglyceride	serum	triglyceride_PRA20_twice, CHOL_concentration	6	week	172.11378	-5.38	181.9	mg/dl	NA
+Pan1990	PRA20_twice	11	PRA20_twice, CHOL	concentration	triglyceride	serum	triglyceride_PRA20_twice, CHOL_concentration	8	week	196.19734	7.86	181.9	mg/dl	NA

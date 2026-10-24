@@ -1,0 +1,16 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Niemi2006	all	41	NA	species	41	homo sapiens	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	fasting	41	Y	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	ethnicity	41	caucasian	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	sex	17	M	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	sex	24	F	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	healthy	41	Y	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	age	41	NA	23.0	2.5	19.0	31.0	year	as described in Niemi2004
+Niemi2006	all	41	NA	weight	41	NA	64.8	12.0	50.0	103.0	kg	as described in Niemi2004
+Niemi2006	all	41	NA	height	41	NA	172.0	7.3	154.0	185.0	cm	as described in Niemi2004
+Niemi2006	all	41	NA	oral contraceptives	5	Y	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	all	41	NA	smoking	2	Y	NA	NA	NA	NA	NA	as described in Niemi2004
+Niemi2006	SLCO1B1_17	3	all	SLCO1B1 genotype	3	*x/*17	NA	NA	NA	NA	NA	NA
+Niemi2006	no_SLCO1B1_17_c1446CC 	35	all	SLCO1B1 genotype	35	no *17	NA	NA	NA	NA	NA	NA
+Niemi2006	no_SLCO1B1_17_c1446CC 	35	all	ABCC2 genotype	35	C1446G C/C	NA	NA	NA	NA	NA	NA
+Niemi2006	c1446CG	3	all	ABCC2 genotype	3	C1446G C/G	NA	NA	NA	NA	NA	NA

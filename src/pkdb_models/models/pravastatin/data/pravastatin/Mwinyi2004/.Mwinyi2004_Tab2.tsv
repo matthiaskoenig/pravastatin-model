@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	tissue	substance	method	label	time	time_unit	mean	sd	median	min	max	unit	comments
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	auc_end	plasma	pravastatin	HPLC/UV	Tab2_1a1a	6	hr	114.5	68.5	NA	NA	NA	µg*hr/l	NA
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	cmax	plasma	pravastatin	HPLC/UV	Tab2_1a1a	12	hr	58.3	37.7	NA	NA	NA	µg/l	NA
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	tmax	plasma	pravastatin	HPLC/UV	Tab2_1a1a	12	hr	NA	NA	1.0	0.8	2.0	hr	NA
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	cumulative amount	urine	pravastatin	HPLC/UV	Tab2_1a1a	12	hr	2908.0	1576.0	NA	NA	NA	µg	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	auc_end	plasma	pravastatin	HPLC/UV	Tab2_1a1b	6	hr	74.8	35.6	NA	NA	NA	µg*hr/l	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	cmax	plasma	pravastatin	HPLC/UV	Tab2_1a1b	12	hr	36.7	21.4	NA	NA	NA	µg/l	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	tmax	plasma	pravastatin	HPLC/UV	Tab2_1a1b	12	hr	NA	NA	1.0	0.8	3.0	hr	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	pra_40mg_po	cumulative amount	urine	pravastatin	HPLC/UV	Tab2_1a1b	12	hr	1658.0	899.0	NA	NA	NA	µg	NA
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	auc_end	plasma	pravastatin	HPLC/UV	Tab2_1a5	6	hr	163.0	64.6	NA	NA	NA	µg*hr/l	NA
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	cmax	plasma	pravastatin	HPLC/UV	Tab2_1a5	12	hr	84.3	32.1	NA	NA	NA	µg/l	NA
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	tmax	plasma	pravastatin	HPLC/UV	Tab2_1a5	12	hr	NA	NA	1.0	0.5	1.5	hr	NA
+Mwinyi2004	SCLO1B1_1a5	10	pra_40mg_po	cumulative amount	urine	pravastatin	HPLC/UV	Tab2_1a5	12	hr	3693.0	1482.0	NA	NA	NA	µg	NA

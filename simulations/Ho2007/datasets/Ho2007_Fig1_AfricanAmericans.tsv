@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_sd	mean_se	mean_unit	count_unit
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	0	hr	0.0				mole/meter^3	dimensionless
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	1	hr	8.544965020139919e-05	5.651762	7.213666407556591e-05	1.1702112161970721e-05	mole/meter^3	dimensionless
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	2	hr	4.476003109320896e-05	0.043642953	4.465722810402092e-05	7.2443590067949025e-06	mole/meter^3	dimensionless
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	3	hr	2.173604221138671e-05	-0.98114294	2.404716966998799e-05	3.9009660380380185e-06	mole/meter^3	dimensionless
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	4	hr	9.99904482604292e-06	-2.0055172	1.4723133111911997e-05	2.3884075769117613e-06	mole/meter^3	dimensionless
+Ho2007	African-Americans	38	PRA40	concentration	pravastatin	plasma	HPLC	AfricanAmericans	5	hr	5.132390643770759e-06	-1.9886364	9.816715426471627e-06	1.5924815273185077e-06	mole/meter^3	dimensionless

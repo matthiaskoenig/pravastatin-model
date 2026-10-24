@@ -1,0 +1,34 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	method	time	time_unit	mean	pm	sd	se	unit	comments
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	0.5	hr	4.798351	1.21	1.21	0.2469902157	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	1.0	hr	13.590018	10.56	10.56	2.1555509736	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	1.5	hr	19.185741	14.38	14.38	2.9353052084	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	2.0	hr	18.470108	9.67	9.67	1.9738804844	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	3.0	hr	11.286382	7.5	7.5	1.5309310892	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	4.0	hr	5.3009834	2.96	2.96	0.6042074699	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	6.0	hr	1.8787694	0.8	0.8	0.1632993162	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	8.0	hr	0.77381545	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	10.0	hr	0.46758148	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	concentration	pravastatin	plasma	pra40_d5	LC MS/MS	12.0	hr	0.48084974	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	0.5	hr	2.8868058	4.23	4.23	0.8634451343	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	1.0	hr	19.811113	25.93	25.93	5.2929390859	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	1.5	hr	26.683468	23.78	23.78	4.8540721736	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	2.0	hr	24.219622	15.08	15.08	3.0781921101	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	3.0	hr	12.989564	7.18	7.18	1.4656113628	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	4.0	hr	6.706545	3.75	3.75	0.7654655446	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	6.0	hr	2.2781959	1.28	1.28	0.2612789059	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	8.0	hr	0.8821977	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	10.0	hr	0.44301203	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	12.0	hr	0.4825515	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	0.0	hr	0.0036138217	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	0.5	hr	6.9557567	11.64	11.64	2.4271077796	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	1.0	hr	22.68389	25.85	25.85	5.3900976034	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	1.5	hr	27.640705	29.44	29.44	6.1386643498	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	2.0	hr	24.858133	18.43	18.43	3.8429206511	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	3.0	hr	13.229138	7.9	7.9	1.6472638711	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	4.0	hr	6.387607	4.7	4.7	0.9800177461	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	6.0	hr	2.1188333	1.25	1.25	0.2606430176	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	8.0	hr	0.8819851	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	10.0	hr	0.60279965	NA	NA	NA	ng/ml	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	concentration	pravastatin	plasma	pra40_fen160_d10	LC MS/MS	12.0	hr	0.56276417	NA	NA	NA	ng/ml	NA

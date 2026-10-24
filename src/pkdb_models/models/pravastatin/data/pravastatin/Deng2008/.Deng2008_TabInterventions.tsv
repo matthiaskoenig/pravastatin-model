@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Deng2008	PRA40	0	hr	oral	single dose	dosing	tablet	pravastatin	40.0	mg	NA
+Deng2008	PITA4	0	hr	oral	single dose	dosing	tablet	pitavastatin	4.0	mg	NA
+Deng2008	FLU	0	hr	NR	NR	qualitative dosing	NR	fluvastatin	NA	mg	Fluvastatin was not given in the study, this is still needed for data curation (See tab1)

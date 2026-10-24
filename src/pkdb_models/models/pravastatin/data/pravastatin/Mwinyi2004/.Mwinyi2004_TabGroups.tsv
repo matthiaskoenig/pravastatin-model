@@ -1,0 +1,20 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	min	max	unit	comments
+Mwinyi2004	all	30	NA	species	30	homo sapiens	NA	NA	NA	NA	NA
+Mwinyi2004	all	30	NA	sex	30	M	NA	NA	NA	NA	NA
+Mwinyi2004	all	30	NA	healthy	10	Y	NA	NA	NA	NA	NA
+Mwinyi2004	all	30	NA	ethnicity	10	caucasian	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a1a	10	all	SLCO1B1 genotype	10	*1a/*1a	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a1a	10	all	age	10	NA	28.0	20.0	37.0	yr	NA
+Mwinyi2004	SCLO1B1_1a1a	10	all	weight	10	NA	79.0	64.0	108.0	kg	NA
+Mwinyi2004	SCLO1B1_1a1a	10	all	height	10	NA	182.0	168.0	193.0	cm	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	all	SLCO1B1 genotype	8	*1a/*1b	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	all	SLCO1B1 genotype	2	*1b/*1b	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	all	sex	10	M	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	all	age	10	NA	31.0	23.0	45.0	yr	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	all	weight	10	NA	73.0	66.0	86.0	kg	NA
+Mwinyi2004	SCLO1B1_1a1b_1b1b	10	all	height	10	NA	178.0	173.0	191.0	cm	NA
+Mwinyi2004	SCLO1B1_1a5	10	all	SLCO1B1 genotype	10	*1a/*5	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a5	10	all	sex	10	M	NA	NA	NA	NA	NA
+Mwinyi2004	SCLO1B1_1a5	10	all	age	10	NA	31.0	24.0	46.0	yr	NA
+Mwinyi2004	SCLO1B1_1a5	10	all	weight	10	NA	74.0	63.0	81.0	kg	NA
+Mwinyi2004	SCLO1B1_1a5	10	all	height	10	NA	180.0	173.0	191.0	cm	NA

@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	method	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	0.0	hr	0.0				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	0.5	hr	1.6980371234070618e-05	4.0745854	7.382497350010601e-06	1.2786860496960954e-05		mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	1.0	hr	3.691978894306645e-05	12.56906	7.312788259958071e-06	1.266612081124058e-05		mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	2.0	hr	1.929389206887617e-05	6.5607734	3.839687654582712e-06	6.6505341029322355e-06		mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	3.0	hr	1.0442427154735825e-05	4.281768	3.5652509834405206e-07	6.175195845053889e-07		mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	4.0	hr	5.0003896073304594e-06				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	6.0	hr	5.811790450615975e-06				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	8.0	hr	1.7506754528537441e-06				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless
+Niemi2006	c1446CG	3	pra_40_mg_oral	concentration	pravastatin	plasma	c1446CG	NR	12.0	hr	4.565416578333687e-07				pm, se, sd not recognizable in figure	mole/meter^3	dimensionless

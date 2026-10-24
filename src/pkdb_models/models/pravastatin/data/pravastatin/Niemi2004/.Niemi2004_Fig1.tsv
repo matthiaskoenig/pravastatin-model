@@ -1,0 +1,82 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	se	sd	unit	comment
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	0.5	hr	60.221676	85.325676	25.104	61.4919905028289	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	1.0	hr	92.73399	118.17197	25.43798	62.3100710871236	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	2.0	hr	40.640392	48.992783	8.352391	20.4590960822145	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	3.0	hr	18.842365	22.30287	3.460505	8.4764715023499	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	4.0	hr	14.039409	18.145144	4.105735	10.0569557690859	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	6.0	hr	8.866995	12.081861	3.214866	7.87478129142239	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	8.0	hr	4.4334974	6.019629	1.5861316	3.88521308490427	ng/ml	NA
+Niemi2004	11187GA genotype	6	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GA	12.0	hr	1.1083744	0.65429604	0.45407836	1.11226028523981	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	0.5	hr	15.5172415	10.325675	5.1915665	30.7137216132672	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	1.0	hr	42.118225	35.76801	6.35021500000001	37.568378579836	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	2.0	hr	28.078817	24.529264	3.549553	20.9994387423406	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	3.0	hr	13.300492	11.036249	2.264243	13.3954422363248	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	4.0	hr	9.236453	8.166078	1.070375	6.33242389783524	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	6.0	hr	3.325123	3.7127619	0.3876389	2.29330265943297	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	8.0	hr	2.2167487	1.1923547	1.024394	6.06039663332855	ng/ml	NA
+Niemi2004	11187GG genotype	35	pra_40mg_po	concentration	pravastatin	plasma	NR	11187GG	12.0	hr	1.1083744	0.011571152	1.096803248	6.4887755215308	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	0.5	hr	37.748085	51.561443	13.813357999999994	45.81372558085406	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	1.0	hr	83.65833	100.56654	16.908209999999997	56.078188446535066	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	2.0	hr	46.962322	55.675697	8.713375	28.89899553266298	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	3.0	hr	23.967138	27.880684	3.913546	12.979763681796214	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	4.0	hr	14.676999	16.858923	2.1819240000000004	7.236623229071417	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	6.0	hr	5.726307	8.040247	2.3139400000000006	7.6744707673949755	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	8.0	hr	1.9621807	2.7710402	0.8088594999999998	2.682683469614473	ng/ml	NA
+Niemi2004	521TC genotype	11	pra_40mg_po	concentration	pravastatin	plasma	NR	521TC	12.0	hr	1.0984558	0.0	1.0984558	3.643165737389673	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	0.5	hr	16.267406	21.562288	5.294881999999998	28.01788198686459	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	1.0	hr	35.88078	28.955254	6.925526000000001	36.64643898862383	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	2.0	hr	22.887657	19.868992	3.018665000000002	15.973273762829598	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	3.0	hr	9.893129	7.233261	2.6598680000000003	14.074698496517504	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	4.0	hr	7.2696266	5.5664062	1.7032203999999993	9.012595212663909	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	6.0	hr	3.1351318	2.2348123	0.9003194999999997	4.764042995004032	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	8.0	hr	1.5925149	0.5129597	1.0795552000000002	5.7124691715331934	ng/ml	NA
+Niemi2004	521TT genotype	28	pra_40mg_po	concentration	pravastatin	plasma	NR	521TT	12.0	hr	0.7273843	0.0	0.7273843	3.848955930745599	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	0.5	hr	10.711173	9.625663	1.085510000000001	1.53514296409162	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	1.0	hr	51.436966	65.0856	13.648634000000001	19.30208331066655	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	2.0	hr	45.109776	36.966946	8.142829999999996	11.515700622098505	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	3.0	hr	18.412312	14.007503	4.404809	6.229340627463071	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	4.0	hr	10.602944	7.8255444	2.7773996000000007	3.9278361824496106	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	6.0	hr	5.7270093	6.103692	0.3766826999999999	0.5327097830513158	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	8.0	hr	1.2200378	1.8032914	0.5832535999999999	0.8248451514229321	ng/ml	NA
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	12.0	hr	0.7273843	0.29614168	0.43124261999999997	0.6098691618773069	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	0.5	hr	15.526111	28.144989	12.618878	25.237756	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	1.0	hr	89.95615	118.97655	29.0204	58.0408	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	2.0	hr	61.40657	80.597015	19.190445	38.38089	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	3.0	hr	31.004433	43.17697	12.172537	24.345074	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	4.0	hr	16.528997	21.748402	5.219405	10.43881	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	6.0	hr	4.615244	6.3965883	1.7813443	3.5626886	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	8.0	hr	1.2200493	2.5586355	1.3385862	2.6771724	ng/ml	NA
+Niemi2004	heterozygous carriers of *15b	4	pra_40mg_po	concentration	pravastatin	plasma	NR	HC15B	12.0	hr	0.7273911	0.31982943	0.40756167	0.81512334	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	0.5	hr	21.451363	9.594883	11.85648	72.1201522852302	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	1.0	hr	44.769344	38.37953	6.38981399999999	38.8677211747749	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	2.0	hr	26.219814	23.347548	2.872266	17.4713120018495	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	3.0	hr	11.745083	10.874201	0.870882	5.29736839791117	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	4.0	hr	8.380811	8.315565	0.0652460000000001	0.396875924051838	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	6.0	hr	4.245575	3.5181236	0.7274514	4.42491411853298	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	8.0	hr	1.5904214	1.2793177	0.3111037	1.89236992939714	ng/ml	NA
+Niemi2004	non-carriers of *15b	37	pra_40mg_po	concentration	pravastatin	plasma	NR	NC15B	12.0	hr	0.7266883	0.63965887	0.0870294299999999	0.529379355837211	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	0.5	hr	71.08309	100.96154	29.87845	51.7509934514063	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	1.0	hr	120.32575	147.4359	27.11015	46.9561572008134	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	2.0	hr	49.183743	51.923077	2.739334	4.74466566690088	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	3.0	hr	24.708664	26.923077	2.214413	3.83547582494102	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	4.0	hr	15.789695	19.23077	3.441075	5.96011673265507	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	6.0	hr	8.319928	11.217949	2.898021	5.01951961340157	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	8.0	hr	3.4441316	4.8076925	1.3635609	2.36175675801434	ng/ml	NA
+Niemi2004	heterozygous carriers of *17	3	pra_40mg_po	concentration	pravastatin	plasma	NR	HC17	12.0	hr	1.1005789	1.6025641	0.5019852	0.869463871047624	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	0.0	hr	NA	NA	NA	NA	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	0.5	hr	17.379187	12.5	4.879187	30.0773286659042	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	1.0	hr	43.289436	36.53846	6.750976	41.6158109881075	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	2.0	hr	27.703163	25.0	2.703163	16.6634158495076	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	3.0	hr	12.487257	10.576923	1.910334	11.7760896599477	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	4.0	hr	8.752724	7.6923075	1.0604165	6.53684632157936	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	6.0	hr	3.5058594	3.2051282	0.3007312	1.85383162040966	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	8.0	hr	1.2212287	0.64102566	0.58020304	3.57661174434117	ng/ml	NA
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	12.0	hr	0.35914367	0.0	0.35914367	2.21391026842567	ng/ml	NA

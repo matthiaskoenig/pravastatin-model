@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_sd	mean_se	mean_unit	count_unit
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	0	hr	0.0				mole/meter^3	dimensionless
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	1	hr	0.00013390701717193133	82.067184	5.9406020775916896e-05	1.4408076379808379e-05	mole/meter^3	dimensionless
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	2	hr	7.157938426024075e-05	43.410854	3.0676885025793234e-05	7.440237483898476e-06	mole/meter^3	dimensionless
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	3	hr	3.5546225237321275e-05	21.498709	1.509497562009752e-05	3.6610693469285564e-06	mole/meter^3	dimensionless
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	4	hr	8.764822980708078e-06	9.509044	1.3634168845546841e-05	3.3067716628055967e-06	mole/meter^3	dimensionless
+Ho2007	SLCO1B1 c.521 T/C	17	PRA40	concentration	pravastatin	plasma	HPLC	TC	5	hr	7.304019032812759e-06	8.062016	1.1686431583162555e-05	2.834375988466681e-06	mole/meter^3	dimensionless

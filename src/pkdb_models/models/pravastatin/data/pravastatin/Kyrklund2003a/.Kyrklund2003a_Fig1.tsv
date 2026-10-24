@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	se	sd	unit	comments
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	0.5	hr	27.664993	19.08213	8.582863	27.14139592518576	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	1.0	hr	62.736633	48.804615	13.932018	44.05690928246374	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	1.5	hr	46.450867	38.443447	8.007420000000003	25.321685381585496	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	2.0	hr	32.140022	27.58861	4.551412000000003	14.392828489822293	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	2.5	hr	20.79215	17.227442	3.5647079999999995	11.272596473423503	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	3.0	hr	14.876788	11.812374	3.0644139999999993	9.690527933707223	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	4.0	hr	11.687281	9.897692	1.7895890000000012	5.659177315583074	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	6.0	hr	5.308659	4.8253303	0.4833286999999995	1.528419550528223	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	8.0	hr	2.1403167	1.9809499	0.15936680000000014	0.5039620714125226	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	10.0	hr	0.70076656	0.6187528	0.08201376000000005	0.25935028107441116	ng/ml	NA
+Kyrklund2003a	all	10	PRA40	concentration	pravastatin	plasma	LC MS/MS	pra_40	12.0	hr	0.24769825	0.4960217	0.24832345	0.7852676984309396	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	0.5	hr	52.35604	83.66063	31.304589999999997	98.99380561773044	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	1.0	hr	88.66304	113.87678	25.21374	79.73284673129388	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	1.5	hr	87.93249	106.733284	18.800793999999996	59.4533308596277	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	2.0	hr	67.201866	84.00098	16.799114000000003	53.12346291282188	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	2.5	hr	48.94	62.25837	13.318370000000002	42.11638392085675	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	3.0	hr	34.135326	41.99912	7.863793999999999	24.86750009036614	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	4.0	hr	26.007923	30.68002	4.672096999999997	14.774467969239696	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	6.0	hr	13.456442	16.700443	3.244001000000001	10.258431891863886	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	8.0	hr	5.3498116	6.4322057	1.0823941000000001	3.4228306819280596	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	10.0	hr	2.181861	2.8443806	0.6625196	2.0950709305036908	ng/ml	NA
+Kyrklund2003a	all	10	PRA40, GEM600	concentration	pravastatin	plasma	LC MS/MS	gem_600	12.0	hr	0.98804945	1.4833597	0.49531025000000006	1.5663085384274154	ng/ml	NA

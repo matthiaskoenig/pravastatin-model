@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	unit	comments
+Nishizato2003	slco1b1_1a_1a	2.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	60.5	NA	ng*hr/ml	NA
+Nishizato2003	slco1b1_1a_1b	4.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	47.2	27.4	ng*hr/ml	NA
+Nishizato2003	slco1b1_1b_1b	4.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	44.2	6.38	ng*hr/ml	NA
+Nishizato2003	slco1b1_1b_15	9.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	62.1	21.8	ng*hr/ml	NA
+Nishizato2003	slco1b1_15_15	1.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	111.8	NA	ng*hr/ml	NA
+Nishizato2003	slco1b1_1b_16	2.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	60.0	NA	ng*hr/ml	NA
+Nishizato2003	slco1b1_unidentified	1.0	PRA_10	auc_end	pravastatin	serum	24.0	hr	110.3	NA	ng*hr/ml	NA
+Nishizato2003	slco1b1_1a_1a	2.0	PRA_10	clearance	pravastatin	serum	NA	NA	2.66	NA	l/kg/hr	total clearance
+Nishizato2003	slco1b1_1a_1b	4.0	PRA_10	clearance	pravastatin	serum	NA	NA	1.95	0.72	l/kg/hr	total clearance
+Nishizato2003	slco1b1_1b_1b	4.0	PRA_10	clearance	pravastatin	serum	NA	NA	2.39	0.44	l/kg/hr	total clearance
+Nishizato2003	slco1b1_1b_15	9.0	PRA_10	clearance	pravastatin	serum	NA	NA	1.57	0.32	l/kg/hr	total clearance
+Nishizato2003	slco1b1_15_15	1.0	PRA_10	clearance	pravastatin	serum	NA	NA	0.79	NA	l/kg/hr	total clearance
+Nishizato2003	slco1b1_1b_16	2.0	PRA_10	clearance	pravastatin	serum	NA	NA	2.55	NA	l/kg/hr	total clearance
+Nishizato2003	slco1b1_unidentified	1.0	PRA_10	clearance	pravastatin	serum	NA	NA	1.22	NA	l/kg/hr	total clearance
+Nishizato2003	slco1b1_1a_1a	2.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.44	NA	l/kg/hr	NA
+Nishizato2003	slco1b1_1a_1b	4.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.51	0.12	l/kg/hr	NA
+Nishizato2003	slco1b1_1b_1b	4.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.38	0.03	l/kg/hr	NA
+Nishizato2003	slco1b1_1b_15	9.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.46	0.13	l/kg/hr	NA
+Nishizato2003	slco1b1_15_15	1.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.51	NA	l/kg/hr	NA
+Nishizato2003	slco1b1_1b_16	2.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.43	NA	l/kg/hr	NA
+Nishizato2003	slco1b1_unidentified	1.0	PRA_10	clearance_renal	pravastatin	urine	24.0	hr	0.41	NA	l/kg/hr	NA
+Nishizato2003	slco1b1_1a_1a	2.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	2.22	NA	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_1a_1b	4.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	1.45	0.72	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_1b_1b	4.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	2.01	0.42	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_1b_15	9.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	1.11	0.34	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_15_15	1.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.28	NA	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_1b_16	2.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	2.12	NA	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_unidentified	1.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.81	NA	l/kg/hr	Non-renal clearance
+Nishizato2003	slco1b1_1a_1a	2.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.29	NA	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_1a_1b	4.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.4	0.12	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_1b_1b	4.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.25	0.03	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_1b_15	9.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.34	0.12	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_15_15	1.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.37	NA	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_1b_16	2.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.31	NA	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_unidentified	1.0	PRA_10	clearance_other	pravastatin	serum	24.0	hr	0.3	NA	l/kg/hr	tubular secretory clearance
+Nishizato2003	slco1b1_1a_1a	2.0	PRA_10	kel	pravastatin	serum	NA	NA	0.171	NA	1/hr	NA
+Nishizato2003	slco1b1_1a_1b	4.0	PRA_10	kel	pravastatin	serum	NA	NA	0.279	0.093	1/hr	NA
+Nishizato2003	slco1b1_1b_1b	4.0	PRA_10	kel	pravastatin	serum	NA	NA	0.312	0.09	1/hr	NA
+Nishizato2003	slco1b1_1b_15	9.0	PRA_10	kel	pravastatin	serum	NA	NA	0.255	0.091	1/hr	NA
+Nishizato2003	slco1b1_15_15	1.0	PRA_10	kel	pravastatin	serum	NA	NA	0.212	NA	1/hr	NA
+Nishizato2003	slco1b1_1b_16	2.0	PRA_10	kel	pravastatin	serum	NA	NA	0.26	NA	1/hr	NA
+Nishizato2003	slco1b1_unidentified	1.0	PRA_10	kel	pravastatin	serum	NA	NA	0.213	NA	1/hr	NA

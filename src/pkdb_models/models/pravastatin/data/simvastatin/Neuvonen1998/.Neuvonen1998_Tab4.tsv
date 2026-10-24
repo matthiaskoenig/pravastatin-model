@@ -1,0 +1,81 @@
+study	individual	intervention	measurement_type	substance	tissue	method	value	unit
+Neuvonen1998	11	PRA, ITR	cmax	pravastatin	serum	GC/MS	41.0	ng/ml
+Neuvonen1998	12	PRA, ITR	cmax	pravastatin	serum	GC/MS	24.0	ng/ml
+Neuvonen1998	13	PRA, ITR	cmax	pravastatin	serum	GC/MS	33.0	ng/ml
+Neuvonen1998	14	PRA, ITR	cmax	pravastatin	serum	GC/MS	135.0	ng/ml
+Neuvonen1998	15	PRA, ITR	cmax	pravastatin	serum	GC/MS	26.0	ng/ml
+Neuvonen1998	16	PRA, ITR	cmax	pravastatin	serum	GC/MS	54.0	ng/ml
+Neuvonen1998	17	PRA, ITR	cmax	pravastatin	serum	GC/MS	12.0	ng/ml
+Neuvonen1998	18	PRA, ITR	cmax	pravastatin	serum	GC/MS	73.0	ng/ml
+Neuvonen1998	19	PRA, ITR	cmax	pravastatin	serum	GC/MS	16.0	ng/ml
+Neuvonen1998	20	PRA, ITR	cmax	pravastatin	serum	GC/MS	250.0	ng/ml
+Neuvonen1998	11	PRA	cmax	pravastatin	serum	GC/MS	32.0	ng/ml
+Neuvonen1998	12	PRA	cmax	pravastatin	serum	GC/MS	13.0	ng/ml
+Neuvonen1998	13	PRA	cmax	pravastatin	serum	GC/MS	13.0	ng/ml
+Neuvonen1998	14	PRA	cmax	pravastatin	serum	GC/MS	146.0	ng/ml
+Neuvonen1998	15	PRA	cmax	pravastatin	serum	GC/MS	31.0	ng/ml
+Neuvonen1998	16	PRA	cmax	pravastatin	serum	GC/MS	10.0	ng/ml
+Neuvonen1998	17	PRA	cmax	pravastatin	serum	GC/MS	21.0	ng/ml
+Neuvonen1998	18	PRA	cmax	pravastatin	serum	GC/MS	34.0	ng/ml
+Neuvonen1998	19	PRA	cmax	pravastatin	serum	GC/MS	43.0	ng/ml
+Neuvonen1998	20	PRA	cmax	pravastatin	serum	GC/MS	26.0	ng/ml
+Neuvonen1998	11	PRA, ITR	tmax	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	12	PRA, ITR	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	13	PRA, ITR	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	14	PRA, ITR	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	15	PRA, ITR	tmax	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	16	PRA, ITR	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	17	PRA, ITR	tmax	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	18	PRA, ITR	tmax	pravastatin	serum	GC/MS	0.5	hr
+Neuvonen1998	19	PRA, ITR	tmax	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	20	PRA, ITR	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	11	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	12	PRA	tmax	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	13	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	14	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	15	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	16	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	17	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	18	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	19	PRA	tmax	pravastatin	serum	GC/MS	1.0	hr
+Neuvonen1998	20	PRA	tmax	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	11	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.8	hr
+Neuvonen1998	12	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.5	hr
+Neuvonen1998	13	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.4	hr
+Neuvonen1998	14	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.7	hr
+Neuvonen1998	15	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.3	hr
+Neuvonen1998	16	PRA, ITR	thalf	pravastatin	serum	GC/MS	2.5	hr
+Neuvonen1998	17	PRA, ITR	thalf	pravastatin	serum	GC/MS	3.4	hr
+Neuvonen1998	18	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.9	hr
+Neuvonen1998	19	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.3	hr
+Neuvonen1998	20	PRA, ITR	thalf	pravastatin	serum	GC/MS	1.6	hr
+Neuvonen1998	11	PRA	thalf	pravastatin	serum	GC/MS	1.6	hr
+Neuvonen1998	12	PRA	thalf	pravastatin	serum	GC/MS	2.4	hr
+Neuvonen1998	13	PRA	thalf	pravastatin	serum	GC/MS	1.6	hr
+Neuvonen1998	14	PRA	thalf	pravastatin	serum	GC/MS	1.7	hr
+Neuvonen1998	15	PRA	thalf	pravastatin	serum	GC/MS	1.1	hr
+Neuvonen1998	16	PRA	thalf	pravastatin	serum	GC/MS	2.5	hr
+Neuvonen1998	17	PRA	thalf	pravastatin	serum	GC/MS	1.1	hr
+Neuvonen1998	18	PRA	thalf	pravastatin	serum	GC/MS	2.0	hr
+Neuvonen1998	19	PRA	thalf	pravastatin	serum	GC/MS	1.8	hr
+Neuvonen1998	20	PRA	thalf	pravastatin	serum	GC/MS	1.2	hr
+Neuvonen1998	11	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	113.0	ng*hr/ml
+Neuvonen1998	12	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	62.0	ng*hr/ml
+Neuvonen1998	13	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	79.0	ng*hr/ml
+Neuvonen1998	14	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	297.0	ng*hr/ml
+Neuvonen1998	15	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	65.0	ng*hr/ml
+Neuvonen1998	16	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	128.0	ng*hr/ml
+Neuvonen1998	17	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	56.0	ng*hr/ml
+Neuvonen1998	18	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	163.0	ng*hr/ml
+Neuvonen1998	19	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	44.0	ng*hr/ml
+Neuvonen1998	20	PRA, ITR	auc_inf	pravastatin	serum	GC/MS	512.0	ng*hr/ml
+Neuvonen1998	11	PRA	auc_inf	pravastatin	serum	GC/MS	65.0	ng*hr/ml
+Neuvonen1998	12	PRA	auc_inf	pravastatin	serum	GC/MS	44.0	ng*hr/ml
+Neuvonen1998	13	PRA	auc_inf	pravastatin	serum	GC/MS	31.0	ng*hr/ml
+Neuvonen1998	14	PRA	auc_inf	pravastatin	serum	GC/MS	378.0	ng*hr/ml
+Neuvonen1998	15	PRA	auc_inf	pravastatin	serum	GC/MS	70.0	ng*hr/ml
+Neuvonen1998	16	PRA	auc_inf	pravastatin	serum	GC/MS	35.0	ng*hr/ml
+Neuvonen1998	17	PRA	auc_inf	pravastatin	serum	GC/MS	35.0	ng*hr/ml
+Neuvonen1998	18	PRA	auc_inf	pravastatin	serum	GC/MS	99.0	ng*hr/ml
+Neuvonen1998	19	PRA	auc_inf	pravastatin	serum	GC/MS	70.0	ng*hr/ml
+Neuvonen1998	20	PRA	auc_inf	pravastatin	serum	GC/MS	59.0	ng*hr/ml

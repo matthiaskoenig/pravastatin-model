@@ -1,0 +1,15 @@
+study	group	count	intervention	label	measurement_type	substance	tissue	time	time_unit	mean	sd	cv	unit	bodyweight	bodyweight_unit	comments
+Nishizato2003	slco1b1_1a_1a	2	PRA_10	cumulative amount_slco1b1_1a_1a	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_1a_1b	4	PRA_10	cumulative amount_slco1b1_1a_1b	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_1b_1b	4	PRA_10	cumulative amount_slco1b1_1b_1b	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_1b_15	9	PRA_10	cumulative amount_slco1b1_1b_15	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_15_15	1	PRA_10	cumulative amount_slco1b1_15_15	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_1b_16	2	PRA_10	cumulative amount_slco1b1_1b_16	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_unidentified	1	PRA_10	cumulative amount_slco1b1_unidentified	cumulative amount	pravastatin	urine	0	hr	0.0	NA	NA	µg	75.1	kg	NA
+Nishizato2003	slco1b1_1a_1a	2	PRA_10	cumulative amount_slco1b1_1a_1a	cumulative amount	pravastatin	urine	24	hr	1999.162	NA	NA	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC
+Nishizato2003	slco1b1_1a_1b	4	PRA_10	cumulative amount_slco1b1_1a_1b	cumulative amount	pravastatin	urine	24	hr	1807.8072	425.3664	0.235294117647059	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC
+Nishizato2003	slco1b1_1b_1b	4	PRA_10	cumulative amount_slco1b1_1b_1b	cumulative amount	pravastatin	urine	24	hr	1261.3796	99.5826	0.0789473684210526	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC
+Nishizato2003	slco1b1_1b_15	9	PRA_10	cumulative amount_slco1b1_1b_15	cumulative amount	pravastatin	urine	24	hr	2145.3066	606.2823	0.282608695652174	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC
+Nishizato2003	slco1b1_15_15	1	PRA_10	cumulative amount_slco1b1_15_15	cumulative amount	pravastatin	urine	24	hr	4282.0518	NA	NA	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC
+Nishizato2003	slco1b1_1b_16	2	PRA_10	cumulative amount_slco1b1_1b_16	cumulative amount	pravastatin	urine	24	hr	1937.58	NA	NA	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC
+Nishizato2003	slco1b1_unidentified	1	PRA_10	cumulative amount_slco1b1_unidentified	cumulative amount	pravastatin	urine	24	hr	3396.2473	NA	NA	µg	75.1	kg	calculated Ae from CLR = Ae/AUC => Ae = CLR*BW*AUC

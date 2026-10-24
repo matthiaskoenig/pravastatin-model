@@ -1,0 +1,51 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	0.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	0.5	hr	12.144089	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	1.0	hr	84.08399	33.13563	50.94836	104.784062504605	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	2.0	hr	160.88406	23.16773	184.05179	73.2627950158128	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	3.0	hr	187.30777	38.25441	149.05336	120.971066145922	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	4.0	hr	127.52441	23.97647	103.54794	75.8202554506974	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	6.0	hr	61.02773	8.08186	69.10959	25.5570853306084	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	8.0	hr	33.594486	4.040654	37.63514	12.77766987667	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	12.0	hr	14.826426	2.424558	17.250984	7.66712559918252	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	24.0	hr	2.2323306	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	0.5	hr	12.682326	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	1.0	hr	82.46762	31.518985	50.948635	99.6717821366822	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	2.0	hr	137.17783	15.08669	122.09114	47.7083027528857	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	3.0	hr	103.79521	7.27477999999999	96.52043	23.0048742766397	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	4.0	hr	66.10171	6.465766	59.635944	20.4465473776762	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	6.0	hr	33.27973	5.118235	28.161495	16.1852801999919	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	8.0	hr	12.3117	4.580273	16.891973	14.4840949853724	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	12.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	24.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	0.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	0.5	hr	3.2532117	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	1.0	hr	11.07757	3.232469	14.310039	10.2219645058868	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	2.0	hr	8.406297	1.616095	10.022392	5.11054111520982	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	3.0	hr	6.8123283	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	4.0	hr	5.218636	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	6.0	hr	3.107727	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	8.0	hr	1.5358855	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	12.0	hr	0.009127358	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	radioenzymatic assay	24.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	0.5	hr	12.135922	7.55124	4.584682	23.8791175585699	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	1.0	hr	103.82956	37.75619	141.58575	119.395556170073	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	2.0	hr	207.38943	32.09277	175.29666	101.486249623922	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	3.0	hr	176.10571	27.2384	148.86731	86.1353838187303	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	4.0	hr	124.32578	18.60841	105.71737	58.8449592342539	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	6.0	hr	65.53398	6.74218000000001	72.27616	21.3206451948341	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	8.0	hr	42.610573	4.584682	47.195255	14.4980374675761	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	12.0	hr	19.687162	2.696873	22.384035	8.52826124021128	ng/ml
+Neuvonen1998	simvastatin	10	SIM+ITR_total simva inhibitors	SIM,ITR	concentration	total simva inhibitors	serum	radioenzymatic assay	24.0	hr	3.2362459	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	0.5	hr	11.866235	7.281553	4.584682	23.026292383232	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	1.0	hr	73.35491	16.18123	57.17368	51.1695421430464	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	2.0	hr	57.713055	5.663429	63.376484	17.9093350066497	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	3.0	hr	32.901833	2.696872	35.598705	8.52825807793361	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	4.0	hr	22.923409	4.314994	27.238403	13.6452091299606	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	6.0	hr	7.8209276	2.1574974	9.978425	6.82260582989136	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	8.0	hr	2.9665587	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	12.0	hr	0.26968718	na	na	na	ng/ml
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	24.0	hr	0.0	na	na	na	ng/ml

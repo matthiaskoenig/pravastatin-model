@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	min	median	max	unit
+Maeda2006	homozygous carriers *1a	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a1a	0.0036144578	hr	0.0	NA	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1a	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a1a	0.25662652	hr	26.895308	34.65	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1a	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a1a	0.5060241	hr	25.722021	28.97	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1a	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a1a	0.7518072	hr	10.198556	9.2	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1a	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a1a	1.0	hr	3.9711192	NA	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1a	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a1a	2.0	hr	0.090252705	NA	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b1b	0.0	hr	0.0	NA	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b1b	0.25662652	hr	7.5812273	14.34	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b1b	0.5060241	hr	22.29242	22.2	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b1b	0.7481928	hr	9.927798	5.69	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b1b	1.0	hr	2.9783394	NA	NA	NA	NA	ng/ml
+Maeda2006	homozygous carriers *1b	7	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b1b	2.0	hr	0.27075812	NA	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a15	0.0	hr	0.0	NA	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a15	0.25247228	hr	7.7123847	20.56	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a15	0.5051348	hr	19.3745	29.0	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a15	0.7534825	hr	16.225233	6.11	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a15	1.0	hr	8.6774025	7.1	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1a/*15	6	TEMO_2	concentration	temocapril	plasma	Fig4AB_1a15	2.0	hr	0.65810883	4.66	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b15	0.0	hr	0.0	NA	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b15	0.25587484	hr	3.583013	20.56	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b15	0.50484085	hr	13.270371	28.91	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b15	0.7461154	hr	12.814318	6.38	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b15	1.0	hr	8.946703	8.53	NA	NA	NA	ng/ml
+Maeda2006	heterozygous carriers *1b/*15	5	TEMO_2	concentration	temocapril	plasma	Fig4AB_1b15	2.0	hr	2.0048234	7.01	NA	NA	NA	ng/ml

@@ -1,0 +1,41 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	sd	unit
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	0.0	hr	0.0	NA	NA	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	0.5	hr	18.072289	13.4939756	42.6716975867372	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	1.0	hr	34.698795	12.771084	40.3857136293338	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	2.0	hr	20.72289	5.542167	17.5258708930224	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	3.0	hr	8.192771	1.9277106	6.09595616564978	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	4.0	hr	5.5421686	2.1686746	6.8579512397546	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	6.0	hr	4.0963855	2.1686746	6.8579512397546	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	8.0	hr	1.9277109	1.44578318	4.5719678515612	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	12.0	hr	0.0	1.2048193	3.8099731569297	ng/ml
+Neuvonen1998	pravastatin	10	PRA_pravastatin	PRA	concentration	pravastatin	serum	GC/MS	24.0	hr	0.0	1.2048193	3.8099731569297	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	0.0	hr	0.0	NA	NA	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	0.5	hr	41.68675	17.590357	55.6255929754865	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	1.0	hr	61.44578	23.85543	75.4374933627106	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	2.0	hr	32.771084	9.63855299999999	30.4797808282489	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	3.0	hr	15.180723	3.855421	12.191911698844	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	4.0	hr	8.192771	1.9277105	6.09595584942202	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	6.0	hr	7.4698796	1.6867474	5.3339636213671	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	8.0	hr	2.1686747	1.4457831	4.57196759857899	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	12.0	hr	0.0	1.4457831	4.57196759857899	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_pravastatin	PRA, ITR	concentration	pravastatin	serum	GC/MS	24.0	hr	0.0	1.2048193	3.8099731569297	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	0.0	hr	0.0	NA	NA	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	0.5	hr	19.636837	13.8979773	43.9492631373173	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	1.0	hr	43.591484	12.460035	39.4020903254161	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	2.0	hr	31.917002	6.070272	19.1958855367456	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	3.0	hr	13.533026	2.875392	9.09278788582688	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	4.0	hr	6.650866	2.7156481	8.5876333195087	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	6.0	hr	2.9499228	2.55590412	8.08247850020832	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	8.0	hr	0.52693164	1.43719924	4.54482304986297	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	12.0	hr	0.0	1.7621528	5.57241643324316	ng/ml
+Neuvonen1998	pravastatin	10	PRA_total pra inhibitors	PRA	concentration	total pra inhibitors	serum	radioenzymatic assay	24.0	hr	0.0	2.2816315	7.21515232118647	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	0.0	hr	0.0	NA	NA	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	0.5	hr	47.59204	19.80801	62.6384275153919	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	1.0	hr	74.10284	24.1211	76.2776156686875	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	2.0	hr	47.41217	9.74438499999999	30.8144509975798	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	3.0	hr	23.916386	4.313089	13.639184991018	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	4.0	hr	11.12345	2.556153	8.08326552787239	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	6.0	hr	6.1450515	2.2361675	7.07138252964457	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	8.0	hr	0.5271801	1.118208	3.53608417782156	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	12.0	hr	0.0	1.112991	3.51958657526847	ng/ml
+Neuvonen1998	pravastatin	10	PRA+ITR_total pra inhibitors	PRA, ITR	concentration	total pra inhibitors	serum	radioenzymatic assay	24.0	hr	0.0	1.0729928	3.39310116096152	ng/ml

@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	se	unit	comments
+Pan1990a	all	20	PRA_40_D7	auc_end	pravastatin	GC/MS	serum	24.0	hr	152.2	13.5	ng*hr/ml	three subjects withdrew from study
+Pan1990a	all	20	PRA_40_D7	cmax	pravastatin	GC/MS	serum	NA	NA	64.1	6.9	ng/ml	NA
+Pan1990a	all	20	PRA_40_D7	tmax	pravastatin	GC/MS	serum	NA	NA	1.05	0.03	hr	NA
+Pan1990a	all	20	LOV_40_D7	auc_end	lovastatin	GC/MS	serum	24.0	hr	44.9	6.0	ng*hr/ml	NA
+Pan1990a	all	20	LOV_40_D7	cmax	lovastatin	GC/MS	serum	NA	NA	8.6	1.4	ng/ml	NA
+Pan1990a	all	20	LOV_40_D7	tmax	lovastatin	GC/MS	serum	NA	NA	3.95	0.41	hr	NA

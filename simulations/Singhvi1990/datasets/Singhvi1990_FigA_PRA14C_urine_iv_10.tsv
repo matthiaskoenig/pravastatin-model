@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	mean_unit	count_unit
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_iv_10	0	hr	0.0				mole	dimensionless
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_iv_10	96	hr	1.330347144456887e-05				mole	dimensionless

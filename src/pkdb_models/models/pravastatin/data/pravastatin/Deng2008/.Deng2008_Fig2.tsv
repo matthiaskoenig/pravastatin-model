@@ -1,0 +1,41 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	se	sd	unit	comments
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	0.0	hr	0.7122507	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	0.33	hr	18.518518	11.39	4.6499480284	11.39	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	0.675	hr	114.67236	41.32	16.868819362	41.32	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	1.0	hr	133.19089	46.29	18.8978133656	46.29	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	1.5	hr	81.90883	32.76	13.3742139956	32.76	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	2.0	hr	47.00855	23.51	9.5979173088	23.51	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	3.0	hr	24.216524	7.12	2.9067278281	7.12	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	4.0	hr	17.806269	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	6.0	hr	12.820513	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	12.0	hr	1.82	NA	0.3021037349	0.74	ng/ml	Fig2c (semilog), digitized from the PNG
+Deng2008	SLCO1B1_1a1a	6	PRA40	concentration	pravastatin	plasma	LC MS/MS	1a1a_pra	24.0	hr	0.095	NA	0.0220454077	0.054	ng/ml	Fig2c (semilog), digitized from the PNG
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	0.33	hr	45.584045	34.2	15.2947049661	34.2	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	0.675	hr	269.23077	144.58	64.6581416374	144.58	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	1.0	hr	274.92877	110.4	49.3723809432	110.4	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	1.5	hr	165.95442	40.6	18.1568719773	40.6	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	2.0	hr	117.52137	26.35	11.7840782414	26.35	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	3.0	hr	45.584045	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	4.0	hr	28.490028	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	6.0	hr	24.928776	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	12.0	hr	1.13	NA	NA	NA	ng/ml	Fig2c (semilog), digitized from the PNG
+Deng2008	SLCO1B1_1515	5	PRA40	concentration	pravastatin	plasma	LC MS/MS	1515_pra	24.0	hr	0.218	NA	0.1319280107	0.295	ng/ml	Fig2c (semilog), digitized from the PNG
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	0.0	hr	0.0	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	0.3	hr	32.53639	27.45	11.2064155732	27.45	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	0.66911167	hr	65.53625	37.4	15.2684860633	37.4	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	0.9953181	hr	68.24786	42.12	17.1954179943	42.12	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	1.4957582	hr	51.955433	27.92	11.3982922698	27.92	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	2.0	hr	38.4958	17.99	7.3443867454	17.99	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	3.0	hr	25.802366	14.21	5.8012082075	14.21	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	3.9951608	hr	20.672956	11.36	4.6377005797	11.36	ng/ml	NA
+Deng2008	SLCO1B1_1a1a	6	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1a1a_pita	6.0	hr	10.411664	6.14	2.5066445034	6.14	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.0	hr	0.0024731967	NA	NA	NA	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.3	hr	99.27906	94.67	42.337711086	94.67	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.6886799	hr	257.72192	80.47	35.9872780299	80.47	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	0.9998253	hr	223.98901	43.55	19.476152084	43.55	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	1.5	hr	132.8992	24.14	10.7957361954	24.14	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	2.0	hr	88.675476	19.4	8.6759437527	19.4	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	3.0	hr	55.61972	12.29	5.4962550887	12.29	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	4.0	hr	38.656063	9.46	4.2306406134	9.46	ng/ml	NA
+Deng2008	SLCO1B1_1515	5	PITA4	concentration	pitavastatin	plasma	LC MS/MS	1515_pita	6.0	hr	23.66602	6.63	2.9650261382	6.63	ng/ml	NA

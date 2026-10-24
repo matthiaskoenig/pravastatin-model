@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	mean_unit	count_unit
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_po_20	0	hr	0.0				mole	dimensionless
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_po_20	96	hr	3.0530795072788355e-05				mole	dimensionless

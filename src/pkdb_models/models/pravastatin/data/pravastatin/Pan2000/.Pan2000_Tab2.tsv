@@ -1,0 +1,19 @@
+study	group	count	intervention	measurement_type	tissue	substance	method	time	time_unit	mean	sd	unit	comments
+Pan2000	all	23	PRA40, FEN201	tmax	plasma	pravastatin	LC MS/MS	NA	NA	1.8	0.6	hr	NA
+Pan2000	all	23	PRA40, FEN201	cmax	plasma	pravastatin	LC MS/MS	NA	NA	42.33	28.0	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	auc_end	plasma	pravastatin	LC MS/MS	24.0	hr	87.0	53.6	ng*hr/ml	NA
+Pan2000	all	23	PRA40, FEN201	thalf	plasma	pravastatin	LC MS/MS	NA	NA	1.8	1.0	hr	NA
+Pan2000	all	23	PRA40, FEN201	clearance	plasma	pravastatin	LC MS/MS	NA	NA	774.1	708.5	l/hr	NA
+Pan2000	all	23	PRA40, FEN201	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.9	0.6	hr	NA
+Pan2000	all	23	PRA40, FEN201	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	44.75	22.12	ng/ml	NA
+Pan2000	all	23	PRA40, FEN201	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	24.0	hr	93.0	43.9	ng*hr/ml	NA
+Pan2000	all	23	PRA40, FEN201	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.2	0.5	hr	NA
+Pan2000	all	23	PRA40	tmax	plasma	pravastatin	LC MS/MS	NA	NA	1.4	0.5	hr	NA
+Pan2000	all	23	PRA40	cmax	plasma	pravastatin	LC MS/MS	NA	NA	35.2	20.67	ng/ml	NA
+Pan2000	all	23	PRA40	auc_end	plasma	pravastatin	LC MS/MS	24.0	hr	71.2	36.5	ng*hr/ml	NA
+Pan2000	all	23	PRA40	thalf	plasma	pravastatin	LC MS/MS	NA	NA	1.6	0.9	hr	NA
+Pan2000	all	23	PRA40	clearance	plasma	pravastatin	LC MS/MS	NA	NA	800.0	611.6	l/hr	NA
+Pan2000	all	23	PRA40	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.7	0.6	hr	NA
+Pan2000	all	23	PRA40	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	36.33	21.13	ng/ml	NA
+Pan2000	all	23	PRA40	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	24.0	hr	77.0	44.2	ng*hr/ml	NA
+Pan2000	all	23	PRA40	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.2	0.5	hr	NA

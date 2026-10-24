@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	tissue	substance	time	time_unit	mean	sd	unit	comment
+Halstenson1992	group1	4	pra_20_mg_oral	auc_end	serum	pravastatin + SQ 31906 + SQ 31945	24.0	hr	203.6	133.2	ng*hr/ml	pravastatin total = pravastatin + metabolites
+Halstenson1992	group1 	4	pra_20_mg_oral	clearance_renal	serum	pravastatin + SQ 31906 + SQ 31945	NA	hr	15.91	3.5	l/hr	pravastatin total = pravastatin + metabolites
+Halstenson1992	group1	4	pra_20_mg_oral	recovery	urine	pravastatin + SQ 31906 + SQ 31945	24.0	hr	16.2	9.3	percent	pravastatin total = pravastatin + metabolites
+Halstenson1992	group2	4	pra_20_mg_oral	auc_end	serum	pravastatin + SQ 31906 + SQ 31945	24.0	hr	172.2	88.2	ng*hr/ml	pravastatin total = pravastatin + metabolites
+Halstenson1992	group2	4	pra_20_mg_oral	clearance_renal	serum	pravastatin + SQ 31906 + SQ 31945	NA	hr	9.68	5.5	l/hr	pravastatin total = pravastatin + metabolites
+Halstenson1992	group2	4	pra_20_mg_oral	recovery	urine	pravastatin + SQ 31906 + SQ 31945	24.0	hr	10.0	10.7	percent	pravastatin total = pravastatin + metabolites
+Halstenson1992	group3	4	pra_20_mg_oral	auc_end	serum	pravastatin + SQ 31906 + SQ 31945	24.0	hr	280.0	85.4	ng*hr/ml	pravastatin total = pravastatin + metabolites
+Halstenson1992	group3	4	pra_20_mg_oral	clearance_renal	serum	pravastatin + SQ 31906 + SQ 31945	NA	hr	3.82	1.02	l/hr	pravastatin total = pravastatin + metabolites
+Halstenson1992	group3	4	pra_20_mg_oral	recovery	urine	pravastatin + SQ 31906 + SQ 31945	24.0	hr	5.4	2.4	percent	pravastatin total = pravastatin + metabolites
+Halstenson1992	group4	4	pra_20_mg_oral	auc_end	serum	pravastatin + SQ 31906 + SQ 31945	24.0	hr	243.1	37.6	ng*hr/ml	pravastatin total = pravastatin + metabolites
+Halstenson1992	group4	4	pra_20_mg_oral	clearance_renal	serum	pravastatin + SQ 31906 + SQ 31945	NA	hr	1.3	0.29	l/hr	pravastatin total = pravastatin + metabolites
+Halstenson1992	group4	4	pra_20_mg_oral	recovery	urine	pravastatin + SQ 31906 + SQ 31945	24.0	hr	1.6	0.4	percent	pravastatin total = pravastatin + metabolites

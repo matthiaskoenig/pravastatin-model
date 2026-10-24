@@ -1,0 +1,1201 @@
+{
+  "experiment_id": "ApplicationExperiment",
+  "base_path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin",
+  "data_path": [
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/pravastatin",
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/simvastatin"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Afeces_pra",
+        "Aurine_pra",
+        "GU__f_OATP2B1",
+        "GU__fed",
+        "IVDOSE_pra",
+        "KI__GFR",
+        "KI__f_OAT3",
+        "KI__f_renal_function",
+        "LI__f_MRP2",
+        "LI__f_OATP1B1",
+        "PODOSE_pra",
+        "[Car_pra]",
+        "[Cgulumen_pra]",
+        "[Cve_pra]",
+        "[LI__pra]",
+        "f_cirrhosis",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_pra_iv": {
+      "sid": "model__pra_iv",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_iv",
+      "observables": []
+    },
+    "task_pra_po": {
+      "sid": "model__pra_po",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_po",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "pra_iv": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 300,
+      "preinit_changes": {
+        "IVDOSE_pra": {
+          "value": 40,
+          "unit": "milligram"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "pra_po": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 300,
+      "preinit_changes": {
+        "PODOSE_pra": {
+          "value": 40,
+          "unit": "milligram"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    }
+  },
+  "data": {
+    "task_pra_iv__time": {
+      "type": "TASK",
+      "sid": "task_pra_iv__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_iv__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_iv__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_iv__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_iv__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_iv__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_iv__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_iv__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_iv__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_iv__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_iv__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_iv",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__time": {
+      "type": "TASK",
+      "sid": "task_pra_po__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_po__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_po__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_po__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_po__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_po__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_po__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_po__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_po__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_po__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_po__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_po",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig_application": {
+      "sid": "Fig_application",
+      "name": "Oral vs. intravenous pravastatin application",
+      "num_rows": 2,
+      "num_cols": 3,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_application__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_application__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_application__plot0_yaxis",
+              "name": "pravastatin\n [\u00b5M]",
+              "label": "pravastatin\n",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_application__plot0_curve0",
+                "name": "pravastatin venous (iv)",
+                "x": "task_pra_iv__time",
+                "y": "task_pra_iv__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_application__plot0_curve1",
+                "name": "pravastatin venous (po)",
+                "x": "task_pra_po__time",
+                "y": "task_pra_po__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_application__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_application__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_application__plot1_yaxis",
+              "name": "pravastatin intestinal\nlumen [\u00b5M]",
+              "label": "pravastatin intestinal\nlumen",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_application__plot1_curve0",
+                "name": "pravastatin intestinal lumen (iv)",
+                "x": "task_pra_iv__time",
+                "y": "task_pra_iv__conc__Cgulumen_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_application__plot1_curve1",
+                "name": "pravastatin intestinal lumen (po)",
+                "x": "task_pra_po__time",
+                "y": "task_pra_po__conc__Cgulumen_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_application__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_application__plot2_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_application__plot2_yaxis",
+              "name": "pravastatin liver\n [\u00b5M]",
+              "label": "pravastatin liver\n",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_application__plot2_curve0",
+                "name": "pravastatin liver (iv)",
+                "x": "task_pra_iv__time",
+                "y": "task_pra_iv__conc__LI__pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_application__plot2_curve1",
+                "name": "pravastatin liver (po)",
+                "x": "task_pra_po__time",
+                "y": "task_pra_po__conc__LI__pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_application__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_application__plot3_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_application__plot3_yaxis",
+              "name": "pravastatin arterial\n [\u00b5M]",
+              "label": "pravastatin arterial\n",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_application__plot3_curve0",
+                "name": "pravastatin arterial (iv)",
+                "x": "task_pra_iv__time",
+                "y": "task_pra_iv__conc__Car_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_application__plot3_curve1",
+                "name": "pravastatin arterial (po)",
+                "x": "task_pra_po__time",
+                "y": "task_pra_po__conc__Car_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_application__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_application__plot4_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_application__plot4_yaxis",
+              "name": "pravastatin urine\n [\u00b5mole]",
+              "label": "pravastatin urine\n",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_application__plot4_curve0",
+                "name": "pravastatin urine (iv)",
+                "x": "task_pra_iv__time",
+                "y": "task_pra_iv__Aurine_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_application__plot4_curve1",
+                "name": "pravastatin urine (po)",
+                "x": "task_pra_po__time",
+                "y": "task_pra_po__Aurine_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_application__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_application__plot5_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_application__plot5_yaxis",
+              "name": "pravastatin feces\n [\u00b5mole]",
+              "label": "pravastatin feces\n",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_application__plot5_curve0",
+                "name": "pravastatin feces (iv)",
+                "x": "task_pra_iv__time",
+                "y": "task_pra_iv__Afeces_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_application__plot5_curve1",
+                "name": "pravastatin feces (po)",
+                "x": "task_pra_po__time",
+                "y": "task_pra_po__Afeces_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": null,
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": null,
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": null,
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

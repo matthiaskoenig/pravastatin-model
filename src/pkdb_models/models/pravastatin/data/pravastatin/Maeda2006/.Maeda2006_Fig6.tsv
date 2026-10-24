@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	unit	comments
+Maeda2006	oatp1b1_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	0.5014749	min	5.7079644	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	1.0029498	min	8.495575	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	2.0058997	min	13.008849	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	2.979351	min	14.734513	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	5.014749	min	21.238937	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	10.0	min	26.283186	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	0.4719764	min	5.3097343	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	1.0029498	min	5.7079644	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	2.0058997	min	5.4424777	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	3.0088496	min	5.176991	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	4.985251	min	5.3097343	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	VAL_?	uptake_rate	valsartan	in vitro	val_uptake	9.970502	min	7.035398	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	0.4885411	min	6.4269586	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	1.0139743	min	7.9873095	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	2.0091155	min	9.226183	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	2.9711485	min	12.898035	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	4.961431	min	15.375782	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	oatp1b1_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	9.940405	min	19.468378	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	0.4887131	min	6.316339	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	0.98671365	min	6.6592274	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	1.9533904	min	7.344354	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	3.0078685	min	8.142047	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	4.9695144	min	10.176667	NA	ng/ml	in vitro data, not uploaded
+Maeda2006	vector_transfected	3	TEMO_?	uptake_rate	temocaprilat	in vitro	temo_uptake	9.982457	min	11.283186	NA	ng/ml	in vitro data, not uploaded

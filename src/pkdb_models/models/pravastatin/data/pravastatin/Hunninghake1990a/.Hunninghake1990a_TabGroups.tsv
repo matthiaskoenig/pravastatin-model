@@ -1,0 +1,25 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Hunninghake1990a	all	268	NA	species	268	homo sapiens	NA	NA	NA	NA	NA	Age → calculated from percentages in Tab1
+Hunninghake1990a	all	268	NA	sex	207	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	all	268	NA	sex	61	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	all	268	NA	age	268	NA	NA	NA	46.6	53.5	yr	NA
+Hunninghake1990a	all	268	NA	healthy	268	N	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	familial hypercholesterolemic	162	all	disease	162	FH	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	polygenic hypercholesterolemic	79	all	disease	79	hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	familial combined hypercholesterolamia	27	all	disease	27	mixed hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	all	age	88	NA	51.6	NA	NA	NA	yr	NA
+Hunninghake1990a	placebo	88	all	weight	88	NA	75.4	NA	NA	NA	kg	NA
+Hunninghake1990a	placebo	88	all	sex	64	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	placebo	88	all	sex	24	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	all	age	65	NA	53.5	NA	NA	NA	yr	NA
+Hunninghake1990a	pra10	65	all	weight	65	NA	75.6	NA	NA	NA	kg	NA
+Hunninghake1990a	pra10	65	all	sex	15	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	pra10	65	all	sex	50	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	all	age	56	NA	46.6	NA	NA	NA	yr	NA
+Hunninghake1990a	pra20	56	all	weight	56	NA	78.3	NA	NA	NA	kg	NA
+Hunninghake1990a	pra20	56	all	sex	9	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	pra20	56	all	sex	47	F	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	all	age	59	NA	52.8	NA	NA	NA	yr	NA
+Hunninghake1990a	pra40	59	all	weight	59	NA	78.1	NA	NA	NA	kg	NA
+Hunninghake1990a	pra40	59	all	sex	13	M	NA	NA	NA	NA	NA	NA
+Hunninghake1990a	pra40	59	all	sex	46	F	NA	NA	NA	NA	NA	NA

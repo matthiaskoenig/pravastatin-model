@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	comment	mean_unit	count_unit
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	0.0	hr						mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	0.5	hr	4.093747673898194e-05	12.5	1.1493150071844157e-05	7.084853524110005e-05		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	1.0	hr	0.00010197026358561234	36.53846	1.590223541328057e-05	9.802796266013592e-05		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	2.0	hr	6.525607848679717e-05	25.0	6.367425152521612e-06	3.9251444773061033e-05		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	3.0	hr	2.9414309942760232e-05	10.576923	4.499879867147198e-06	2.7739122464720283e-05		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	4.0	hr	2.0617445174663747e-05	7.6923075	2.497859986337833e-06	1.5397843077236853e-05		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	6.0	hr	8.25821355381245e-06	3.2051282	7.083862153440276e-07	4.366785905376911e-06		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	8.0	hr	2.8766605422467197e-06	0.64102566	1.3666950274421125e-06	8.424873964952228e-06		mole/meter^3	dimensionless
+Niemi2004	non-carriers of *17	38	pra_40mg_po	concentration	pravastatin	plasma	NR	NC17	12.0	hr	8.459794831931785e-07	0.0	8.459794831931785e-07	5.214967772420489e-06		mole/meter^3	dimensionless

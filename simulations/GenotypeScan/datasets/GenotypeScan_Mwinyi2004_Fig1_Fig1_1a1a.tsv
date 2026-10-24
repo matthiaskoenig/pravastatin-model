@@ -1,0 +1,14 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_se	mean_sd	comments	mean_unit	count_unit
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	0.0	min	0.0					mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	15.0	min	1.5253222387110449e-05	9.1946745	6.405257578969684e-06	2.0255202949600022e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	30.0	min	7.895320707606056e-05	41.8997	1.9743469248345225e-05	6.243433173826348e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	45.0	min	0.00012131838032647869	64.39472	3.0366353379030923e-05	9.6026840911288e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	60.0	min	0.00012486920358985228	64.20032	2.6357611947329983e-05	8.335008743642874e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	90.0	min	8.96009610628224e-05	44.71501	1.5727307846324167e-05	4.9734114257021875e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	120.0	min	6.085058770876027e-05	31.08994	1.2383200244976796e-05	3.9159117496081775e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	180.0	min	3.357287824182036e-05	16.888578	6.208946364214542e-06	1.9634412380739334e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	240.0	min	2.1998810449202644e-05	11.19502	4.371575624808611e-06	1.3824135938068897e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	360.0	min	1.218364308764987e-05	6.8047132	3.845172779308882e-06	1.215950397949603e-05		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	480.0	min	7.109509810849644e-06	3.3597772	8.046003815984736e-07	2.544369812091795e-06		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	720.0	min	2.591481402963277e-06	1.1956917	2.2502555767554705e-07	7.115932940043129e-07		mole/meter^3	dimensionless
+Mwinyi2004	SCLO1B1_1a1a	10	pra_40mg_po	concentration	pravastatin	plasma	HPLC/UV	Fig1_1a1a	1440.0	min	8.891998209784937e-07		8.891998209784937e-07	2.8118967293060085e-06		mole/meter^3	dimensionless

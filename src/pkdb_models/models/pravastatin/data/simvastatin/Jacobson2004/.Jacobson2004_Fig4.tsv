@@ -1,0 +1,56 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit	comment
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	0.5	hr	2.3107147	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	1.0	hr	13.691119	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	2.0	hr	48.64219	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	3.0	hr	80.79176	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	4.0	hr	54.09017	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	6.0	hr	24.245106	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	8.0	hr	14.829356	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	12.0	hr	5.0659213	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	14.0	hr	3.6984203	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2,CLA	SIM2,CLA	concentration	simvastatin	serum	LC MS/MS	24.0	hr	0.79678977	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	0.5	hr	0.9677466	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	1.0	hr	4.967586	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	2.0	hr	7.046384	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	3.0	hr	6.5617166	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	4.0	hr	4.586279	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	6.0	hr	1.3756572	ng/ml	multiple dosing
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	8.0	hr	0.739508	ng/ml	multiple dosing
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	0.5	hr	3.87	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	1.0	hr	11.83	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	2.0	hr	18.65	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	3.0	hr	10.84	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	4.0	hr	7.82	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	6.0	hr	2.78	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	8.0	hr	1.35	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	0.5	hr	10.3	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	1.0	hr	18.91	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	2.0	hr	45.96	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	3.0	hr	27.58	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	4.0	hr	14.42	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	6.0	hr	5.19	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	8.0	hr	2.15	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2,CLA	PRA2,CLA	concentration	pravastatin	serum	LC MS/MS	12.0	hr	0.9	ng/ml	multiple dosing; log axis, re-digitized from the image of the PDF
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	0.0	hr	0.8346559	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	0.5	hr	3.05888	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	1.0	hr	13.437115	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	2.0	hr	22.125618	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	3.0	hr	23.16294	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	4.0	hr	17.659237	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	5.0	hr	9.097029	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	8.0	hr	4.757398	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	12.0	hr	2.240655	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	14.0	hr	1.7091467	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1	ATO1	concentration	atorvastatin	serum	LC MS/MS	24.0	hr	0.66351444	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	0.0	hr	1.4815041	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	0.5	hr	14.269703	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	1.0	hr	52.29436	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	2.0	hr	92.863754	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	3.0	hr	92.91212	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	4.0	hr	66.683914	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	6.0	hr	25.398098	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	8.0	hr	13.083194	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	12.0	hr	6.25571	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	14.0	hr	4.560462	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	24.0	hr	1.3089325	ng/ml	multiple dosing
+Jacobson2004	CLA_ATO	15	CLA_ATO_ATO1,CLA	ATO1,CLA	concentration	atorvastatin	serum	LC MS/MS	30.0	hr	0.83468485	ng/ml	multiple dosing

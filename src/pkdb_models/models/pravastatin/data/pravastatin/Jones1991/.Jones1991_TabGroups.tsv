@@ -1,0 +1,33 @@
+study	name	group_count	parent	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Jones1991	all	150	NA	species	150	homo sapiens	NA	NA	NA	NA	NA	NA
+Jones1991	all	150	NA	age	150	NA	NA	NA	21.0	70.0	yr	NA
+Jones1991	all	150	NA	sex	75	M	NA	NA	NA	NA	NA	NA
+Jones1991	all	150	NA	sex	75	F	NA	NA	NA	NA	NA	NA
+Jones1991	all	150	NA	healthy	150	N	NA	NA	NA	NA	NA	NA
+Jones1991	all	150	NA	disease	150	hypercholesterolemia	NA	NA	NA	NA	NA	NA
+Jones1991	all	150	NA	diet	150	NR	NA	NA	NA	NA	NA	NA
+Jones1991	placebo	42	all	species	42	homo sapiens	NA	NA	NA	NA	NA	NA
+Jones1991	placebo	42	all	age	42	NA	52.9	NA	NA	NA	yr	NA
+Jones1991	placebo	42	all	weight	42	NA	74.5	NA	NA	NA	kg	NA
+Jones1991	placebo	42	all	sex	22	M	NA	NA	NA	NA	NA	NA
+Jones1991	placebo	42	all	sex	20	F	NA	NA	NA	NA	NA	NA
+Jones1991	pra5	22	all	species	22	homo sapiens	NA	NA	NA	NA	NA	NA
+Jones1991	pra5	22	all	age	22	NA	52.3	NA	NA	NA	yr	NA
+Jones1991	pra5	22	all	weight	22	NA	79.5	NA	NA	NA	kg	NA
+Jones1991	pra5	22	all	sex	12	M	NA	NA	NA	NA	NA	NA
+Jones1991	pra5	22	all	sex	10	F	NA	NA	NA	NA	NA	NA
+Jones1991	pra10	22	all	species	22	homo sapiens	NA	NA	NA	NA	NA	NA
+Jones1991	pra10	22	all	age	22	NA	54.2	NA	NA	NA	yr	NA
+Jones1991	pra10	22	all	weight	22	NA	75.5	NA	NA	NA	kg	NA
+Jones1991	pra10	22	all	sex	10	M	NA	NA	NA	NA	NA	NA
+Jones1991	pra10	22	all	sex	12	F	NA	NA	NA	NA	NA	NA
+Jones1991	pra20	19	all	species	19	homo sapiens	NA	NA	NA	NA	NA	NA
+Jones1991	pra20	19	all	age	19	NA	54.1	NA	NA	NA	yr	NA
+Jones1991	pra20	19	all	weight	19	NA	77.8	NA	NA	NA	kg	NA
+Jones1991	pra20	19	all	sex	10	M	NA	NA	NA	NA	NA	NA
+Jones1991	pra20	19	all	sex	9	F	NA	NA	NA	NA	NA	NA
+Jones1991	pra40	20	all	species	20	homo sapiens	NA	NA	NA	NA	NA	NA
+Jones1991	pra40	20	all	age	20	NA	55.6	NA	NA	NA	yr	NA
+Jones1991	pra40	20	all	weight	20	NA	73.9	NA	NA	NA	kg	NA
+Jones1991	pra40	20	all	sex	9	M	NA	NA	NA	NA	NA	NA
+Jones1991	pra40	20	all	sex	11	F	NA	NA	NA	NA	NA	NA

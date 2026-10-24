@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	mean_se	mean_sd	comment	mean_unit	count_unit
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	0.0	hr						mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	0.5	hr	2.5230662144018093e-05	9.625663	2.5569688832355808e-06	3.6161000732377454e-06		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	1.0	hr	0.00012116214637363674	65.0856	3.214998704449627e-05	4.546694770844593e-05		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	2.0	hr	0.00010625815843403293	36.966946	1.918081172119755e-05	2.7125764073442407e-05		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	3.0	hr	4.337105033802087e-05	14.007503	1.0375730808187879e-05	1.4673499228471655e-05		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	4.0	hr	2.497572374154948e-05	7.8255444	6.542292888606225e-06	9.252199332083976e-06		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	6.0	hr	1.3490234612394883e-05	6.103692	8.872934774927566e-07	1.2548224696754428e-06		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	8.0	hr	2.8738553223564887e-06	1.8032914	1.3738807622547286e-06	1.942960807064123e-06		mole/meter^3	dimensionless
+Niemi2004	521CC genotype	2	pra_40mg_po	concentration	pravastatin	plasma	NR	521CC	12.0	hr	1.7133872753397876e-06	0.29614168	1.015811886085789e-06	1.4365749461223163e-06		mole/meter^3	dimensionless

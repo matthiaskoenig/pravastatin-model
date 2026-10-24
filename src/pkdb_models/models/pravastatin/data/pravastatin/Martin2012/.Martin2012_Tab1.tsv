@@ -1,0 +1,49 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	se	sd	diff	diff_se	baseline	baseline_unit	change	change_se	change_unit	diff_unit	comments
+Martin2012	TT	449.0	PRA40	concentration	cholesterol	serum	0.0	weeks	7.1	mmol/l	0.042	0.00198210254836864	NA	NA	NA	NA	-16.6	2.68	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	cholesterol	serum	0.0	weeks	7.08	mmol/l	0.045	0.00351390964249364	NA	NA	NA	NA	-16.3	2.86	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	cholesterol	serum	0.0	weeks	7.21	mmol/l	0.07	0.019414506867883	NA	NA	NA	NA	-13.1	4.58	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	hdl-c	serum	0.0	weeks	1.15	mmol/l	0.045	0.00212368130182354	NA	NA	NA	NA	7.16	2.98	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	hdl-c	serum	0.0	weeks	1.15	mmol/l	0.048	0.00374817028532655	NA	NA	NA	NA	7.7	3.17	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	hdl-c	serum	0.0	weeks	1.13	mmol/l	0.075	0.0208012573584461	NA	NA	NA	NA	5.05	5.07	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	ldl-c	serum	0.0	weeks	5.06	mmol/l	0.09	0.00424736260364708	NA	NA	NA	NA	-22.2	3.38	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	ldl-c	serum	0.0	weeks	5.06	mmol/l	0.096	0.00749634057065309	NA	NA	NA	NA	-22.2	3.61	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	ldl-c	serum	0.0	weeks	4.91	mmol/l	0.15	0.0416025147168922	NA	NA	NA	NA	-17.7	5.77	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	triglyceride	serum	0.0	weeks	1.88	mmol/l	1.074	0.0506851937368551	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	triglyceride	serum	0.0	weeks	1.99	mmol/l	1.078	0.0841776576579587	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	triglyceride	serum	0.0	weeks	1.62	mmol/l	1.126	0.312296210474804	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	398.0	PRA40	concentration	CRP	serum	0.0	weeks	2.08	mmol/l	1.224	0.0613535761511313	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	139.0	PRA40	concentration	CRP	serum	0.0	weeks	2.06	mmol/l	1.241	0.105260246173284	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	11.0	PRA40	concentration	CRP	serum	0.0	weeks	1.93	mmol/l	1.413	0.42603552988838	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	cholesterol	serum	52.0	weeks	5.88	mmol/l	0.189	0.00891946146765886	-1.18	0.189	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	cholesterol	serum	52.0	weeks	5.9	mmol/l	0.201	0.0156954630698049	-1.16	0.201	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	cholesterol	serum	52.0	weeks	6.13	mmol/l	0.322	0.0893067315922619	-0.96	0.323	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	hdl-c	serum	52.0	weeks	1.23	mmol/l	0.056	0.00264280339782485	0.09	0.034	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	hdl-c	serum	52.0	weeks	1.24	mmol/l	0.06	0.00468521285665818	0.09	0.037	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	hdl-c	serum	52.0	weeks	1.21	mmol/l	0.095	0.0263482593206984	0.07	0.059	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	ldl-c	serum	52.0	weeks	3.93	mmol/l	0.175	0.00825876061820265	-1.11	0.167	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	ldl-c	serum	52.0	weeks	3.93	mmol/l	0.187	0.0146022467365847	-1.11	0.178	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	ldl-c	serum	52.0	weeks	4.04	mmol/l	0.299	0.0829276793356718	-0.92	0.285	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration	triglyceride	serum	52.0	weeks	1.73	mmol/l	1.094	0.0516290520932212	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	164.0	PRA40	concentration	triglyceride	serum	52.0	weeks	1.75	mmol/l	1.1	0.0858955690387333	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	13.0	PRA40	concentration	triglyceride	serum	52.0	weeks	1.6	mmol/l	1.164	0.322835514203083	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	398.0	PRA40	concentration	CRP	serum	52.0	weeks	1.92	mmol/l	1.224	0.0613535761511313	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TC	139.0	PRA40	concentration	CRP	serum	52.0	weeks	2.13	mmol/l	1.264	0.107211080711548	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	CC	11.0	PRA40	concentration	CRP	serum	52.0	weeks	2.28	mmol/l	1.439	0.433874824847402	NA	NA	NA	NA	NA	NA	percent	NA	NA
+Martin2012	TT	449.0	PRA40	concentration change	cholesterol	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	7.1	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TC	164.0	PRA40	concentration change	cholesterol	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	7.08	mmol/l	NA	NA	NA	NA	NA
+Martin2012	CC	13.0	PRA40	concentration change	cholesterol	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	7.21	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TT	449.0	PRA40	concentration change	hdl-c	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	1.15	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TC	164.0	PRA40	concentration change	hdl-c	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	1.15	mmol/l	NA	NA	NA	NA	NA
+Martin2012	CC	13.0	PRA40	concentration change	hdl-c	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	1.13	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TT	449.0	PRA40	concentration change	ldl-c	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	5.06	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TC	164.0	PRA40	concentration change	ldl-c	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	5.06	mmol/l	NA	NA	NA	NA	NA
+Martin2012	CC	13.0	PRA40	concentration change	ldl-c	serum	0.0	weeks	0.0	percent	NA	NA	NA	NA	4.91	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TT	449.0	PRA40	concentration change	cholesterol	serum	52.0	weeks	-16.6	percent	2.68	0.126477019753046	NA	NA	7.1	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TC	164.0	PRA40	concentration change	cholesterol	serum	52.0	weeks	-16.3	percent	2.86	0.223328479500707	NA	NA	7.08	mmol/l	NA	NA	NA	NA	NA
+Martin2012	CC	13.0	PRA40	concentration change	cholesterol	serum	52.0	weeks	-13.1	percent	4.58	1.27026344935577	NA	NA	7.21	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TT	449.0	PRA40	concentration change	hdl-c	serum	52.0	weeks	7.16	percent	2.98	0.140634895098537	NA	NA	1.15	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TC	164.0	PRA40	concentration change	hdl-c	serum	52.0	weeks	7.7	percent	3.17	0.247535412593441	NA	NA	1.15	mmol/l	NA	NA	NA	NA	NA
+Martin2012	CC	13.0	PRA40	concentration change	hdl-c	serum	52.0	weeks	5.05	percent	5.07	1.40616499743096	NA	NA	1.13	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TT	449.0	PRA40	concentration change	ldl-c	serum	52.0	weeks	-22.2	percent	3.38	0.159512062225857	NA	NA	5.06	mmol/l	NA	NA	NA	NA	NA
+Martin2012	TC	164.0	PRA40	concentration change	ldl-c	serum	52.0	weeks	-22.2	percent	3.61	0.281893640208934	NA	NA	5.06	mmol/l	NA	NA	NA	NA	NA
+Martin2012	CC	13.0	PRA40	concentration change	ldl-c	serum	52.0	weeks	-17.7	percent	5.77	1.60031006610979	NA	NA	4.91	mmol/l	NA	NA	NA	NA	NA

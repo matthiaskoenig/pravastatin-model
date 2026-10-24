@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	label	substance	tissue	time	time_unit	mean	se	sd	unit	baseline	baseline_unit	comments
+Saito1988	pra10	41	PRA10	concentration	Tab1_chol_conc_pra10	cholesterol	serum	0	week	286	6	38.41874542459709	mg/dl	286	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab1_chol_conc_pra10	cholesterol	serum	4	week	248	6	38.41874542459709	mg/dl	286	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab1_chol_conc_pra10	cholesterol	serum	8	week	237	5	32.01562118716424	mg/dl	286	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab1_chol_conc_pra10	cholesterol	serum	12	week	282	8	51.22499389946279	mg/dl	286	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	0	week	276	5	33.166247903553995	mg/dl	276	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	4	week	226	5	33.166247903553995	mg/dl	276	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	8	week	216	4	26.5329983228432	mg/dl	276	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	12	week	276	6	39.7994974842648	mg/dl	276	mg/dl	NA
+Saito1988	placebo	23	placebo	concentration	Tab1_chol_conc_plac	cholesterol	serum	0	week	286	7	33.57082066318903	mg/dl	286	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab1_chol_conc_plac	cholesterol	serum	4	week	288	8	38.36665218650175	mg/dl	286	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab1_chol_conc_plac	cholesterol	serum	8	week	290	9	43.162483709814474	mg/dl	286	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab1_chol_conc_plac	cholesterol	serum	12	week	287	11	52.75414675643991	mg/dl	286	mg/dl	placebo

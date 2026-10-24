@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Nakaya1987	PRA5	S0T28R28	hr	oral	multiple dose	dosing	tablet	pravastatin	5	mg	CS514 synonym for pravastatin
+Nakaya1987	PRA20	S0T28R28	hr	oral	multiple dose	dosing	tablet	pravastatin	20	mg	FIX DOSING
+Nakaya1987	PRA40	S0T28R28	hr	oral	multiple dose	dosing	tablet	pravastatin	40	mg	FIX DOSING

@@ -1,0 +1,3 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Mabuchi1987	PRA5_twice	S0T12R84	hr	oral	multiple dose	dosing	NR	pravastatin	10	mg	repeats: 6 * 7 * 2 = 84
+Mabuchi1987	PRA10_twice	S1008T12R84	hr	oral	multiple dose	dosing	NR	pravastatin	20	mg	offset: 24 * 6 * 7

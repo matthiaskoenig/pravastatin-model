@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	min	median	max	unit
+Maeda2006	homozygous carriers *1a	5	PRA_10	auc_end	pravastatin	plasma	24	hr	NA	NA	53.82407	64.19	109.2	ng*hr/ml
+Maeda2006	homozygous carriers *1b	7	PRA_10	auc_end	pravastatin	plasma	24	hr	NA	NA	29.644053	37.75	82.44	ng*hr/ml
+Maeda2006	heterozygous carriers *1a/*15	6	PRA_10	auc_end	pravastatin	plasma	24	hr	NA	NA	38.83048	76.4	96.14	ng*hr/ml
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	auc_end	pravastatin	plasma	24	hr	NA	NA	20.80327	42.18	57.72	ng*hr/ml

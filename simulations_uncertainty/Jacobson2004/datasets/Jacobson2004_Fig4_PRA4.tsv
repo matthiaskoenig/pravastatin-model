@@ -1,0 +1,8 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	comment	mean_unit	count_unit
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	0.5	hr	9.115963536145856e-06	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	1.0	hr	2.7866110757779193e-05	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	2.0	hr	4.393093538736956e-05	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	3.0	hr	2.553412008574188e-05	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	4.0	hr	1.8420370762961395e-05	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	6.0	hr	6.548418250771441e-06	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless
+Jacobson2004	CLA_PRA	15	CLA_PRA_PRA2	PRA2	concentration	pravastatin	serum	LC MS/MS	8.0	hr	3.17998728005088e-06	multiple dosing; log axis, re-digitized from the image of the PDF	mole/meter^3	dimensionless

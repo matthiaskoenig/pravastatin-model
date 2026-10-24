@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Pan1990	PRA5_twice	S0T12R112	hr	oral	multiple dose	dosing	tablet	pravastatin	5	mg	twice daily
+Pan1990	PRA10_twice	S0T12R112	hr	oral	multiple dose	dosing	tablet	pravastatin	10	mg	twice daily
+Pan1990	PRA20_twice	S0T12R112	hr	oral	multiple dose	dosing	tablet	pravastatin	20	mg	twice daily
+Pan1990	CHOL	S28T1R28	day	oral	multiple dose	dosing	solution	cholestyramine	24	g	NA

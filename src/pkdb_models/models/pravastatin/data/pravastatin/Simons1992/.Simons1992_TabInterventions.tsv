@@ -1,0 +1,6 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Simons1992	PRA20	0	hr	oral	multiple dose	qualitative dosing	tablet	pravastatin	20	mg	pravastatin 20: 10mg given twice daily
+Simons1992	PRA40	0	hr	oral	multiple dose	qualitative dosing	tablet	pravastatin	40	mg	form: tablet and sachet
+Simons1992	PRA_long	0	hr	oral	multiple dose	qualitative dosing	tablet	pravastatin	20	mg	value PRA_long?
+Simons1992	RESIN	0	hr	oral	multiple dose	qualitative dosing	tablet	resin	16	g	cholestyramine: 24 g/day
+Simons1992	CHOLESTYR	0	hr	oral	multiple dose	qualitative dosing	tablet	cholestyramine	24	g	NA

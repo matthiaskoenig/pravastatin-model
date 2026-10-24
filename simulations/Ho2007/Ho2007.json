@@ -1,0 +1,1229 @@
+{
+  "experiment_id": "Ho2007",
+  "base_path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin",
+  "data_path": [
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/pravastatin",
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/simvastatin"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Afeces_pra",
+        "Aurine_pra",
+        "GU__f_OATP2B1",
+        "GU__fed",
+        "IVDOSE_pra",
+        "KI__GFR",
+        "KI__f_OAT3",
+        "KI__f_renal_function",
+        "LI__f_MRP2",
+        "LI__f_OATP1B1",
+        "PODOSE_pra",
+        "[Car_pra]",
+        "[Cgulumen_pra]",
+        "[Cve_pra]",
+        "[LI__pra]",
+        "f_cirrhosis",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_pra_40_521TT": {
+      "sid": "model__pra_40_521TT",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_40_521TT",
+      "observables": []
+    },
+    "task_pra_40_521TC": {
+      "sid": "model__pra_40_521TC",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_40_521TC",
+      "observables": []
+    },
+    "task_pra_40_521CC": {
+      "sid": "model__pra_40_521CC",
+      "name": null,
+      "model": "model",
+      "simulation": "pra_40_521CC",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "pra_40_521TT": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 780,
+      "preinit_changes": {
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        },
+        "LI__f_OATP1B1": {
+          "value": 1.0,
+          "unit": "dimensionless"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "pra_40_521TC": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 780,
+      "preinit_changes": {
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        },
+        "LI__f_OATP1B1": {
+          "value": 0.61,
+          "unit": "dimensionless"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "pra_40_521CC": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 780,
+      "preinit_changes": {
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        },
+        "LI__f_OATP1B1": {
+          "value": 0.22,
+          "unit": "dimensionless"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    }
+  },
+  "data": {
+    "task_pra_40_521TT__time": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TT__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TT__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_40_521TT",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__time": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521TC__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_40_521TC__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_40_521TC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__time": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra_40_521CC__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra_40_521CC__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra_40_521CC",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig1_control": {
+      "sid": "Fig1_control",
+      "name": null,
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_control__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_control__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_control__plot0_yaxis",
+              "name": "pravastatin [\u00b5M]",
+              "label": "pravastatin",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": -0.025,
+              "max": 0.3,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_control__plot0_curve0",
+                "name": "Sim: SLCO1B1 c.521T/T (PRA 40mg)",
+                "x": "task_pra_40_521TT__time",
+                "y": "task_pra_40_521TT__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_control__plot0_curve1",
+                "name": "Ho2007: SLCO1B1 c.521T/T\u00b1SD (n=88)",
+                "x": "Fig1_TT__time",
+                "y": "Fig1_TT__mean",
+                "xerr": null,
+                "yerr": "Fig1_TT__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_control__plot0_curve2",
+                "name": "Ho2007: European-Americans\u00b1SD (n=69)",
+                "x": "Fig1_EuropeanAmericans__time",
+                "y": "Fig1_EuropeanAmericans__mean",
+                "xerr": null,
+                "yerr": "Fig1_EuropeanAmericans__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_control__plot0_curve3",
+                "name": "Ho2007: African-Americans\u00b1SD (n=38)",
+                "x": "Fig1_AfricanAmericans__time",
+                "y": "Fig1_AfricanAmericans__mean",
+                "xerr": null,
+                "yerr": "Fig1_AfricanAmericans__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "TRIANGLEUP",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig1_variants": {
+      "sid": "Fig1_variants",
+      "name": null,
+      "num_rows": 1,
+      "num_cols": 1,
+      "width": null,
+      "height": null,
+      "settings": {},
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_variants__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_variants__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_variants__plot0_yaxis",
+              "name": "pravastatin [\u00b5M]",
+              "label": "pravastatin",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": -0.025,
+              "max": 0.3,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_variants__plot0_curve0",
+                "name": "Sim: SLCO1B1 c.521T/T (PRA 40mg)",
+                "x": "task_pra_40_521TT__time",
+                "y": "task_pra_40_521TT__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_variants__plot0_curve1",
+                "name": "Sim: SLCO1B1 c.521T/C (PRA 40mg)",
+                "x": "task_pra_40_521TC__time",
+                "y": "task_pra_40_521TC__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_variants__plot0_curve2",
+                "name": "Sim: SLCO1B1 c.521C/C (PRA 40mg)",
+                "x": "task_pra_40_521CC__time",
+                "y": "task_pra_40_521CC__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#ff0000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_variants__plot0_curve3",
+                "name": "Ho2007: SLCO1B1 c.521T/T\u00b1SD (n=88)",
+                "x": "Fig1_TT__time",
+                "y": "Fig1_TT__mean",
+                "xerr": null,
+                "yerr": "Fig1_TT__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              },
+              {
+                "sid": "Fig1_variants__plot0_curve4",
+                "name": "Ho2007: SLCO1B1 c.521T/C\u00b1SD (n=17)",
+                "x": "Fig1_TC__time",
+                "y": "Fig1_TC__mean",
+                "xerr": null,
+                "yerr": "Fig1_TC__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 4
+              },
+              {
+                "sid": "Fig1_variants__plot0_curve5",
+                "name": "Ho2007: SLCO1B1 c.521C/C\u00b1SD (n=2)",
+                "x": "Fig1_CC__time",
+                "y": "Fig1_CC__mean",
+                "xerr": null,
+                "yerr": "Fig1_CC__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#ff0000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "TRIANGLEUP",
+                    "fill": "#ff0000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#ff0000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 5
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Maeda2006	PRA_10	0	hr	oral	single dose	dosing	tablet	pravastatin	10	mg	NA
+Maeda2006	VAL_40	0	hr	oral	single dose	dosing	tablet	valsartan	40	mg	NA
+Maeda2006	TEMO_2	0	hr	oral	single dose	dosing	tablet	temocapril	2	mg	NA

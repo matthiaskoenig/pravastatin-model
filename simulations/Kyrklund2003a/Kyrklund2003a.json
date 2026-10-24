@@ -1,0 +1,1087 @@
+{
+  "experiment_id": "Kyrklund2003a",
+  "base_path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin",
+  "data_path": [
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/pravastatin",
+    "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/data/simvastatin"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "path": "/home/mkoenig/git/pravastatin-model/src/pkdb_models/models/pravastatin/models/output/models/pravastatin_body_pravastatin_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "Afeces_pra",
+        "Aurine_pra",
+        "GU__f_OATP2B1",
+        "GU__fed",
+        "IVDOSE_pra",
+        "KI__GFR",
+        "KI__f_OAT3",
+        "KI__f_renal_function",
+        "LI__f_MRP2",
+        "LI__f_OATP1B1",
+        "PODOSE_pra",
+        "[Car_pra]",
+        "[Cgulumen_pra]",
+        "[Cve_pra]",
+        "[LI__pra]",
+        "f_cirrhosis",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_pra40_placebo": {
+      "sid": "model__pra40_placebo",
+      "name": null,
+      "model": "model",
+      "simulation": "pra40_placebo",
+      "observables": []
+    },
+    "task_pra40_gem": {
+      "sid": "model__pra40_gem",
+      "name": null,
+      "model": "model",
+      "simulation": "pra40_gem",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "pra40_placebo": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 1500,
+      "preinit_changes": {
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        },
+        "LI__f_OATP1B1": {
+          "value": 1.0,
+          "unit": "dimensionless"
+        },
+        "KI__f_OAT3": {
+          "value": 1.0,
+          "unit": "dimensionless"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    },
+    "pra40_gem": {
+      "type": "Simulation",
+      "time_unit": null,
+      "start": 0,
+      "end": 1500,
+      "preinit_changes": {
+        "PODOSE_pra": {
+          "value": 38.03180291153415,
+          "unit": "milligram"
+        },
+        "LI__f_OATP1B1": {
+          "value": 0.52,
+          "unit": "dimensionless"
+        },
+        "KI__f_OAT3": {
+          "value": 0.39,
+          "unit": "dimensionless"
+        }
+      },
+      "changes": [],
+      "presimulation": null,
+      "times": null,
+      "steps": null,
+      "time_shift": 0.0
+    }
+  },
+  "data": {
+    "task_pra40_placebo__time": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_placebo__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra40_placebo__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra40_placebo",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__time": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__IVDOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__IVDOSE_pra",
+      "index": "IVDOSE_pra",
+      "selection": "IVDOSE_pra",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__PODOSE_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__PODOSE_pra",
+      "index": "PODOSE_pra",
+      "selection": "PODOSE_pra",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__conc__Cve_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__conc__Cve_pra",
+      "index": "Cve_pra",
+      "selection": "[Cve_pra]",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__conc__Car_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__conc__Car_pra",
+      "index": "Car_pra",
+      "selection": "[Car_pra]",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__conc__Cgulumen_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__conc__Cgulumen_pra",
+      "index": "Cgulumen_pra",
+      "selection": "[Cgulumen_pra]",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__Aurine_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__Aurine_pra",
+      "index": "Aurine_pra",
+      "selection": "Aurine_pra",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__Afeces_pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__Afeces_pra",
+      "index": "Afeces_pra",
+      "selection": "Afeces_pra",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__conc__LI__pra": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__conc__LI__pra",
+      "index": "LI__pra",
+      "selection": "[LI__pra]",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__KI__GFR": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__KI__GFR",
+      "index": "KI__GFR",
+      "selection": "KI__GFR",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__KI__f_renal_function": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__KI__f_renal_function",
+      "index": "KI__f_renal_function",
+      "selection": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__KI__f_OAT3": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__KI__f_OAT3",
+      "index": "KI__f_OAT3",
+      "selection": "KI__f_OAT3",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__f_cirrhosis": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__f_cirrhosis",
+      "index": "f_cirrhosis",
+      "selection": "f_cirrhosis",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__LI__f_MRP2": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__LI__f_MRP2",
+      "index": "LI__f_MRP2",
+      "selection": "LI__f_MRP2",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__LI__f_OATP1B1": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__LI__f_OATP1B1",
+      "index": "LI__f_OATP1B1",
+      "selection": "LI__f_OATP1B1",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__GU__f_OATP2B1": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__GU__f_OATP2B1",
+      "index": "GU__f_OATP2B1",
+      "selection": "GU__f_OATP2B1",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_pra40_gem__GU__fed": {
+      "type": "TASK",
+      "sid": "task_pra40_gem__GU__fed",
+      "index": "GU__fed",
+      "selection": "GU__fed",
+      "unit": null,
+      "task": "task_pra40_gem",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {
+    "Fig1": {
+      "sid": "Fig1",
+      "name": "Kyrklund2003a (healthy, fasted, gemfibrozil)",
+      "num_rows": 1,
+      "num_cols": 3,
+      "width": null,
+      "height": null,
+      "settings": {
+        "legend_scope": "row"
+      },
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 13,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1__plot0_yaxis",
+              "name": "pravastatin [\u00b5M]",
+              "label": "pravastatin",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1__plot0_curve0",
+                "name": "Sim 40 mg (placebo)",
+                "x": "task_pra40_placebo__time",
+                "y": "task_pra40_placebo__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1__plot0_curve1",
+                "name": "40 mg (placebo)\u00b1SD (n=10)",
+                "x": "Fig1_placebo__time",
+                "y": "Fig1_placebo__mean",
+                "xerr": null,
+                "yerr": "Fig1_placebo__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1__plot0_curve2",
+                "name": "Sim 40 mg + gemfibrozil 600 mg b.i.d.",
+                "x": "task_pra40_gem__time",
+                "y": "task_pra40_gem__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1__plot0_curve3",
+                "name": "40 mg + gemfibrozil 600 mg b.i.d.\u00b1SD (n=10)",
+                "x": "Fig1_gem__time",
+                "y": "Fig1_gem__mean",
+                "xerr": null,
+                "yerr": "Fig1_gem__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 13,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1__plot1_yaxis",
+              "name": "pravastatin [\u00b5M]",
+              "label": "pravastatin",
+              "unit": "\u00b5M",
+              "scale": "LOG10",
+              "min": 0.001,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1__plot1_curve0",
+                "name": "Sim 40 mg (placebo)",
+                "x": "task_pra40_placebo__time",
+                "y": "task_pra40_placebo__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1__plot1_curve1",
+                "name": "40 mg (placebo)\u00b1SD (n=10)",
+                "x": "Fig1_placebo__time",
+                "y": "Fig1_placebo__mean",
+                "xerr": null,
+                "yerr": "Fig1_placebo__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1__plot1_curve2",
+                "name": "Sim 40 mg + gemfibrozil 600 mg b.i.d.",
+                "x": "task_pra40_gem__time",
+                "y": "task_pra40_gem__conc__Cve_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1__plot1_curve3",
+                "name": "40 mg + gemfibrozil 600 mg b.i.d.\u00b1SD (n=10)",
+                "x": "Fig1_gem__time",
+                "y": "Fig1_gem__mean",
+                "xerr": null,
+                "yerr": "Fig1_gem__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1__plot2_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1__plot2_yaxis",
+              "name": "pravastatin urine [\u00b5mole]",
+              "label": "pravastatin urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1__plot2_curve0",
+                "name": "Sim 40 mg (placebo)",
+                "x": "task_pra40_placebo__time",
+                "y": "task_pra40_placebo__Aurine_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1__plot2_curve1",
+                "name": "40 mg (placebo), Ae(0-24)\u00b1SD (n=10)",
+                "x": "Tab2_placebo_urine__time",
+                "y": "Tab2_placebo_urine__mean",
+                "xerr": null,
+                "yerr": "Tab2_placebo_urine__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1__plot2_curve2",
+                "name": "Sim 40 mg + gemfibrozil 600 mg b.i.d.",
+                "x": "task_pra40_gem__time",
+                "y": "task_pra40_gem__Aurine_pra",
+                "xerr": null,
+                "yerr": null,
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#d62728ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1__plot2_curve3",
+                "name": "40 mg + gemfibrozil 600 mg b.i.d., Ae(0-24)\u00b1SD (n=10)",
+                "x": "Tab2_gem_urine__time",
+                "y": "Tab2_gem_urine__mean",
+                "xerr": null,
+                "yerr": "Tab2_gem_urine__mean_sd",
+                "over": [],
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#d62728ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "CIRCLE",
+                    "fill": "#d62728ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#d62728ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": [],
+            "bands": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

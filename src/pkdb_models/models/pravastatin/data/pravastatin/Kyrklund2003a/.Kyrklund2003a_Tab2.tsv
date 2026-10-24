@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	min	max	unit	comments
+Kyrklund2003a	all	10.0	PRA40	cmax	pravastatin	plasma	LC MS/MS	NA	hr	66.3	43.0	NA	NA	ng/ml	NA
+Kyrklund2003a	all	10.0	PRA40	tmax	pravastatin	plasma	LC MS/MS	NA	hr	1.0	NA	0.5	2.0	hr	NA
+Kyrklund2003a	all	10.0	PRA40	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.8	0.6	NA	NA	hr	NA
+Kyrklund2003a	all	10.0	PRA40	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	138.7	67.6	NA	NA	ng/ml*hr	NA
+Kyrklund2003a	all	10.0	PRA40	auc_inf	pravastatin	plasma	LC MS/MS	24.0	hr	139.0	67.6	NA	NA	ng/ml*hr	NA
+Kyrklund2003a	all	10.0	PRA40	cumulative amount	pravastatin	urine	LC MS/MS	24.0	hr	3.31	1.51	NA	NA	mg	Ae(0-24) of Table II
+Kyrklund2003a	all	10.0	PRA40	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	25.0	6.3	NA	NA	l/hr	NA
+Kyrklund2003a	all	10.0	PRA40, GEM600	cmax	pravastatin	plasma	LC MS/MS	NA	hr	120.0	89.3	NA	NA	ng/ml	NA
+Kyrklund2003a	all	10.0	PRA40, GEM600	tmax	pravastatin	plasma	LC MS/MS	NA	hr	1.0	NA	0.5	2.0	hr	NA
+Kyrklund2003a	all	10.0	PRA40, GEM600	thalf	pravastatin	plasma	LC MS/MS	NA	hr	1.8	0.5	NA	NA	hr	NA
+Kyrklund2003a	all	10.0	PRA40, GEM600	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	279.8	189.5	NA	NA	ng/ml*hr	NA
+Kyrklund2003a	all	10.0	PRA40, GEM600	auc_inf	pravastatin	plasma	LC MS/MS	24.0	hr	280.6	190.1	NA	NA	ng/ml*hr	NA
+Kyrklund2003a	all	10.0	PRA40, GEM600	cumulative amount	pravastatin	urine	LC MS/MS	24.0	hr	3.84	2.63	NA	NA	mg	Ae(0-24) of Table II
+Kyrklund2003a	all	10.0	PRA40, GEM600	clearance_renal	pravastatin	plasma	LC MS/MS	NA	hr	14.3	5.6	NA	NA	l/hr	NA

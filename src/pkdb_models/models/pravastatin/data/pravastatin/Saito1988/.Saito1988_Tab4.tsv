@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	label	substance	tissue	time	time_unit	mean	se	sd	unit	baseline	baseline_unit	comments
+Saito1988	pra10	41	PRA10	concentration	Tab4_tri_conc_pra10	triglyceride	plasma	0	week	173	18	115.25623627379127	mg/dl	173	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab4_tri_conc_pra10	triglyceride	plasma	4	week	153	16	102.44998779892558	mg/dl	173	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab4_tri_conc_pra10	triglyceride	plasma	8	week	162	16	102.44998779892558	mg/dl	173	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab4_tri_conc_pra10	triglyceride	plasma	12	week	167	20	128.06248474865697	mg/dl	173	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab4_tri_conc_pra20	triglyceride	plasma	0	week	163	18	119.39849245279439	mg/dl	163	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab4_tri_conc_pra20	triglyceride	plasma	4	week	158	20	132.66499161421598	mg/dl	163	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab4_tri_conc_pra20	triglyceride	plasma	8	week	157	14	92.8654941299512	mg/dl	163	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab4_tri_conc_pra20	triglyceride	plasma	12	week	199	23	152.56474035634838	mg/dl	163	mg/dl	NA
+Saito1988	placebo	23	placebo	concentration	Tab4_tri_conc_plac	triglyceride	plasma	0	week	170	20	95.91663046625439	mg/dl	170	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab4_tri_conc_plac	triglyceride	plasma	4	week	171	17	81.52913589631622	mg/dl	170	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab4_tri_conc_plac	triglyceride	plasma	8	week	162	19	91.12079894294166	mg/dl	170	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab4_tri_conc_plac	triglyceride	plasma	12	week	140	12	57.54997827975263	mg/dl	170	mg/dl	placebo

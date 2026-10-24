@@ -1,0 +1,29 @@
+study	group	count	intervention	measurement_type	tissue	substance	method	time	time_unit	mean	sd	unit	comments
+Pan1993a	young men	10	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	12.0	hr	90.2	17.1	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	48.0	hr	97.6	18.4	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	thalf	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.6	0.2	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	cmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	45.5	8.4	ng/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	tmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.0	0.1	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	plasma_binding	plasma	pravastatin	HPLC/MS/UV	1.5	hr	54.5	4.6	percent	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	recovery	urine	pravastatin	HPLC/MS/UV	24.0	hr	7.5	1.2	percent	NA
+Pan1993a	elderly men	15	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	12.0	hr	114.6	16.7	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	auc_end	plasma	pravastatin	HPLC/MS/UV	48.0	hr	123.4	17.2	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	thalf	plasma	pravastatin	HPLC/MS/UV	NA	NA	2.0	0.2	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	cmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	42.1	5.3	ng/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	tmax	plasma	pravastatin	HPLC/MS/UV	NA	NA	1.2	0.1	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	plasma_binding	plasma	pravastatin	HPLC/MS/UV	1.5	hr	55.2	4.0	percent	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	recovery	urine	pravastatin	HPLC/MS/UV	24.0	hr	6.1	0.8	percent	NA
+Pan1993a	young men	10	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	12.0	hr	34.0	7.3	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	48.0	hr	36.8	7.9	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.4	0.2	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	18.5	3.9	ng/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.0	0.1	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	plasma_binding	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	41.8	5.8	percent	Might be a reporting error: timecourses measured in serum
+Pan1993a	young men	10	PRA_20	recovery	urine	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	24.0	hr	1.1	0.2	percent	NA
+Pan1993a	elderly men	15	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	12.0	hr	43.5	10.2	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	48.0	hr	48.0	10.7	ng*hr/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	2.0	0.3	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	18.5	4.5	ng/ml	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	NA	NA	1.3	0.1	hr	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	plasma_binding	plasma	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	1.5	hr	36.9	5.0	percent	Might be a reporting error: timecourses measured in serum
+Pan1993a	elderly men	15	PRA_20	recovery	urine	SQ 31906 (3'alpha-isopravastatin)	HPLC/MS/UV	24.0	hr	1.2	0.3	percent	NA

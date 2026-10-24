@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	comments	mean_unit	count_unit
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	0.33	hr	5.00394012201729e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	0.67	hr	4.280946929545616e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	1.0	hr	8.101346665724448e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	1.5	hr	8.875702541634278e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	2.0	hr	6.646692342119522e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	3.0	hr	3.777124584834994e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	4.0	hr	2.4488832355781688e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	6.0	hr	1.46499364002544e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	8.0	hr	7.144114196876546e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	12.0	hr	2.6763175747297016e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	24.0	hr	1.377195722328222e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	elderly men	15	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	elderly_men	48.0	hr	7.635066073069041e-07	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless

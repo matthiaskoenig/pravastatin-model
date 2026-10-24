@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
+  <notes>
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
+<a href="https://doi.org/10.5281/zenodo.5525390">
+        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5525390.svg" alt="DOI"/></a></p>
+      </body>
+    </notes>
+  <model metaid="meta_pravastatin_liver_cholesterol" id="pravastatin_liver_cholesterol" name="Model for cholesterol metabolism in the liver" substanceUnits="mmole" timeUnits="min" volumeUnits="litre" areaUnits="m2" lengthUnits="metre" extentUnits="mmole">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <h1>Model for cholesterol metabolism in the liver</h1>
+        <p>The content of this model has been carefully created in a manual research effort.</p>
+        <h2>Terms of use</h2>
+        <p>Copyright © 2026 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"/>
+        </a>
+        <br/>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<p>Redistribution and use of any part of this model, with or without modification, are permitted provided
+that the following conditions are met:</p>
+        <ul>
+          <li>Redistributions of this SBML file must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+          <li>Redistributions in a different form must reproduce the above copyright notice, this list of conditions
+and the following disclaimer in the documentation and/or other materials provided
+with the distribution.</li>
+        </ul>
+        <p>This model is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></body>
+      </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#meta_pravastatin_liver_cholesterol">
+          <dcterms:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>Leal Pujol</vCard4:family-name>
+                  <vCard4:given-name>Helen</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>lepujolh@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>König</vCard4:family-name>
+                  <vCard4:given-name>Matthias</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>koenigmx@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
+              </rdf:li>
+            </rdf:Bag>
+          </dcterms:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2026-10-24T18:36:29Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2026-10-24T18:36:29Z</dcterms:W3CDTF>
+          </dcterms:modified>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_min" name="l/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_ml" name="l/ml">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="m2" name="meter^2">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mM" name="mmole/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min" name="min">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_l" name="ml/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ml_per_min" name="ml/min">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole" name="mmole">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_min" name="mmole/min">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mmole_per_min_l" name="mmole/min/liter">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min" name="1/min">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="l_per_mmole" name="l/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_day" name="mg/day">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min_per_day" name="min/day">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_l" name="1/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mmole" name="1/mmole">
+        <listOfUnits>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" size="1" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vext">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vbaso" sboTerm="SBO:0000290" id="Vbaso" name="basolateral membrane" spatialDimensions="2" size="1" units="m2" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vbaso">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:84669"/>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0016323"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vli" sboTerm="SBO:0000290" id="Vli" name="liver" size="1.5" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vli">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12392"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vlumen" sboTerm="SBO:0000290" id="Vlumen" name="intestinal lumen (inner part of intestine)" size="1.15425" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vlumen">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:14586"/>
+                  <rdf:li rdf:resource="https://identifiers.org/UBERON:0018543"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="meta_pra" sboTerm="SBO:0000247" id="pra" name="pravastatin (liver)" compartment="Vli" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_pra">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:54687"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:63618"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C62070"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:TUZYXOIXSAXUGO-PZAWKZKUSA-N"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_ldlc_ext" sboTerm="SBO:0000296" id="ldlc_ext" name="ldl-cholesterol (plasma)" compartment="Vext" initialConcentration="3" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>reference values from studies (normal ranges ~3 mM)</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_ldlc_ext">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/efo:0004195"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:47774"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_vldlc_ext" sboTerm="SBO:0000296" id="vldlc_ext" name="vldl-cholesterol (plasma)" compartment="Vext" initialConcentration="1" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_vldlc_ext">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:47773"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_acoa" sboTerm="SBO:0000247" id="acoa" name="acetyl-CoA (liver)" compartment="Vli" initialConcentration="0.043" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>0.043 ± 0.031 mM Corkey1988; 0.028 - 0.081 [mM] Lumbers1969</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_acoa">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:15351"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_hmgcoa" sboTerm="SBO:0000247" id="hmgcoa" name="HMG-CoA (liver)" compartment="Vli" initialConcentration="0.022" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>0.022 ± 0.027 [mM] Corkey1988</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_hmgcoa">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C129007"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:15467"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_cho" sboTerm="SBO:0000247" id="cho" name="cholesterol (liver)" compartment="Vli" initialConcentration="0.02" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>5.8 - 160 [µmol/l] [Chuang2017]; mice
+~ 8.17 [µmol/l] [Rudling1997]; rat
+reference point 0.020 with variation [0.01 - 0.100]</p>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_cho">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:16113"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C369"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_hmgcoareductase" sboTerm="SBO:0000245" id="hmgcoareductase" name="HMG-CoA reductase (liver)" compartment="Vli" initialConcentration="1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_hmgcoareductase">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C54701"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species sboTerm="SBO:0000245" id="hmgcoasynthase" name="HMG-CoA synthase (liver)" compartment="Vli" initialConcentration="1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole"/>
+      <species metaid="meta_ldlr" sboTerm="SBO:0000245" id="ldlr" name="LDLR" compartment="Vli" initialConcentration="0.1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_ldlr">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C17074"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species sboTerm="SBO:0000245" id="ldlr_membrane" name="LDLR membrane" compartment="Vbaso" initialConcentration="0.8" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole"/>
+      <species sboTerm="SBO:0000296" id="ldlr_ldlc" name="LDLR-LDLC complex" compartment="Vli" initialConcentration="0.1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole"/>
+      <species sboTerm="SBO:0000245" id="ldlr_degraded" name="LDLR degraded" compartment="Vli" initialConcentration="0" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Species added for tracking degradation of LDLR.</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000002" id="cf_units_per_mmole" name="conversion factor for dimensionless species" value="1" units="per_mmole" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="conversion_min_per_day" name="conversion factor min to hours" value="1440" units="min_per_day" constant="true"/>
+      <parameter sboTerm="SBO:0000261" id="pra_inhibitor_activity" name="Inhibitor activity of pravastatin" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000647" id="Mr_ldlc" name="Molecular weight cho [g/mole]" value="386.654" units="g_per_mole" constant="true"/>
+      <parameter sboTerm="SBO:0000485" id="v_cho_ref" name="reference cholesterol turnover [mg/day]" value="1000" units="mg_per_day" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="SYNTHESIS_HMG_Vmax" name="Protein synthesis Vmax for HMGR and HMGS" value="0.001" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="DEGRADATION_HMG_Vmax" name="Protein degradation Vmax for HMGR and HMGS" value="0.0003" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000261" id="HMG_kr_cho" name="Protein regulation kr for HMGR and HMGS" value="0.02" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="DEGRADATION_LDLR_Vmax" name="Protein degradation Vmax for LDLR" value="0.0006" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="SYNTHESIS_LDLR_Vmax" name="Protein synthesis Vmax for LDLR" value="NaN" units="mmole_per_min_l" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Synthesis parameter was determined based on steady state condition
+with assumption of 0.1 (10%) of pool as free LDLR.</p>
+            <pre>
+              <code>DEGRADATION_LDLR_Vmax * LDLR_ss * 2 = SYNTHESIS_LDLR_Vmax/2
+SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
+</code>
+            </pre>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000261" id="LDLR_kr_cho" name="Protein regulation kr for LDLR" value="0.02" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="SYNTHESIS_LDLR_Vmax_f" name="scaling factor for synthesis Vmax for LDL-R" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="DEGRADATION_LDLR_Vmax_f" name="scaling factor for degradation Vmax for LDL-R" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="VLDLCEXP_Vmax" name="Vmax VLDL-cholesterol export" value="2.5" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000322" id="VLDLCEXP_Km_cho" name="Km VLDL-cholesterol export" value="0.0005" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000025" id="LDLRLDLCIMP_Kcat" value="6" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000322" id="LDLRLDLCIMP_Km" name="Km LDLR-LDLC binding" value="3" units="mM" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Set to 3mM for reference state of 3mM in healthy patient as 3mM plasma
+LDL-C.</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000261" id="LDLRLDLCIMP_Ki_ldlr_ldlc" name="Ki LDLR-LDLC complex on uptake" value="0.1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Feedback of complex to uptake. Mechanism?</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000002" id="LDLRLDLCIMP_Km_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRLDLCIMP_Kcat_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000025" id="LDLRMEMBRANE_Kcat" value="0.025" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRMEMBRANE_Kcat_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRMEMBRANE_Keq" value="10" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Feedback of LDLR membrane on LDLR pool via equilibration constant.
+Keq = ldlr_membrane/ldlr_substrate</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000025" id="LDLRRECYCLING_Kcat" value="0.0125" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRRECYCLING_Kcat_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000025" id="HMGCOASYNTHASE_Kcat" value="245" units="l_per_mmole" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>higher then HMG-CoA Reductase:
+3E-3 [mmole/min/l] /1.4 [l]/ 0.03 [mole/l] = 71.4E-3 [1/min]</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000261" id="HMGCOASYNTHASE_Ki_hmgcoa" value="0.022" units="mM" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>product inhibition ~ reference concentration</p>
+          </body>
+        </notes>
+      </parameter>
+      <parameter sboTerm="SBO:0000025" id="HMGCOAREDUCTASE_Kcat" value="0.7" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000322" id="HMGCOAREDUCTASE_Km" name="Km HMG-CoA" value="0.004" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000261" id="HMGCOAREDUCTASE_Ki_pra" name="Ki HMG-CoA for pravastatin" value="2.3e-06" units="mM" constant="true"/>
+      <parameter id="ldlr_total" name="Total LDLR" units="dimensionless" constant="false"/>
+      <parameter id="ldlr_fraction" name="LDLR fraction" units="dimensionless" constant="false"/>
+      <parameter id="ldlr_membrane_fraction" name="LDLR membrane fraction" units="dimensionless" constant="false"/>
+      <parameter id="ldlr_ldlc_fraction" name="LDLR-LDLC fraction" units="dimensionless" constant="false"/>
+      <parameter id="v_cho_reference" name="reference cholesterol turnover [mmole/min]" units="mmole_per_min" constant="false"/>
+      <parameter id="v_synthesis" name="total synthesized cholesterol" units="mg_per_day" constant="false"/>
+      <parameter id="v_uptake" name="cholesterol uptake (LDL receptor)" units="mg_per_day" constant="false"/>
+      <parameter id="v_export" name="cholesterol export (VLDL)" units="mg_per_day" constant="false"/>
+      <parameter id="v_reference" name="cholesterol reference flux" units="mg_per_day" constant="false"/>
+      <parameter id="v_net_export_rate" name="cholesterol net export (VLDL)" units="mmole_per_min" constant="false"/>
+      <parameter id="v_net_export" name="cholesterol net export (VLDL)" units="mg_per_day" constant="false"/>
+      <parameter id="v_liver_balance" name="cholesterol net  export (VLDL)" units="mg_per_day" constant="false"/>
+      <parameter id="TURNOVER_LDLR" name="total turnover of LDL-R expression" units="mmole_per_min" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule sboTerm="SBO:0000359" name="Total LDLR" variable="ldlr_total">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> ldlr </ci>
+            <ci> ldlr_membrane </ci>
+            <ci> ldlr_ldlc </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="LDLR fraction" variable="ldlr_fraction">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> ldlr </ci>
+            <ci> ldlr_total </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="LDLR membrane fraction" variable="ldlr_membrane_fraction">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> ldlr_membrane </ci>
+            <ci> ldlr_total </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="LDLR-LDLC fraction" variable="ldlr_ldlc_fraction">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> ldlr_ldlc </ci>
+            <ci> ldlr_total </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="reference cholesterol turnover [mmole/min]" variable="v_cho_reference">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> v_cho_ref </ci>
+              <ci> Mr_ldlc </ci>
+            </apply>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="SYNTHESIS_LDLR_Vmax">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <cn sbml:units="dimensionless"> 0.4 </cn>
+            <ci> DEGRADATION_LDLR_Vmax </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="total synthesized cholesterol" variable="v_synthesis">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> HMGCOAREDUCTASE </ci>
+            <ci> Mr_ldlc </ci>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="cholesterol uptake (LDL receptor)" variable="v_uptake">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> LDLRLDLCIMP </ci>
+            <ci> Mr_ldlc </ci>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="cholesterol export (VLDL)" variable="v_export">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> VLDLCEXP </ci>
+            <ci> Mr_ldlc </ci>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="cholesterol reference flux" variable="v_reference">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> v_cho_reference </ci>
+            <ci> Mr_ldlc </ci>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="cholesterol net export (VLDL)" variable="v_net_export_rate">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> VLDLCEXP </ci>
+            <ci> LDLRLDLCIMP </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="cholesterol net export (VLDL)" variable="v_net_export">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> v_net_export_rate </ci>
+            <ci> Mr_ldlc </ci>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="cholesterol net  export (VLDL)" variable="v_liver_balance">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <plus/>
+              <ci> v_synthesis </ci>
+              <ci> v_uptake </ci>
+            </apply>
+            <ci> v_export </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="total turnover of LDL-R expression" variable="TURNOVER_LDLR">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> SYNTHESIS_LDLR </ci>
+            <ci> DEGRADATION_LDLR </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction sboTerm="SBO:0000655" id="VLDLCEXP" name="VLDL-cholesterol export" reversible="false" compartment="Vbaso">
+        <listOfReactants>
+          <speciesReference species="cho" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="vldlc_ext" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> VLDLCEXP_Vmax </ci>
+                <ci> v_cho_reference </ci>
+                <ci> cho </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> cho </ci>
+                <ci> VLDLCEXP_Km_cho </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="LDLRLDLCIMP" name="LDLR-LDLC binding &amp; internalization" reversible="false" compartment="Vbaso">
+        <listOfReactants>
+          <speciesReference species="ldlc_ext" stoichiometry="1" constant="true"/>
+          <speciesReference species="ldlr_membrane" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ldlr_ldlc" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ldlr_ldlc"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> v_cho_reference </ci>
+                    <ci> LDLRLDLCIMP_Kcat </ci>
+                    <ci> LDLRLDLCIMP_Kcat_f </ci>
+                    <ci> ldlr_membrane </ci>
+                    <ci> ldlc_ext </ci>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <ci> LDLRLDLCIMP_Km </ci>
+                      <ci> LDLRLDLCIMP_Km_f </ci>
+                    </apply>
+                    <ci> ldlc_ext </ci>
+                  </apply>
+                </apply>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+              </apply>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> ldlr_ldlc </ci>
+                  <ci> LDLRLDLCIMP_Ki_ldlr_ldlc </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="LDLR_TO_MEMBRANE" name="LDLR membrane transport" reversible="true" compartment="Vbaso">
+        <listOfReactants>
+          <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ldlr_membrane" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Vli </ci>
+              <ci> LDLRMEMBRANE_Kcat </ci>
+              <ci> LDLRMEMBRANE_Kcat_f </ci>
+              <apply>
+                <minus/>
+                <ci> ldlr </ci>
+                <apply>
+                  <divide/>
+                  <ci> ldlr_membrane </ci>
+                  <ci> LDLRMEMBRANE_Keq </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000655" id="LDLRRECYCLING" name="LDLR recycling" reversible="false" compartment="Vli">
+        <listOfReactants>
+          <speciesReference species="ldlr_ldlc" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
+          <speciesReference species="cho" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Vli </ci>
+              <ci> LDLRRECYCLING_Kcat </ci>
+              <ci> LDLRRECYCLING_Kcat_f </ci>
+              <ci> ldlr_ldlc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="HMGCOASYNTHASE" name="HMG-CoA synthase" reversible="false" compartment="Vli">
+        <listOfReactants>
+          <speciesReference species="acoa" stoichiometry="3" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="hmgcoa" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="hmgcoasynthase"/>
+          <modifierSpeciesReference species="hmgcoa"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> HMGCOASYNTHASE_Kcat </ci>
+                <ci> v_cho_reference </ci>
+                <ci> hmgcoasynthase </ci>
+                <ci> acoa </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> hmgcoa </ci>
+                  <ci> HMGCOASYNTHASE_Ki_hmgcoa </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="HMGCOAREDUCTASE" name="HMG-CoA reductase" reversible="false" compartment="Vli">
+        <listOfReactants>
+          <speciesReference species="hmgcoa" stoichiometry="6" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="cho" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pra"/>
+          <modifierSpeciesReference species="hmgcoareductase"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> HMGCOAREDUCTASE_Kcat </ci>
+                <ci> v_cho_reference </ci>
+                <ci> hmgcoareductase </ci>
+                <ci> hmgcoa </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> HMGCOAREDUCTASE_Km </ci>
+                  <apply>
+                    <plus/>
+                    <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> pra </ci>
+                        <ci> pra_inhibitor_activity </ci>
+                      </apply>
+                      <ci> HMGCOAREDUCTASE_Ki_pra </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <ci> hmgcoa </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="SYNTHESIS_HMGCOAREDUCTASE" name="HMGCOAREDUCTASE synthesis" reversible="false" compartment="Vli">
+        <listOfProducts>
+          <speciesReference species="hmgcoareductase" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="cho"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> SYNTHESIS_HMG_Vmax </ci>
+                <ci> Vli </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> cho </ci>
+                  <ci> HMG_kr_cho </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="DEGRADATION_HMGCOAREDUCTASE" name="HMGCOAREDUCTASE degradation" reversible="false" compartment="Vli">
+        <listOfReactants>
+          <speciesReference species="hmgcoareductase" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="cho"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <ci> DEGRADATION_HMG_Vmax </ci>
+              <ci> hmgcoareductase </ci>
+              <ci> Vli </ci>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> cho </ci>
+                  <ci> HMG_kr_cho </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="SYNTHESIS_HMGCOASYNTHASE" name="HMGCOASYNTHASE synthesis" reversible="false" compartment="Vli">
+        <listOfProducts>
+          <speciesReference species="hmgcoasynthase" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="cho"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> SYNTHESIS_HMG_Vmax </ci>
+                <ci> Vli </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> cho </ci>
+                  <ci> HMG_kr_cho </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="DEGRADATION_HMGCOASYNTHASE" name="HMGCOASYNTHASE degradation" reversible="false" compartment="Vli">
+        <listOfReactants>
+          <speciesReference species="hmgcoasynthase" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="cho"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <ci> DEGRADATION_HMG_Vmax </ci>
+              <ci> hmgcoasynthase </ci>
+              <ci> Vli </ci>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> cho </ci>
+                  <ci> HMG_kr_cho </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="SYNTHESIS_LDLR" name="LDLR synthesis" reversible="false" compartment="Vli">
+        <listOfProducts>
+          <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="cho"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Vli </ci>
+                <ci> SYNTHESIS_LDLR_Vmax </ci>
+                <ci> SYNTHESIS_LDLR_Vmax_f </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> cho </ci>
+                  <ci> LDLR_kr_cho </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000176" id="DEGRADATION_LDLR" name="LDLR degradation" reversible="false" compartment="Vli">
+        <listOfReactants>
+          <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ldlr_degraded" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="cho"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <ci> Vli </ci>
+              <ci> DEGRADATION_LDLR_Vmax </ci>
+              <ci> DEGRADATION_LDLR_Vmax_f </ci>
+              <ci> ldlr </ci>
+              <apply>
+                <plus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> cho </ci>
+                  <ci> LDLR_kr_cho </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <comp:listOfPorts>
+      <comp:port metaid="conversion_min_per_day_port" sboTerm="SBO:0000599" comp:idRef="conversion_min_per_day" comp:id="conversion_min_per_day_port" comp:name="Port of conversion_min_per_day"/>
+      <comp:port metaid="pra_inhibitor_activity_port" sboTerm="SBO:0000599" comp:idRef="pra_inhibitor_activity" comp:id="pra_inhibitor_activity_port" comp:name="Port of pra_inhibitor_activity"/>
+      <comp:port metaid="Mr_ldlc_port" sboTerm="SBO:0000599" comp:idRef="Mr_ldlc" comp:id="Mr_ldlc_port" comp:name="Port of Mr_ldlc"/>
+      <comp:port metaid="v_cho_ref_port" sboTerm="SBO:0000599" comp:idRef="v_cho_ref" comp:id="v_cho_ref_port" comp:name="Port of v_cho_ref"/>
+      <comp:port metaid="Vext_port" sboTerm="SBO:0000599" comp:idRef="Vext" comp:id="Vext_port" comp:name="Port of Vext"/>
+      <comp:port metaid="Vli_port" sboTerm="SBO:0000599" comp:idRef="Vli" comp:id="Vli_port" comp:name="Port of Vli"/>
+      <comp:port metaid="Vlumen_port" sboTerm="SBO:0000599" comp:idRef="Vlumen" comp:id="Vlumen_port" comp:name="Port of Vlumen"/>
+      <comp:port metaid="ldlc_ext_port" sboTerm="SBO:0000599" comp:idRef="ldlc_ext" comp:id="ldlc_ext_port" comp:name="Port of ldlc_ext"/>
+      <comp:port metaid="vldlc_ext_port" sboTerm="SBO:0000599" comp:idRef="vldlc_ext" comp:id="vldlc_ext_port" comp:name="Port of vldlc_ext"/>
+      <comp:port metaid="acoa_port" sboTerm="SBO:0000599" comp:idRef="acoa" comp:id="acoa_port" comp:name="Port of acoa"/>
+      <comp:port metaid="hmgcoa_port" sboTerm="SBO:0000599" comp:idRef="hmgcoa" comp:id="hmgcoa_port" comp:name="Port of hmgcoa"/>
+      <comp:port metaid="cho_port" sboTerm="SBO:0000599" comp:idRef="cho" comp:id="cho_port" comp:name="Port of cho"/>
+    </comp:listOfPorts>
+  </model>
+</sbml>

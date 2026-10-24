@@ -1,0 +1,59 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit	comments
+Ho2007	SLCO1B1 *1a/*1a European	26	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	83.4	66.3	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1a European	26	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	45.1	35.1	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*1a European	26	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.62	0.23	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*1a African	3	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	119.4	82.7	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1a African	3	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	49.6	29.3	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*1a African	3	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.37	0.12	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*1b European	23	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	103.2	63.7	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1b European	23	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	58.0	37.6	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*1b European	23	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.5	0.25	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*1b African	11	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	62.3	46.6	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1b African	11	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	35.3	27.1	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*1b African	11	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.56	0.3	mg/dl	NA
+Ho2007	SLCO1B1 *1b/*1b European	2	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	71.5	58.7	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1b/*1b European	2	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	41.5	16.3	ng/ml	NA
+Ho2007	SLCO1B1 *1b/*1b European	2	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.75	0.49	mg/dl	NA
+Ho2007	SLCO1B1 *1b/*1b African	23	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	66.7	57.8	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1b/*1b African	23	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	36.9	31.6	ng/ml	NA
+Ho2007	SLCO1B1 *1b/*1b African	23	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.53	0.33	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*5 European	1	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	58.9	NA	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*5 European	1	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	29.3	NA	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*5 European	1	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.5	NA	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*15 European	8	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	120.9	37.0	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*15 European	8	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	66.4	24.6	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*15 European	8	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.61	0.19	mg/dl	NA
+Ho2007	SLCO1B1 *1b/*15 European	7	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	105.1	48.8	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1b/*15 European	7	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	54.1	24.7	ng/ml	NA
+Ho2007	SLCO1B1 *1b/*15 European	7	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.59	0.29	mg/dl	NA
+Ho2007	SLCO1B1 *1b/*15 African	1	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	61.8	NA	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1b/*15 African	1	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	35.1	NA	ng/ml	NA
+Ho2007	SLCO1B1 *1b/*15 African	1	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.4	NA	mg/dl	NA
+Ho2007	SLCO1B1 *15/*15 European	2	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	167.0	31.4	ng*hr/ml	NA
+Ho2007	SLCO1B1 *15/*15 European	2	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	75.6	2.1	ng/ml	NA
+Ho2007	SLCO1B1 *15/*15 European	2	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.4	0.14	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*1a	29	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	87.1	67.4	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1a	29	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	45.6	34.1	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*1a	29	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.6	0.23	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*1b	34	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	90.0	61.1	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*1b	34	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	50.7	35.8	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*1b	34	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.52	0.27	mg/dl	NA
+Ho2007	SLCO1B1 *1b/*1b	25	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	67.1	56.7	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1b/*1b	25	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	37.3	30.5	ng/ml	NA
+Ho2007	SLCO1B1 *1b/*1b	25	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.55	0.33	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*5	1	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	58.9	NA	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*5	1	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	29.3	NA	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*5	1	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.5	NA	mg/dl	NA
+Ho2007	SLCO1B1 *1a/*15	8	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	120.9	37.0	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1a/*15	8	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	66.4	24.6	ng/ml	NA
+Ho2007	SLCO1B1 *1a/*15	8	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.61	0.19	mg/dl	NA
+Ho2007	SLCO1B1 *1b/*15	8	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	99.7	47.7	ng*hr/ml	NA
+Ho2007	SLCO1B1 *1b/*15	8	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	51.7	23.9	ng/ml	NA
+Ho2007	SLCO1B1 *1b/*15	8	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.56	0.28	mg/dl	NA
+Ho2007	SLCO1B1 *15/*15	2	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	167.0	31.4	ng*hr/ml	NA
+Ho2007	SLCO1B1 *15/*15	2	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	75.6	2.1	ng/ml	NA
+Ho2007	SLCO1B1 *15/*15	2	PRA40	concentration	bilirubin	plasma	HPLC	0.0	hr	0.4	0.14	mg/dl	NA
+Ho2007	European-Americans	69	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	98.3	60.7	ng*hr/ml	NA
+Ho2007	European-Americans	69	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	53.3	33.3	ng/ml	NA
+Ho2007	African-Americans	38	PRA40	auc_end	pravastatin	plasma	HPLC	5.0	hr	69.5	56.3	ng*hr/ml	NA
+Ho2007	African-Americans	38	PRA40	cmax	pravastatin	plasma	HPLC	NA	NA	37.4	29.2	ng/ml	NA

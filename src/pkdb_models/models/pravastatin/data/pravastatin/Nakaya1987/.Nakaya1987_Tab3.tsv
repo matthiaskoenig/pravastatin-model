@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	label	substance	tissue	time	time_unit	mean	sd	se	unit	baseline	baseline_uit	comments
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	0	week	0	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	1	week	8	23.0	6.37905225659014	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	2	week	25	19.0	5.26965186413968	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	3	week	2	15.0	4.16025147168922	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	4	week	7	17.0	4.71495166791445	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	6	week	11	41.0	11.3713540226172	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab3_tri_conc_chg_pra5	triglyceride	serum	8	week	5	21.0	5.82435206036491	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	0	week	0	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	1	week	9	7.0	1.87082869338697	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	2	week	9	13.0	3.47439614486152	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	3	week	4	11.0	2.93987366103667	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	4	week	2	19.0	5.07796359633606	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	6	week	31	35.0	9.35414346693485	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab3_tri_conc_chg_pra20	triglyceride	serum	8	week	26	24.0	6.41426980589819	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	0	week	0	NA	NA	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	1	week	38	14.0	3.74165738677394	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	2	week	23	17.0	4.54344111251121	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	3	week	37	17.0	4.54344111251121	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	4	week	38	15.0	4.00891862868637	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	6	week	4	22.0	5.87974732207334	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab3_tri_conc_chg_pra40	triglyceride	serum	8	week	20	20.0	5.34522483824849	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	0	week	150	78.0	21.6333076527839	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	1	week	158	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	2	week	175	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	3	week	152	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	4	week	143	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	6	week	161	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab3_tri_conc_pra5	triglyceride	serum	8	week	145	NA	NA	mg/dl	150	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	0	week	128	43.0	11.4922334022342	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	1	week	119	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	2	week	137	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	3	week	132	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	4	week	130	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	6	week	159	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab3_tri_conc_pra20	triglyceride	serum	8	week	154	NA	NA	mg/dl	128	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	0	week	158	78.0	20.8463768691691	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	1	week	120	NA	NA	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	2	week	135	NA	NA	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	3	week	121	NA	NA	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	4	week	120	NA	NA	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	6	week	154	NA	NA	mg/dl	158	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab3_tri_conc_pra40	triglyceride	serum	8	week	138	NA	NA	mg/dl	158	mg/dl	NA

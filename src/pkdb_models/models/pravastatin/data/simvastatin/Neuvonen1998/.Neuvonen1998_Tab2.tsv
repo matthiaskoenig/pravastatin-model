@@ -1,0 +1,81 @@
+study	individual	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Neuvonen1998	1	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	499.0	ng/ml
+Neuvonen1998	1	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	8.9	ng/ml
+Neuvonen1998	1	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	1	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	4.0	hr
+Neuvonen1998	1	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	4.0	hr
+Neuvonen1998	1	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	4.7	hr
+Neuvonen1998	1	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	1827.0	ng hr/ml
+Neuvonen1998	1	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	74.0	ng hr/ml
+Neuvonen1998	2	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	233.0	ng/ml
+Neuvonen1998	2	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	25.0	ng/ml
+Neuvonen1998	2	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	2.0	hr
+Neuvonen1998	2	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	2	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	3.8	hr
+Neuvonen1998	2	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	2.4	hr
+Neuvonen1998	2	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	981.0	ng hr/ml
+Neuvonen1998	2	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	51.0	ng hr/ml
+Neuvonen1998	3	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	95.0	ng/ml
+Neuvonen1998	3	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	5.3	ng/ml
+Neuvonen1998	3	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	2.0	hr
+Neuvonen1998	3	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	3	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	3.5	hr
+Neuvonen1998	3	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	3.1	hr
+Neuvonen1998	3	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	522.0	ng hr/ml
+Neuvonen1998	3	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	33.0	ng hr/ml
+Neuvonen1998	4	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	215.0	ng/ml
+Neuvonen1998	4	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	11.0	ng/ml
+Neuvonen1998	4	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	4	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	2.0	hr
+Neuvonen1998	4	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	5.1	hr
+Neuvonen1998	4	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	2.9	hr
+Neuvonen1998	4	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	996.0	ng hr/ml
+Neuvonen1998	4	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	51.0	ng hr/ml
+Neuvonen1998	5	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	131.0	ng/ml
+Neuvonen1998	5	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	19.0	ng/ml
+Neuvonen1998	5	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	5	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	5	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	4.8	hr
+Neuvonen1998	5	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	3.4	hr
+Neuvonen1998	5	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	726.0	ng hr/ml
+Neuvonen1998	5	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	54.0	ng hr/ml
+Neuvonen1998	6	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	94.0	ng/ml
+Neuvonen1998	6	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	7.5	ng/ml
+Neuvonen1998	6	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	6	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	6	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	6	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	3.5	hr
+Neuvonen1998	6	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	563.0	ng hr/ml
+Neuvonen1998	6	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	42.0	ng hr/ml
+Neuvonen1998	7	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	355.0	ng/ml
+Neuvonen1998	7	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	26.0	ng/ml
+Neuvonen1998	7	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	7	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	7	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	3.7	hr
+Neuvonen1998	7	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	2.4	hr
+Neuvonen1998	7	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	1402.0	ng hr/ml
+Neuvonen1998	7	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	72.0	ng hr/ml
+Neuvonen1998	8	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	139.0	ng/ml
+Neuvonen1998	8	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	6.0	ng/ml
+Neuvonen1998	8	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	2.0	hr
+Neuvonen1998	8	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	2.0	hr
+Neuvonen1998	8	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	3.2	hr
+Neuvonen1998	8	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	2.8	hr
+Neuvonen1998	8	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	725.0	ng hr/ml
+Neuvonen1998	8	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	32.0	ng hr/ml
+Neuvonen1998	9	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	188.0	ng/ml
+Neuvonen1998	9	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	10.0	ng/ml
+Neuvonen1998	9	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	9	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	9	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	4.8	hr
+Neuvonen1998	9	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	2.8	hr
+Neuvonen1998	9	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	1069.0	ng hr/ml
+Neuvonen1998	9	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	50.0	ng hr/ml
+Neuvonen1998	10	SIM,ITR	cmax	simva+simacid	serum	HPLC	NA	NA	217.0	ng/ml
+Neuvonen1998	10	SIM	cmax	simva+simacid	serum	HPLC	NA	NA	11.0	ng/ml
+Neuvonen1998	10	SIM,ITR	tmax	simva+simacid	serum	HPLC	NA	NA	2.0	hr
+Neuvonen1998	10	SIM	tmax	simva+simacid	serum	HPLC	NA	NA	1.0	hr
+Neuvonen1998	10	SIM,ITR	thalf	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	10	SIM	thalf	simva+simacid	serum	HPLC	NA	NA	3.0	hr
+Neuvonen1998	10	SIM,ITR	auc_inf	simva+simacid	serum	HPLC	NA	NA	961.0	ng hr/ml
+Neuvonen1998	10	SIM	auc_inf	simva+simacid	serum	HPLC	NA	NA	66.0	ng hr/ml

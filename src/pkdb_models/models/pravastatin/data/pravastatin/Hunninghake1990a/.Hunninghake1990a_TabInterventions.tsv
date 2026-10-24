@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Hunninghake1990a	PRA5_twice	0	week	oral	multiple dose	dosing	tablet	pravastatin	10	mg	pravastatin taken twice daily: 2x5mg, 2x10mg, 2x20mg
+Hunninghake1990a	PRA10_twice	0	week	oral	multiple dose	dosing	tablet	pravastatin	20	mg	pravastatin taken twice daily: 2x5mg, 2x10mg, 2x20mg
+Hunninghake1990a	PRA20_twice	0	week	oral	multiple dose	dosing	tablet	pravastatin	40	mg	pravastatin taken twice daily: 2x5mg, 2x10mg, 2x20mg
+Hunninghake1990a	PLAC	0	week	oral	multiple dose	dosing	tablet	placebo	0	mg	placebo value? 

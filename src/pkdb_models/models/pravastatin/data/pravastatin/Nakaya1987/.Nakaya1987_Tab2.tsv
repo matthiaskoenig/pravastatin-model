@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	label	substance	tissue	time	time_unit	mean	sd	se	unit	baseline	baseline_unit	comments
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	0	week	0.0	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	1	week	1.8	1.8	0.499230176602706	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	2	week	1.7	0.3	0.0832050294337844	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	3	week	1.7	2.9	0.804315284526582	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	4	week	1.9	2.8	0.776580274715321	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	6	week	2.1	1.5	0.416025147168922	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab2_hdl_conc_chg_pra5	hdl-c	serum	8	week	1.7	3.1	0.859785304149105	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	0	week	0.0	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	1	week	1.3	2.7	0.721605353163546	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	2	week	2.2	2.6	0.694879228972303	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	3	week	1.4	2.8	0.748331477354788	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	4	week	1.9	2.4	0.641426980589818	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	6	week	2.1	4.9	1.30958008537088	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab2_hdl_conc_chg_pra20	hdl-c	serum	8	week	1.7	1.1	0.293987366103667	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	0	week	0.0	NA	NA	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	1	week	1.8	4.5	1.20267558860591	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	2	week	2.1	4.7	1.25612783698839	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	3	week	1.8	6.6	1.763924196622	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	4	week	2.0	5.6	1.49666295470958	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	6	week	3.1	3.7	0.98886659507597	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab2_hdl_conc_chg_pra40	hdl-c	serum	8	week	3.0	3.5	0.935414346693485	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	0	week	53.6	14.0	3.8829013735766	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	1	week	55.4	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	2	week	55.3	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	3	week	55.3	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	4	week	55.5	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	6	week	55.7	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab2_hdl_conc_pra5	hdl-c	serum	8	week	55.3	NA	NA	mg/dl	53.6	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	0	week	54.8	13.9	3.7149312625827	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	1	week	56.1	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	2	week	57.0	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	3	week	56.2	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	4	week	56.7	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	6	week	56.9	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab2_hdl_conc_pra20	hdl-c	serum	8	week	56.5	NA	NA	mg/dl	54.8	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	0	week	62.3	27.1	7.2427796558267	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	1	week	64.1	NA	NA	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	2	week	64.4	NA	NA	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	3	week	64.1	NA	NA	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	4	week	64.3	NA	NA	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	6	week	65.4	NA	NA	mg/dl	62.3	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab2_hdl_conc_pra40	hdl-c	serum	8	week	65.3	NA	NA	mg/dl	62.3	mg/dl	NA

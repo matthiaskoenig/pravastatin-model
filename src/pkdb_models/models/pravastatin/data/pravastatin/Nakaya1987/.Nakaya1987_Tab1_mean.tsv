@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	comments
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	cholesterol	serum	0	week	276	49	mg/dl	baseline
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	cholesterol	serum	1	week	-39	5	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	cholesterol	serum	2	week	-48	5	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	cholesterol	serum	3	week	-55	6	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	cholesterol	serum	4	week	-52	5	mg/dl	NA
+Nakaya1987	PRA_tot	41	PLAC	concentration	cholesterol	serum	6	week	-5	4	mg/dl	NA
+Nakaya1987	PRA_tot	41	PLAC	concentration	cholesterol	serum	8	week	0	5	mg/dl	NA

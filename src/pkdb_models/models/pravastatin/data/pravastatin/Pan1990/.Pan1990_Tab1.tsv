@@ -1,0 +1,46 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	concentration_change	sd	unit	comments
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	cholesterol	serum	0	week	266.8	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	cholesterol	serum	4	week	222.5112	-16.6	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	cholesterol	serum	8	week	164.8824	-38.2	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	ldl-c	serum	0	week	193.0	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	ldl-c	serum	4	week	148.417	-23.1	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	ldl-c	serum	8	week	84.534	-56.2	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	hdl-c	serum	0	week	37.4	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	hdl-c	serum	4	week	40.3546	7.9	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	hdl-c	serum	8	week	41.514	11.0	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	triglyceride	serum	0	week	157.2	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	triglyceride	serum	4	week	143.6808	-8.6	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	triglyceride	serum	8	week	164.7456	4.8	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	phospholipids	serum	0	week	255.4	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice	concentration	phospholipids	serum	4	week	239.3098	-6.3	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA5_twice	11	PRA5_twice, CHOL	concentration	phospholipids	serum	8	week	173.4166	-32.1	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	cholesterol	serum	0	week	283.3	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	9	PRA10_twice	concentration	cholesterol	serum	4	week	227.2066	-19.8	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	7	PRA10_twice, CHOL	concentration	cholesterol	serum	8	week	154.9549012	-31.8	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	ldl-c	serum	0	week	206.4	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	9	PRA10_twice	concentration	ldl-c	serum	4	week	149.4336	-27.6	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	7	PRA10_twice, CHOL	concentration	ldl-c	serum	8	week	79.199808	-47.0	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	hdl-c	serum	0	week	39.1	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	9	PRA10_twice	concentration	hdl-c	serum	4	week	42.619	9.0	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	7	PRA10_twice, CHOL	concentration	hdl-c	serum	8	week	49.139707	15.3	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	triglyceride	serum	0	week	162.9	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	9	PRA10_twice	concentration	triglyceride	serum	4	week	153.126	-6.0	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	7	PRA10_twice, CHOL	concentration	triglyceride	serum	8	week	172.726128	12.8	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	11	PRA10_twice	concentration	phospholipids	serum	0	week	222.5	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	9	PRA10_twice	concentration	phospholipids	serum	4	week	238.2975	7.1	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA10_twice	7	PRA10_twice, CHOL	concentration	phospholipids	serum	8	week	183.7273725	-22.9	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	cholesterol	serum	0	week	289.8	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	cholesterol	serum	4	week	219.3786	-24.3	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	9	PRA20_twice, CHOL	concentration	cholesterol	serum	8	week	147.8611764	-32.6	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	ldl-c	serum	0	week	208.9	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	ldl-c	serum	4	week	136.8295	-34.5	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	9	PRA20_twice, CHOL	concentration	ldl-c	serum	8	week	64.1730355	-53.1	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	hdl-c	serum	0	week	41.5	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	hdl-c	serum	4	week	44.737	7.8	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	9	PRA20_twice, CHOL	concentration	hdl-c	serum	8	week	52.834397	18.1	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	triglyceride	serum	0	week	181.9	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	triglyceride	serum	4	week	168.4394	-7.4	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	9	PRA20_twice, CHOL	concentration	triglyceride	serum	8	week	182.0829914	8.1	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	phospholipids	serum	0	week	228.0	NA	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	11	PRA20_twice	concentration	phospholipids	serum	4	week	212.952	-6.6	NA	mg/dl	absolute change calculated from baseline
+Pan1990	PRA20_twice	9	PRA20_twice, CHOL	concentration	phospholipids	serum	8	week	166.954368	-21.6	NA	mg/dl	absolute change calculated from baseline

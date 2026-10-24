@@ -1,0 +1,21 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Deng2008	all	11	NA	species	11	NA	homo sapiens	NA	NA	NA	NA	NA	NA
+Deng2008	all	11	NA	ethnicity	11	NA	korean	NA	NA	NA	NA	NA	NA
+Deng2008	all	11	NA	sex	11	NA	M	NA	NA	NA	NA	NA	NA
+Deng2008	all	11	NA	healthy	11	NA	Y	NA	NA	NA	NA	NA	NA
+Deng2008	all	11	NA	medication	11	NA	N	NA	NA	NA	NA	NA	NA
+Deng2008	all	11	NA	alcohol	11	NA	N	NA	NA	NA	NA	NA	NA
+Deng2008	all	11	NA	abstinence	11	grapefruit juice	NA	NA	NA	NA	NA	NA	abstinence of medication during the study period
+Deng2008	all	11	NA	abstinence	11	caffeine	NA	NA	NA	NA	NA	NA	abstinence of alcohol during the study period
+Deng2008	all	11	NA	fasting	11	NA	Y	NA	NA	NA	NA	NA	abstinence of fruit juice during the study period
+Deng2008	all	11	NA	overnight fast	11	NA	Y	NA	NA	NA	NA	NA	abstinence of caffeine during the study period
+Deng2008	SLCO1B1_1a1a	6	all	SLCO1B1 genotype	6	NA	*1a/*1a	NA	NA	NA	NA	NA	NA
+Deng2008	SLCO1B1_1a1a	6	all	age	6	NA	NA	20.7	0.8	NA	NA	yr	NA
+Deng2008	SLCO1B1_1a1a	6	all	height	6	NA	NA	176.8	4.2	NA	NA	cm	NA
+Deng2008	SLCO1B1_1a1a	6	all	weight	6	NA	NA	69.8	8.2	NA	NA	kg	NA
+Deng2008	SLCO1B1_1a1a	6	all	bmi	6	NA	NA	22.3	2.0	NA	NA	kg/cm^2	NA
+Deng2008	SLCO1B1_1515	5	all	SLCO1B1 genotype	5	NA	*15/*15	NA	NA	NA	NA	NA	NA
+Deng2008	SLCO1B1_1515	5	all	age	5	NA	NA	20.6	0.9	NA	NA	yr	NA
+Deng2008	SLCO1B1_1515	5	all	height	5	NA	NA	171.0	8.2	NA	NA	cm	NA
+Deng2008	SLCO1B1_1515	5	all	weight	5	NA	NA	69.6	9.4	NA	NA	kg	NA
+Deng2008	SLCO1B1_1515	5	all	bmi	5	NA	NA	24.0	1.7	NA	NA	kg/cm^2	NA

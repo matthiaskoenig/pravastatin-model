@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Jacobson2004	MIB_PRA	15	PRA2	cmax	pravastatin	serum	LC MS/MS	NA	NA	19	ng/l
+Jacobson2004	MIB_PRA	15	PRA2	auc_inf	pravastatin	serum	LC MS/MS	NA	NA	60	ng hr/ml
+Jacobson2004	MIB_PRA	15	PRA2	tmax	pravastatin	serum	LC MS/MS	NA	NA	2	hr
+Jacobson2004	MIB_PRA	15	PRA2	thalf	pravastatin	serum	LC MS/MS	NA	NA	3	hr
+Jacobson2004	MIB_PRA	15	PRA2,MIB	cmax	pravastatin	serum	LC MS/MS	NA	NA	20	ng/l
+Jacobson2004	MIB_PRA	15	PRA2,MIB	auc_inf	pravastatin	serum	LC MS/MS	NA	NA	72	ng hr/ml
+Jacobson2004	MIB_PRA	15	PRA2,MIB	tmax	pravastatin	serum	LC MS/MS	NA	NA	2	hr
+Jacobson2004	MIB_PRA	15	PRA2,MIB	thalf	pravastatin	serum	LC MS/MS	NA	NA	3	hr
+Jacobson2004	MIB_ATO	15	ATO1	cmax	atorvastatin	serum	LC MS/MS	NA	NA	24	ng/l
+Jacobson2004	MIB_ATO	15	ATO1	auc_inf	atorvastatin	serum	LC MS/MS	NA	NA	134	ng hr/ml
+Jacobson2004	MIB_ATO	15	ATO1	tmax	atorvastatin	serum	LC MS/MS	NA	NA	3	hr
+Jacobson2004	MIB_ATO	15	ATO1	thalf	atorvastatin	serum	LC MS/MS	NA	NA	7	hr
+Jacobson2004	MIB_ATO	15	ATO1,MIB	cmax	atorvastatin	serum	LC MS/MS	NA	NA	111	ng/l
+Jacobson2004	MIB_ATO	15	ATO1,MIB	auc_inf	atorvastatin	serum	LC MS/MS	NA	NA	594	ng hr/ml
+Jacobson2004	MIB_ATO	15	ATO1,MIB	tmax	atorvastatin	serum	LC MS/MS	NA	NA	4	hr
+Jacobson2004	MIB_ATO	15	ATO1,MIB	thalf	atorvastatin	serum	LC MS/MS	NA	NA	11	hr

@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	change	change_sd	unit	baseline	baseline_se	baseline_unit	comments
+Nakaya1987	PRA_tot	41	PRA_tot	metabolic ratio	cholesterol	serum	0	week	4.35	2.07	NA	NA	dimensionless	4.35	2.07	dimensionless	NA
+Nakaya1987	PRA_tot	41	PRA_tot	metabolic ratio	cholesterol	serum	1	week	4.30737	4.218207441	-0.98	0.12	dimensionless	4.35	2.07	dimensionless	NA
+Nakaya1987	PRA_tot	41	PRA_tot	metabolic ratio	cholesterol	serum	2	week	4.300845	4.211817508499999	-1.13	0.15	dimensionless	4.35	2.07	dimensionless	NA
+Nakaya1987	PRA_tot	41	PRA_tot	metabolic ratio	cholesterol	serum	3	week	4.290405	4.201593616499999	-1.37	0.15	dimensionless	4.35	2.07	dimensionless	NA
+Nakaya1987	PRA_tot	41	PRA_tot	metabolic ratio	cholesterol	serum	4	week	4.29258	4.203723594	-1.32	0.16	dimensionless	4.35	2.07	dimensionless	NA
+Nakaya1987	PRA_tot	41	PLAC	metabolic ratio	cholesterol	serum	6	week	4.326944999999999	4.2373772385	-0.53	0.16	dimensionless	4.35	2.07	dimensionless	NA
+Nakaya1987	PRA_tot	41	PLAC	metabolic ratio	cholesterol	serum	8	week	4.34826	4.258251018	-0.04	0.13	dimensionless	4.35	2.07	dimensionless	NA

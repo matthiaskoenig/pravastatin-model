@@ -1,0 +1,14 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	comments	mean_unit	count_unit
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	0.0	hr	0.0		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	0.25	hr	3.617537040962947e-06		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	0.5	hr	3.918620592184298e-05		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	0.75	hr	6.160976844981509e-05		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	1.0	hr	5.517023767460486e-05		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	2.0	hr	2.219282265093162e-05		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	3.0	hr	1.0606084375662498e-05		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	4.0	hr	8.297519138812335e-06		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	5.0	hr	8.82357595458507e-06		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	6.0	hr	8.061324288036182e-06		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	8.0	hr	3.443332862224107e-06		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	12.0	hr	9.097653876051162e-07		sd not distinguishable	mole/meter^3	dimensionless
+Nishizato2003	slco1b1_1b_15	9	PRA_10	concentration	pravastatin	serum	slco1b1_1b_15	24.0	hr			sd not distinguishable	mole/meter^3	dimensionless

@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	label	substance	tissue	time	time_unit	mean	sd	se	unit	baseline	baseline_unit	comments
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	0	week	0	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	1	week	27	7.0	1.9414506867883	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	2	week	37	9.0	2.49615088301353	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	3	week	43	10.0	2.77350098112615	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	4	week	33	8.0	2.21880078490092	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	6	week	3	7.0	1.9414506867883	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration change absolute	Tab1_chol_conc_chg_pra5	cholesterol	serum	8	week	12	9.0	2.49615088301353	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	0	week	0	NA	0.0	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	1	week	39	9.0	2.40535117721182	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	2	week	43	9.0	2.40535117721182	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	3	week	49	10.0	2.67261241912424	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	4	week	53	10.0	2.67261241912424	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	6	week	2	10.0	2.67261241912424	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration change absolute	Tab1_chol_conc_chg_pra20	cholesterol	serum	8	week	2	9.0	2.40535117721182	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	0	week	0	NA	0.0	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	1	week	51	9.0	2.40535117721182	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	2	week	61	9.0	2.40535117721182	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	3	week	71	7.0	1.87082869338697	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	4	week	68	8.0	2.1380899352994	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	6	week	9	7.0	1.87082869338697	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration change absolute	Tab1_chol_conc_chg_pra40	cholesterol	serum	8	week	12	6.0	1.60356745147455	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	0	week	287	66.0	18.3051064754326	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	1	week	260	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	2	week	250	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	3	week	244	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	4	week	254	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	6	week	284	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA5	13	PRA5	concentration	Tab1_chol_conc_pra5	cholesterol	serum	8	week	275	NA	NA	mg/dl	287	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	0	week	272	45.0	12.0267558860591	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	1	week	233	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	2	week	229	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	3	week	223	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	4	week	219	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	6	week	270	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA20	14	PRA20	concentration	Tab1_chol_conc_pra20	cholesterol	serum	8	week	270	NA	NA	mg/dl	272	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	0	week	271	37.0	9.8886659507597	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	1	week	220	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	2	week	210	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	3	week	200	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	4	week	203	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	6	week	262	NA	NA	mg/dl	271	mg/dl	NA
+Nakaya1987	PRA40	14	PRA40	concentration	Tab1_chol_conc_pra40	cholesterol	serum	8	week	259	NA	NA	mg/dl	271	mg/dl	NA

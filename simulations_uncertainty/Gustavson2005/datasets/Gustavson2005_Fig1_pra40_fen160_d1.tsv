@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	method	time	time_unit	mean	pm	mean_sd	mean_se	comments	mean_unit	count_unit
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	0.0	hr	0.0					mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	0.5	hr	6.80000423998304e-06	4.23	9.963960144159424e-06	2.033884847478388e-06		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	1.0	hr	4.666599062492639e-05	25.93	6.107931123831061e-05	1.2467762197960096e-05		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	1.5	hr	6.285413987232941e-05	23.78	5.601488705156291e-05	1.1433990939627352e-05		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	2.0	hr	5.705043695380774e-05	15.08	3.552163569123502e-05	7.2508235227192424e-06		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	3.0	hr	3.059751725437543e-05	7.18	1.691282123760394e-05	3.4523151786681745e-06		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	4.0	hr	1.5797576143028764e-05	3.75	8.833298000141333e-06	1.803089403811274e-06		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	6.0	hr	5.366395543306716e-06	1.28	3.0150990507149084e-06	6.154545165241562e-07		mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	8.0	hr	2.078057381103809e-06					mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	10.0	hr	1.0435352743033474e-06					mole/meter^3	dimensionless
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	concentration	pravastatin	plasma	pra40_fen160_d1	LC MS/MS	12.0	hr	1.1366723199773868e-06					mole/meter^3	dimensionless

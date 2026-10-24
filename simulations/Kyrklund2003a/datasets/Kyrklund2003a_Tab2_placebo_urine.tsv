@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	min	max	comments	mean_unit	count_unit
+Kyrklund2003a	all	10.0	PRA40	cumulative amount	pravastatin	urine	LC MS/MS	24.0	hr	7.796857701458084e-06	3.556874661390244e-06			Ae(0-24) of Table II	mole	dimensionless

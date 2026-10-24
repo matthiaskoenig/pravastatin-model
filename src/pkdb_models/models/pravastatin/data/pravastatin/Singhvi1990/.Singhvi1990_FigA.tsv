@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	mean_pm	se	sd	unit
+Singhvi1990	all	8	PRA_iv_10	recovery	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_recovery_iv_10	0	hr	0.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_iv_10	recovery	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_recovery_iv_10	96	hr	34.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_iv_10	recovery	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_recovery_iv_10	0	hr	0.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_iv_10	recovery	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_recovery_iv_10	96	hr	60.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_iv_10	recovery	pravastatin	urine	scintillation counting	PRA_urine_recovery_iv_10	0	hr	0.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_iv_10	recovery	pravastatin	urine	scintillation counting	PRA_urine_recovery_iv_10	48	hr	47.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_po_20	recovery	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_recovery_po_20	0	hr	0.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_po_20	recovery	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_recovery_po_20	96	hr	71.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_po_20	recovery	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_recovery_po_20	0	hr	0.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_po_20	recovery	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_recovery_po_20	96	hr	20.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_po_20	recovery	pravastatin	urine	scintillation counting	PRA_urine_recovery_po_20	0	hr	0.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_po_20	recovery	pravastatin	urine	scintillation counting	PRA_urine_recovery_po_20	48	hr	8.0	NA	NA	NA	percent
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_iv_10	0	hr	0.0	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_iv_10	96	hr	3.366	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_iv_10	0	hr	0.0	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_iv_10	96	hr	5.94	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin	urine	scintillation counting	PRA_urine_iv_10	0	hr	0.0	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_iv_10	cumulative amount	pravastatin	urine	scintillation counting	PRA_urine_iv_10	48	hr	4.653	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_po_20	0	hr	0.0	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin + metabolites (14C)	feces	scintillation counting	PRA14C_feces_po_20	96	hr	13.632	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_po_20	0	hr	0.0	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin + metabolites (14C)	urine	scintillation counting	PRA14C_urine_po_20	96	hr	3.84	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin	urine	scintillation counting	PRA_urine_po_20	0	hr	0.0	NA	NA	NA	mg
+Singhvi1990	all	8	PRA_po_20	cumulative amount	pravastatin	urine	scintillation counting	PRA_urine_po_20	48	hr	1.536	NA	NA	NA	mg

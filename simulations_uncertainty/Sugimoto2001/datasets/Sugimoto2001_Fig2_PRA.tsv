@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	0.5	hr	5.421184133041246e-05	1.4903203542741387e-05	29.34141	4.2152625145903236e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	1.0	hr	8.566584222551999e-05	1.3867948083763221e-05	42.25508	3.922448052468777e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	2.0	hr	3.948898782182649e-05	3.5191199679645728e-06	18.258232	9.953574372626952e-06	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	3.0	hr	2.291277883777354e-05	3.5188137469672343e-06	11.221004	9.952708248851907e-06	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	4.0	hr	2.206788212847149e-05	3.7264174498857564e-06	10.950454	1.0539900193384402e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	6.0	hr	1.251189456575507e-05	4.1399321602713594e-06	7.0692	1.1709496416720607e-05	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	8.0	hr	5.232938308246767e-06	3.1049878689374134e-06	3.5396998	8.782231910510449e-06	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	12.0	hr	4.373872988952489e-07	2.6913178573952373e-06	1.3282292	7.612196429170495e-06	mole/meter^3	dimensionless
+Sugimoto2001	pra_group	8	SIM_pravastatin	PRA	concentration	pravastatin	plasma	LC MS/MS	24.0	hr	2.3555461333710223e-10	1.231071208159612e-06	0.52272666	3.4819951976526983e-06	mole/meter^3	dimensionless

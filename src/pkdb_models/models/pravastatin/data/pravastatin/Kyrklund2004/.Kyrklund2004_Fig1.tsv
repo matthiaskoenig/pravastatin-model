@@ -1,0 +1,25 @@
+study	count	measurement_type	label	substance	tissue	method	group	intervention	time	time_unit	mean	se	sd	unit
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	0.0	hr	0.0	NA	NA	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	0.5	hr	19.88	11.45	36.21	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	1.0	hr	57.08	14.75	46.64	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	1.5	hr	53.26	11.72	37.06	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	2.0	hr	36.5	8.94	28.27	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	2.5	hr	27.05	8.41	26.59	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	3.0	hr	19.57	4.98	15.75	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	4.0	hr	12.26	1.94	6.135	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	6.0	hr	4.95	0.37	1.17	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	8.0	hr	1.91	1.16	3.668	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	10.0	hr	0.31	1.16	3.668	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po	12.0	hr	0.31	1.16	3.668	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	0.0	hr	0.0	NA	NA	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	0.5	hr	31.85	12.77	40.38	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	1.0	hr	48.94	13.17	41.65	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	1.5	hr	32.43	7.75	24.51	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	2.0	hr	19.75	4.32	13.66	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	2.5	hr	13.54	3	9.487	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	3.0	hr	9.05	1.94	6.135	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	4.0	hr	7.2	1.81	5.724	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	6.0	hr	2.84	1.16	3.668	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	8.0	hr	1.12	1.16	3.668	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	10.0	hr	0.31	1.16	3.668	ng/ml
+Kyrklund2004	10	concentration	pravastatin40mg_po, rifampicin	pravastatin	plasma	LC MS/MS	all	pravastatin40mg_po, rifampicin	12.0	hr	0.31	1.16	3.668	ng/ml

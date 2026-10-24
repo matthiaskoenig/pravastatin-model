@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	min	median	max	mean_unit	median_unit	count_unit
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	0.0	hr	0.0					mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	0.25	hr	5.653310720090453e-07					mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	0.5	hr	1.2484394506866417e-05	7.584858549454692e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	0.75	hr	2.1883023579016795e-05	8.927519845476174e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	1.0	hr	2.9491437589805197e-05	1.0293736602831368e-05				mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	2.0	hr	1.8679480837632205e-05	3.15643181871717e-06				mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	4.0	hr	4.993757802746567e-06					mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	6.0	hr	4.499093114738652e-06					mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	8.0	hr	2.755988976044096e-06					mole/meter^3	ng/ml	dimensionless
+Maeda2006	heterozygous carriers *1b/*15	5	PRA_10	concentration	pravastatin	plasma	Fig1AB_1b15	12.0	hr	6.831083786775965e-07					mole/meter^3	ng/ml	dimensionless

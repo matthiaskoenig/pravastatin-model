@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	se	sd	pm	unit	comments
+Saito1988	pra10	41	PRA10	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra10	0	week	5.170356	0.3492205000000004	2.2361022477584207	4.8211355	dimensionless	how to type measurement type and substance?
+Saito1988	pra10	41	PRA10	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra10	4	week	3.6203146	0.22658010000000006	1.450820530029959	3.8468947	dimensionless	how to type measurement type and substance?
+Saito1988	pra10	41	PRA10	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra10	8	week	3.639494	0.27906960000000014	1.786917319690691	3.9185636	dimensionless	how to type measurement type and substance?
+Saito1988	pra10	41	PRA10	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra10	12	week	4.6649795	0.28488389999999963	1.8241470049443935	4.9498634	dimensionless	how to type measurement type and substance?
+Saito1988	pra20	44	PRA20	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra20	0	week	4.5773873	0.3022708999999999	2.0050383206860753	4.2751164	dimensionless	how to type measurement type and substance?
+Saito1988	pra20	44	PRA20	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra20	4	week	3.2772367	0.2791245	1.8515024725911116	2.9981122	dimensionless	how to type measurement type and substance?
+Saito1988	pra20	44	PRA20	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra20	8	week	3.087223	0.2615732999999998	1.7350809825501388	2.8256497	dimensionless	how to type measurement type and substance?
+Saito1988	pra20	44	PRA20	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_pra20	12	week	4.5194116	0.34302289999999935	2.275356507599198	4.1763887	dimensionless	how to type measurement type and substance?
+Saito1988	placebo	23	placebo	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_placebo	0	week	5.211601	0.3952390000000001	1.8954996554425965	5.60684	dimensionless	placebo
+Saito1988	placebo	23	placebo	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_placebo	4	week	5.3699317	0.4127907000000004	1.9796746515903256	4.957141	dimensionless	placebo
+Saito1988	placebo	23	placebo	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_placebo	8	week	4.9765935	0.3545961000000002	1.7005831544237502	4.6219974	dimensionless	placebo
+Saito1988	placebo	23	placebo	metabolic ratio	hdl-c	serum	Fig1_cholesterol_ratio_placebo	12	week	5.0829277	0.45365270000000013	2.1756419192959284	4.629275	dimensionless	placebo

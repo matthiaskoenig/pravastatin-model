@@ -1,0 +1,9 @@
+study	name	parent	group_count	measurement_type	count	choice	mean	sd	min	max	unit	comments
+Raasch1991	all	NA	10	species	10	homo sapiens	NA	NA	NA	NA	NA	groups from text in paper
+Raasch1991	all	NA	10	age	10	NA	NA	NA	23.0	45.0	yr	NA
+Raasch1991	all	NA	10	sex	10	M	NA	NA	NA	NA	NA	NA
+Raasch1991	all	NA	10	healthy	10	Y	NA	NA	NA	NA	NA	NA
+Raasch1991	pra20_bid	all	5	species	5	homo sapiens	NA	NA	NA	NA	NA	NA
+Raasch1991	pra20_bid	all	5	sex	5	NA	NA	NA	NA	NA	NA	NA
+Raasch1991	plac20_bid	all	5	species	5	homo sapiens	NA	NA	NA	NA	NA	NA
+Raasch1991	plac20_bid	all	5	sex	5	NA	NA	NA	NA	NA	NA	NA

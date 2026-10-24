@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Becquemont1999	MIB_100	3|4|5|6|7|8|9|10|11|12|13|14|15|16	day	oral	multiple dose	dosing	NR	mibefradil	100	mg	mibefradil was taken from day 2 through to day 16 (methods: day 3 to day 16)
+Becquemont1999	PRA_40_D1	0	day	oral	single dose	dosing	NR	pravastatin	40	mg	NA
+Becquemont1999	PRA_40_D8	8	day	oral	single dose	dosing	NR	pravastatin	40	mg	NA
+Becquemont1999	PRA_40_DM	11|12|13|14|15|16	day	oral	multiple dose	dosing	NR	pravastatin	40	mg	day 11 to 16 repeated dosing

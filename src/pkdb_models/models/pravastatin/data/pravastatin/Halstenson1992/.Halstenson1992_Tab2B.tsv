@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	fe	fe_sd	fe_unit	mean	sd	se	unit	comments
+Halstenson1992	group1	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr1_urine	0	hr	0.0	NA	percent	0.0	NA	NA	mg	timecourse calculated from urinary recovery
+Halstenson1992	group1	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr1_urine	24	hr	12.3	7.7	percent	2.46	1.54	0.77	mg	timecourse calculated from urinary recovery
+Halstenson1992	group2	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr2_urine	0	hr	0.0	NA	percent	0.0	NA	NA	mg	timecourse calculated from urinary recovery
+Halstenson1992	group2	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr2_urine	24	hr	8.2	9.8	percent	1.64	1.96	0.98	mg	timecourse calculated from urinary recovery
+Halstenson1992	group3	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr3_urine	0	hr	0.0	NA	percent	0.0	NA	NA	mg	timecourse calculated from urinary recovery
+Halstenson1992	group3	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr3_urine	24	hr	4.1	2.3	percent	0.82	0.46	0.23	mg	timecourse calculated from urinary recovery
+Halstenson1992	group4	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr4_urine	0	hr	0.0	NA	percent	0.0	NA	NA	mg	timecourse calculated from urinary recovery
+Halstenson1992	group4	4	pra_20_mg_oral	amount	pravastatin	urine	pra_gr4_urine	24	hr	0.8	0.5	percent	0.16	0.1	0.05	mg	timecourse calculated from urinary recovery

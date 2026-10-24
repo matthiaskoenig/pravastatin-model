@@ -1,0 +1,27 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_unit	baseline	baseline_se	baseline_unit	comments
+Meilles1993	resin_nonelderly_longterm	212	RESIN	concentration	cholesterol	NA	NA	NA	290	mg/dl	NA	NA	mg/dl	Only curated total choelsterol, ldl-c, hdl-c, triglycerides from this table.
+Meilles1993	resin_nonelderly_longterm	212	RESIN	concentration	ldl-c	NA	NA	NA	217	mg/dl	NA	NA	mg/dl	Exact baseline values from text
+Meilles1993	resin_nonelderly_longterm	212	RESIN	concentration	hdl-c	NA	NA	NA	45	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	resin_nonelderly_longterm	212	RESIN	concentration	triglyceride	NA	NA	NA	136	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	resin_elderly_longterm	31	RESIN	concentration	cholesterol	NA	NA	NA	290	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	resin_elderly_longterm	31	RESIN	concentration	ldl-c	NA	NA	NA	215	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	resin_elderly_longterm	31	RESIN	concentration	hdl-c	NA	NA	NA	47	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	resin_elderly_longterm	31	RESIN	concentration	triglyceride	NA	NA	NA	142	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra_nonelderly_longterm	959	PRA	concentration	cholesterol	NA	NA	NA	296	mg/dl	295.8	2.0	mg/dl	"Text: baseline value 295.8+/-2.0 mg/dl in 689 non-elderly patients 
+→ 959 non-elderly patients reported in tab3??? WHAT?!"
+Meilles1993	pra_nonelderly_longterm	959	PRA	concentration	ldl-c	NA	NA	NA	221	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra_nonelderly_longterm	959	PRA	concentration	hdl-c	NA	NA	NA	46	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra_nonelderly_longterm	959	PRA	concentration	triglyceride	NA	NA	NA	133	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra_elderly_longterm	140	PRA	concentration	cholesterol	NA	NA	NA	293	mg/dl	293.5	4.9	mg/dl	"Text: baseline value 293.5+/-4.9 mg/dl in 109 non-elderly patients 
+→ 140 non-elderly patients reported in tab3??? WHAT?!"
+Meilles1993	pra_elderly_longterm	140	PRA	concentration	ldl-c	NA	NA	NA	216	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra_elderly_longterm	140	PRA	concentration	hdl-c	NA	NA	NA	46	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	pra_elderly_longterm	140	PRA	concentration	triglyceride	NA	NA	NA	149	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	455	PRA_RESIN	concentration	cholesterol	NA	NA	NA	332	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	455	PRA_RESIN	concentration	ldl-c	NA	NA	NA	259	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	455	PRA_RESIN	concentration	hdl-c	NA	NA	NA	44	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_nonelderly_longterm	455	PRA_RESIN	concentration	triglyceride	NA	NA	NA	127	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_elderly_longterm	39	PRA_RESIN	concentration	cholesterol	NA	NA	NA	250	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_elderly_longterm	39	PRA_RESIN	concentration	ldl-c	NA	NA	NA	272	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_elderly_longterm	39	PRA_RESIN	concentration	hdl-c	NA	NA	NA	43	mg/dl	NA	NA	mg/dl	NA
+Meilles1993	combo_elderly_longterm	39	PRA_RESIN	concentration	triglyceride	NA	NA	NA	160	mg/dl	NA	NA	mg/dl	NA

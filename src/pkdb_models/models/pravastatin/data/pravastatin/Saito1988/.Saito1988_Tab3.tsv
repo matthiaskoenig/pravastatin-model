@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	label	substance	tissue	time	time_unit	mean	se	sd	unit	baseline	baseline_uit	comments
+Saito1988	pra10	41	PRA10	concentration	Tab3_hdl_conc_pra10	hdl-c	serum	0	week	51	2	12.806248474865697	mg/dl	51	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab3_hdl_conc_pra10	hdl-c	serum	4	week	58	2	12.806248474865697	mg/dl	51	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab3_hdl_conc_pra10	hdl-c	serum	8	week	56	3	19.209372712298546	mg/dl	51	mg/dl	NA
+Saito1988	pra10	41	PRA10	concentration	Tab3_hdl_conc_pra10	hdl-c	serum	12	week	53	3	19.209372712298546	mg/dl	51	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab3_hdl_conc_pra20	hdl-c	serum	0	week	54	2	13.2664991614216	mg/dl	54	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab3_hdl_conc_pra20	hdl-c	serum	4	week	58	2	13.2664991614216	mg/dl	54	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab3_hdl_conc_pra20	hdl-c	serum	8	week	57	2	13.2664991614216	mg/dl	54	mg/dl	NA
+Saito1988	pra20	44	PRA20	concentration	Tab3_hdl_conc_pra20	hdl-c	serum	12	week	55	3	19.8997487421324	mg/dl	54	mg/dl	NA
+Saito1988	placebo	23	placebo	concentration	Tab3_hdl_conc_plac	hdl-c	serum	0	week	49	2	9.591663046625438	mg/dl	49	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab3_hdl_conc_plac	hdl-c	serum	4	week	48	2	9.591663046625438	mg/dl	49	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab3_hdl_conc_plac	hdl-c	serum	8	week	51	2	9.591663046625438	mg/dl	49	mg/dl	placebo
+Saito1988	placebo	23	placebo	concentration	Tab3_hdl_conc_plac	hdl-c	serum	12	week	50	3	14.387494569938157	mg/dl	49	mg/dl	placebo

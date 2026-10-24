@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	change	change_unit	baseline	baseline_se	baseline_unit	comments
+Hunninghake1990b	placebo	46	PLAC	concentration	cholesterol	blood	0	week	8.43	0.24	mmol/l	NA	NA	8.43	0.24	mmol/l	NA
+Hunninghake1990b	placebo	46	PLAC	concentration	cholesterol	blood	8	week	8.39	0.24	mmol/l	-0.3	percent	8.43	0.24	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	cholesterol	blood	0	week	8.28	0.26	mmol/l	NA	NA	8.28	0.26	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	cholesterol	blood	8	week	6.39	0.21	mmol/l	-22.9	percent	8.28	0.26	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	cholesterol	blood	0	week	8.29	0.29	mmol/l	NA	NA	8.29	0.29	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	cholesterol	blood	8	week	6.17	0.24	mmol/l	-25.6	percent	8.29	0.29	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	cholesterol	blood	0	week	8.35	0.26	mmol/l	NA	NA	8.35	0.26	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	cholesterol	blood	8	week	6.11	0.21	mmol/l	-27.0	percent	8.35	0.26	mmol/l	NA
+Hunninghake1990b	placebo	46	PLAC	concentration	ldl-c	blood	0	week	6.45	0.23	mmol/l	NA	NA	6.45	0.23	mmol/l	NA
+Hunninghake1990b	placebo	46	PLAC	concentration	ldl-c	blood	8	week	6.4	0.24	mmol/l	-0.8	percent	6.45	0.23	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	ldl-c	blood	0	week	6.35	0.25	mmol/l	NA	NA	6.35	0.25	mmol/l	NA
+Hunninghake1990b	pra40_morning	48	PRA40_morning	concentration	ldl-c	blood	8	week	4.48	0.2	mmol/l	-29.5	percent	6.35	0.25	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	ldl-c	blood	0	week	6.33	0.29	mmol/l	NA	NA	6.33	0.29	mmol/l	NA
+Hunninghake1990b	pra40_evening	43	PRA40_evening	concentration	ldl-c	blood	8	week	4.28	0.24	mmol/l	-32.5	percent	6.33	0.29	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	ldl-c	blood	0	week	6.37	0.25	mmol/l	NA	NA	6.37	0.25	mmol/l	NA
+Hunninghake1990b	pra20_twice	47	PRA20_twice	concentration	ldl-c	blood	8	week	4.23	0.2	mmol/l	-33.8	percent	6.37	0.25	mmol/l	NA

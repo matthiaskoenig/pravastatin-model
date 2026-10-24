@@ -1,0 +1,9 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Jacobson2004	CLA_SIM	SIM2	cmax	simvastatin	serum	LC MS/MS	NA	NA	7.0	ng/ml
+Jacobson2004	CLA_SIM	SIM2	auc_inf	simvastatin	serum	LC MS/MS	NA	NA	22.0	ng hr/ml
+Jacobson2004	CLA_SIM	SIM2,CLA	cmax	simvastatin	serum	LC MS/MS	NA	NA	50.0	ng/ml
+Jacobson2004	CLA_SIM	SIM2,CLA	auc_inf	simvastatin	serum	LC MS/MS	NA	NA	219.0	ng hr/ml
+Jacobson2004	CLA_SIM	SIM2	cmax	simvastatin acid	serum	LC MS/MS	NA	NA	1.0	ng/ml
+Jacobson2004	CLA_SIM	SIM2	auc_inf	simvastatin acid	serum	LC MS/MS	NA	NA	6.0	ng hr/ml
+Jacobson2004	CLA_SIM	SIM2,CLA	cmax	simvastatin acid	serum	LC MS/MS	NA	NA	10.0	ng/ml
+Jacobson2004	CLA_SIM	SIM2,CLA	auc_inf	simvastatin acid	serum	LC MS/MS	NA	NA	73.0	ng hr/ml

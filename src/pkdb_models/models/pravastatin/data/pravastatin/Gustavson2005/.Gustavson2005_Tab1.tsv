@@ -1,0 +1,34 @@
+study	group	count	intervention	measurement_type	tissue	substance	method	time	time_unit	mean	sd	unit	comments
+Gustavson2005	all	24	PRA40_D5	tmax	plasma	pravastatin	LC MS/MS	NA	NA	1.8	0.4	hr	NA
+Gustavson2005	all	24	PRA40_D5	cmax	plasma	pravastatin	LC MS/MS	NA	NA	24.8	16.7	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	cmin	plasma	pravastatin	LC MS/MS	NA	NA	0.08	0.096	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	auc_end	plasma	pravastatin	LC MS/MS	24.0	hr	61.0	33.7	ng*hr/ml	NA
+Gustavson2005	all	24	PRA40_D5	thalf	plasma	pravastatin	LC MS/MS	NA	NA	2.31	NA	hr	NA
+Gustavson2005	all	24	PRA40_D5	clearance	plasma	pravastatin	LC MS/MS	NA	NA	901.1	533.4	l/hr	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	tmax	plasma	pravastatin	LC MS/MS	NA	NA	2.0	0.7	hr	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	cmax	plasma	pravastatin	LC MS/MS	NA	NA	33.4	29.7	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	cmin	plasma	pravastatin	LC MS/MS	NA	NA	0.043	0.072	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	auc_end	plasma	pravastatin	LC MS/MS	24.0	hr	76.2	54.7	ng*hr/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	thalf	plasma	pravastatin	LC MS/MS	NA	NA	2.07	NA	hr	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	clearance	plasma	pravastatin	LC MS/MS	NA	NA	781.3	531.1	l/hr	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	tmax	plasma	pravastatin	LC MS/MS	NA	NA	1.7	0.5	hr	One subject had already withdrawn from the study
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	cmax	plasma	pravastatin	LC MS/MS	NA	NA	34.2	24.3	ng/ml	One subject had already withdrawn from the study
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	cmin	plasma	pravastatin	LC MS/MS	NA	NA	0.074	0.094	ng/ml	One subject had already withdrawn from the study
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	auc_end	plasma	pravastatin	LC MS/MS	24.0	hr	79.8	50.7	ng*hr/ml	One subject had already withdrawn from the study
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	thalf	plasma	pravastatin	LC MS/MS	NA	NA	2.09	NA	hr	One subject had already withdrawn from the study
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	clearance	plasma	pravastatin	LC MS/MS	NA	NA	706.9	395.2	l/hr	One subject had already withdrawn from the study
+Gustavson2005	all	24	PRA40_D5	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	2.0	0.6	hr	NA
+Gustavson2005	all	24	PRA40_D5	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	29.8	19.9	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	cmin	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	0.014	0.052	ng/ml	NA
+Gustavson2005	all	24	PRA40_D5	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	24.0	hr	71.6	45.3	ng*hr/ml	NA
+Gustavson2005	all	24	PRA40_D5	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.54	NA	hr	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	2.1	0.6	hr	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	38.7	24.7	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	cmin	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	0.018	0.05	ng/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	24.0	hr	87.8	48.8	ng*hr/ml	NA
+Gustavson2005	all	24	PRA40_D6, FEN160_D6	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.45	NA	hr	NA
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	tmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	2.0	0.7	hr	One subject had already withdrawn from the study 
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	cmax	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	44.2	28.0	ng/ml	One subject had already withdrawn from the study 
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	cmin	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	0.007	0.032	ng/ml	One subject had already withdrawn from the study 
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	auc_end	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	24.0	hr	97.9	58.4	ng*hr/ml	One subject had already withdrawn from the study 
+Gustavson2005	all	23	PRA40_D15, FEN160_D15	thalf	plasma	SQ 31906 (3'alpha-isopravastatin)	LC MS/MS	NA	NA	1.41	NA	hr	One subject had already withdrawn from the study 

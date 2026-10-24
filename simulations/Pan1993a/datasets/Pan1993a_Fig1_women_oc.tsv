@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	comments	mean_unit	count_unit
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	0.33	hr	1.967728311308977e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	0.67	hr	7.583978046310036e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	1.0	hr	0.00011393837891315102	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	1.5	hr	8.349009492850917e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	2.0	hr	5.024018561703531e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	3.0	hr	2.169148234518173e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	4.0	hr	1.0913550514686831e-05	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	6.0	hr	7.3834527595222966e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	8.0	hr	3.664256000753775e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	12.0	hr	1.140436859585895e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	24.0	hr	1.0144923798082585e-06	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless
+Pan1993a	women oc	13	PRA_20	concentration	pravastatin	serum	HPLC/MS/UV	women_oc	48.0	hr	9.679476833203779e-07	time corrected to the nominal sampling time (axis break)	mole/meter^3	dimensionless

@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	pm	mean_sd	mean_se	comments	mean_unit	count_unit
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.0	hr	0.0				Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.25	hr	8.51884366240313e-05	12.14	2.859633005912421e-05	7.149082514781052e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.5	hr	0.0002504197112100441	56.3	0.00013261724730878854	3.3154311827197135e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	0.75	hr	0.0003453276329116906	61.9	0.00014580830565566626	3.6452076413916565e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	1.0	hr	0.00028415203872517847	53.88	0.0001269168256660307	3.172920641650767e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	1.5	hr	0.00022469165901114175	30.34	7.14672696864768e-05	1.78668174216192e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	2.0	hr	0.00018009637481450078	20.15	4.746425458742609e-05	1.1866063646856523e-05	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	3.0	hr	0.00010634261418509881	15.77	3.714696252326102e-05	9.286740630815255e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	4.0	hr	7.489721810001649e-05	9.96	2.3461239488375384e-05	5.865309872093846e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	6.0	hr	5.8316919887876004e-05	12.86	3.0292323275151342e-05	7.5730808187878356e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	8.0	hr	2.5728052198902317e-05	13.1	3.085765434716039e-05	7.714413586790098e-06	Digitised linear axis	mole/meter^3	dimensionless
+Wu2012	all	16	PRA40, QUE500	concentration	pravastatin	plasma	LC MS/MS	pra40_quercetin	10.0	hr	1.5436831319341388e-05	7.0	1.6488822933597154e-05	4.122205733399288e-06	Digitised linear axis	mole/meter^3	dimensionless

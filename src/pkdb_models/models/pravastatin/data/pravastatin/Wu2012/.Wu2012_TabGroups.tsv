@@ -1,0 +1,15 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	sd	min	max	unit	comments
+Wu2012	all	16	NA	species	16	NA	homo sapiens	NA	NA	NA	NA	NA	washout period: 2 weeks
+Wu2012	all	16	NA	ethnicity	16	NA	chinese	NA	NA	NA	NA	NA	Chinese-Han
+Wu2012	all	16	NA	sex	16	NA	M	NA	NA	NA	NA	NA	NA
+Wu2012	all	16	NA	age	16	NA	NA	NA	NA	19.0	24.0	yr	NA
+Wu2012	all	16	NA	weight	16	NA	NA	NA	NA	60.0	80.0	kg	NA
+Wu2012	all	16	NA	body surface area	16	NA	NA	NA	NA	20.0	25.0	m^2	NA
+Wu2012	all	16	NA	overnight fast	16	NA	Y	NA	NA	NA	NA	NA	NA
+Wu2012	all	16	NA	healthy	16	NA	Y	NA	NA	NA	NA	NA	NA
+Wu2012	all	16	NA	smoking	16	NA	N	NA	NA	NA	NA	NA	NA
+Wu2012	all	16	NA	abstinence	16	quercetin	NA	NA	NA	NA	NA	NA	abstinence of quercetin-containing products within 2 weeks before study entry and until study completion
+Wu2012	all	16	NA	abstinence	16	grapefruit juice	NA	NA	NA	NA	NA	NA	NA
+Wu2012	all	16	NA	abstinence	16	herbal dietary supplement	NA	NA	NA	NA	NA	NA	abstinence of herbal dietary supplements
+Wu2012	all	16	NA	abstinence	16	coffee	NA	NA	NA	NA	NA	NA	NA
+Wu2012	all	16	NA	abstinence	16	green tea	NA	NA	NA	NA	NA	NA	NA

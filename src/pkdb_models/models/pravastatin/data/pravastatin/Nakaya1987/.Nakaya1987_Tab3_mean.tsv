@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	unit	comments
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	triglyceride	serum	0	week	146	68	mg/dl	baseline
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	triglyceride	serum	1	week	-14	9	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	triglyceride	serum	2	week	3	10	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	triglyceride	serum	3	week	-11	9	mg/dl	NA
+Nakaya1987	PRA_tot	41	PRA_tot	concentration	triglyceride	serum	4	week	-15	10	mg/dl	NA
+Nakaya1987	PRA_tot	41	PLAC	concentration	triglyceride	serum	6	week	12	19	mg/dl	NA
+Nakaya1987	PRA_tot	41	PLAC	concentration	triglyceride	serum	8	week	0	13	mg/dl	NA

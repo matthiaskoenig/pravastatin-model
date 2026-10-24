@@ -1,0 +1,49 @@
+study	subject	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Sugimoto2001	9	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	57.9	ng/ml
+Sugimoto2001	10	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	37.2	ng/ml
+Sugimoto2001	11	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	24.1	ng/ml
+Sugimoto2001	12	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	36.9	ng/ml
+Sugimoto2001	13	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	60.8	ng/ml
+Sugimoto2001	14	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	34.2	ng/ml
+Sugimoto2001	15	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	13.5	ng/ml
+Sugimoto2001	16	PRA	cmax	pravastatin	plasma	LC MS/MS	NA	NA	27.3	ng/ml
+Sugimoto2001	9	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	15.3	ng/ml
+Sugimoto2001	10	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	30.6	ng/ml
+Sugimoto2001	11	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	35.2	ng/ml
+Sugimoto2001	12	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	57.0	ng/ml
+Sugimoto2001	13	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	45.2	ng/ml
+Sugimoto2001	14	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	16.0	ng/ml
+Sugimoto2001	15	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	27.1	ng/ml
+Sugimoto2001	16	PRA,STJ	cmax	pravastatin	plasma	LC MS/MS	NA	NA	19.7	ng/ml
+Sugimoto2001	9	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	10	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	11	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	12	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	13	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	14	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	15	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	2.0	hr
+Sugimoto2001	16	PRA	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	9	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	10	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	0.5	hr
+Sugimoto2001	11	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	12	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	0.5	hr
+Sugimoto2001	13	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	14	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	15	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	2.0	hr
+Sugimoto2001	16	PRA,STJ	tmax	pravastatin	plasma	LC MS/MS	NA	NA	1.0	hr
+Sugimoto2001	9	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	156.5	ng hr/ml
+Sugimoto2001	10	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	160.3	ng hr/ml
+Sugimoto2001	11	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	77.0	ng hr/ml
+Sugimoto2001	12	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	89.6	ng hr/ml
+Sugimoto2001	13	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	178.8	ng hr/ml
+Sugimoto2001	14	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	96.3	ng hr/ml
+Sugimoto2001	15	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	74.5	ng hr/ml
+Sugimoto2001	16	PRA	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	42.0	ng hr/ml
+Sugimoto2001	9	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	46.0	ng hr/ml
+Sugimoto2001	10	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	128.9	ng hr/ml
+Sugimoto2001	11	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	93.8	ng hr/ml
+Sugimoto2001	12	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	145.7	ng hr/ml
+Sugimoto2001	13	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	127.9	ng hr/ml
+Sugimoto2001	14	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	57.7	ng hr/ml
+Sugimoto2001	15	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	111.3	ng hr/ml
+Sugimoto2001	16	PRA,STJ	auc_end	pravastatin	plasma	LC MS/MS	24.0	hr	61.2	ng hr/ml

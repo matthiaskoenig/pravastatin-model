@@ -1,0 +1,133 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	unit	sd	sem	sem_pm
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	0.5	hr	170.7697	ng/ml	187.8886	93.9443	76.8254
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	1.0	hr	126.58113	ng/ml	69.3542	34.6771	91.90403
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	1.5	hr	89.32698	ng/ml	31.51828	15.75914	73.56784
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	2.0	hr	70.360275	ng/ml	37.830924	18.915462	51.444813
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	3.0	hr	21.705605	ng/ml	6.30265799999999	3.151329	18.554276
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	4.0	hr	36.101227	ng/ml	55.485358	27.742679	63.843906
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	5.0	hr	17.079533	ng/ml	17.65943	8.829715	25.909248
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	7.0	hr	8.043602	ng/ml	12.61281	6.306405	14.350007
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	9.0	hr	6.572608	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	12.0	hr	1.8390554	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	0.5	hr	171.40147	ng/ml	185.650858599176	38.71088	210.11235
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	1.0	hr	246.37782	ng/ml	185.137944417757	38.60393	284.98175
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	1.5	hr	136.61938	ng/ml	87.2839418910306	18.19996	154.81934
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	2.0	hr	87.38419	ng/ml	61.1196595574999	12.74433	100.12852
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	3.0	hr	34.947678	ng/ml	38.3716014846338	8.001032	42.94871
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	4.0	hr	18.446795	ng/ml	11.9439800421581	2.490492	15.956303
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	5.0	hr	9.514597	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	7.0	hr	1.7371981	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	9.0	hr	5.312827	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/C	12.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	0.5	hr	356.773	ng/ml	243.028300332632	108.68556	465.45856
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	1.0	hr	446.25372	ng/ml	120.348487929645	53.82148	500.0752
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	1.5	hr	243.17525	ng/ml	101.979882675558	45.60679	288.78204
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	2.0	hr	134.6716	ng/ml	40.8882918229656	18.2858	152.9574
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	3.0	hr	38.096504	ng/ml	27.7244388917536	12.398746	50.49525
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	4.0	hr	21.600622	ng/ml	16.9118561602421	7.563212	29.163834
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	5.0	hr	13.29519	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	7.0	hr	3.6312442	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	9.0	hr	4.6773124	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421A/A	12.0	hr	2.468321	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	0.5	hr	43.526447	ng/ml	23.879088	11.939544	31.586903
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	1.0	hr	77.984886	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	1.5	hr	55.31486	ng/ml	16.020152	8.010076	63.324936
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	2.0	hr	29.7733	ng/ml	16.926952	8.463476	21.309824
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	3.0	hr	13.753149	ng/ml	7.858942	3.929471	9.823678
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	4.0	hr	8.61461	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	5.0	hr	8.312343	ng/ml	5.13854	2.56927	5.743073
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	7.0	hr	7.7078085	ng/ml	6.649873	3.3249365	11.032745
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	9.0	hr	3.02267	ng/ml	4.5340048	2.2670024	5.2896724
+Keskitalo2009	c.421C/A	4	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/A	12.0	hr	0.4534005	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	0.5	hr	45.037785	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	1.0	hr	66.49874	ng/ml	39.8645917961563	8.312342	58.186398
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	1.5	hr	45.64232	ng/ml	28.2676381230251	5.89421	39.74811
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	2.0	hr	32.191437	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	3.0	hr	15.415617	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	4.0	hr	10.125944	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	5.0	hr	11.183879	ng/ml	7.24810803528583	1.511335	12.695214
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	7.0	hr	5.743073	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	9.0	hr	3.1738036	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	12.0	hr	1.3602015	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	0.5	hr	53.50126	ng/ml	42.9189769567321	19.19395	72.69521
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	1.0	hr	80.40302	ng/ml	62.5197898305009	27.9597	108.36272
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	1.5	hr	52.443325	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	2.0	hr	36.120907	ng/ml	13.8557348487421	6.196473	42.31738
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	3.0	hr	20.70529	ng/ml	9.12450793325755	4.080604	24.785894
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	4.0	hr	11.032745	ng/ml	6.42095416797379	2.871538	13.904283
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	5.0	hr	10.428211	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	7.0	hr	4.0806046	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	9.0	hr	1.511335	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421A/A	12.0	hr	1.0579345	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	0.5	hr	7.300579	ng/ml	4.2134626	2.1067313	5.1938477
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	1.0	hr	11.045333	ng/ml	6.6667912	3.3333956	7.7119374
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	1.5	hr	8.500903	ng/ml	2.515722	1.257861	9.758764
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	2.0	hr	6.239118	ng/ml	1.76138	0.88069	7.119808
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	3.0	hr	4.0432158	ng/ml	0.692072400000001	0.3460362	4.389252
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	4.0	hr	2.7907093	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	5.0	hr	2.009652	ng/ml	1.006538	0.503269	2.512921
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	7.0	hr	1.2970297	ng/ml	0.1886792	0.0943396000000001	1.3913693
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	9.0	hr	0.9301949	ng/ml	0.4402514	0.2201257	1.1503206
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/A	12.0	hr	0.8515474	ng/ml	0.2518214	0.1259107	0.9774581
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	0.5	hr	2.9610188	ng/ml	3.01594785590154	0.6288686	2.3321502
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	1.0	hr	6.171119	ng/ml	3.77000795630765	0.786101	5.385018
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	1.5	hr	6.9913445	ng/ml	3.46838612222771	0.7232085	6.268136
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	2.0	hr	5.987795	ng/ml	3.61979531925022	0.754779500000001	5.2330155
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	3.0	hr	3.5086246	ng/ml	2.11077590002736	0.4401272	3.0684974
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	4.0	hr	2.2875645	ng/ml	0.905470736178079	0.1888037	2.0987608
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	5.0	hr	1.5694627	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	7.0	hr	0.98250204	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	9.0	hr	0.55277413	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	12.0	hr	0.44280466	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	0.5	hr	8.338253	ng/ml	11.1101631300931	4.968616	13.306869
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	1.0	hr	13.812753	ng/ml	11.3914269406429	5.094401	18.907154
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	1.5	hr	15.827947	ng/ml	17.0869335746764	7.641509	23.469456
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	2.0	hr	11.113457	ng/ml	10.2662241179571	4.591195	15.704652
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	3.0	hr	5.458372	ng/ml	3.51583072567871	1.5723273	7.0306993
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	4.0	hr	3.8283827	ng/ml	1.6877384936301	0.7547796	4.5831623
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	5.0	hr	4.4625444	ng/ml	3.23484195149013	1.4466653	5.9092097
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	7.0	hr	3.1838844	ng/ml	2.67189238436315	1.1949066	4.378791
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	9.0	hr	1.999315	ng/ml	1.26597761270443	0.5661624	2.5654774
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421A/A	12.0	hr	0.008164937	ng/ml	3.92490295613154	1.755269963	1.7634349
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	0.5	hr	0.33409145	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	1.0	hr	1.5073415	ng/ml	0.6356278	0.3178139	1.1895276
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	1.5	hr	2.592337	ng/ml	0.917993200000001	0.4589966	2.1333404
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	2.0	hr	2.95352	ng/ml	0.723795	0.3618975	3.3154175
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	3.0	hr	2.8461123	ng/ml	1.2358422	0.6179211	3.4640334
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	4.0	hr	2.5533335	ng/ml	1.0416436	0.5208218	3.0741553
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	5.0	hr	2.1370263	ng/ml	0.8121018	0.4060509	1.7309754
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	7.0	hr	1.3572705	ng/ml	0.5826298	0.2913149	1.0659556
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	9.0	hr	0.9924276	ng/ml	0.65324726	0.32662363	0.66580397
+Keskitalo2009	c.421C/A	4	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/A	12.0	hr	0.41418102	ng/ml	0.1940937	0.09704685	0.31713417
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	0.5	hr	0.13101369	ng/ml	0.62831958448752	0.13101369	NA
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	1.0	hr	0.6069676	ng/ml	0.677339552944963	0.14123506	0.46573254
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	1.5	hr	1.0741118	ng/ml	0.762090720291902	0.1589069	0.9152049
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	2.0	hr	1.4794134	ng/ml	0.931593150902409	0.1942506	1.2851628
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	3.0	hr	1.8221925	ng/ml	1.0159254503241	0.2118351	1.6103574
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	4.0	hr	2.1649544	ng/ml	1.43934701760162	0.3001246	1.8648298
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	5.0	hr	2.8343747	ng/ml	3.55603377998147	0.7414843	3.575859
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	7.0	hr	1.9045391	ng/ml	2.37077231440071	0.4943402	2.3988793
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	9.0	hr	1.1513171	ng/ml	1.52401454564679	0.317779	1.4690961
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421C/C	12.0	hr	0.59960437	ng/ml	0.67733988865317	0.14123513	0.7408395
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	0.0	hr	0.0	ng/ml	NA	NA	NA
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	0.5	hr	0.3429012	ng/ml	0.414463405999064	0.18535367	0.52825487
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	1.0	hr	1.5779765	ng/ml	1.48036532578997	0.6620395	2.240016
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	1.5	hr	3.2367396	ng/ml	3.29628037884671	1.4741414	4.710881
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	2.0	hr	4.145209	ng/ml	4.04629313198098	1.8095573	5.9547663
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	3.0	hr	4.6115685	ng/ml	4.44109642458351	1.9861187	6.5976872
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	4.0	hr	4.398252	ng/ml	4.16480070986611	1.8625555	6.2608075
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	5.0	hr	4.27319	ng/ml	2.4475373982679	1.094572	5.367762
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	7.0	hr	2.9549925	ng/ml	1.40141311960642	0.626731	3.5817235
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	9.0	hr	1.8133392	ng/ml	0.750052107930676	0.3354335	2.1487727
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	12.0	hr	0.83793867	ng/ml	0.217081124046483	0.0970816299999999	0.9350203

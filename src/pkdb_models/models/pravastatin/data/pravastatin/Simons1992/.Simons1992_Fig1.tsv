@@ -1,0 +1,27 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	sd	change	change_unit	change_sd	baseline	baseline_sd	baseline_unit	comments
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	0	week	10.010312537269	mmol/l	NA	-0.19628577	percent	NA	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	12	week	7.7298263186	mmol/l	0.541087842302	-22.932938	percent	7.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	24	week	7.224514718	mmol/l	0.65020632462	-27.97094	percent	9.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	36	week	6.725729839	mmol/l	0.94160217746	-32.94387	percent	14.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	48	week	6.622862159	mmol/l	0.6622862159	-33.96947	percent	10.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	60	week	6.9358159121	mmol/l	0.762939750331	-30.849293	percent	11.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	72	week	6.9120594559	mmol/l	0.69120594559	-31.086147	percent	10.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	84	week	7.3239567518	mmol/l	0.805635242698	-26.979494	percent	11.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	96	week	7.2278683488	mmol/l	0.867344201856	-27.937504	percent	12.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	108	week	7.032475323	mmol/l	0.63292277907	-29.88559	percent	9.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	120	week	7.4244682845	mmol/l	0.816691511295	-25.977385	percent	11.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	132	week	7.5196677286	mmol/l	0.75196677286	-25.028238	percent	10.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_pra	35	PRA_long	concentration	cholesterol	plasma	pra_long_chol	144	week	7.1462925534	mmol/l	0.71462925534	-28.750822	percent	10.0	10.03	1.54	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	0	week	8.26276037811	mmol/l	NA	-0.3285841	percent	NA	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	12	week	6.786934297	mmol/l	0.95017080158	-18.13107	percent	14.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	24	week	6.8765563264	mmol/l	1.512842391808	-17.049984	percent	22.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	36	week	6.58461436	mmol/l	0.9218460104	-20.5716	percent	14.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	48	week	6.4775974236	mmol/l	0.582983768124	-21.862516	percent	9.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	60	week	6.6272121105	mmol/l	0.861537574365	-20.057755	percent	13.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	72	week	6.8095801729	mmol/l	1.089532827664	-17.857899	percent	16.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	84	week	6.909721632	mmol/l	0.62187494688	-16.64992	percent	9.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	96	week	6.8845429124	mmol/l	0.68845429124	-16.953644	percent	10.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	108	week	6.8649375598	mmol/l	0.823792507176	-17.190138	percent	12.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	120	week	7.0196777879	mmol/l	0.912558112427	-15.323549	percent	13.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	132	week	7.0273120489	mmol/l	0.913550566357	-15.231459	percent	13.0	8.29	1.7	mmol/l	change_sd also reported in table 3
+Simons1992	longterm_resin	11	RESIN	concentration	cholesterol	plasma	cholestyr_long_chol	144	week	6.9536456167	mmol/l	0.973510386338	-16.120077	percent	14.0	8.29	1.7	mmol/l	change_sd also reported in table 3
